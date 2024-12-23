@@ -188,7 +188,7 @@ def build_player_data_template():
 
     for trail_id, trail_obj in retro_table["retroTrailList"]:
         tmpl_json_obj["retro"]["trail"][trail_id] = {}
-        for i, reward_obj in retro_table["retroTrailList"][trail_id]["trailRewardList"]:
+        for i, reward_obj in trail_obj["trailRewardList"]:
             reward_id = reward_obj["trailRewardId"]
             tmpl_json_obj["retro"]["trail"][trail_id][reward_id] = 1
 
