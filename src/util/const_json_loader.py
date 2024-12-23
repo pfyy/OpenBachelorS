@@ -42,6 +42,14 @@ class ConstJson:
         const_json_iter = ConstJsonIter(self)
         return const_json_iter
 
+    def __contains__(self, key):
+        if isinstance(self.json_obj, dict):
+            return key in self.json_obj
+        raise TypeError
+
+    def __len__(self):
+        return len(self.json_obj)
+
 
 class ConstJsonLoader:
     TARGET_DIR_LST = ["conf", "res/excel", "data"]
