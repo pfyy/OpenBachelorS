@@ -1,0 +1,20 @@
+from flask import Flask
+
+
+from .bp.bp_account import bp_account
+from .bp.bp_app import bp_app
+from .bp.bp_config import bp_config
+from .bp.bp_general import bp_general
+from .bp.bp_u8 import bp_u8
+from .bp.bp_user import bp_user
+
+
+app = Flask(__name__)
+
+
+app.register_blueprint(bp_account)
+app.register_blueprint(bp_app)
+app.register_blueprint(bp_config)
+app.register_blueprint(bp_general)
+app.register_blueprint(bp_u8)
+app.register_blueprint(bp_user)
