@@ -7,6 +7,8 @@ from ..const.filepath import (
     CHARACTER_TABLE,
     STORY_TABLE,
     STAGE_TABLE,
+    HANDBOOK_INFO_TABLE,
+    RETRO_TABLE,
 )
 from .const_json_loader import const_json_loader, ConstJson
 from .helper import is_char_id, get_char_num_id
@@ -145,6 +147,50 @@ def build_player_data_template():
             "hasBattleReplay": 0,
             "noCostCnt": 0,
         }
+
+    # ----------
+
+    handbook_info_table = const_json_loader[HANDBOOK_INFO_TABLE]
+
+    for char_id, handbook_obj in handbook_info_table["handbookDict"]:
+        if char_id not in tmpl_json_obj["troop"]["addon"]:
+            tmpl_json_obj["troop"]["addon"][char_id] = {}
+        tmpl_json_obj["troop"]["addon"][char_id]["story"] = {}
+        for i, story_set_obj in handbook_info_table["handbookDict"][char_id][
+            "handbookAvgList"
+        ]:
+            story_set_id = story_set_obj["storySetId"]
+            tmpl_json_obj["troop"]["addon"][char_id]["story"][story_set_id] = {
+                "fts": 1700000000,
+                "rts": 1700000000,
+            }
+
+    for char_id, handbook_stage_obj in handbook_info_table["handbookStageData"]:
+        if char_id not in tmpl_json_obj["troop"]["addon"]:
+            tmpl_json_obj["troop"]["addon"][char_id] = {}
+        stage_id = handbook_stage_obj["stageId"]
+        tmpl_json_obj["troop"]["addon"][char_id]["stage"] = {
+            stage_id: {
+                "startTimes": 1,
+                "completeTimes": 1,
+                "state": 3,
+                "fts": 1700000000,
+                "rts": 1700000000,
+            }
+        }
+
+    # ----------
+
+    retro_table = const_json_loader[RETRO_TABLE]
+
+    for block_id, block_obj in retro_table["retroActList"]:
+        tmpl_json_obj["retro"]["block"][block_id] = {"locked": 0, "open": 1}
+
+    for trail_id, trail_obj in retro_table["retroTrailList"]:
+        tmpl_json_obj["retro"]["trail"][trail_id] = {}
+        for i, reward_obj in retro_table["retroTrailList"][trail_id]["trailRewardList"]:
+            reward_id = reward_obj["trailRewardId"]
+            tmpl_json_obj["retro"]["trail"][trail_id][reward_id] = 1
 
     # ----------
 
