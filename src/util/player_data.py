@@ -10,6 +10,10 @@ from ..const.filepath import (
     HANDBOOK_INFO_TABLE,
     RETRO_TABLE,
     DISPLAY_META_TABLE,
+    MEDAL_TABLE,
+    STORY_REVIEW_TABLE,
+    STORY_REVIEW_META_TABLE,
+    ENEMY_HANDBOOK_TABLE,
 )
 from .const_json_loader import const_json_loader, ConstJson
 from .helper import is_char_id, get_char_num_id
@@ -227,6 +231,52 @@ def build_player_data_template():
     for i, theme_obj in display_meta_table["homeBackgroundData"]["themeList"]:
         theme_id = theme_obj["id"]
         tmpl_json_obj["homeTheme"]["themes"][theme_id] = {"unlock": 1700000000}
+
+    # ----------
+
+    medal_table = const_json_loader[MEDAL_TABLE]
+    for i, medal_obj in medal_table["medalList"]:
+        medal_id = medal_obj["medalId"]
+        tmpl_json_obj["medal"]["medals"][medal_id] = {
+            "id": medal_id,
+            "val": [],
+            "fts": 1700000000,
+            "rts": 1700000000,
+        }
+
+    # ----------
+
+    story_review_table = const_json_loader[STORY_REVIEW_TABLE]
+    story_review_meta_table = const_json_loader[STORY_REVIEW_META_TABLE]
+
+    for story_review_id, story_review_obj in story_review_table:
+        tmpl_json_obj["storyreview"]["groups"][story_review_id] = {
+            "rts": 1700000000,
+            "stories": [],
+            "trailRewards": [],
+        }
+        for i, story_obj in story_review_table[story_review_id]["infoUnlockDatas"]:
+            story_id = story_obj["storyId"]
+            tmpl_json_obj["storyreview"]["groups"][story_review_id]["stories"].append(
+                {"id": story_id, "uts": 1700000000, "rc": 1}
+            )
+        if (
+            story_review_id
+            in story_review_meta_table["miniActTrialData"]["miniActTrialDataMap"]
+        ):
+            for i, reward_obj in story_review_meta_table["miniActTrialData"][
+                "miniActTrialDataMap"
+            ][story_review_id]["rewardList"]:
+                reward_id = reward_obj["trialRewardId"]
+                tmpl_json_obj["storyreview"]["groups"][story_review_id][
+                    "trailRewards"
+                ].append(reward_id)
+
+    # ----------
+
+    enemy_handbook_table = const_json_loader[ENEMY_HANDBOOK_TABLE]
+    for enemy_id, enemy_obj in enemy_handbook_table["enemyData"]:
+        tmpl_json_obj["dexNav"]["enemy"]["enemies"][enemy_id] = 1
 
     # ----------
 
