@@ -1,0 +1,2121 @@
+{
+    "dungeon": {
+        "stages": {},
+        "cowLevel": {
+            "spst_08-01": {
+                "id": "spst_08-01",
+                "type": "STAGE",
+                "val": [
+                    true
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            },
+            "spst_08-02": {
+                "id": "spst_08-02",
+                "type": "STAGE",
+                "val": [
+                    true
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            },
+            "spst_08-03": {
+                "id": "spst_08-03",
+                "type": "STAGE",
+                "val": [
+                    true
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            },
+            "spst_08-04": {
+                "id": "spst_08-04",
+                "type": "STAGE",
+                "val": [
+                    true
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            },
+            "spst_08-05": {
+                "id": "spst_08-05",
+                "type": "STAGE",
+                "val": [
+                    [
+                        3,
+                        3
+                    ]
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            },
+            "spst_14-01": {
+                "id": "spst_14-01",
+                "type": "STAGE",
+                "val": [
+                    true,
+                    true,
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            }
+        },
+        "mainlineBannedStages": [],
+        "hideStages": {
+            "act19side_s01": {
+                "missions": [
+                    {
+                        "value": 1,
+                        "target": 1
+                    },
+                    {
+                        "value": 1,
+                        "target": 1
+                    }
+                ],
+                "unlock": 1
+            },
+            "act19side_s02": {
+                "missions": [
+                    {
+                        "value": 1,
+                        "target": 1
+                    },
+                    {
+                        "value": 1,
+                        "target": 1
+                    }
+                ],
+                "unlock": 1
+            }
+        }
+    },
+    "activity": {},
+    "status": {
+        "nickName": "Bachelor",
+        "nickNumber": "1234",
+        "level": 120,
+        "exp": 0,
+        "socialPoint": 0,
+        "gachaTicket": 0,
+        "classicGachaTicket": 0,
+        "tenGachaTicket": 0,
+        "classicTenGachaTicket": 0,
+        "instantFinishTicket": 0,
+        "hggShard": 0,
+        "lggShard": 0,
+        "classicShard": 0,
+        "recruitLicense": 0,
+        "progress": 0,
+        "buyApRemainTimes": 0,
+        "apLimitUpFlag": 0,
+        "uid": "1",
+        "flags": {
+            "init": 1
+        },
+        "ap": 999,
+        "maxAp": 180,
+        "androidDiamond": 0,
+        "iosDiamond": 0,
+        "diamondShard": 0,
+        "gold": 0,
+        "practiceTicket": 30,
+        "lastRefreshTs": 1700000000,
+        "lastApAddTime": 1700000000,
+        "mainStageProgress": null,
+        "registerTs": 1700000000,
+        "lastOnlineTs": 1700000000,
+        "serverName": "泰拉",
+        "avatarId": "0",
+        "avatar": {
+            "type": "ICON",
+            "id": "avatar_def_01"
+        },
+        "resume": "",
+        "friendNumLimit": 100,
+        "monthlySubscriptionStartTime": 0,
+        "monthlySubscriptionEndTime": 0,
+        "tipMonthlyCardExpireTs": 0,
+        "secretary": "char_002_amiya",
+        "secretarySkinId": "char_002_amiya#1",
+        "globalVoiceLan": "JP",
+        "birthday": {
+            "month": 1,
+            "day": 1
+        }
+    },
+    "troop": {
+        "curCharInstId": 1,
+        "curSquadCount": 4,
+        "squads": {
+            "0": {
+                "squadId": "0",
+                "name": "第一编队",
+                "slots": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "1": {
+                "squadId": "1",
+                "name": "第二编队",
+                "slots": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "2": {
+                "squadId": "2",
+                "name": "第三编队",
+                "slots": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "3": {
+                "squadId": "3",
+                "name": "第四编队",
+                "slots": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "chars": {},
+        "charGroup": {},
+        "charMission": {},
+        "addon": {}
+    },
+    "npcAudio": {
+        "char_508_aguard": {
+            "npcShowAudioInfoFlag": "JP"
+        },
+        "char_509_acast": {
+            "npcShowAudioInfoFlag": "JP"
+        },
+        "char_510_amedic": {
+            "npcShowAudioInfoFlag": "JP"
+        },
+        "char_511_asnipe": {
+            "npcShowAudioInfoFlag": "JP"
+        },
+        "char_513_apionr": {
+            "npcShowAudioInfoFlag": "JP"
+        }
+    },
+    "pushFlags": {
+        "hasGifts": 0,
+        "hasFriendRequest": 0,
+        "hasClues": 0,
+        "hasFreeLevelGP": 0,
+        "status": 1700000000
+    },
+    "equipment": {},
+    "skin": {
+        "characterSkins": {},
+        "skinTs": {}
+    },
+    "shop": {},
+    "mission": {},
+    "social": {
+        "assistCharList": [
+            null,
+            null,
+            null
+        ],
+        "yesterdayReward": {
+            "canReceive": 0,
+            "assistAmount": 50,
+            "comfortAmount": 200,
+            "first": 0
+        },
+        "yCrisisSs": "",
+        "yCrisisV2Ss": "",
+        "medalBoard": {
+            "type": "EMPTY",
+            "custom": null,
+            "template": null,
+            "templateMedalList": null
+        }
+    },
+    "building": {},
+    "dexNav": {
+        "character": {},
+        "formula": {},
+        "teamV2": {},
+        "enemy": {
+            "enemies": {},
+            "stage": {}
+        }
+    },
+    "crisis": {},
+    "crisisV2": {},
+    "nameCardStyle": {
+        "componentOrder": [
+            "module_sign",
+            "module_assist",
+            "module_medal"
+        ],
+        "skin": {
+            "selected": "nc_rhodes_default",
+            "state": {
+                "nc_rhodes_default": {
+                    "unlock": true,
+                    "progress": null
+                }
+            }
+        },
+        "misc": {
+            "showDetail": true,
+            "showBirthday": false
+        }
+    },
+    "tshop": {},
+    "gacha": {
+        "newbee": {},
+        "normal": {},
+        "attain": {},
+        "limit": {},
+        "single": {},
+        "fesClassic": {},
+        "linkage": {},
+        "special": {}
+    },
+    "backflow": {},
+    "mainline": {
+        "record": {},
+        "cache": [],
+        "version": 1,
+        "additionalMission": {},
+        "charVoiceRecord": {
+            "mission_archive_main_14": {
+                "isOpen": true,
+                "confirmEnterReward": true,
+                "nodes": {
+                    "main_node_1": 2,
+                    "main_node_2": 2,
+                    "main_node_3": 2,
+                    "main_node_4": 2,
+                    "main_node_5": 2
+                }
+            }
+        },
+        "explore": {
+            "game": null,
+            "outer": {
+                "isOpen": true,
+                "lastGameResult": {
+                    "groupId": "group_1",
+                    "groupCode": "LMT-001",
+                    "heritageAbilities": {
+                        "TEAMVALUE_1": 10,
+                        "TEAMVALUE_2": 10,
+                        "TEAMVALUE_3": 10
+                    }
+                },
+                "historyPaths": [],
+                "mission": {
+                    "mission_1": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_2": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_3": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_4": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_5": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_6": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_7": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_8": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_9": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_10": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_11": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_12": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_13": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_14": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_15": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_16": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_17": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_18": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_19": {
+                        "state": 3,
+                        "progress": [
+                            2,
+                            2
+                        ]
+                    },
+                    "mission_20": {
+                        "state": 3,
+                        "progress": [
+                            3,
+                            3
+                        ]
+                    },
+                    "mission_21": {
+                        "state": 3,
+                        "progress": [
+                            30,
+                            30
+                        ]
+                    },
+                    "mission_22": {
+                        "state": 3,
+                        "progress": [
+                            60,
+                            60
+                        ]
+                    },
+                    "mission_23": {
+                        "state": 3,
+                        "progress": [
+                            120,
+                            120
+                        ]
+                    },
+                    "mission_24": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_25": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_26": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    },
+                    "mission_27": {
+                        "state": 3,
+                        "progress": [
+                            1,
+                            1
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "avatar": {
+        "avatar_icon": {}
+    },
+    "background": {
+        "selected": "bg_rhodes_day",
+        "bgs": {
+            "bg_rhodes_day": {
+                "unlock": 1700000000
+            }
+        }
+    },
+    "homeTheme": {
+        "selected": "tm_rhodes_day",
+        "themes": {
+            "tm_rhodes_day": {
+                "unlock": 1700000000
+            }
+        }
+    },
+    "rlv2": {},
+    "deepSea": {
+        "places": {
+            "p1_1": 2,
+            "p1_2": 2,
+            "p1_3": 2,
+            "p1_4": 2,
+            "p1_5": 2,
+            "p1_6": 2,
+            "p1_7": 2,
+            "p1_8": 2,
+            "p1_9": 2,
+            "p1_10": 2,
+            "p1_11": 2,
+            "p1_12": 2,
+            "p1_13": 2,
+            "p1_14": 2,
+            "p1_15": 2,
+            "p1_16": 2,
+            "p1_17": 2,
+            "p1_18": 2,
+            "p1_19": 2,
+            "p1_20": 2,
+            "p1_21": 2,
+            "p1_22": 2,
+            "p1_23": 2,
+            "p1_24": 2,
+            "p1_25": 2,
+            "p1_26": 2,
+            "p1_27": 2,
+            "p1_28": 2,
+            "p1_29": 2,
+            "p1_30": 2,
+            "p1_31": 2,
+            "p2_1": 2,
+            "p2_2": 2,
+            "p2_3": 2,
+            "p2_4": 2,
+            "p2_5": 2,
+            "p2_6": 2,
+            "p2_7": 2,
+            "p2_8": 2,
+            "p2_9": 2,
+            "p2_10": 2,
+            "p2_11": 2,
+            "p2_12": 2,
+            "p2_13": 2,
+            "p2_14": 2,
+            "p2_15": 2,
+            "p2_16": 2,
+            "p2_17": 2,
+            "p2_18": 2,
+            "p2_19": 2,
+            "p2_20": 2,
+            "p2_21": 2,
+            "p2_22": 2,
+            "p2_23": 2,
+            "p2_24": 2,
+            "p2_25": 2,
+            "p3_1": 2,
+            "p3_2": 2,
+            "p3_3": 2,
+            "p3_4": 2,
+            "p3_5": 2,
+            "p3_6": 2,
+            "p3_7": 2,
+            "p3_8": 2,
+            "p3_9": 2,
+            "p3_10": 2,
+            "p3_11": 2,
+            "p3_12": 2,
+            "p3_13": 2,
+            "p3_14": 2,
+            "p3_15": 2,
+            "p4_1": 2,
+            "p4_2": 2,
+            "p4_3": 2,
+            "p4_4": 2,
+            "p4_5": 2,
+            "p4_6": 2,
+            "p4_7": 2,
+            "p4_8": 2,
+            "p4_9": 2,
+            "p4_10": 2,
+            "p4_11": 2,
+            "p4_12": 2,
+            "p4_13": 2,
+            "p4_14": 2,
+            "p4_15": 2,
+            "p4_16": 2,
+            "p4_17": 2,
+            "p4_18": 2,
+            "p4_19": 2,
+            "p4_20": 2,
+            "p4_21": 2,
+            "p4_22": 2,
+            "p4_s_2": 2,
+            "p4_s_3": 2,
+            "p4_s_4": 2,
+            "p4_s_5": 2,
+            "p4_s_6": 2,
+            "p4_s_7": 2,
+            "p4_s_8": 2,
+            "p5_1": 2,
+            "p5_2": 2,
+            "p5_3": 2,
+            "p5_4": 2,
+            "p5_5": 2,
+            "p5_6": 2,
+            "p5_7": 2,
+            "p5_8": 2,
+            "p5_9": 2,
+            "p5_10": 2,
+            "p5_11": 2,
+            "p5_12": 2,
+            "p5_13": 2,
+            "p5_14": 2,
+            "p5_15": 2,
+            "p5_16": 2,
+            "p5_17": 2,
+            "p5_18": 2,
+            "p5_19": 2,
+            "p5_20": 2,
+            "p5_21": 2,
+            "p5_22": 2,
+            "p5_23": 2,
+            "p5_24": 2
+        },
+        "nodes": {
+            "node_landmark1_1": 2,
+            "node_s_st01": 2,
+            "node_event1_1": 2,
+            "node_event1_2": 2,
+            "node_event1_3": 2,
+            "node_battle_1": 2,
+            "node_treasure1_1": 2,
+            "node_event1_4": 2,
+            "node_s_st02": 2,
+            "node_battle_2": 2,
+            "node_event1_5": 2,
+            "node_choice1_1": 2,
+            "node_event1_6": 2,
+            "node_treasure1_2": 2,
+            "node_s_st03": 2,
+            "node_tech_1": 2,
+            "node_battle_tr01": 2,
+            "node_battle_3": 2,
+            "node_treasure1_3": 2,
+            "node_choice1_2": 2,
+            "node_event1_7": 2,
+            "node_event1_8": 2,
+            "node_choice1_3": 2,
+            "node_event1_9": 2,
+            "node_s_st04": 2,
+            "node_choice1_4": 2,
+            "node_event1_10": 2,
+            "node_treasure1_s_1": 2,
+            "node_landmark1_2": 2,
+            "node_s_st05": 2,
+            "node_battle_4": 2,
+            "node_choice1_5": 2,
+            "node_treasure1_4": 2,
+            "node_battle_5": 2,
+            "node_treasure1_5": 2,
+            "node_tech_2": 2,
+            "node_ending_1": 2,
+            "node_landmark2_1": 2,
+            "node_battle_6": 2,
+            "node_choice2_1": 2,
+            "node_treasure2_1": 2,
+            "node_choice2_2": 2,
+            "node_event2_3": 2,
+            "node_choice2_3": 2,
+            "node_treasure2_s_1": 2,
+            "node_s_st06": 2,
+            "node_choice2_4": 2,
+            "node_s_st07": 2,
+            "node_landmark2_2": 2,
+            "node_choice2_5": 2,
+            "node_event2_8": 2,
+            "node_choice2_6": 2,
+            "node_event2_9": 2,
+            "node_choice2_7": 2,
+            "node_choice2_8": 2,
+            "node_event2_12": 2,
+            "node_battle_7": 2,
+            "node_treasure2_2": 2,
+            "node_tech_3": 2,
+            "node_s_st08": 2,
+            "node_choice2_9": 2,
+            "node_event2_13": 2,
+            "node_treasure2_3": 2,
+            "node_s_st09": 2,
+            "node_battle_8": 2,
+            "node_event2_14": 2,
+            "node_ending_2": 2,
+            "node_landmark3_1": 2,
+            "node_choice3_1": 2,
+            "node_event3_1": 2,
+            "node_s_st10": 2,
+            "node_battle_9": 2,
+            "node_choice3_2_1": 2,
+            "node_event3_2_1": 2,
+            "node_choice3_3_1": 2,
+            "node_event3_3_1": 2,
+            "node_choice3_4_2": 2,
+            "node_event3_4_2": 2,
+            "node_choice3_4_1": 2,
+            "node_event3_4_1": 2,
+            "node_choice3_3_2": 2,
+            "node_event3_3_2": 2,
+            "node_choice3_3_3": 2,
+            "node_event3_3_3": 2,
+            "node_choice3_2_2": 2,
+            "node_event3_2_2": 2,
+            "node_choice3_4_4": 2,
+            "node_event3_4_4": 2,
+            "node_choice3_4_3": 2,
+            "node_event3_4_3": 2,
+            "node_choice3_3_4": 2,
+            "node_event3_3_4": 2,
+            "node_choice3_2_3": 2,
+            "node_event3_2_3": 2,
+            "node_choice3_3_5": 2,
+            "node_event3_3_5": 2,
+            "node_treasure3_1": 2,
+            "node_s_st11": 2,
+            "node_tech_4": 2,
+            "node_battle_10": 2,
+            "node_landmark3_2": 2,
+            "node_treasure3_2": 2,
+            "node_s_st12": 2,
+            "node_ending_3": 2,
+            "node_event4_1": 2,
+            "node_event4_2": 2,
+            "node_event4_3": 2,
+            "node_event4_4": 2,
+            "node_event4_5": 2,
+            "node_event4_6": 2,
+            "node_battle_ex01": 2,
+            "node_treasure4_1": 2,
+            "node_battle_ex02": 2,
+            "node_treasure4_2": 2,
+            "node_battle_ex03": 2,
+            "node_treasure4_3": 2,
+            "node_battle_ex04": 2,
+            "node_treasure4_4": 2,
+            "node_tech_5": 2,
+            "node_battle_ex05": 2,
+            "node_treasure4_5": 2,
+            "node_battle_ex06": 2,
+            "node_treasure4_6": 2,
+            "node_battle_ex07": 2,
+            "node_treasure4_7": 2,
+            "node_event4_7": 2,
+            "node_battle_ex08": 2,
+            "node_treasure4_8": 2,
+            "node_event4_8": 2,
+            "node_ending_4": 2,
+            "node_treasure4_s_2": 2,
+            "node_treasure4_s_3": 2,
+            "node_treasure4_s_4": 2,
+            "node_treasure4_s_5": 2,
+            "node_treasure4_s_6": 2,
+            "node_treasure4_s_7": 2,
+            "node_treasure4_s_8": 2,
+            "node_choice5_1": 2,
+            "node_event5_1": 2,
+            "node_event5_14": 2,
+            "node_choice5_2": 2,
+            "node_event5_2": 2,
+            "node_choice5_3": 2,
+            "node_event5_3": 2,
+            "node_battle_s01_a": 2,
+            "node_battle_s01_b": 2,
+            "node_treasure5_1_a": 2,
+            "node_treasure5_1_b": 2,
+            "node_choice5_4": 2,
+            "node_event5_4": 2,
+            "node_event5_15": 2,
+            "node_choice5_5": 2,
+            "node_event5_5": 2,
+            "node_choice5_6": 2,
+            "node_event5_6": 2,
+            "node_battle_s02_a": 2,
+            "node_battle_s02_b": 2,
+            "node_treasure5_2_a": 2,
+            "node_treasure5_2_b": 2,
+            "node_choice5_7": 2,
+            "node_event5_7": 2,
+            "node_event5_16": 2,
+            "node_choice5_8": 2,
+            "node_event5_8": 2,
+            "node_choice5_9": 2,
+            "node_event5_9": 2,
+            "node_battle_s03_a": 2,
+            "node_battle_s03_b": 2,
+            "node_treasure5_3_a": 2,
+            "node_treasure5_3_b": 2,
+            "node_choice5_10": 2,
+            "node_event5_10": 2,
+            "node_event5_17": 2,
+            "node_choice5_11": 2,
+            "node_event5_11": 2,
+            "node_choice5_12": 2,
+            "node_event5_12": 2,
+            "node_battle_s04_a": 2,
+            "node_battle_s04_b": 2,
+            "node_treasure5_4_a": 2,
+            "node_treasure5_4_b": 2,
+            "node_choice5_13": 2,
+            "node_event5_13": 2,
+            "node_battle_s05": 2,
+            "node_treasure5_5": 2,
+            "node_ending_5": 2
+        },
+        "choices": {
+            "node_choice1_1": [
+                2
+            ],
+            "node_choice1_2": [
+                2,
+                2
+            ],
+            "node_choice1_3": [
+                2
+            ],
+            "node_choice1_4": [
+                2
+            ],
+            "node_choice1_5": [
+                2,
+                2
+            ],
+            "node_choice2_1": [
+                2,
+                2
+            ],
+            "node_choice2_2": [
+                2
+            ],
+            "node_choice2_3": [
+                2,
+                2
+            ],
+            "node_choice2_4": [
+                2,
+                2
+            ],
+            "node_choice2_5": [
+                2
+            ],
+            "node_choice2_6": [
+                2
+            ],
+            "node_choice2_7": [
+                2,
+                2
+            ],
+            "node_choice2_8": [
+                2
+            ],
+            "node_choice2_9": [
+                2
+            ],
+            "node_choice3_1": [
+                2
+            ],
+            "node_choice3_2_1": [
+                2
+            ],
+            "node_choice3_3_1": [
+                2
+            ],
+            "node_choice3_4_1": [
+                2
+            ],
+            "node_choice3_4_2": [
+                2
+            ],
+            "node_choice3_3_2": [
+                2
+            ],
+            "node_choice3_2_2": [
+                2
+            ],
+            "node_choice3_3_3": [
+                2
+            ],
+            "node_choice3_4_3": [
+                2
+            ],
+            "node_choice3_4_4": [
+                2
+            ],
+            "node_choice3_3_4": [
+                2
+            ],
+            "node_choice3_2_3": [
+                2
+            ],
+            "node_choice3_3_5": [
+                2
+            ],
+            "node_choice5_1": [
+                2,
+                2
+            ],
+            "node_choice5_2": [
+                2
+            ],
+            "node_choice5_3": [
+                2
+            ],
+            "node_choice5_4": [
+                2,
+                2
+            ],
+            "node_choice5_5": [
+                2
+            ],
+            "node_choice5_6": [
+                2
+            ],
+            "node_choice5_7": [
+                2,
+                2
+            ],
+            "node_choice5_8": [
+                2
+            ],
+            "node_choice5_9": [
+                2
+            ],
+            "node_choice5_10": [
+                2,
+                2
+            ],
+            "node_choice5_11": [
+                2
+            ],
+            "node_choice5_12": [
+                2
+            ],
+            "node_choice5_13": [
+                2
+            ]
+        },
+        "events": {
+            "event1_1": 1,
+            "event1_1_end": 1,
+            "event1_2": 1,
+            "event1_2_end": 1,
+            "event1_3": 1,
+            "event1_3_end": 1,
+            "treasure1_1_end": 1,
+            "p1_4_lock": 1,
+            "event1_4": 1,
+            "event1_4_end": 1,
+            "p1_10_lock": 1,
+            "event1_5": 1,
+            "event1_5_end": 1,
+            "p1_11_lock": 1,
+            "event1_6_a": 1,
+            "event1_6": 1,
+            "event1_6_end": 1,
+            "treasure1_2_end": 1,
+            "tech_1_end": 1,
+            "p1_16_lock": 1,
+            "treasure1_3_end": 1,
+            "event1_7_a": 1,
+            "event1_8_a": 1,
+            "event1_7": 1,
+            "event1_8": 1,
+            "event1_7_end": 1,
+            "event1_8_end": 1,
+            "event1_9_a": 1,
+            "event1_9": 1,
+            "event1_9_end": 1,
+            "event1_10_a": 1,
+            "event1_10": 1,
+            "event1_10_end": 1,
+            "treasure1_4_end": 1,
+            "p1_20_lock": 1,
+            "p1_23_lock": 1,
+            "event1_11": 1,
+            "event1_12": 1,
+            "treasure1_s_1_end": 1,
+            "treasure1_5_end": 1,
+            "tech_2_end": 1,
+            "event2_1": 1,
+            "event2_2": 1,
+            "treasure2_1_end": 1,
+            "event2_3_a": 1,
+            "event2_3": 1,
+            "event2_3_end": 1,
+            "event2_4": 1,
+            "event2_5": 1,
+            "treasure2_s_1_end": 1,
+            "p2_8_lock": 1,
+            "event2_6": 1,
+            "event2_7": 1,
+            "p2_10_lock": 1,
+            "p2_11_lock": 1,
+            "event2_8_a": 1,
+            "event2_8": 1,
+            "event2_8_end": 1,
+            "event2_9_a": 1,
+            "event2_9": 1,
+            "event2_9_end": 1,
+            "event2_10": 1,
+            "event2_11": 1,
+            "event2_12_a": 1,
+            "event2_12": 1,
+            "event2_12_end": 1,
+            "p2_16_lock": 1,
+            "p2_17_lock": 1,
+            "treasure2_2_end": 1,
+            "p2_18_lock": 1,
+            "tech_3_end": 1,
+            "p2_19_lock": 1,
+            "p2_20_lock": 1,
+            "event2_13_a": 1,
+            "event2_13": 1,
+            "event2_13_end": 1,
+            "p2_21_lock": 1,
+            "treasure2_3_end": 1,
+            "p2_22_lock": 1,
+            "p2_23_lock": 1,
+            "event2_14": 1,
+            "event2_14_end": 1,
+            "event3_1_a": 1,
+            "event3_1": 1,
+            "event3_1_end": 1,
+            "p3_3_lock": 1,
+            "p3_4_lock": 1,
+            "p3_5_lock": 1,
+            "p3_6_lock": 1,
+            "p3_7_lock": 1,
+            "p3_8_lock": 1,
+            "p3_9_lock": 1,
+            "p3_10_lock": 1,
+            "p3_11_lock": 1,
+            "event3_2_1_a": 1,
+            "event3_2_1": 1,
+            "event3_2_1_end": 1,
+            "event3_3_1_a": 1,
+            "event3_3_1": 1,
+            "event3_3_1_end": 1,
+            "event3_4_1_a": 1,
+            "event3_4_1": 1,
+            "event3_4_1_end": 1,
+            "event3_4_2_a": 1,
+            "event3_4_2": 1,
+            "event3_4_2_end": 1,
+            "event3_3_2_a": 1,
+            "event3_3_2": 1,
+            "event3_3_2_end": 1,
+            "event3_2_2_a": 1,
+            "event3_2_2": 1,
+            "event3_2_2_end": 1,
+            "event3_3_3_a": 1,
+            "event3_3_3": 1,
+            "event3_3_3_end": 1,
+            "event3_4_3_a": 1,
+            "event3_4_3": 1,
+            "event3_4_3_end": 1,
+            "event3_4_4_a": 1,
+            "event3_4_4": 1,
+            "event3_4_4_end": 1,
+            "event3_3_4_a": 1,
+            "event3_3_4": 1,
+            "event3_3_4_end": 1,
+            "event3_2_3_a": 1,
+            "event3_2_3": 1,
+            "event3_2_3_end": 1,
+            "event3_3_5_a": 1,
+            "event3_3_5": 1,
+            "event3_3_5_end": 1,
+            "treasure3_1_end": 1,
+            "tech_4_end": 1,
+            "treasure3_2_end": 1,
+            "p4_18_lock": 1,
+            "event4_1": 1,
+            "event4_2": 1,
+            "event4_3": 1,
+            "event4_4": 1,
+            "event4_5": 1,
+            "event4_6": 1,
+            "event4_7": 1,
+            "event4_8": 1,
+            "event4_1_end": 1,
+            "event4_2_end": 1,
+            "event4_3_end": 1,
+            "event4_4_end": 1,
+            "event4_5_end": 1,
+            "event4_6_end": 1,
+            "event4_7_end": 1,
+            "event4_8_end": 1,
+            "treasure4_1_end": 1,
+            "treasure4_2_end": 1,
+            "treasure4_3_end": 1,
+            "treasure4_4_end": 1,
+            "treasure4_5_end": 1,
+            "treasure4_6_end": 1,
+            "treasure4_7_end": 1,
+            "treasure4_8_end": 1,
+            "treasure4_s_2_end": 1,
+            "treasure4_s_3_end": 1,
+            "treasure4_s_4_end": 1,
+            "treasure4_s_5_end": 1,
+            "treasure4_s_6_end": 1,
+            "treasure4_s_7_end": 1,
+            "treasure4_s_8_end": 1,
+            "tech_5_end": 1,
+            "event5_1_a": 1,
+            "event5_1_b": 1,
+            "event5_1": 1,
+            "event5_1_end": 1,
+            "event5_14": 1,
+            "event5_14_end": 1,
+            "event5_2_a": 1,
+            "event5_2": 1,
+            "event5_2_end": 1,
+            "event5_3_a": 1,
+            "event5_3": 1,
+            "event5_3_end": 1,
+            "event5_4_a": 1,
+            "event5_4_b": 1,
+            "event5_4": 1,
+            "event5_4_end": 1,
+            "event5_15": 1,
+            "event5_15_end": 1,
+            "event5_5_a": 1,
+            "event5_5": 1,
+            "event5_5_end": 1,
+            "event5_6_a": 1,
+            "event5_6": 1,
+            "event5_6_end": 1,
+            "event5_7_a": 1,
+            "event5_7_b": 1,
+            "event5_7": 1,
+            "event5_7_end": 1,
+            "event5_16": 1,
+            "event5_16_end": 1,
+            "event5_8_a": 1,
+            "event5_8": 1,
+            "event5_8_end": 1,
+            "event5_9_a": 1,
+            "event5_9": 1,
+            "event5_9_end": 1,
+            "event5_10_a": 1,
+            "event5_10_b": 1,
+            "event5_10": 1,
+            "event5_10_end": 1,
+            "event5_17": 1,
+            "event5_17_end": 1,
+            "event5_11_a": 1,
+            "event5_11": 1,
+            "event5_11_end": 1,
+            "event5_12_a": 1,
+            "event5_12": 1,
+            "event5_12_end": 1,
+            "event5_13_a": 1,
+            "event5_13": 1,
+            "event5_13_end": 1,
+            "treasure5_1_a_end": 1,
+            "treasure5_1_b_end": 1,
+            "treasure5_2_a_end": 1,
+            "treasure5_2_b_end": 1,
+            "treasure5_3_a_end": 1,
+            "treasure5_3_b_end": 1,
+            "treasure5_4_a_end": 1,
+            "treasure5_4_b_end": 1,
+            "treasure5_5_end": 1
+        },
+        "treasures": {
+            "node_treasure1_1": 1,
+            "node_treasure1_2": 1,
+            "node_treasure1_3": 1,
+            "node_treasure1_4": 1,
+            "node_treasure1_s_1": 1,
+            "node_treasure1_5": 1,
+            "node_treasure2_1": 1,
+            "node_treasure2_s_1": 1,
+            "node_treasure2_2": 1,
+            "node_treasure2_3": 1,
+            "node_treasure3_1": 1,
+            "node_treasure3_2": 1,
+            "node_treasure4_1": 1,
+            "node_treasure4_2": 1,
+            "node_treasure4_3": 1,
+            "node_treasure4_4": 1,
+            "node_treasure4_5": 1,
+            "node_treasure4_6": 1,
+            "node_treasure4_7": 1,
+            "node_treasure4_8": 1,
+            "node_treasure4_s_2": 1,
+            "node_treasure4_s_3": 1,
+            "node_treasure4_s_4": 1,
+            "node_treasure4_s_5": 1,
+            "node_treasure4_s_6": 1,
+            "node_treasure4_s_7": 1,
+            "node_treasure4_s_8": 1,
+            "node_treasure5_1_a": 1,
+            "node_treasure5_1_b": 1,
+            "node_treasure5_2_a": 1,
+            "node_treasure5_2_b": 1,
+            "node_treasure5_3_a": 1,
+            "node_treasure5_3_b": 1,
+            "node_treasure5_4_a": 1,
+            "node_treasure5_4_b": 1,
+            "node_treasure5_5": 1
+        },
+        "stories": {
+            "level_act17side_st01": 1,
+            "level_act17side_st02": 1,
+            "level_act17side_st03": 1,
+            "level_act17side_st04": 1,
+            "level_act17side_st05": 1,
+            "level_act17side_st06": 1,
+            "level_act17side_st07": 1,
+            "level_act17side_st08": 1,
+            "level_act17side_st09": 1,
+            "level_act17side_st10": 1,
+            "level_act17side_st11": 1,
+            "level_act17side_st12": 1
+        },
+        "techTrees": {
+            "tech_1": {
+                "state": 2,
+                "branch": "tree_branch_1_1"
+            },
+            "tech_2": {
+                "state": 2,
+                "branch": "tree_branch_2_1"
+            },
+            "tech_3": {
+                "state": 2,
+                "branch": "tree_branch_3_1"
+            },
+            "tech_4": {
+                "state": 2,
+                "branch": "tree_branch_4_1"
+            },
+            "tech_5": {
+                "state": 2,
+                "branch": "tree_branch_5_1"
+            }
+        },
+        "logs": {
+            "chapter_1": [
+                "act17side_log_1",
+                "act17side_log_2"
+            ],
+            "chapter_2": [
+                "act17side_log_3",
+                "act17side_log_4",
+                "act17side_log_6",
+                "act17side_log_8"
+            ],
+            "chapter_3": [
+                "act17side_log_5",
+                "act17side_log_7",
+                "act17side_log_9",
+                "act17side_log_10"
+            ],
+            "chapter_4": [
+                "act17side_log_11",
+                "act17side_log_12",
+                "act17side_log_13",
+                "act17side_log_14"
+            ],
+            "chapter_5": [
+                "act17side_log_15",
+                "act17side_log_16",
+                "act17side_log_17"
+            ],
+            "chapter_6": [
+                "act17side_log_18",
+                "act17side_log_19",
+                "act17side_log_20",
+                "act17side_log_21",
+                "act17side_log_22",
+                "act17side_log_23",
+                "act17side_log_24"
+            ],
+            "chapter_7": [
+                "act17side_log_25",
+                "act17side_log_26",
+                "act17side_log_27",
+                "act17side_log_28"
+            ],
+            "chapter_8": [
+                "act17side_log_29",
+                "act17side_log_30",
+                "act17side_log_31",
+                "act17side_log_32",
+                "act17side_log_33"
+            ],
+            "chapter_9": [
+                "act17side_log_34",
+                "act17side_log_35",
+                "act17side_log_36"
+            ],
+            "chapter_10": [
+                "act17side_log_37",
+                "act17side_log_38"
+            ],
+            "chapter_11": [
+                "act17side_log_39",
+                "act17side_log_40",
+                "act17side_log_41",
+                "act17side_log_42",
+                "act17side_log_43",
+                "act17side_log_44",
+                "act17side_log_45"
+            ],
+            "chapter_12": [
+                "act17side_log_46",
+                "act17side_log_47"
+            ],
+            "chapter_13": [
+                "act17side_log_48",
+                "act17side_log_49",
+                "act17side_log_50",
+                "act17side_log_51",
+                "act17side_log_52",
+                "act17side_log_53",
+                "act17side_log_54",
+                "act17side_log_55",
+                "act17side_log_56"
+            ],
+            "chapter_14": [
+                "act17side_log_57",
+                "act17side_log_58",
+                "act17side_log_59",
+                "act17side_log_60",
+                "act17side_log_61",
+                "act17side_log_62",
+                "act17side_log_64"
+            ],
+            "chapter_15": [
+                "act17side_log_63",
+                "act17side_log_65",
+                "act17side_log_66"
+            ],
+            "chapter_16": [
+                "act17side_log_67",
+                "act17side_log_68",
+                "act17side_log_69",
+                "act17side_log_70"
+            ],
+            "chapter_17": [
+                "act17side_log_71",
+                "act17side_log_72",
+                "act17side_log_73",
+                "act17side_log_74",
+                "act17side_log_75",
+                "act17side_log_76",
+                "act17side_log_77",
+                "act17side_log_78",
+                "act17side_log_79",
+                "act17side_log_80",
+                "act17side_log_81",
+                "act17side_log_82",
+                "act17side_log_83",
+                "act17side_log_84",
+                "act17side_log_85",
+                "act17side_log_86",
+                "act17side_log_87",
+                "act17side_log_88",
+                "act17side_log_89",
+                "act17side_log_90",
+                "act17side_log_91",
+                "act17side_log_92",
+                "act17side_log_93",
+                "act17side_log_94",
+                "act17side_log_95",
+                "act17side_log_96",
+                "act17side_log_97",
+                "act17side_log_98"
+            ],
+            "chapter_18": [
+                "act17side_log_99"
+            ],
+            "chapter_19": [
+                "act17side_log_100"
+            ],
+            "chapter_20": [
+                "act17side_log_101",
+                "act17side_log_102",
+                "act17side_log_103"
+            ],
+            "chapter_ex": [
+                "act17side_log_ex_1",
+                "act17side_log_ex_2",
+                "act17side_log_ex_3",
+                "act17side_log_ex_4",
+                "act17side_log_ex_5",
+                "act17side_log_ex_6",
+                "act17side_log_ex_7",
+                "act17side_log_ex_8",
+                "act17side_log_ex_9",
+                "act17side_log_ex_10",
+                "act17side_log_ex_11",
+                "act17side_log_ex_12",
+                "act17side_log_ex_13",
+                "act17side_log_ex_14",
+                "act17side_log_ex_15",
+                "act17side_log_ex_16",
+                "act17side_log_ex_17",
+                "act17side_log_ex_18",
+                "act17side_log_ex_19",
+                "act17side_log_ex_20",
+                "act17side_log_ex_21",
+                "act17side_log_ex_22",
+                "act17side_log_ex_23",
+                "act17side_log_ex_24",
+                "act17side_log_ex_25",
+                "act17side_log_ex_26",
+                "act17side_log_ex_27",
+                "act17side_log_ex_28",
+                "act17side_log_ex_29",
+                "act17side_log_ex_30",
+                "act17side_log_ex_31",
+                "act17side_log_ex_32",
+                "act17side_log_ex_33"
+            ],
+            "chapter_h": [
+                "act17side_log_h_1",
+                "act17side_log_h_2",
+                "act17side_log_h_3",
+                "act17side_log_h_4",
+                "act17side_log_h_5",
+                "act17side_log_h_6",
+                "act17side_log_h_7",
+                "act17side_log_h_8",
+                "act17side_log_h_9",
+                "act17side_log_h_10",
+                "act17side_log_h_11",
+                "act17side_log_h_12",
+                "act17side_log_h_13",
+                "act17side_log_h_14",
+                "act17side_log_h_15",
+                "act17side_log_h_16",
+                "act17side_log_h_17",
+                "act17side_log_h_18",
+                "act17side_log_h_19",
+                "act17side_log_h_20",
+                "act17side_log_h_21",
+                "act17side_log_h_22",
+                "act17side_log_h_23",
+                "act17side_log_h_24",
+                "act17side_log_h_25",
+                "act17side_log_h_26",
+                "act17side_log_h_27",
+                "act17side_log_h_28",
+                "act17side_log_h_29",
+                "act17side_log_h_30",
+                "act17side_log_h_31",
+                "act17side_log_h_32",
+                "act17side_log_h_33",
+                "act17side_log_h_34",
+                "act17side_log_h_35",
+                "act17side_log_h_36"
+            ]
+        }
+    },
+    "tower": {},
+    "siracusaMap": {
+        "area": {
+            "area_centro": 1,
+            "area_rione": 1,
+            "area_saluzzo": 1,
+            "area_teatro": 1,
+            "area_bellone": 1,
+            "area_rossati": 1,
+            "area_torre": 1,
+            "area_comando": 1,
+            "area_municipio": 1
+        }
+    },
+    "sandboxPerm": {},
+    "openServer": {
+        "checkIn": {
+            "isAvailable": false
+        },
+        "chainLogin": {
+            "isAvailable": false
+        },
+        "fullOpen": {
+            "isAvailable": true,
+            "startTs": 1700000000,
+            "today": true,
+            "remain": 100
+        }
+    },
+    "trainingGround": {
+        "stages": {
+            "ch_1": {
+                "stageId": "ch_1",
+                "state": 3,
+                "rts": 1700000000
+            },
+            "ch_2": {
+                "stageId": "ch_2",
+                "state": 3,
+                "rts": 1700000000
+            },
+            "ch_3": {
+                "stageId": "ch_3",
+                "state": 3,
+                "rts": 1700000000
+            },
+            "ch_4": {
+                "stageId": "ch_4",
+                "state": 3,
+                "rts": 1700000000
+            },
+            "ch_5": {
+                "stageId": "ch_5",
+                "state": 3,
+                "rts": 1700000000
+            },
+            "ch_6": {
+                "stageId": "ch_6",
+                "state": 3,
+                "rts": 1700000000
+            },
+            "ch_7": {
+                "stageId": "ch_7",
+                "state": 3,
+                "rts": 1700000000
+            }
+        }
+    },
+    "storyreview": {
+        "groups": {},
+        "tags": {
+            "knownStoryAcceleration": 1
+        }
+    },
+    "medal": {
+        "medals": {},
+        "custom": {
+            "currentIndex": "1",
+            "customs": {
+                "1": {
+                    "layout": []
+                }
+            }
+        }
+    },
+    "consumable": {},
+    "checkIn": {
+        "canCheckIn": 0,
+        "newbiePackage": {
+            "open": false
+        }
+    },
+    "aprilFool": {
+        "act3fun": {
+            "stages": {
+                "act3fun_01": {
+                    "state": 3,
+                    "scores": [
+                        0
+                    ]
+                },
+                "act3fun_02": {
+                    "state": 3,
+                    "scores": [
+                        0
+                    ]
+                },
+                "act3fun_03": {
+                    "state": 3,
+                    "scores": [
+                        0
+                    ]
+                }
+            }
+        },
+        "act4fun": {
+            "stages": {
+                "act4fun_tr01": {
+                    "state": 3,
+                    "liveTimes": 0
+                },
+                "act4fun_01": {
+                    "state": 3,
+                    "liveTimes": 0
+                },
+                "act4fun_03": {
+                    "state": 3,
+                    "liveTimes": 0
+                },
+                "act4fun_02": {
+                    "state": 3,
+                    "liveTimes": 0
+                }
+            },
+            "liveEndings": {
+                "badending_1": 1,
+                "badending_2": 1,
+                "badending_3": 1,
+                "badending_4": 1,
+                "badending_5": 1,
+                "badending_6": 1,
+                "goodending_1": 1
+            },
+            "cameraLv": 7,
+            "fans": 0,
+            "posts": 0,
+            "missions": {
+                "mission_1": {
+                    "value": 1,
+                    "target": 1,
+                    "finished": true,
+                    "hasRecv": true
+                },
+                "mission_2": {
+                    "value": 2,
+                    "target": 2,
+                    "finished": true,
+                    "hasRecv": true
+                },
+                "mission_3": {
+                    "value": 3,
+                    "target": 3,
+                    "finished": true,
+                    "hasRecv": true
+                },
+                "mission_4": {
+                    "value": 3,
+                    "target": 3,
+                    "finished": true,
+                    "hasRecv": true
+                },
+                "mission_5": {
+                    "value": 4,
+                    "target": 4,
+                    "finished": true,
+                    "hasRecv": true
+                },
+                "mission_6": {
+                    "value": 5,
+                    "target": 5,
+                    "finished": true,
+                    "hasRecv": true
+                },
+                "mission_7": {
+                    "value": 6,
+                    "target": 6,
+                    "finished": true,
+                    "hasRecv": true
+                }
+            }
+        },
+        "act5fun": {
+            "stageState": {
+                "act5fun_01": 3,
+                "act5fun_02": 3
+            },
+            "highScore": 999999999
+        }
+    },
+    "collectionReward": {
+        "team": {
+            "reward1_1": 1,
+            "reward2_1": 1,
+            "reward3_1": 1,
+            "reward4_1": 1,
+            "reward6_1": 1,
+            "reward8_1": 1,
+            "reward9_1": 1,
+            "reward10_1": 1,
+            "reward11_1": 1,
+            "reward12_1": 1,
+            "reward13_1": 1,
+            "reward15_1": 1,
+            "reward19_1": 1
+        }
+    },
+    "firework": {
+        "unlock": true,
+        "plate": {
+            "unlock": {
+                "firework_plate_1": 1,
+                "firework_plate_2": 1,
+                "firework_plate_3": 1,
+                "firework_plate_4": 1,
+                "firework_plate_5": 1,
+                "firework_plate_6": 1,
+                "firework_plate_7": 1,
+                "firework_plate_8": 1,
+                "firework_plate_9": 1,
+                "firework_plate_10": 1,
+                "firework_plate_11": 1
+            },
+            "slots": []
+        },
+        "animal": {
+            "unlock": {
+                "firework_animal_1": 1,
+                "firework_animal_2": 1,
+                "firework_animal_3": 1,
+                "firework_animal_4": 1
+            },
+            "select": "firework_animal_1"
+        }
+    },
+    "retro": {
+        "coin": 2,
+        "supplement": 1,
+        "block": {},
+        "trail": {},
+        "lst": 1700000000,
+        "nst": 1700000000,
+        "rewardPerm": []
+    },
+    "event": {
+        "building": 1700000000
+    },
+    "charRotation": {
+        "current": "1",
+        "preset": {
+            "1": {
+                "name": "未命名界面配置",
+                "background": "bg_rhodes_day",
+                "homeTheme": "tm_rhodes_day",
+                "profile": "char_002_amiya#1",
+                "profileInst": 2,
+                "slots": [
+                    {
+                        "charId": "char_002_amiya",
+                        "skinId": "char_002_amiya#1"
+                    }
+                ]
+            }
+        }
+    },
+    "limitedBuff": {},
+    "inventory": {},
+    "templateTrap": {
+        "domains": {
+            "act32side": {
+                "traps": {
+                    "trap_rnfcar": {
+                        "count": 1
+                    },
+                    "trap_ads": {
+                        "count": 1
+                    },
+                    "trap_edd": {
+                        "count": 1
+                    }
+                },
+                "squad": [
+                    null,
+                    null
+                ]
+            }
+        }
+    },
+    "campaignsV2": {
+        "campaignCurrentFee": 1800,
+        "campaignTotalFee": 1800,
+        "open": {
+            "permanent": [],
+            "rotate": "camp_r_25",
+            "rGroup": "group_r_25",
+            "training": [],
+            "tGroup": "group_tr_51",
+            "tAllOpen": null
+        },
+        "instances": {},
+        "missions": {
+            "exterminateActivity_1": 2,
+            "exterminateActivity_2": 2,
+            "exterminateActivity_3": 2,
+            "exterminateActivity_4": 2
+        },
+        "lastRefreshTs": 1700000000,
+        "sweepMaxKills": {}
+    },
+    "share": {},
+    "setting": {
+        "perf": {
+            "lowPower": 0
+        }
+    },
+    "recruit": {
+        "normal": {
+            "slots": {
+                "0": {
+                    "state": 1,
+                    "tags": [],
+                    "selectTags": [],
+                    "startTs": -1,
+                    "durationInSec": -1,
+                    "maxFinishTs": -1,
+                    "realFinishTs": -1
+                },
+                "1": {
+                    "state": 1,
+                    "tags": [],
+                    "selectTags": [],
+                    "startTs": -1,
+                    "durationInSec": -1,
+                    "maxFinishTs": -1,
+                    "realFinishTs": -1
+                },
+                "2": {
+                    "state": 1,
+                    "tags": [],
+                    "selectTags": [],
+                    "startTs": -1,
+                    "durationInSec": -1,
+                    "maxFinishTs": -1,
+                    "realFinishTs": -1
+                },
+                "3": {
+                    "state": 1,
+                    "tags": [],
+                    "selectTags": [],
+                    "startTs": -1,
+                    "durationInSec": -1,
+                    "maxFinishTs": -1,
+                    "realFinishTs": -1
+                }
+            }
+        }
+    },
+    "ticket": {},
+    "carousel": {},
+    "charm": {
+        "charms": {
+            "level_cost_1": 1,
+            "range_ep_recovery_1": 1,
+            "range_ep_recovery_2": 1,
+            "melee_ep_recovery_1": 1,
+            "melee_ep_recovery_2": 1,
+            "range_drowning_resist_1": 1,
+            "range_drowning_resist_2": 1,
+            "melee_drowning_resist_1": 1,
+            "melee_drowning_resist_2": 1,
+            "range_drowning_atk_1": 1,
+            "range_drowning_atk_2": 1,
+            "melee_drowning_atk_1": 1,
+            "melee_drowning_atk_2": 1,
+            "range_drowning_def_1": 1,
+            "range_drowning_def_2": 1,
+            "melee_drowning_def_1": 1,
+            "melee_drowning_def_2": 1,
+            "range_buff_atk_1": 1,
+            "range_buff_atk_2": 1,
+            "melee_buff_atk_1": 1,
+            "melee_buff_atk_2": 1,
+            "range_buff_def_1": 1,
+            "range_buff_def_2": 1,
+            "melee_buff_def_1": 1,
+            "melee_buff_def_2": 1,
+            "special_swimming_1": 1,
+            "defender_swimming_1": 1,
+            "guard_swimming_1": 1,
+            "vanguard_swimming_1": 1,
+            "medic_swimming_1": 1,
+            "caster_swimming_1": 1,
+            "sniper_swimming_1": 1,
+            "support_swimming_1": 1,
+            "trap_oxygen_1": 1,
+            "trap_oxygen_2": 1,
+            "trap_oxygen_3": 1,
+            "medic_favor_out_1": 1,
+            "special_favor_out_1": 1,
+            "defender_favor_out_1": 1,
+            "guard_favor_out_1": 1,
+            "vanguard_favor_out_1": 1,
+            "caster_favor_out_1": 1,
+            "sniper_favor_out_1": 1,
+            "support_favor_out_1": 1,
+            "charm_coin_1": 1,
+            "charm_coin_2": 1,
+            "charm_coin_3": 1,
+            "charm_coin_4": 1
+        },
+        "squad": []
+    },
+    "car": {
+        "battleCar": {
+            "ROOF": null,
+            "HEADSTOCK": null,
+            "TRUNK_01": null,
+            "TRUNK_02": null,
+            "CAR_OS_01": null,
+            "CAR_OS_02": null
+        },
+        "exhibitionCar": {
+            "ROOF": null,
+            "HEADSTOCK": null,
+            "TRUNK_01": null,
+            "TRUNK_02": null,
+            "CAR_OS_01": null,
+            "CAR_OS_02": null
+        },
+        "accessories": {
+            "durcar_gear_a_1_1": {
+                "id": "durcar_gear_a_1_1",
+                "num": 1
+            },
+            "durcar_gear_a_1_2": {
+                "id": "durcar_gear_a_1_2",
+                "num": 1
+            },
+            "durcar_gear_a_2_1": {
+                "id": "durcar_gear_a_2_1",
+                "num": 1
+            },
+            "durcar_gear_a_2_2": {
+                "id": "durcar_gear_a_2_2",
+                "num": 1
+            },
+            "durcar_gear_a_3_1": {
+                "id": "durcar_gear_a_3_1",
+                "num": 1
+            },
+            "durcar_gear_a_3_2": {
+                "id": "durcar_gear_a_3_2",
+                "num": 1
+            },
+            "durcar_gear_a_3_3": {
+                "id": "durcar_gear_a_3_3",
+                "num": 1
+            },
+            "durcar_gear_b_1_1": {
+                "id": "durcar_gear_b_1_1",
+                "num": 1
+            },
+            "durcar_gear_b_1_2": {
+                "id": "durcar_gear_b_1_2",
+                "num": 1
+            },
+            "durcar_gear_b_2_1": {
+                "id": "durcar_gear_b_2_1",
+                "num": 1
+            },
+            "durcar_gear_b_2_2": {
+                "id": "durcar_gear_b_2_2",
+                "num": 1
+            },
+            "durcar_gear_b_3_1": {
+                "id": "durcar_gear_b_3_1",
+                "num": 1
+            },
+            "durcar_gear_b_3_2": {
+                "id": "durcar_gear_b_3_2",
+                "num": 1
+            },
+            "durcar_gear_c_1_1": {
+                "id": "durcar_gear_c_1_1",
+                "num": 2
+            },
+            "durcar_gear_c_1_2": {
+                "id": "durcar_gear_c_1_2",
+                "num": 2
+            },
+            "durcar_gear_c_2_1": {
+                "id": "durcar_gear_c_2_1",
+                "num": 2
+            },
+            "durcar_gear_c_2_2": {
+                "id": "durcar_gear_c_2_2",
+                "num": 2
+            },
+            "durcar_gear_c_3_1": {
+                "id": "durcar_gear_c_3_1",
+                "num": 2
+            },
+            "durcar_gear_c_3_2": {
+                "id": "durcar_gear_c_3_2",
+                "num": 2
+            },
+            "durcar_gear_c_3_3": {
+                "id": "durcar_gear_c_3_3",
+                "num": 2
+            },
+            "durcar_soft_1_1": {
+                "id": "durcar_soft_1_1",
+                "num": 2
+            },
+            "durcar_soft_1_2a": {
+                "id": "durcar_soft_1_2a",
+                "num": 2
+            },
+            "durcar_soft_1_2b": {
+                "id": "durcar_soft_1_2b",
+                "num": 2
+            },
+            "durcar_soft_1_2c": {
+                "id": "durcar_soft_1_2c",
+                "num": 2
+            },
+            "durcar_soft_2_1": {
+                "id": "durcar_soft_2_1",
+                "num": 2
+            },
+            "durcar_soft_2_2a": {
+                "id": "durcar_soft_2_2a",
+                "num": 2
+            },
+            "durcar_soft_2_2b": {
+                "id": "durcar_soft_2_2b",
+                "num": 2
+            },
+            "durcar_soft_3_1": {
+                "id": "durcar_soft_3_1",
+                "num": 2
+            },
+            "durcar_soft_3_2": {
+                "id": "durcar_soft_3_2",
+                "num": 2
+            },
+            "durcar_soft_4_1": {
+                "id": "durcar_soft_4_1",
+                "num": 2
+            },
+            "durcar_soft_4_2": {
+                "id": "durcar_soft_4_2",
+                "num": 2
+            },
+            "durcar_soft_5_sp": {
+                "id": "durcar_soft_5_sp",
+                "num": 2
+            },
+            "durcar_soft_6_sp": {
+                "id": "durcar_soft_6_sp",
+                "num": 2
+            },
+            "durcar_soft_7_sp": {
+                "id": "durcar_soft_7_sp",
+                "num": 2
+            }
+        }
+    }
+}
