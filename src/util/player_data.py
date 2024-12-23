@@ -5,6 +5,8 @@ from ..const.filepath import (
     CHARWORD_TABLE,
     UNIEQUIP_TABLE,
     CHARACTER_TABLE,
+    STORY_TABLE,
+    STAGE_TABLE,
 )
 from .const_json_loader import const_json_loader, ConstJson
 from .helper import is_char_id, get_char_num_id
@@ -12,6 +14,8 @@ from .helper import is_char_id, get_char_num_id
 
 def build_player_data_template():
     tmpl_json_obj = const_json_loader[TMPL_JSON].copy()
+
+    # ----------
 
     skin_table = const_json_loader[SKIN_TABLE]
     charword_table = const_json_loader[CHARWORD_TABLE]
@@ -23,6 +27,10 @@ def build_player_data_template():
     for skin_id, skin_obj in skin_table["charSkins"]:
         if "@" not in skin_id:
             continue
+
+        tmpl_json_obj["skin"]["characterSkins"][skin_id] = 1
+        tmpl_json_obj["skin"]["skinTs"][skin_id] = 1700000000
+
         char_id = skin_obj["charId"]
         if char_id not in char_id_skin_id_dict:
             char_id_skin_id_dict[char_id] = skin_id
@@ -34,6 +42,8 @@ def build_player_data_template():
             ):
                 char_id_skin_id_dict[char_id] = skin_id
 
+    max_char_num_id = 0
+
     for char_id, char_obj in character_table:
         if not is_char_id(char_id):
             continue
@@ -42,6 +52,16 @@ def build_player_data_template():
             continue
 
         char_num_id = get_char_num_id(char_id)
+
+        max_char_num_id = max(max_char_num_id, char_num_id)
+
+        tmpl_json_obj["dexNav"]["character"][char_id] = {
+            "charInstId": char_num_id,
+            "count": 6,
+            "classicCount": 0,
+        }
+
+        tmpl_json_obj["troop"]["charGroup"][char_id] = {"favorPoint": 25570}
 
         if char_id in char_id_skin_id_dict:
             skin_id = char_id_skin_id_dict[char_id]
@@ -103,6 +123,30 @@ def build_player_data_template():
             ]
 
         tmpl_json_obj["troop"]["chars"][str(char_num_id)] = player_data_char_obj
+
+    tmpl_json_obj["troop"]["curCharInstId"] = max_char_num_id + 1
+
+    # ----------
+
+    story_table = const_json_loader[STORY_TABLE]
+    for story_id, story_obj in story_table:
+        tmpl_json_obj["status"]["flags"][story_id] = 1
+
+    # ----------
+
+    stage_table = const_json_loader[STAGE_TABLE]
+    for stage_id, stage_obj in stage_table["stages"]:
+        tmpl_json_obj["dungeon"]["stages"][stage_id] = {
+            "stageId": stage_id,
+            "completeTimes": 1,
+            "startTimes": 1,
+            "practiceTimes": 0,
+            "state": 3,
+            "hasBattleReplay": 0,
+            "noCostCnt": 0,
+        }
+
+    # ----------
 
     player_data_template = ConstJson(tmpl_json_obj)
     return player_data_template
