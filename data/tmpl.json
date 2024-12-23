@@ -1794,9 +1794,7 @@
         "nst": 1700000000,
         "rewardPerm": []
     },
-    "event": {
-        "building": 1700000000
-    },
+    "event": {},
     "charRotation": {
         "current": "1",
         "preset": {
