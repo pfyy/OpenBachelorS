@@ -4,6 +4,26 @@ import json
 from copy import deepcopy
 
 
+class ConstJsonIter:
+    def __init__(self, const_json):
+        self.const_json = const_json
+
+        self.iter_lst_idx = 0
+        if isinstance(const_json.json_obj, dict):
+            self.iter_lst = list(const_json.json_obj.keys())
+        elif isinstance(const_json.json_obj, list):
+            self.iter_lst = list(range(len(const_json.json_obj)))
+        else:
+            raise TypeError
+
+    def __next__(self):
+        if self.iter_lst_idx >= len(self.iter_lst):
+            raise StopIteration
+        key = self.iter_lst[self.iter_lst_idx]
+        self.iter_lst_idx += 1
+        return key, self.const_json[key]
+
+
 class ConstJson:
     def __init__(self, json_obj):
         self.json_obj = json_obj
@@ -18,9 +38,13 @@ class ConstJson:
     def copy(self):
         return deepcopy(self.json_obj)
 
+    def __iter__(self):
+        const_json_iter = ConstJsonIter(self)
+        return const_json_iter
+
 
 class ConstJsonLoader:
-    TARGET_DIR_LST = ["conf", "res/excel"]
+    TARGET_DIR_LST = ["conf", "res/excel", "data"]
 
     def __init__(self):
         self.const_json_dict = {}
