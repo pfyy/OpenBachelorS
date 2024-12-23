@@ -9,6 +9,7 @@ from ..const.filepath import (
     STAGE_TABLE,
     HANDBOOK_INFO_TABLE,
     RETRO_TABLE,
+    DISPLAY_META_TABLE,
 )
 from .const_json_loader import const_json_loader, ConstJson
 from .helper import is_char_id, get_char_num_id
@@ -151,6 +152,13 @@ def build_player_data_template():
             "noCostCnt": 0,
         }
 
+        if stage_id.startswith("camp_"):
+            tmpl_json_obj["campaignsV2"]["open"]["permanent"].append(stage_id)
+            tmpl_json_obj["campaignsV2"]["instances"][stage_id] = {
+                "maxKills": 400,
+                "rewardStatus": [1, 1, 1, 1, 1, 1, 1, 1],
+            }
+
     # ----------
 
     handbook_info_table = const_json_loader[HANDBOOK_INFO_TABLE]
@@ -194,6 +202,31 @@ def build_player_data_template():
         for i, reward_obj in trail_obj["trailRewardList"]:
             reward_id = reward_obj["trailRewardId"]
             tmpl_json_obj["retro"]["trail"][trail_id][reward_id] = 1
+
+    # ----------
+
+    display_meta_table = const_json_loader[DISPLAY_META_TABLE]
+
+    for i, avatar_obj in display_meta_table["playerAvatarData"]["avatarList"]:
+        avatar_id = avatar_obj["avatarId"]
+        tmpl_json_obj["avatar"]["avatar_icon"][avatar_id] = {
+            "ts": 1700000000,
+            "src": "initial",
+        }
+
+    for namecard_id, namecard_obj in display_meta_table["nameCardV2Data"]["skinData"]:
+        tmpl_json_obj["nameCardStyle"]["skin"]["state"][namecard_id] = {
+            "unlock": true,
+            "progress": null,
+        }
+
+    for i, bg_obj in display_meta_table["homeBackgroundData"]["homeBgDataList"]:
+        bg_id = bg_obj["bgId"]
+        tmpl_json_obj["background"]["bgs"][bg_id] = {"unlock": 1700000000}
+
+    for i, theme_obj in display_meta_table["homeBackgroundData"]["themeList"]:
+        theme_id = theme_obj["id"]
+        tmpl_json_obj["homeTheme"]["themes"][theme_id] = {"unlock": 1700000000}
 
     # ----------
 
