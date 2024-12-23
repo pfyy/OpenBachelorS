@@ -14,6 +14,7 @@ from ..const.filepath import (
     STORY_REVIEW_TABLE,
     STORY_REVIEW_META_TABLE,
     ENEMY_HANDBOOK_TABLE,
+    ACTIVITY_TABLE,
 )
 from .const_json_loader import const_json_loader, ConstJson
 from .helper import is_char_id, get_char_num_id
@@ -277,6 +278,16 @@ def build_player_data_template():
     enemy_handbook_table = const_json_loader[ENEMY_HANDBOOK_TABLE]
     for enemy_id, enemy_obj in enemy_handbook_table["enemyData"]:
         tmpl_json_obj["dexNav"]["enemy"]["enemies"][enemy_id] = 1
+
+    # ----------
+
+    activity_table = const_json_loader[ACTIVITY_TABLE]
+    for activity_type_id, activity_type_obj in activity_table["activity"]:
+        if activity_type_id not in tmpl_json_obj["activity"]:
+            tmpl_json_obj["activity"][activity_type_id] = {}
+        for activity_id, activity_obj in activity_table["activity"][activity_type_id]:
+            if activity_id not in tmpl_json_obj["activity"][activity_type_id]:
+                tmpl_json_obj["activity"][activity_type_id][activity_id] = {}
 
     # ----------
 
