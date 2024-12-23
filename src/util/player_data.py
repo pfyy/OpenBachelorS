@@ -79,7 +79,7 @@ def build_player_data_template():
         if char_id in charword_table["charDefaultTypeDict"]:
             voice_lan = charword_table["charDefaultTypeDict"][char_id]
         else:
-            voice_lan = None
+            voice_lan = "NONE"
 
         player_data_char_obj = {
             "instId": char_num_id,
@@ -117,9 +117,12 @@ def build_player_data_template():
                     uniequip_level = 1
                 else:
                     uniequip_level = 3
-                player_data_char_obj["equip"][uniequip_id] = (
-                    {"hide": 0, "locked": 0, "level": uniequip_level},
-                )
+                player_data_char_obj["equip"][uniequip_id] = {
+                    "hide": 0,
+                    "locked": 0,
+                    "level": uniequip_level,
+                }
+
             player_data_char_obj["currentEquip"] = uniequip_table["charEquip"][char_id][
                 -1
             ]
