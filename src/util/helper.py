@@ -10,6 +10,10 @@ def get_char_num_id(char_id: str) -> int:
     return int(char_id.split("_")[1])
 
 
+def get_char_id_from_skin_id(skin_id: str) -> str:
+    return skin_id.partition("@")[0].partition("#")[0]
+
+
 def merge_delta_into_tmpl(tmpl: dict, modified: dict, deleted: dict):
     stk = []
     stk.append(

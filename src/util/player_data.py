@@ -449,7 +449,7 @@ class JsonWithDeltaIter:
 
         self.iter_set = set()
 
-        if json_with_delta.base_json_is_custom_type():
+        if json_with_delta.base_json_is_dict_like_type():
             for i, j in json_with_delta.base_json:
                 self.iter_set.add(i)
 
@@ -477,18 +477,18 @@ class JsonWithDelta:
         self.base_json = base_json
         self.delta_json = delta_json
 
-    def base_json_is_custom_type(self):
+    def base_json_is_dict_like_type(self):
         return (
             isinstance(self.base_json, ConstJson)
             and isinstance(self.base_json.json_obj, dict)
         ) or isinstance(self.base_json, JsonWithDelta)
 
     def base_json_contains(self, key):
-        return self.base_json_is_custom_type() and key in self.base_json
+        return self.base_json_is_dict_like_type() and key in self.base_json
 
     def self_is_dict(self):
         return (
-            self.base_json_is_custom_type()
+            self.base_json_is_dict_like_type()
             and isinstance(self.delta_json.modified_json_obj, MissingJsonObj)
         ) or isinstance(self.delta_json.modified_json_obj, dict)
 
@@ -528,7 +528,9 @@ class JsonWithDelta:
         del self.delta_json[key]
 
     def copy(self):
-        if self.base_json_is_custom_type():
+        if isinstance(self.base_json, ConstJson) or isinstance(
+            self.base_json, JsonWithDelta
+        ):
             json_obj = self.base_json.copy()
         else:
             json_obj = self.base_json
@@ -536,8 +538,11 @@ class JsonWithDelta:
 
         if not isinstance(modified_json_obj_copy, dict):
             return modified_json_obj_copy
-        if not isinstance(json_obj, dict) and not modified_json_obj_copy:
-            return json_obj
+        if not isinstance(json_obj, dict):
+            if not modified_json_obj_copy:
+                return json_obj
+            else:
+                return modified_json_obj_copy
 
         merge_delta_into_tmpl(json_obj, modified_json_obj_copy, deleted_json_obj_copy)
 
