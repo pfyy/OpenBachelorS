@@ -423,6 +423,9 @@ class DeltaJson:
             return -1
         return 0
 
+    def __contains__(self, key):
+        return self.contains(key) == 1
+
     def copy(self):
         if not isinstance(self.modified_json_obj, MissingJsonObj):
             modified_json_obj_copy = deepcopy(self.modified_json_obj)
@@ -560,6 +563,37 @@ class FileBasedDeltaJson(DeltaJson):
         self.deleted_json_obj = {}
 
 
+def build_delta_response(former_delta_json: DeltaJson, latter_delta_json: DeltaJson):
+    modified_json_obj, deleted_json_obj = latter_delta_json.copy()
+    stk = []
+    stk.append((former_delta_json, latter_delta_json.modified_json_obj))
+    while len(stk):
+        cur_delta_json, cur_modified = stk.pop()
+        for key in cur_modified:
+            value = cur_modified[key]
+            if isinstance(value, dict):
+                stk.append((cur_delta_json[key], value))
+            else:
+                cur_delta_json[key] = value
+
+    stk = []
+    stk.append((former_delta_json, latter_delta_json.deleted_json_obj))
+    while len(stk):
+        cur_delta_json, cur_deleted = stk.pop()
+        for key in cur_deleted:
+            value = cur_deleted[key]
+            if isinstance(value, dict):
+                stk.append((cur_delta_json[key], value))
+            else:
+                for deleted_key in value:
+                    del cur_delta_json[key][deleted_key]
+
+    latter_delta_json.modified_json_obj = {}
+    latter_delta_json.deleted_json_obj = {}
+
+    return {"modified": modified_json_obj, "deleted": deleted_json_obj}
+
+
 class PlayerData:
     def __init__(self):
         self.sav_delta_json = FileBasedDeltaJson(SAV_DELTA_JSON)
@@ -579,3 +613,6 @@ class PlayerData:
     def reset(self):
         self.sav_delta_json.reset()
         self.sav_pending_delta_json.reset()
+
+    def build_delta_response(self):
+        return build_delta_response(self.sav_delta_json, self.sav_pending_delta_json)
