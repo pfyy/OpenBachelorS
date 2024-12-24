@@ -338,8 +338,6 @@ class DeltaJson:
 
     def format(self):
         if self.parent is not None:
-            if not self.modified_json_obj:
-                self.modified_json_obj = MissingJsonObj()
             if not self.deleted_json_obj:
                 self.deleted_json_obj = MissingJsonObj()
             self.update_parent()
@@ -408,11 +406,6 @@ class DeltaJson:
 
         if isinstance(self.modified_json_obj, dict) and key in self.modified_json_obj:
             del self.modified_json_obj[key]
-
-        self.format()
-
-    def debug(self):
-        print(self.modified_json_obj, self.deleted_json_obj)
 
 
 class JsonWithDelta:

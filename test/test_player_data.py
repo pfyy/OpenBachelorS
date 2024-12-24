@@ -12,73 +12,37 @@ def test_player_data_template():
 
 def test_delta_json():
     delta_json = DeltaJson({}, {})
-
     delta_json["a"]["b"]["c"] = {}
-
-    delta_json.debug()
-
     delta_json["a"] = {}
-
-    delta_json.debug()
-
-    print("---")
+    assert (
+        delta_json.modified_json_obj == {"a": {}} and delta_json.deleted_json_obj == {}
+    )
 
     delta_json = DeltaJson({}, {})
-
-    delta_json["a"] = {}
-
-    delta_json.debug()
-
     delta_json["a"]["b"]["c"] = {}
-
-    delta_json.debug()
-
-    print("---")
+    del delta_json["a"]["b"]
+    assert delta_json.modified_json_obj == {
+        "a": {}
+    } and delta_json.deleted_json_obj == {"a": ["b"]}
 
     delta_json = DeltaJson({}, {})
-
-    delta_json["a"]["b"]["c"] = {}
-
-    delta_json.debug()
-
     del delta_json["a"]["b"]
-
-    delta_json.debug()
-
-    print("---")
-
-    delta_json = DeltaJson({}, {})
-
-    del delta_json["a"]["b"]
-
-    delta_json.debug()
-
     delta_json["a"] = {}
-
-    delta_json.debug()
-
-    print("---")
+    assert (
+        delta_json.modified_json_obj == {"a": {}} and delta_json.deleted_json_obj == {}
+    )
 
     delta_json = DeltaJson({}, {})
-
     del delta_json["a"]["b"]
-
-    delta_json.debug()
-
     delta_json["a"]["b"] = {}
-
-    delta_json.debug()
-
-    print("---")
+    assert (
+        delta_json.modified_json_obj == {"a": {"b": {}}}
+        and delta_json.deleted_json_obj == {}
+    )
 
     delta_json = DeltaJson({}, {})
-
     del delta_json["a"]["b"]["c"]
-
-    delta_json.debug()
-
     del delta_json["a"]["b"]
-
-    delta_json.debug()
-
-    print("---")
+    assert delta_json.modified_json_obj == {} and delta_json.deleted_json_obj == {
+        "a": ["b"]
+    }
