@@ -65,7 +65,7 @@ def load_delta_json_obj(path: str):
 
 
 def save_delta_json_obj(path: str, modified: dict, deleted: dict):
-    dirpath = os.path.dirname(dirpath)
+    dirpath = os.path.dirname(path)
     os.makedirs(dirpath, exist_ok=True)
     json_obj = {"modified": modified, "deleted": deleted}
     with open(path, "w", encoding="utf-8") as f:
