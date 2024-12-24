@@ -407,7 +407,88 @@ class DeltaJson:
         if isinstance(self.modified_json_obj, dict) and key in self.modified_json_obj:
             del self.modified_json_obj[key]
 
+    def contains(self, key):
+        if isinstance(self.modified_json_obj, dict) and key in self.modified_json_obj:
+            return 1
+        if (
+            not isinstance(self.deleted_json_obj, MissingJsonObj)
+            and key in self.deleted_json_obj
+        ):
+            return -1
+        return 0
+
+    def copy(self):
+        if not isinstance(self.modified_json_obj, MissingJsonObj):
+            modified_json_obj_copy = deepcopy(self.modified_json_obj)
+        else:
+            modified_json_obj_copy = {}
+        if not isinstance(self.deleted_json_obj, MissingJsonObj):
+            deleted_json_obj_copy = deepcopy(self.deleted_json_obj)
+        else:
+            deleted_json_obj_copy = {}
+
+        return modified_json_obj_copy, deleted_json_obj_copy
+
 
 class JsonWithDelta:
-    def __init__(self):
-        pass
+    def __init__(self, base_json, delta_json):
+        self.base_json = base_json
+        self.delta_json = delta_json
+
+    def base_json_contains(self, key):
+        return isinstance(self.base_json, ConstJson) and key in self.base_json
+
+    def self_is_dict(self):
+        return (
+            isinstance(self.base_json, ConstJson)
+            and isinstance(self.delta_json.modified_json_obj, MissingJsonObj)
+        ) or isinstance(self.delta_json.modified_json_obj, dict)
+
+    def __contains__(self, key):
+        delta_json_key_stats = self.delta_json.contains(key)
+        if (
+            self.base_json_contains(key) and delta_json_key_stats != -1
+        ) or delta_json_key_stats == 1:
+            return True
+        return False
+
+    def __getitem__(self, key):
+        if key not in self:
+            raise KeyError
+
+        if self.base_json_contains(key):
+            child_base_json = self.base_json[key]
+        else:
+            child_base_json = None
+
+        child_delta_json = self.delta_json[key]
+
+        child_json_with_delta = JsonWithDelta(child_base_json, child_delta_json)
+
+        return child_json_with_delta
+
+    def __setitem__(self, key, value):
+        if not self.self_is_dict():
+            raise TypeError
+
+        self.delta_json[key] = value
+
+    def __delitem__(self, key):
+        if key not in self:
+            raise KeyError
+
+        del self.delta_json[key]
+
+    def copy(self):
+        if isinstance(self.base_json, ConstJson):
+            json_obj = self.base_json.copy()
+        else:
+            json_obj = self.base_json
+        modified_json_obj_copy, deleted_json_obj_copy = self.delta_json.copy()
+
+        if not isinstance(modified_json_obj_copy, dict):
+            return modified_json_obj_copy
+        if not isinstance(json_obj, dict) and not modified_json_obj_copy:
+            return json_obj
+
+        return json_obj

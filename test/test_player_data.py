@@ -1,7 +1,8 @@
 import os
 import json
 
-from ..src.util.player_data import player_data_template, DeltaJson
+from ..src.util.const_json_loader import ConstJson
+from ..src.util.player_data import player_data_template, DeltaJson, JsonWithDelta
 
 
 def test_player_data_template():
@@ -81,3 +82,19 @@ def test_delta_json():
     assert delta_json.modified_json_obj == {} and delta_json.deleted_json_obj == {
         "a": ["b"]
     }
+
+
+def test_json_with_delta():
+    const_json = ConstJson(
+        {"a": {"b": {"d": "e"}, "c": 123, "f": {"g": "h"}}, "u": 234}
+    )
+    delta_json = DeltaJson({}, {})
+    json_with_delta = JsonWithDelta(const_json, delta_json)
+
+    json_with_delta["a"]["b"] = 456
+
+    del json_with_delta["a"]["f"]["g"]
+
+    json_with_delta["a"]["c"] = {"x": {"y": "z"}}
+
+    del json_with_delta["a"]["c"]["x"]["y"]
