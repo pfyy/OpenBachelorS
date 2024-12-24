@@ -31,16 +31,14 @@ def account_login():
 @bp_account.route("/account/syncData", methods=["POST"])
 def account_syncData():
     player_data = PlayerData()
-    player_data_accessor = player_data.accessor()
 
     t = int(time.time())
-
-    player_data_accessor["status"]["lastRefreshTs"] = t
+    player_data["status"]["lastRefreshTs"] = t
 
     delta_response = player_data.build_delta_response()
     player_data.save()
 
-    player_data_json_obj = player_data_accessor.copy()
+    player_data_json_obj = player_data.copy()
 
     response = {
         "result": 0,

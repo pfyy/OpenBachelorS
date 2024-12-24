@@ -135,11 +135,10 @@ def test_json_with_delta_iter():
 
 def test_player_data():
     player_data = PlayerData()
-    player_data_accessor = player_data.accessor()
 
     player_data.reset()
 
-    player_data_accessor["status"]["nickName"] = "SomeRandomName"
+    player_data["status"]["nickName"] = "SomeRandomName"
 
     delta_response = player_data.build_delta_response()
     player_data.save()

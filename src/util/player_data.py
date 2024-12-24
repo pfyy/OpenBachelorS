@@ -596,17 +596,12 @@ def build_delta_response(former_delta_json: DeltaJson, latter_delta_json: DeltaJ
     return {"modified": modified_json_obj, "deleted": deleted_json_obj}
 
 
-class PlayerData:
+class PlayerData(JsonWithDelta):
     def __init__(self):
         self.sav_delta_json = FileBasedDeltaJson(SAV_DELTA_JSON)
         self.sav_pending_delta_json = FileBasedDeltaJson(SAV_PENDING_DELTA_JSON)
         self.json_with_delta = JsonWithDelta(player_data_template, self.sav_delta_json)
-        self.json_with_delta_delta = JsonWithDelta(
-            self.json_with_delta, self.sav_pending_delta_json
-        )
-
-    def accessor(self):
-        return self.json_with_delta_delta
+        super().__init__(self.json_with_delta, self.sav_pending_delta_json)
 
     def save(self):
         self.sav_delta_json.save()
