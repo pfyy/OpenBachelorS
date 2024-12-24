@@ -65,3 +65,12 @@ def charBuild_changeCharSkin(player_data):
 
     response = {}
     return response
+
+
+@bp_charBuild.route("/charBuild/batchSetCharVoiceLan", methods=["POST"])
+@player_data_decorator
+def charBuild_batchSetCharVoiceLan(player_data):
+    request_json = request.get_json()
+
+    response = {}
+    return response

@@ -19,3 +19,15 @@ def quest_squadFormation(player_data):
 
     response = {}
     return response
+
+
+@bp_quest.route("/quest/changeSquadName", methods=["POST"])
+@player_data_decorator
+def quest_changeSquadName(player_data):
+    request_json = request.get_json()
+
+    squad_id = request_json["squadId"]
+    player_data["troop"]["squads"][squad_id]["name"] = request_json["name"]
+
+    response = {}
+    return response
