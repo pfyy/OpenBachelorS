@@ -602,7 +602,7 @@ class PlayerData:
         self.sav_pending_delta_json = FileBasedDeltaJson(SAV_PENDING_DELTA_JSON)
         self.json_with_delta = JsonWithDelta(player_data_template, self.sav_delta_json)
         self.json_with_delta_delta = JsonWithDelta(
-            player_data_template, self.sav_pending_delta_json
+            self.json_with_delta, self.sav_pending_delta_json
         )
 
     def accessor(self):
