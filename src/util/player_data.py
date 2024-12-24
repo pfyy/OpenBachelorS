@@ -1,4 +1,5 @@
 from copy import deepcopy
+from functools import wraps
 
 from ..const.json_const import true, false, null
 from ..const.filepath import (
@@ -613,3 +614,19 @@ class PlayerData(JsonWithDelta):
 
     def build_delta_response(self):
         return build_delta_response(self.sav_delta_json, self.sav_pending_delta_json)
+
+
+def player_data_decorator(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        player_data = PlayerData()
+        json_response = func(player_data, *args, **kwargs)
+
+        delta_response = player_data.build_delta_response()
+        player_data.save()
+
+        json_response["playerDataDelta"] = delta_response
+
+        return json_response
+
+    return wrapper

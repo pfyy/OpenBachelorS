@@ -7,6 +7,7 @@ from ..src.util.player_data import (
     DeltaJson,
     JsonWithDelta,
     PlayerData,
+    player_data_decorator,
 )
 
 
@@ -142,3 +143,14 @@ def test_player_data():
 
     delta_response = player_data.build_delta_response()
     player_data.save()
+
+
+def test_player_data_decorator():
+    @player_data_decorator
+    def f(player_data):
+        player_data["status"]["ap"] = 888
+        return {}
+
+    response = f()
+
+    assert response["playerDataDelta"]["modified"]["status"]["ap"] == 888
