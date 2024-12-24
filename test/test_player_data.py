@@ -98,3 +98,8 @@ def test_json_with_delta():
     json_with_delta["a"]["c"] = {"x": {"y": "z"}}
 
     del json_with_delta["a"]["c"]["x"]["y"]
+
+    assert json_with_delta.copy() == {
+        "a": {"b": 456, "c": {"x": {}}, "f": {}},
+        "u": 234,
+    }

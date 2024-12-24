@@ -21,7 +21,12 @@ from ..const.filepath import (
     SAV_PENDING_DELTA_JSON,
 )
 from .const_json_loader import const_json_loader, ConstJson
-from .helper import is_char_id, get_char_num_id, load_delta_json_obj
+from .helper import (
+    is_char_id,
+    get_char_num_id,
+    load_delta_json_obj,
+    merge_delta_into_tmpl,
+)
 
 
 def build_player_data_template():
@@ -490,5 +495,7 @@ class JsonWithDelta:
             return modified_json_obj_copy
         if not isinstance(json_obj, dict) and not modified_json_obj_copy:
             return json_obj
+
+        merge_delta_into_tmpl(json_obj, modified_json_obj_copy, deleted_json_obj_copy)
 
         return json_obj
