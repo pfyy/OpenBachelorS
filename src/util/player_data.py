@@ -25,6 +25,7 @@ from .helper import (
     is_char_id,
     get_char_num_id,
     load_delta_json_obj,
+    save_delta_json_obj,
     merge_delta_into_tmpl,
 )
 
@@ -440,12 +441,17 @@ class JsonWithDelta:
         self.base_json = base_json
         self.delta_json = delta_json
 
+    def base_json_is_custom_type(self):
+        return isinstance(self.base_json, ConstJson) or isinstance(
+            self.base_json, JsonWithDelta
+        )
+
     def base_json_contains(self, key):
-        return isinstance(self.base_json, ConstJson) and key in self.base_json
+        return self.base_json_is_custom_type() and key in self.base_json
 
     def self_is_dict(self):
         return (
-            isinstance(self.base_json, ConstJson)
+            self.base_json_is_custom_type()
             and isinstance(self.delta_json.modified_json_obj, MissingJsonObj)
         ) or isinstance(self.delta_json.modified_json_obj, dict)
 
@@ -485,7 +491,7 @@ class JsonWithDelta:
         del self.delta_json[key]
 
     def copy(self):
-        if isinstance(self.base_json, ConstJson):
+        if self.base_json_is_custom_type():
             json_obj = self.base_json.copy()
         else:
             json_obj = self.base_json
@@ -499,3 +505,36 @@ class JsonWithDelta:
         merge_delta_into_tmpl(json_obj, modified_json_obj_copy, deleted_json_obj_copy)
 
         return json_obj
+
+
+class FileBasedDeltaJson(DeltaJson):
+    def __init__(self, path: str):
+        self.path = path
+        json_obj = load_delta_json_obj(path)
+
+        super().__init__(json_obj["modified"], json_obj["deleted"])
+
+    def save(self):
+        save_delta_json_obj(self.path, self.modified_json_obj, self.deleted_json_obj)
+
+    def reset(self):
+        self.modified_json_obj = {}
+        self.deleted_json_obj = {}
+
+
+class PlayerData:
+    def __init__(self):
+        self.sav_delta_json = FileBasedDeltaJson(SAV_DELTA_JSON)
+        self.sav_pending_delta_json = FileBasedDeltaJson(SAV_PENDING_DELTA_JSON)
+        self.json_with_delta = JsonWithDelta(player_data_template, self.sav_delta_json)
+        self.json_with_delta_delta = JsonWithDelta(
+            player_data_template, self.sav_pending_delta_json
+        )
+
+    def save(self):
+        self.sav_delta_json.save()
+        self.sav_pending_delta_json.save()
+
+    def reset(self):
+        self.sav_delta_json.reset()
+        self.sav_pending_delta_json.reset()

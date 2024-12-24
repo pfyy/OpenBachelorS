@@ -2,7 +2,12 @@ import os
 import json
 
 from ..src.util.const_json_loader import ConstJson
-from ..src.util.player_data import player_data_template, DeltaJson, JsonWithDelta
+from ..src.util.player_data import (
+    player_data_template,
+    DeltaJson,
+    JsonWithDelta,
+    PlayerData,
+)
 
 
 def test_player_data_template():
@@ -103,3 +108,13 @@ def test_json_with_delta():
         "a": {"b": 456, "c": {"x": {}}, "f": {}},
         "u": 234,
     }
+
+
+def test_player_data():
+    player_data = PlayerData()
+
+    player_data.reset()
+
+    player_data.json_with_delta_delta["status"]["nickName"] = "SomeRandomName"
+
+    player_data.save()
