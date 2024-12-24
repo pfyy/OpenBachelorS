@@ -34,11 +34,11 @@ def account_syncData():
 
     player_data_accessor = player_data.accessor()
 
-    player_data_json_obj = player_data_accessor.copy()
-
     t = int(time.time())
 
-    player_data_json_obj["status"]["lastRefreshTs"] = t
+    player_data_accessor["status"]["lastRefreshTs"] = t
+
+    player_data_json_obj = player_data_accessor.copy()
 
     response = {
         "result": 0,
