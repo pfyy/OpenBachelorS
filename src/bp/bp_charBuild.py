@@ -23,3 +23,17 @@ def charBuild_setDefaultSkill(player_data):
 
     response = {}
     return response
+
+
+@bp_charBuild.route("/charBuild/setEquipment", methods=["POST"])
+@player_data_decorator
+def charBuild_setEquipment(player_data):
+    request_json = request.get_json()
+
+    char_num_id = request_json["charInstId"]
+    equip_id = request_json["equipId"]
+
+    player_data["troop"]["chars"][str(char_num_id)]["currentEquip"] = equip_id
+
+    response = {}
+    return response

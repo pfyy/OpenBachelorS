@@ -3,6 +3,7 @@ from flask import Flask
 
 from .bp.bp_account import bp_account
 from .bp.bp_app import bp_app
+from .bp.bp_char import bp_char
 from .bp.bp_charBuild import bp_charBuild
 from .bp.bp_config import bp_config
 from .bp.bp_general import bp_general
@@ -15,6 +16,7 @@ app = Flask(__name__)
 
 app.register_blueprint(bp_account)
 app.register_blueprint(bp_app)
+app.register_blueprint(bp_char)
 app.register_blueprint(bp_charBuild)
 app.register_blueprint(bp_config)
 app.register_blueprint(bp_general)
