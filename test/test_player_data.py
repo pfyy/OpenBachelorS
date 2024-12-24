@@ -115,6 +115,6 @@ def test_player_data():
 
     player_data.reset()
 
-    player_data.json_with_delta_delta["status"]["nickName"] = "SomeRandomName"
+    player_data.accessor()["status"]["nickName"] = "SomeRandomName"
 
     player_data.save()

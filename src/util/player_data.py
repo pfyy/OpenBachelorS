@@ -531,6 +531,9 @@ class PlayerData:
             player_data_template, self.sav_pending_delta_json
         )
 
+    def accessor(self):
+        return self.json_with_delta_delta
+
     def save(self):
         self.sav_delta_json.save()
         self.sav_pending_delta_json.save()
