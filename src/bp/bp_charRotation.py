@@ -34,7 +34,7 @@ def charRotation_createPreset(player_data):
         max_preset_id = max(max_preset_id, i)
 
     max_preset_id += 1
-    player_data["charRotation"]["preset"][max_preset_id] = {
+    player_data["charRotation"]["preset"][str(max_preset_id)] = {
         "name": "未命名界面配置",
         "background": "bg_rhodes_day",
         "homeTheme": "tm_rhodes_day",
