@@ -38,6 +38,8 @@ def account_syncData():
 
     player_data_accessor["status"]["lastRefreshTs"] = t
 
+    player_data.save()
+
     player_data_json_obj = player_data_accessor.copy()
 
     response = {
