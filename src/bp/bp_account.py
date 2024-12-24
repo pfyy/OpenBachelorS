@@ -6,7 +6,7 @@ from flask import request
 from ..const.json_const import true, false, null
 from ..const.filepath import CONFIG_JSON, VERSION_JSON
 from ..util.const_json_loader import const_json_loader
-from ..util.player_data import PlayerData
+from ..util.player_data import PlayerData, player_data_decorator
 
 
 bp_account = Blueprint("bp_account", __name__)
@@ -46,4 +46,12 @@ def account_syncData():
         "user": player_data_json_obj,
         "playerDataDelta": {"modified": {}, "deleted": {}},
     }
+    return response
+
+
+@bp_account.route("/account/syncStatus", methods=["POST"])
+@player_data_decorator
+def account_syncStatus(player_data):
+    request_json = request.get_json()
+    response = {}
     return response
