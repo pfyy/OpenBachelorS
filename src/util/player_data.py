@@ -473,9 +473,10 @@ class JsonWithDelta:
         self.delta_json = delta_json
 
     def base_json_is_custom_type(self):
-        return isinstance(self.base_json, ConstJson) or isinstance(
-            self.base_json, JsonWithDelta
-        )
+        return (
+            isinstance(self.base_json, ConstJson)
+            and isinstance(self.base_json.json_obj, dict)
+        ) or isinstance(self.base_json, JsonWithDelta)
 
     def base_json_contains(self, key):
         return self.base_json_is_custom_type() and key in self.base_json
