@@ -110,6 +110,29 @@ def test_json_with_delta():
     }
 
 
+def test_json_with_delta_iter():
+    const_json = ConstJson(
+        {"a": {"b": {"d": "e"}, "c": 123, "f": {"g": "h"}}, "u": 234}
+    )
+    delta_json = DeltaJson({}, {})
+    json_with_delta = JsonWithDelta(const_json, delta_json)
+
+    json_with_delta["a"]["b"] = 456
+
+    del json_with_delta["a"]["f"]["g"]
+
+    json_with_delta["a"]["c"] = {"x": {"y": "z"}}
+
+    del json_with_delta["a"]["c"]["x"]["y"]
+
+    assert json_with_delta.copy() == {
+        "a": {"b": 456, "c": {"x": {}}, "f": {}},
+        "u": 234,
+    }
+
+    assert set([i[0] for i in json_with_delta]) == set(["a", "u"])
+
+
 def test_player_data():
     player_data = PlayerData()
 

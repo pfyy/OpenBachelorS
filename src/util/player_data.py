@@ -436,6 +436,37 @@ class DeltaJson:
         return modified_json_obj_copy, deleted_json_obj_copy
 
 
+class JsonWithDeltaIter:
+    def __init__(self, json_with_delta):
+        self.json_with_delta = json_with_delta
+
+        self.iter_lst_idx = 0
+
+        self.iter_set = set()
+
+        if json_with_delta.base_json_is_custom_type():
+            for i, j in json_with_delta.base_json:
+                self.iter_set.add(i)
+
+        if isinstance(json_with_delta.delta_json.modified_json_obj, dict):
+            for i in json_with_delta.delta_json.modified_json_obj:
+                self.iter_set.add(i)
+
+        if isinstance(json_with_delta.delta_json.deleted_json_obj, list):
+            for i in json_with_delta.delta_json.deleted_json_obj:
+                if i in self.iter_set:
+                    self.iter_set.remove(i)
+
+        self.iter_lst = list(self.iter_set)
+
+    def __next__(self):
+        if self.iter_lst_idx >= len(self.iter_lst):
+            raise StopIteration
+        key = self.iter_lst[self.iter_lst_idx]
+        self.iter_lst_idx += 1
+        return key, self.json_with_delta[key]
+
+
 class JsonWithDelta:
     def __init__(self, base_json, delta_json):
         self.base_json = base_json
@@ -505,6 +536,12 @@ class JsonWithDelta:
         merge_delta_into_tmpl(json_obj, modified_json_obj_copy, deleted_json_obj_copy)
 
         return json_obj
+
+    def __iter__(self):
+        if not self.self_is_dict():
+            raise TypeError
+        json_with_delta_iter = JsonWithDeltaIter(self)
+        return json_with_delta_iter
 
 
 class FileBasedDeltaJson(DeltaJson):
