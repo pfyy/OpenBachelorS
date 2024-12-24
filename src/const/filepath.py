@@ -3,6 +3,9 @@ VERSION_JSON = "conf/version.json"
 
 TMPL_JSON = "data/tmpl.json"
 
+SAV_DELTA_JSON = "sav/delta.json"
+SAV_PENDING_DELTA_JSON = "sav/pending_delta.json"
+
 SKIN_TABLE = "res/excel/skin_table.json"
 CHARWORD_TABLE = "res/excel/charword_table.json"
 UNIEQUIP_TABLE = "res/excel/uniequip_table.json"

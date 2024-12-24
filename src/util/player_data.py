@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 from ..const.json_const import true, false, null
 from ..const.filepath import (
     TMPL_JSON,
@@ -15,9 +17,11 @@ from ..const.filepath import (
     STORY_REVIEW_META_TABLE,
     ENEMY_HANDBOOK_TABLE,
     ACTIVITY_TABLE,
+    SAV_DELTA_JSON,
+    SAV_PENDING_DELTA_JSON,
 )
 from .const_json_loader import const_json_loader, ConstJson
-from .helper import is_char_id, get_char_num_id
+from .helper import is_char_id, get_char_num_id, load_delta_json_obj
 
 
 def build_player_data_template():
@@ -296,3 +300,121 @@ def build_player_data_template():
 
 
 player_data_template = build_player_data_template()
+
+
+class MissingJsonObj:
+    pass
+
+
+class DeltaJson:
+    def __init__(
+        self,
+        modified_json_obj,
+        deleted_json_obj,
+        parent=None,
+        prev_key=None,
+    ):
+        if parent is None:
+            modified_json_obj = deepcopy(modified_json_obj)
+            deleted_json_obj = deepcopy(deleted_json_obj)
+        self.modified_json_obj = modified_json_obj
+        self.deleted_json_obj = deleted_json_obj
+        self.parent = parent
+        self.prev_key = prev_key
+
+    def update_parent(self):
+        if self.parent is not None:
+            if isinstance(self.modified_json_obj, MissingJsonObj):
+                if not isinstance(self.parent.modified_json_obj, MissingJsonObj):
+                    self.parent.modified_json_obj.pop(self.prev_key, None)
+            else:
+                self.parent.modified_json_obj[self.prev_key] = self.modified_json_obj
+
+            if isinstance(self.deleted_json_obj, MissingJsonObj):
+                if not isinstance(self.parent.deleted_json_obj, MissingJsonObj):
+                    self.parent.deleted_json_obj.pop(self.prev_key, None)
+            else:
+                self.parent.deleted_json_obj[self.prev_key] = self.deleted_json_obj
+
+    def format(self):
+        if self.parent is not None:
+            if not self.modified_json_obj:
+                self.modified_json_obj = MissingJsonObj()
+            if not self.deleted_json_obj:
+                self.deleted_json_obj = MissingJsonObj()
+            self.update_parent()
+            self.parent.format()
+
+    def create_modified_if_necessary(self):
+        if self.parent is not None:
+            self.parent.create_modified_if_necessary()
+        if not isinstance(self.modified_json_obj, dict):
+            self.modified_json_obj = {}
+            self.update_parent()
+
+    def create_deleted_if_necessary(self, is_last=False):
+        if self.parent is not None:
+            self.parent.create_deleted_if_necessary()
+        if is_last:
+            target_type = list
+        else:
+            target_type = dict
+        if not isinstance(self.deleted_json_obj, target_type):
+            if is_last:
+                self.deleted_json_obj = []
+            else:
+                self.deleted_json_obj = {}
+            self.update_parent()
+
+    def __getitem__(self, key):
+        if isinstance(self.modified_json_obj, dict) and key in self.modified_json_obj:
+            child_modified_json_obj = self.modified_json_obj[key]
+        else:
+            child_modified_json_obj = MissingJsonObj()
+
+        if isinstance(self.deleted_json_obj, dict) and key in self.deleted_json_obj:
+            child_deleted_json_obj = self.deleted_json_obj[key]
+        else:
+            child_deleted_json_obj = MissingJsonObj()
+
+        child_delta_json = DeltaJson(
+            child_modified_json_obj,
+            child_deleted_json_obj,
+            parent=self,
+            prev_key=key,
+        )
+
+        return child_delta_json
+
+    def __setitem__(self, key, value):
+        value = deepcopy(value)
+
+        self.create_modified_if_necessary()
+
+        self.modified_json_obj[key] = value
+
+        if isinstance(self.deleted_json_obj, dict) and key in self.deleted_json_obj:
+            del self.deleted_json_obj[key]
+
+        if isinstance(self.deleted_json_obj, list) and key in self.deleted_json_obj:
+            self.deleted_json_obj.remove(key)
+
+        self.format()
+
+    def __delitem__(self, key):
+        self.create_deleted_if_necessary(is_last=True)
+
+        self.deleted_json_obj.append(key)
+
+        if isinstance(self.modified_json_obj, dict) and key in self.modified_json_obj:
+            del self.modified_json_obj[key]
+
+        self.format()
+
+    def debug(self):
+        print(self.modified_json_obj, self.deleted_json_obj)
+
+
+class JsonWithDelta:
+    def __init__(self):
+        pass
