@@ -579,8 +579,8 @@ def build_delta_response(former_delta_json: DeltaJson, latter_delta_json: DeltaJ
         for key in cur_modified:
             value = cur_modified[key]
             if isinstance(value, dict):
-                if not value:
-                    cur_delta_json[key] = value
+                if key not in cur_delta_json:
+                    cur_delta_json[key] = {}
                 stk.append((cur_delta_json[key], value))
             else:
                 cur_delta_json[key] = value
