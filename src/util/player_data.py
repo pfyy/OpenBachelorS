@@ -339,7 +339,8 @@ class DeltaJson:
 
             if isinstance(self.deleted_json_obj, MissingJsonObj):
                 if not isinstance(self.parent.deleted_json_obj, MissingJsonObj):
-                    self.parent.deleted_json_obj.pop(self.prev_key, None)
+                    if isinstance(self.parent.deleted_json_obj, dict):
+                        self.parent.deleted_json_obj.pop(self.prev_key, None)
             else:
                 self.parent.deleted_json_obj[self.prev_key] = self.deleted_json_obj
 
