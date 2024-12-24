@@ -37,3 +37,31 @@ def charBuild_setEquipment(player_data):
 
     response = {}
     return response
+
+
+@bp_charBuild.route("/charBuild/setCharVoiceLan", methods=["POST"])
+@player_data_decorator
+def charBuild_setCharVoiceLan(player_data):
+    request_json = request.get_json()
+
+    for char_num_id in request_json["charList"]:
+        player_data["troop"]["chars"][str(char_num_id)]["voiceLan"] = request_json[
+            "voiceLan"
+        ]
+
+    response = {}
+    return response
+
+
+@bp_charBuild.route("/charBuild/changeCharSkin", methods=["POST"])
+@player_data_decorator
+def charBuild_changeCharSkin(player_data):
+    request_json = request.get_json()
+
+    char_num_id = request_json["charInstId"]
+    skin_id = request_json["skinId"]
+
+    player_data["troop"]["chars"][str(char_num_id)]["skin"] = skin_id
+
+    response = {}
+    return response
