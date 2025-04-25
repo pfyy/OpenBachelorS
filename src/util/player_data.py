@@ -404,7 +404,7 @@ def build_player_data_template():
 
     # ----------
 
-    april_fool_activity_id = "act6fun"
+    april_fool_activity_id = "act5fun"
 
     for activity_id, activity_obj in activity_table["basicInfo"]:
         if activity_obj["type"] == "APRIL_FOOL":
@@ -504,11 +504,11 @@ def build_player_data_template():
             "inUse": 0,
         }
 
-    for music_id, music_obj in building_data["musicData"]["musicDatas"]:
-        tmpl_json_obj["building"]["music"]["state"][music_id] = {
-            "progress": null,
-            "unlock": true,
-        }
+    # for music_id, music_obj in building_data["musicData"]["musicDatas"]:
+    #     tmpl_json_obj["building"]["music"]["state"][music_id] = {
+    #         "progress": null,
+    #         "unlock": true,
+    #     }
 
     # ----------
 
