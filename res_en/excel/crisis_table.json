@@ -1,0 +1,206 @@
+{
+  "seasonInfo": [
+    {
+      "seasonId": "rune_season_0_1",
+      "startTs": 1599771600,
+      "endTs": 1600945199,
+      "name": "Operation Barrenland",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_0",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_0_1_main",
+      "medalGroupId": null,
+      "bgmHardPoint": -1,
+      "permBgmHard": null
+    },
+    {
+      "seasonId": "rune_season_1_1",
+      "startTs": 1605128400,
+      "endTs": 1606301999,
+      "name": "Operation Pyrite",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_1",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_1_1_main",
+      "medalGroupId": "medalGroupActivityRune01",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_1_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_2_1",
+      "startTs": 1612472400,
+      "endTs": 1613645999,
+      "name": "Operation Blade",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_2",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_2_1_main",
+      "medalGroupId": "medalGroupActivityRune02",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_2_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_3_1",
+      "startTs": 1622235600,
+      "endTs": 1623409199,
+      "name": "Operation Cinder",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_3",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_3_1_main",
+      "medalGroupId": "medalGroupActivityRune03",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_3_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_4_1",
+      "startTs": 1626210000,
+      "endTs": 1627383599,
+      "name": "Operation Lead Seal",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_4",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_4_1_main",
+      "medalGroupId": "medalGroupActivityRune04",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_4_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_5_1",
+      "startTs": 1636642800,
+      "endTs": 1637837999,
+      "name": "Operation Spectrum",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_5",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_5_1_main",
+      "medalGroupId": "medalGroupActivityRune05",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_5_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_6_1",
+      "startTs": 1646146800,
+      "endTs": 1647341999,
+      "name": "Operation Wild Scales",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_6",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_6_1_main",
+      "medalGroupId": "medalGroupActivityRune06",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_6_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_7_1",
+      "startTs": 1654786800,
+      "endTs": 1655981999,
+      "name": "Operation Pine Soot",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_7",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_7_1_main",
+      "medalGroupId": "medalGroupActivityRune07",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_7_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_8_1",
+      "startTs": 1661878800,
+      "endTs": 1663066799,
+      "name": "Operation Dawnseeker",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_8",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_8_1_main",
+      "medalGroupId": "medalGroupActivityRune08",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_8_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_9_1",
+      "startTs": 1670518800,
+      "endTs": 1671706799,
+      "name": "Operation Deepness",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_9",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_9_1_main",
+      "medalGroupId": "medalGroupActivityRune09",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_9_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_10_1",
+      "startTs": 1675443600,
+      "endTs": 1676631599,
+      "name": "Operation Ashring",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_10",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_10_1_main",
+      "medalGroupId": "medalGroupActivityRune10",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_10_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_11_1",
+      "startTs": 1687539600,
+      "endTs": 1688727599,
+      "name": "Operation Fake Waves",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_11",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_11_1_main",
+      "medalGroupId": "medalGroupActivityRune11",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_11_1_main_challenge"
+    },
+    {
+      "seasonId": "rune_season_12_1",
+      "startTs": 1696179600,
+      "endTs": 1697367599,
+      "name": "Operation Basepoint",
+      "crisisRuneCoinUnlockItem": {
+        "id": "randomMaterialRune_12",
+        "count": 1,
+        "type": "VOUCHER_MGACHA"
+      },
+      "permBgm": "rune_season_12_1_main",
+      "medalGroupId": "medalGroupActivityRune12",
+      "bgmHardPoint": 16,
+      "permBgmHard": "rune_season_12_1_main_challenge"
+    }
+  ],
+  "meta": "",
+  "unlockCoinLv3": 2,
+  "hardPointPerm": 8,
+  "hardPointTemp": 4,
+  "voiceGrade": 18,
+  "crisisRuneCoinUnlockItemTitle": "Terms & Conditions",
+  "crisisRuneCoinUnlockItemDesc": "At the end of the season, all obtained Operational Agreements can be exchanged for a corresponding amount of resources regardless of whether or not they've been used.\nYou must log in to the Contingency Contract system to access them."
+}
