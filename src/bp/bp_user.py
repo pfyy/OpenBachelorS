@@ -149,3 +149,11 @@ def user_login():
         "Msg": "OK",
     }
     return response
+
+
+@bp_user.route("/user/agreement/confirm", methods=["POST"])
+def user_agreement_confirm():
+    request_json = request.get_json()
+
+    response = {"Code": 200, "Data": {}, "Msg": "OK"}
+    return response
