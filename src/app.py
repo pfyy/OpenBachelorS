@@ -30,6 +30,7 @@ from .bp.bp_templateShop import bp_templateShop
 from .bp.bp_tower import bp_tower
 from .bp.bp_u8 import bp_u8
 from .bp.bp_user import bp_user
+from .bp.bp_yostar import bp_yostar
 from .bp.misc_bp import misc_bp
 
 
@@ -65,6 +66,7 @@ app.register_blueprint(bp_templateShop)
 app.register_blueprint(bp_tower)
 app.register_blueprint(bp_u8)
 app.register_blueprint(bp_user)
+app.register_blueprint(bp_yostar)
 app.register_blueprint(misc_bp)
 
 app.json.sort_keys = False

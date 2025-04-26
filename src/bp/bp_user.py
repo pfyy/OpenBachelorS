@@ -93,13 +93,17 @@ def user_changeResume(player_data):
     return response
 
 
+@bp_user.route("/user/login", methods=["POST"])
 @bp_user.route("/user/quick-login", methods=["POST"])
 @bp_user.route("/user/detail", methods=["POST"])
-def user_quick_login():
+def user_login():
     request_json = request.get_json()
 
-    authorization_obj = json.loads(request.headers.get("Authorization"))
-    token = authorization_obj["Head"]["Token"]
+    token = request_json.get("Token", "")
+
+    if not token:
+        authorization_obj = json.loads(request.headers.get("Authorization"))
+        token = authorization_obj["Head"]["Token"]
 
     username = get_username_by_token(token)
 
@@ -107,6 +111,7 @@ def user_quick_login():
         "Code": 200,
         "Data": {
             "AgeVerifyMethod": 0,
+            "IsNew": 0,
             "Destroy": null,
             "IsTestAccount": false,
             "Keys": [
