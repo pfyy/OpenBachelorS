@@ -1361,3 +1361,10 @@ def common_client_code():
         "Msg": "OK",
     }
     return response
+
+
+@bp_common.route("/common/client-log", methods=["POST"])
+def common_client_log():
+    request_json = request.get_json()
+    response = {"Code": 200, "Data": {}, "Msg": "OK"}
+    return response
