@@ -12,6 +12,7 @@ from .bp.bp_campaignV2 import bp_campaignV2
 from .bp.bp_char import bp_char
 from .bp.bp_charBuild import bp_charBuild
 from .bp.bp_charRotation import bp_charRotation
+from .bp.bp_common import bp_common
 from .bp.bp_config import bp_config
 from .bp.bp_crisisV2 import bp_crisisV2
 from .bp.bp_gacha import bp_gacha
@@ -46,6 +47,7 @@ app.register_blueprint(bp_campaignV2)
 app.register_blueprint(bp_char)
 app.register_blueprint(bp_charBuild)
 app.register_blueprint(bp_charRotation)
+app.register_blueprint(bp_common)
 app.register_blueprint(bp_config)
 app.register_blueprint(bp_crisisV2)
 app.register_blueprint(bp_gacha)
