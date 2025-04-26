@@ -178,5 +178,7 @@ def firework_changeAnimal(player_data):
 
     player_data["firework"]["animal"]["select"] = request_json["animal"]
 
-    response = {}
+    response = {
+        "animal": request_json["animal"],
+    }
     return response
