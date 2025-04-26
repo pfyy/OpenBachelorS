@@ -158,3 +158,25 @@ def medal_setCustomData(player_data):
 
     response = {}
     return response
+
+
+@misc_bp.route("/firework/savePlateSlots", methods=["POST"])
+@player_data_decorator
+def firework_savePlateSlots(player_data):
+    request_json = request.get_json()
+
+    player_data["firework"]["plate"]["slots"] = request_json["slots"]
+
+    response = {}
+    return response
+
+
+@misc_bp.route("/firework/changeAnimal", methods=["POST"])
+@player_data_decorator
+def firework_changeAnimal(player_data):
+    request_json = request.get_json()
+
+    player_data["firework"]["animal"]["select"] = request_json["animal"]
+
+    response = {}
+    return response
