@@ -70,7 +70,7 @@ def assetbundle_official_Android_assets(res_version, asset_filename):
     asset_abs_filepath = os.path.abspath(asset_filepath)
 
     if not os.path.isfile(asset_filepath):
-        url = f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_version}/{asset_filename}"
+        url = f"https://ark-us-static-online.yo-star.com/assetbundle/official/Android/assets/{res_version}/{asset_filename}"
 
         req = requests.head(url)
 
