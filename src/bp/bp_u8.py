@@ -15,7 +15,13 @@ bp_u8 = Blueprint("bp_u8", __name__)
 @bp_u8.route("/u8/user/v1/getToken", methods=["POST"])
 def u8_user_v1_getToken():
     request_json = request.get_json()
-    code = json.loads(request_json["extension"])["code"]
+    extension_obj = json.loads(request_json["extension"])
+    if "code" in extension_obj:
+        code = extension_obj["code"]
+    elif "token" in extension_obj:
+        code = extension_obj["token"]
+    else:
+        code = ""
 
     response = {
         "result": 0,

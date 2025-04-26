@@ -1,3 +1,5 @@
+import json
+
 from flask import Blueprint
 from flask import request
 
@@ -88,4 +90,104 @@ def user_changeResume(player_data):
     player_data["status"]["resume"] = resume
 
     response = {}
+    return response
+
+
+@bp_user.route("/user/quick-login", methods=["POST"])
+def user_quick_login():
+    request_json = request.get_json()
+
+    authorization_obj = json.loads(request.headers.get("Authorization"))
+    token = authorization_obj["Head"]["Token"]
+
+    response = {
+        "Code": 200,
+        "Data": {
+            "AgeVerifyMethod": 0,
+            "Destroy": null,
+            "IsTestAccount": false,
+            "Keys": [
+                {
+                    "ID": "123456789",
+                    "Type": "yostar",
+                    "Key": "123456789",
+                    "NickName": "123456789",
+                    "CreatedAt": 1700000000,
+                }
+            ],
+            "ServerNowAt": 1700000000,
+            "UserInfo": {
+                "ID": "123456789",
+                "UID2": 0,
+                "PID": "US-ARKNIGHTS",
+                "Token": token,
+                "Birthday": "",
+                "RegChannel": "googleplay",
+                "TransCode": "",
+                "State": 1,
+                "DeviceID": "",
+                "CreatedAt": 1700000000,
+            },
+            "Yostar": {
+                "ID": "123456789",
+                "Country": "US",
+                "Nickname": "123456789",
+                "Picture": "",
+                "State": 1,
+                "AgreeAd": 0,
+                "CreatedAt": 1700000000,
+            },
+        },
+        "Msg": "OK",
+    }
+    return response
+
+
+@bp_user.route("/user/detail", methods=["POST"])
+def user_detail():
+    request_json = request.get_json()
+
+    authorization_obj = json.loads(request.headers.get("Authorization"))
+    token = authorization_obj["Head"]["Token"]
+
+    response = {
+        "Code": 200,
+        "Data": {
+            "AgeVerifyMethod": 0,
+            "Destroy": null,
+            "IsTestAccount": false,
+            "Keys": [
+                {
+                    "ID": "123456789",
+                    "Type": "yostar",
+                    "Key": "123456789",
+                    "NickName": "123456789",
+                    "CreatedAt": 1700000000,
+                }
+            ],
+            "ServerNowAt": 1700000000,
+            "UserInfo": {
+                "ID": "123456789",
+                "UID2": 0,
+                "PID": "US-ARKNIGHTS",
+                "Token": token,
+                "Birthday": "",
+                "RegChannel": "googleplay",
+                "TransCode": "",
+                "State": 1,
+                "DeviceID": "",
+                "CreatedAt": 1700000000,
+            },
+            "Yostar": {
+                "ID": "123456789",
+                "Country": "US",
+                "Nickname": "123456789",
+                "Picture": "",
+                "State": 1,
+                "AgreeAd": 0,
+                "CreatedAt": 1700000000,
+            },
+        },
+        "Msg": "OK",
+    }
     return response

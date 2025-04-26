@@ -864,27 +864,6 @@
                 "roomId": "ELEVATOR",
                 "charInstIds": [],
                 "completeConstructTime": -1
-            },
-            "slot_47": {
-                "level": 3,
-                "state": 2,
-                "roomId": "PRIVATE",
-                "charInstIds": [],
-                "completeConstructTime": -1
-            },
-            "slot_44": {
-                "level": 3,
-                "state": 2,
-                "roomId": "PRIVATE",
-                "charInstIds": [],
-                "completeConstructTime": -1
-            },
-            "slot_41": {
-                "level": 3,
-                "state": 2,
-                "roomId": "PRIVATE",
-                "charInstIds": [],
-                "completeConstructTime": -1
             }
         },
         "rooms": {
