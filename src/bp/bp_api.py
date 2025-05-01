@@ -26,3 +26,9 @@ def api_game_get_latest_game_info():
         "client_version": client_version,
     }
     return response
+
+
+@bp_api.route("/api/remote_config/101/prod/default/Android/ak_sdk_config")
+def api_remote_config_101_prod_default_android_ak_sdk_config():
+    response = {}
+    return response

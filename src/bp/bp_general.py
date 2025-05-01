@@ -21,3 +21,9 @@ def general_v1_server_time():
         "type": "A",
     }
     return response
+
+
+@bp_general.route("/general/v1/send_phone_code", methods=["POST"])
+def general_v1_send_phone_code():
+    response = {"msg": "OK", "status": 0, "type": "A"}
+    return response
