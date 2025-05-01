@@ -1,4 +1,3 @@
-import time
 import os
 import json
 
@@ -10,7 +9,7 @@ from ..const.filepath import CONFIG_JSON, VERSION_JSON, TMP_DIRPATH
 from ..util.const_json_loader import const_json_loader
 from ..util.player_data import PlayerData, player_data_decorator
 from ..util.mail_helper import get_player_mailbox
-
+from ..util.faketime import faketime
 
 bp_account = Blueprint("bp_account", __name__)
 
@@ -35,7 +34,7 @@ def account_login():
 def account_syncData():
     player_data = PlayerData()
 
-    t = int(time.time())
+    t = int(faketime())
     player_data["status"]["lastRefreshTs"] = t
 
     battle_replay_lst = player_data.battle_replay_manager.get_battle_replay_lst()

@@ -1,5 +1,3 @@
-import time
-
 from flask import Blueprint
 from flask import request
 
@@ -10,6 +8,7 @@ from ..util.player_data import player_data_decorator
 from ..util.helper import (
     get_char_num_id,
 )
+from ..util.faketime import faketime
 
 bp_gacha = Blueprint("bp_gacha", __name__)
 
@@ -59,7 +58,7 @@ class NormalGachaBasicManager:
         )
 
     def gacha_normalGacha(self):
-        t = int(time.time())
+        t = int(faketime())
 
         self.player_data["recruit"]["normal"]["slots"][str(self.slot_id)]["state"] = 2
 
@@ -120,7 +119,7 @@ class NormalGachaBasicManager:
         self.player_data.extra_save.save_obj[f"normal_gacha_{self.slot_id}"] = None
 
     def gacha_boostNormalGacha(self):
-        t = int(time.time())
+        t = int(faketime())
 
         self.get_gacha_result()
 
