@@ -182,3 +182,43 @@ def firework_changeAnimal(player_data):
         "animal": request_json["animal"],
     }
     return response
+
+
+@misc_bp.route("/activity/enemyDuel/singleBattleStart", methods=["POST"])
+@player_data_decorator
+def activity_enemyDuel_singleBattleStart(player_data):
+    request_json = request.get_json()
+
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+    }
+    return response
+
+
+@misc_bp.route("/activity/enemyDuel/singleBattleFinish", methods=["POST"])
+@player_data_decorator
+def activity_enemyDuel_singleBattleFinish(player_data):
+    request_json = request.get_json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "result": 0,
+        "choiceCnt": {"skip": 0, "normal": 5, "allIn": 5},
+        "commentId": "Comment_Operation_1",
+        "isHighScore": false,
+        "rankList": [
+            {"id": "1", "rank": 1, "score": 262900, "isPlayer": 1},
+            {"id": "act1enemyduel_npc_01", "rank": 2, "score": 0, "isPlayer": 0},
+            {"id": "act1enemyduel_npc_02", "rank": 2, "score": 0, "isPlayer": 0},
+            {"id": "act1enemyduel_npc_03", "rank": 2, "score": 0, "isPlayer": 0},
+            {"id": "act1enemyduel_npc_04", "rank": 2, "score": 0, "isPlayer": 0},
+            {"id": "act1enemyduel_npc_05", "rank": 2, "score": 0, "isPlayer": 0},
+            {"id": "act1enemyduel_npc_06", "rank": 2, "score": 0, "isPlayer": 0},
+            {"id": "act1enemyduel_npc_07", "rank": 2, "score": 0, "isPlayer": 0},
+        ],
+        "bp": 0,
+        "dailyMission": {"add": 0, "reward": 0},
+    }
+    return response

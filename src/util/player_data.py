@@ -5,6 +5,7 @@ import json
 
 import flask
 from flask import request
+from psycopg.types.json import Json
 
 from ..const.json_const import true, false, null
 from ..const.filepath import (
@@ -42,8 +43,8 @@ from ..const.filepath import (
     MULTI_EXTRA_SAVE_DIRPATH,
 )
 from .const_json_loader import const_json_loader, ConstJson
-from .battle_replay_manager import BattleReplayManager
-from .extra_save import ExtraSave
+from .battle_replay_manager import BattleReplayManager, DBBattleReplayManager
+from .extra_save import ExtraSave, DBExtraSave
 from .helper import (
     is_char_id,
     get_char_num_id,
@@ -51,6 +52,7 @@ from .helper import (
     save_delta_json_obj,
     get_username_by_token,
 )
+from .db_manager import IS_DB_READY, get_db_conn, create_user_if_necessary
 
 
 def build_player_data_template():
@@ -898,7 +900,20 @@ class JsonWithDelta:
         return base_obj
 
 
-class FileBasedDeltaJson(DeltaJson):
+class ResettableDeltaJson(DeltaJson):
+    def reset(self):
+        self.modified_dict = {}
+        self.deleted_dict = {}
+
+    def reset_key(self, key):
+        if key in self.modified_dict:
+            del self.modified_dict[key]
+
+        if key in self.deleted_dict:
+            del self.deleted_dict[key]
+
+
+class FileBasedDeltaJson(ResettableDeltaJson):
     def __init__(self, path: str):
         self.path = path
         json_obj = load_delta_json_obj(path)
@@ -910,16 +925,47 @@ class FileBasedDeltaJson(DeltaJson):
     def save(self):
         save_delta_json_obj(self.path, self.modified_dict, self.deleted_dict)
 
-    def reset(self):
-        self.modified_dict = {}
-        self.deleted_dict = {}
 
-    def reset_key(self, key):
-        if key in self.modified_dict:
-            del self.modified_dict[key]
+class DBBasedDeltaJson(ResettableDeltaJson):
+    def __init__(self, column_name: str, username: str):
+        self.column_name = column_name
+        self.username = username
 
-        if key in self.deleted_dict:
-            del self.deleted_dict[key]
+        create_user_if_necessary(self.username)
+
+        json_obj = self.load_delta_json_obj_from_db()
+        if not json_obj:
+            json_obj = {"modified": {}, "deleted": {}}
+
+        super().__init__(
+            modified_dict=json_obj["modified"], deleted_dict=json_obj["deleted"]
+        )
+
+    def load_delta_json_obj_from_db(self):
+        with get_db_conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    f"SELECT {self.column_name} FROM player_data WHERE username = %s",
+                    (self.username,),
+                )
+                return cur.fetchone()[0]
+
+    def save(self):
+        with get_db_conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    f"UPDATE player_data SET {self.column_name} = %s WHERE username = %s",
+                    (
+                        Json(
+                            {
+                                "modified": self.modified_dict,
+                                "deleted": self.deleted_dict,
+                            }
+                        ),
+                        self.username,
+                    ),
+                )
+                conn.commit()
 
 
 class PlayerData(JsonWithDelta):
@@ -935,20 +981,34 @@ class PlayerData(JsonWithDelta):
 
         config = const_json_loader[CONFIG_JSON]
         if config["multi_user"]:
-            self.sav_delta_json = FileBasedDeltaJson(
-                os.path.join(MULTI_USER_SAV_DIRPATH, f"{self.username}_delta.json")
-            )
-            self.sav_pending_delta_json = FileBasedDeltaJson(
-                os.path.join(
-                    MULTI_USER_SAV_DIRPATH, f"{self.username}_pending_delta.json"
+            if IS_DB_READY:
+                self.sav_delta_json = DBBasedDeltaJson(
+                    "delta",
+                    self.username,
                 )
-            )
-            self.battle_replay_manager = BattleReplayManager(
-                os.path.join(MULTI_REPLAY_DIRPATH, self.username)
-            )
-            self.extra_save = ExtraSave(
-                os.path.join(MULTI_EXTRA_SAVE_DIRPATH, f"{self.username}_extra.json")
-            )
+                self.sav_pending_delta_json = DBBasedDeltaJson(
+                    "pending_delta",
+                    self.username,
+                )
+                self.battle_replay_manager = DBBattleReplayManager(
+                    self.username,
+                )
+                self.extra_save = DBExtraSave(self.username)
+            else:
+                self.sav_delta_json = FileBasedDeltaJson(
+                    os.path.join(MULTI_USER_SAV_DIRPATH, self.username, "delta.json")
+                )
+                self.sav_pending_delta_json = FileBasedDeltaJson(
+                    os.path.join(
+                        MULTI_USER_SAV_DIRPATH, self.username, "pending_delta.json"
+                    )
+                )
+                self.battle_replay_manager = BattleReplayManager(
+                    os.path.join(MULTI_REPLAY_DIRPATH, self.username)
+                )
+                self.extra_save = ExtraSave(
+                    os.path.join(MULTI_EXTRA_SAVE_DIRPATH, self.username, "extra.json")
+                )
         else:
             self.sav_delta_json = FileBasedDeltaJson(SAV_DELTA_JSON)
             self.sav_pending_delta_json = FileBasedDeltaJson(SAV_PENDING_DELTA_JSON)
