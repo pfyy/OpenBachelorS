@@ -174,3 +174,16 @@ def user_agreement_confirm():
 
     response = {"Code": 200, "Data": {}, "Msg": "OK"}
     return response
+
+
+@bp_user.route("/user/useRenameCard", methods=["POST"])
+@player_data_decorator
+def user_useRenameCard(player_data):
+    request_json = request.get_json()
+
+    player_data["status"]["nickName"] = request_json["nickName"]
+
+    response = {
+        "result": 0,
+    }
+    return response

@@ -4057,7 +4057,8 @@
     "emoticon": {
         "unlockTheme": [
             "emoticon_basic",
-            "emoticon_originium_slug"
+            "emoticon_originium_slug",
+            "emticon_duel_basic"
         ]
     },
     "storyreview": {
@@ -4077,7 +4078,14 @@
             }
         }
     },
-    "consumable": {},
+    "consumable": {
+        "renamingCard": {
+            "0": {
+                "ts": -1,
+                "count": 1
+            }
+        }
+    },
     "checkIn": {
         "canCheckIn": 0,
         "newbiePackage": {
