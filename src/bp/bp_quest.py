@@ -83,6 +83,14 @@ def quest_battleFinish(player_data):
         "suggestFriend": false,
         "pryResult": [],
         "itemReturn": [],
+        "extra": {
+            "sixStar": {
+                "groupId": "main_15",
+                "before": 32,
+                "after": 32,
+                "stageBefore": 2,
+            }
+        },
     }
     return response
 

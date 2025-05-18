@@ -2,8 +2,14 @@ from flask import Blueprint
 from flask import request
 
 from ..const.json_const import true, false, null
-from ..const.filepath import CONFIG_JSON, VERSION_JSON, CHARACTER_TABLE, GACHA_POOL_JSON
-from ..util.const_json_loader import const_json_loader
+from ..const.filepath import (
+    CONFIG_JSON,
+    VERSION_JSON,
+    CHARACTER_TABLE,
+    GACHA_POOL_JSON,
+    GACHA_TABLE,
+)
+from ..util.const_json_loader import const_json_loader, ConstJson
 from ..util.player_data import player_data_decorator
 from ..util.helper import (
     get_char_num_id,
@@ -247,13 +253,54 @@ def gacha_refreshTags(player_data):
     return response
 
 
+GACHA_RULE_TYPE_DICT = ConstJson(
+    {
+        "NORMAL": "normal",
+        "ATTAIN": "attain",
+        "LIMITED": "limit",
+        "SINGLE": "single",
+        "FESCLASSIC": "fesClassic",
+        "LINKAGE": "linkage",
+        "SPECIAL": "special",
+        "DOUBLE": "doubleGacha",
+        "CLASSIC": "normal",
+        "CLASSIC_ATTAIN": "attain",
+        "CLASSIC_DOUBLE": "doubleGacha",
+    }
+)
+
+
+def init_pool_id_gacha_type_dict():
+    pool_id_gacha_type_dict = {}
+    gacha_table = const_json_loader[GACHA_TABLE]
+
+    for i, gacha_obj in gacha_table["gachaPoolClient"]:
+        pool_id = gacha_obj["gachaPoolId"]
+        gacha_rule_type = gacha_obj["gachaRuleType"]
+        if gacha_rule_type in GACHA_RULE_TYPE_DICT:
+            gacha_type = GACHA_RULE_TYPE_DICT[gacha_rule_type]
+
+            pool_id_gacha_type_dict[pool_id] = gacha_type
+
+    for i, newbee_gacha_obj in gacha_table["newbeeGachaPoolClient"]:
+        pool_id = newbee_gacha_obj["gachaPoolId"]
+        pool_id_gacha_type_dict[pool_id] = "newbee"
+
+    return ConstJson(pool_id_gacha_type_dict)
+
+
+pool_id_gacha_type_dict = init_pool_id_gacha_type_dict()
+
+
 class AdvancedGachaBasicManager:
-    def __init__(self, player_data, request_json, response, pool_id):
+    def __init__(self, player_data, request_json, response, pool_id, gacha_type):
         self.player_data = player_data
         self.request_json = request_json
         self.response = response
 
         self.pool_id = pool_id
+
+        self.gacha_type = gacha_type
 
     # override this
     def get_advanced_gacha_result(self):
@@ -291,10 +338,23 @@ class AdvancedGachaBasicManager:
 
         self.response.update(gacha_pool.copy())
 
+    def gacha_choosePoolUp(self):
+        self.player_data["gacha"][self.gacha_type][self.pool_id] = {
+            "upChar": self.request_json["chooseChar"]
+        }
+        self.response.update(
+            {
+                "result": 0,
+            }
+        )
+
 
 def get_advanced_gacha_manager(player_data, request_json, response):
     pool_id = request_json["poolId"]
-    return AdvancedGachaBasicManager(player_data, request_json, response, pool_id)
+    gacha_type = pool_id_gacha_type_dict[pool_id]
+    return AdvancedGachaBasicManager(
+        player_data, request_json, response, pool_id, gacha_type
+    )
 
 
 @bp_gacha.route("/gacha/advancedGacha", methods=["POST"])
@@ -335,5 +395,19 @@ def gacha_getPoolDetail(player_data):
         player_data, request_json, response
     )
     advanced_gacha_manager.gacha_getPoolDetail()
+
+    return response
+
+
+@bp_gacha.route("/gacha/choosePoolUp", methods=["POST"])
+@player_data_decorator
+def gacha_choosePoolUp(player_data):
+    request_json = request.get_json()
+    response = {}
+
+    advanced_gacha_manager = get_advanced_gacha_manager(
+        player_data, request_json, response
+    )
+    advanced_gacha_manager.gacha_choosePoolUp()
 
     return response

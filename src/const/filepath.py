@@ -1,5 +1,5 @@
 CONFIG_JSON = "conf/config.json"
-VERSION_JSON = "conf/version.json"
+VERSION_JSON = "conf/version_en.json"
 ASSIST_JSON = "conf/assist.json"
 SQUAD_JSON = "conf/squad.json"
 
@@ -54,3 +54,4 @@ CLIMB_TOWER_TABLE = "res_en/excel/climb_tower_table.json"
 BUILDING_DATA = "res_en/excel/building_data.json"
 SANDBOX_PERM_TABLE = "res_en/excel/sandbox_perm_table.json"
 ROGUELIKE_TOPIC_TABLE = "res_en/excel/roguelike_topic_table.json"
+GACHA_TABLE = "res_en/excel/gacha_table.json"

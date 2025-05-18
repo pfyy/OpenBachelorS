@@ -345,6 +345,113 @@
                 },
                 "globalBan": false
             }
+        },
+        "VEC_BREAK_V2": {
+            "act1break": {
+                "milestone": {
+                    "point": 3600,
+                    "got": [
+                        "mileStone_1",
+                        "mileStone_10",
+                        "mileStone_11",
+                        "mileStone_12",
+                        "mileStone_13",
+                        "mileStone_14",
+                        "mileStone_15",
+                        "mileStone_16",
+                        "mileStone_17",
+                        "mileStone_18",
+                        "mileStone_19",
+                        "mileStone_2",
+                        "mileStone_20",
+                        "mileStone_21",
+                        "mileStone_22",
+                        "mileStone_23",
+                        "mileStone_24",
+                        "mileStone_25",
+                        "mileStone_26",
+                        "mileStone_27",
+                        "mileStone_28",
+                        "mileStone_29",
+                        "mileStone_3",
+                        "mileStone_30",
+                        "mileStone_31",
+                        "mileStone_32",
+                        "mileStone_33",
+                        "mileStone_34",
+                        "mileStone_35",
+                        "mileStone_36",
+                        "mileStone_37",
+                        "mileStone_38",
+                        "mileStone_39",
+                        "mileStone_4",
+                        "mileStone_40",
+                        "mileStone_41",
+                        "mileStone_42",
+                        "mileStone_43",
+                        "mileStone_44",
+                        "mileStone_45",
+                        "mileStone_46",
+                        "mileStone_47",
+                        "mileStone_48",
+                        "mileStone_49",
+                        "mileStone_5",
+                        "mileStone_50",
+                        "mileStone_51",
+                        "mileStone_52",
+                        "mileStone_53",
+                        "mileStone_54",
+                        "mileStone_55",
+                        "mileStone_56",
+                        "mileStone_57",
+                        "mileStone_58",
+                        "mileStone_59",
+                        "mileStone_6",
+                        "mileStone_60",
+                        "mileStone_61",
+                        "mileStone_62",
+                        "mileStone_63",
+                        "mileStone_64",
+                        "mileStone_65",
+                        "mileStone_7",
+                        "mileStone_8",
+                        "mileStone_9"
+                    ]
+                },
+                "defendStages": {
+                    "act1break_sp01": {
+                        "stageId": "act1break_sp01",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp02": {
+                        "stageId": "act1break_sp02",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp03": {
+                        "stageId": "act1break_sp03",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp04": {
+                        "stageId": "act1break_sp04",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp05": {
+                        "stageId": "act1break_sp05",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    }
+                },
+                "activatedBuff": []
+            }
         }
     },
     "status": {
@@ -373,7 +480,7 @@
         "maxAp": 180,
         "androidDiamond": 0,
         "iosDiamond": 0,
-        "diamondShard": 0,
+        "diamondShard": 60000,
         "gold": 0,
         "practiceTicket": 30,
         "lastRefreshTs": 1700000000,
@@ -1734,14 +1841,19 @@
     },
     "tshop": {},
     "gacha": {
-        "newbee": {},
+        "newbee": {
+            "openFlag": 1,
+            "cnt": 21,
+            "poolId": "BOOT_0_1_3"
+        },
         "normal": {},
         "attain": {},
         "limit": {},
         "single": {},
         "fesClassic": {},
         "linkage": {},
-        "special": {}
+        "special": {},
+        "doubleGacha": {}
     },
     "backflow": {
         "open": false,

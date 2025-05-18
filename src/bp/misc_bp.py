@@ -2,7 +2,7 @@ from flask import Blueprint
 from flask import request
 
 from ..const.json_const import true, false, null
-from ..const.filepath import CONFIG_JSON, VERSION_JSON
+from ..const.filepath import CONFIG_JSON, VERSION_JSON, ACTIVITY_TABLE
 from ..util.const_json_loader import const_json_loader
 from ..util.player_data import player_data_decorator
 from ..util.battle_log_logger import log_battle_log_if_necessary
@@ -221,4 +221,142 @@ def activity_enemyDuel_singleBattleFinish(player_data):
         "bp": 0,
         "dailyMission": {"add": 0, "reward": 0},
     }
+    return response
+
+
+@misc_bp.route("/activity/vecBreakV2/battleStart", methods=["POST"])
+@player_data_decorator
+def activity_vecBreakV2_battleStart(player_data):
+    request_json = request.get_json()
+
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+    }
+    return response
+
+
+@misc_bp.route("/activity/vecBreakV2/battleFinish", methods=["POST"])
+@player_data_decorator
+def activity_vecBreakV2_battleFinish(player_data):
+    request_json = request.get_json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "result": 0,
+        "msBefore": 0,
+        "msAfter": 0,
+        "unlockStages": [],
+        "suggestFriend": false,
+        "finTs": 1700000000,
+    }
+    return response
+
+
+@misc_bp.route("/vecBreakV2/getSeasonRecord", methods=["POST"])
+@player_data_decorator
+def vecBreakV2_getSeasonRecord(player_data):
+    request_json = request.get_json()
+
+    response = {
+        "seasons": {},
+    }
+    return response
+
+
+def get_vec_break_v2_defense_buff_id(activity_id, stage_id):
+    activity_table = const_json_loader[ACTIVITY_TABLE]
+
+    defense_buff_id = activity_table["activity"]["VEC_BREAK_V2"][activity_id][
+        "defenseDetailDict"
+    ][stage_id]["buffId"]
+
+    return defense_buff_id
+
+
+@misc_bp.route("/activity/vecBreakV2/defendBattleStart", methods=["POST"])
+@player_data_decorator
+def activity_vecBreakV2_defendBattleStart(player_data):
+    request_json = request.get_json()
+
+    activity_id = request_json["activityId"]
+    stage_id = request_json["stageId"]
+
+    defense_buff_id = get_vec_break_v2_defense_buff_id(activity_id, stage_id)
+
+    defense_buff_id_lst = player_data["activity"]["VEC_BREAK_V2"][activity_id][
+        "activatedBuff"
+    ].copy()
+    if defense_buff_id not in defense_buff_id_lst:
+        defense_buff_id_lst.append(defense_buff_id)
+    player_data["activity"]["VEC_BREAK_V2"][activity_id]["activatedBuff"] = (
+        defense_buff_id_lst
+    )
+
+    player_data["activity"]["VEC_BREAK_V2"][activity_id]["defendStages"][stage_id][
+        "defendSquad"
+    ] = [{"charInstId": i["charInstId"]} for i in request_json["squad"]["slots"]]
+
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+    }
+    return response
+
+
+@misc_bp.route("/activity/vecBreakV2/defendBattleFinish", methods=["POST"])
+@player_data_decorator
+def activity_vecBreakV2_defendBattleFinish(player_data):
+    request_json = request.get_json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "msBefore": 0,
+        "msAfter": 0,
+        "finTs": 1700000000,
+    }
+    return response
+
+
+@misc_bp.route("/activity/vecBreakV2/setDefend", methods=["POST"])
+@player_data_decorator
+def activity_vecBreakV2_setDefend(player_data):
+    request_json = request.get_json()
+
+    activity_id = request_json["activityId"]
+    stage_id = request_json["stageId"]
+
+    defense_buff_id = get_vec_break_v2_defense_buff_id(activity_id, stage_id)
+
+    defense_buff_id_lst = player_data["activity"]["VEC_BREAK_V2"][activity_id][
+        "activatedBuff"
+    ].copy()
+    if defense_buff_id in defense_buff_id_lst:
+        defense_buff_id_lst.remove(defense_buff_id)
+    player_data["activity"]["VEC_BREAK_V2"][activity_id]["activatedBuff"] = (
+        defense_buff_id_lst
+    )
+
+    player_data["activity"]["VEC_BREAK_V2"][activity_id]["defendStages"][stage_id][
+        "defendSquad"
+    ] = []
+
+    response = {}
+    return response
+
+
+@misc_bp.route("/activity/vecBreakV2/changeBuffList", methods=["POST"])
+@player_data_decorator
+def activity_vecBreakV2_changeBuffList(player_data):
+    request_json = request.get_json()
+
+    activity_id = request_json["activityId"]
+
+    player_data["activity"]["VEC_BREAK_V2"][activity_id]["activatedBuff"] = (
+        request_json["buffList"]
+    )
+
+    response = {}
     return response
