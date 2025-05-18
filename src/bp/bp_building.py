@@ -186,7 +186,7 @@ def building_saveDiyPresetSolution(player_data):
     player_data["building"]["diyPresetSolutions"][str(solution_id)] = {
         "name": request_json["name"],
         "solution": request_json["solution"],
-        "roomType": request_json["roomType"],
+        # "roomType": request_json["roomType"],
         "thumbnail": "http://127.0.0.1/thumbnail.jpg",
     }
 
