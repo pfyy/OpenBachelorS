@@ -82,6 +82,11 @@ def create_user_if_necessary(username):
                 conn.commit()
 
 
+def destroy_db():
+    with psycopg.connect(get_db_url(with_database_name=False), autocommit=True) as conn:
+        conn.execute(f"DROP DATABASE IF EXISTS {DATABASE_NAME}")
+
+
 if const_json_loader[CONFIG_JSON]["use_db"]:
     try:
         init_db()

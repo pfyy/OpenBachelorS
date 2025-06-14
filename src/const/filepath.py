@@ -11,6 +11,7 @@ MAIL_JSON = "data/mail.json"
 MESSAGE_JSON = "data/message.json"
 GACHA_POOL_JSON = "data/gacha_pool.json"
 RLV2_DATA = "data/rlv2_data.json"
+GACHA_DATA = "data/gacha_data.json"
 CRISIS_V2_DATA_DIRPATH = "data/crisisV2/"
 
 SAV_DELTA_JSON = "sav/delta.json"

@@ -1237,6 +1237,46 @@
                     "rogue_1_relic_n25": {
                         "state": 2,
                         "progress": null
+                    },
+                    "rogue_1_relic_c07": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c08": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c09": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c10": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c11": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c12": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c13": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c14": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c15": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_relic_c16": {
+                        "state": 2,
+                        "progress": null
                     }
                 },
                 "capsule": {
@@ -1289,6 +1329,58 @@
                         "progress": null
                     },
                     "rogue_1_capsule_13": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_14": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_15": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_16": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_17": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_18": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_19": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_20": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_21": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_22": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_23": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_24": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_25": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "rogue_1_capsule_26": {
                         "state": 2,
                         "progress": null
                     }
@@ -1461,6 +1553,50 @@
                     "variation_9": {
                         "state": 2,
                         "progress": null
+                    },
+                    "variation_10": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_11": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_12": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_13": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_14": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_15": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_16": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_17": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_18": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_19": {
+                        "state": 2,
+                        "progress": null
+                    },
+                    "variation_20": {
+                        "state": 2,
+                        "progress": null
                     }
                 },
                 "endBook": {},
@@ -1535,6 +1671,84 @@
                         "0": {
                             "state": 2,
                             "progress": null
+                        },
+                        "1": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "2": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "3": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "4": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "5": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "6": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "7": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "8": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "9": {
+                            "state": 2,
+                            "progress": null
+                        },
+                        "10": {
+                            "state": 2,
+                            "progress": [
+                                0,
+                                1
+                            ]
+                        },
+                        "11": {
+                            "state": 2,
+                            "progress": [
+                                0,
+                                1
+                            ]
+                        },
+                        "12": {
+                            "state": 2,
+                            "progress": [
+                                0,
+                                1
+                            ]
+                        },
+                        "13": {
+                            "state": 2,
+                            "progress": [
+                                0,
+                                1
+                            ]
+                        },
+                        "14": {
+                            "state": 2,
+                            "progress": [
+                                0,
+                                1
+                            ]
+                        },
+                        "15": {
+                            "state": 2,
+                            "progress": [
+                                0,
+                                1
+                            ]
                         }
                     },
                     "HARD": {

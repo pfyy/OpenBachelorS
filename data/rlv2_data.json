@@ -3064,6 +3064,305 @@
         "ro4_e_t_8": 5
     },
     "difficulty_buff_lst": {
+        "rogue_1": {
+            "0": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "1": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "2": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "3": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "4": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "5": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE|BOSS"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "6": {
+                "buff_lst": [],
+                "child_mode_grade_lst": [
+                    5
+                ]
+            },
+            "7": {
+                "buff_lst": [
+                    {
+                        "key": "zone_into_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "pool_hard_script"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            },
+                            {
+                                "key": "zone",
+                                "valueStr": "zone_3"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    5
+                ]
+            },
+            "8": {
+                "buff_lst": [],
+                "child_mode_grade_lst": [
+                    5,
+                    7
+                ]
+            },
+            "9": {
+                "buff_lst": [
+                    {
+                        "key": "zone_into_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_1_lv8_f"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            },
+                            {
+                                "key": "zone",
+                                "valueStr": "zone_4"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    5,
+                    7
+                ]
+            },
+            "10": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "validator.roguelike_event_type",
+                                "valueStr": "BATTLE_ELITE|BATTLE_BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "validator.roguelike_event_type",
+                                "valueStr": "BATTLE_ELITE|BATTLE_BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "change_event_weight",
+                        "blackboard": [
+                            {
+                                "key": "node_types",
+                                "valueStr": "INCIDENT"
+                            },
+                            {
+                                "key": "events",
+                                "valueStr": "scene_hidden1_enter,scene_writer1_enter,scene_hidden2_enter,scene_writer2_enter,scene_side3_enter"
+                            },
+                            {
+                                "key": "ratio",
+                                "value": 3
+                            }
+                        ]
+                    },
+                    {
+                        "key": "change_event_weight",
+                        "blackboard": [
+                            {
+                                "key": "node_types",
+                                "valueStr": "INCIDENT"
+                            },
+                            {
+                                "key": "events",
+                                "valueStr": "scene_side1_enter,scene_side2_enter"
+                            },
+                            {
+                                "key": "ratio",
+                                "value": 2
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    5,
+                    7,
+                    9
+                ]
+            },
+            "11": {
+                "buff_lst": [],
+                "child_mode_grade_lst": [
+                    5,
+                    7,
+                    9,
+                    10
+                ]
+            },
+            "12": {
+                "buff_lst": [
+                    {
+                        "key": "level_hidden_group_enable",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "reforge"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    5,
+                    7,
+                    9,
+                    10
+                ]
+            },
+            "13": {
+                "buff_lst": [],
+                "child_mode_grade_lst": [
+                    5,
+                    7,
+                    9,
+                    10,
+                    12
+                ]
+            },
+            "14": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_2_enroll_3_difficulty_18"
+                            },
+                            {
+                                "key": "duration",
+                                "value": 20
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.3
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.5
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    5,
+                    7,
+                    9,
+                    10,
+                    12
+                ]
+            },
+            "15": {
+                "buff_lst": [
+                    {
+                        "key": "zone_into_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "pool_hard_mode"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            },
+                            {
+                                "key": "zone",
+                                "valueStr": "zone_5"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "zone_into_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "pool_boss_gift"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            },
+                            {
+                                "key": "zone",
+                                "valueStr": "zone_5"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    5,
+                    7,
+                    9,
+                    10,
+                    12,
+                    14
+                ]
+            }
+        },
         "rogue_2": {
             "0": {
                 "buff_lst": [],

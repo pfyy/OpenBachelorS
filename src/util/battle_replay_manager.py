@@ -1,5 +1,6 @@
 import os
 from abc import ABC, abstractmethod
+from typing import List
 
 from psycopg.types.json import Json
 
@@ -24,7 +25,7 @@ class AbstractBattleReplayManager(ABC):
         pass
 
     @abstractmethod
-    def get_battle_replay_lst(self) -> list[str]:
+    def get_battle_replay_lst(self) -> List[str]:
         pass
 
 
@@ -44,7 +45,7 @@ class BattleReplayManager(AbstractBattleReplayManager):
         battle_replay_filepath = self.get_battle_replay_filepath(stage_id)
         save_battle_replay_to_file(battle_replay_filepath, battle_replay)
 
-    def get_battle_replay_lst(self) -> list[str]:
+    def get_battle_replay_lst(self) -> List[str]:
         raw_battle_replay_lst = os.listdir(self.dirpath)
 
         battle_replay_lst = [
@@ -87,7 +88,7 @@ class DBBattleReplayManager(AbstractBattleReplayManager):
                     )
                 conn.commit()
 
-    def get_battle_replay_lst(self) -> list[str]:
+    def get_battle_replay_lst(self) -> List[str]:
         with get_db_conn() as conn:
             with conn.cursor() as cur:
                 cur.execute(

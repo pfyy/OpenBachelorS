@@ -22,6 +22,11 @@ def update_player_data_based_on_preset(player_data):
     player_data["background"]["selected"] = preset["background"]
     player_data["homeTheme"]["selected"] = preset["homeTheme"]
 
+    if "profileSp" in preset:
+        player_data["status"]["secretarySkinSp"] = bool(preset["profileSp"])
+    else:
+        player_data["status"]["secretarySkinSp"] = False
+
 
 @bp_charRotation.route("/charRotation/createPreset", methods=["POST"])
 @player_data_decorator

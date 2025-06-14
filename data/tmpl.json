@@ -448,6 +448,72 @@
                         "defendSquad": [],
                         "recvTimeLimited": true,
                         "recvNormal": true
+                    },
+                    "act1break_sp06": {
+                        "stageId": "act1break_sp06",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp07": {
+                        "stageId": "act1break_sp07",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp08": {
+                        "stageId": "act1break_sp08",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp09": {
+                        "stageId": "act1break_sp09",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp10": {
+                        "stageId": "act1break_sp10",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp11": {
+                        "stageId": "act1break_sp11",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp12": {
+                        "stageId": "act1break_sp12",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp13": {
+                        "stageId": "act1break_sp13",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp14": {
+                        "stageId": "act1break_sp14",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp15": {
+                        "stageId": "act1break_sp15",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act1break_sp16": {
+                        "stageId": "act1break_sp16",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
                     }
                 },
                 "activatedBuff": []
@@ -505,7 +571,8 @@
         "birthday": {
             "month": 1,
             "day": 1
-        }
+        },
+        "secretarySkinSp": false
     },
     "troop": {
         "curCharInstId": 1,
@@ -618,7 +685,8 @@
     },
     "skin": {
         "characterSkins": {},
-        "skinTs": {}
+        "skinTs": {},
+        "skinSp": {}
     },
     "shop": {},
     "mission": {
@@ -1832,7 +1900,8 @@
                     "unlock": true,
                     "progress": null
                 }
-            }
+            },
+            "tmpl": {}
         },
         "misc": {
             "showDetail": true,
@@ -1853,7 +1922,7 @@
         "fesClassic": {},
         "linkage": {},
         "special": {},
-        "doubleGacha": {}
+        "double": {}
     },
     "backflow": {
         "open": false,
@@ -4202,6 +4271,12 @@
         "canCheckIn": 0,
         "newbiePackage": {
             "open": false
+        },
+        "showCount": 99999,
+        "longTermRecvRecord": {
+            "signin_1": 1,
+            "signin_2": 1,
+            "signin_3": 1
         }
     },
     "aprilFool": {
