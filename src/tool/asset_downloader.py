@@ -52,8 +52,16 @@ if __name__ == "__main__":
     for ab_obj in hot_update_list["abInfos"]:
         ab_filename = get_asset_filename(ab_obj["name"])
 
-        if not download_all and ab_obj.get("pid"):
-            continue
+        if not download_all:
+            pid = ab_obj.get("pid")
+            if (
+                pid
+                and pid != "lpack_lcom"
+                and not pid.startswith("lpack_init")
+                and pid != "lpack_char"
+                and pid != "lpack_furn"
+            ):
+                continue
 
         asset_filename_lst.append(ab_filename)
 
