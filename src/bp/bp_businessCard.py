@@ -71,6 +71,11 @@ def businessCard_editNameCard(player_data):
 
     if skin_id is not None:
         player_data["nameCardStyle"]["skin"]["selected"] = skin_id
+        # magic number
+        if request_json["flag"] & 8:
+            player_data["nameCardStyle"]["skin"]["tmpl"][skin_id] = request_content[
+                "skinTmpl"
+            ]
 
     if component_order is not None:
         player_data["nameCardStyle"]["componentOrder"] = component_order

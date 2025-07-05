@@ -83,6 +83,14 @@ def quest_battleFinish(player_data):
         "suggestFriend": false,
         "pryResult": [],
         "itemReturn": [],
+        "extra": {
+            "sixStar": {
+                "groupId": "main_15",
+                "before": 32,
+                "after": 32,
+                "stageBefore": 2,
+            }
+        },
     }
     return response
 
@@ -185,4 +193,18 @@ def quest_finishStoryStage(player_data):
         "unlockStages": [],
         "alert": [],
     }
+    return response
+
+
+@bp_quest.route("/quest/editStageSixStarTag", methods=["POST"])
+@player_data_decorator
+def quest_editStageSixStarTag(player_data):
+    request_json = request.get_json()
+
+    stage_id = request_json["stageId"]
+    tag_lst = request_json["selected"]
+
+    player_data["dungeon"]["sixStar"]["stages"][stage_id]["tagSelected"] = tag_lst
+
+    response = {}
     return response

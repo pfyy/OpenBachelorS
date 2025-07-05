@@ -24,6 +24,9 @@
     "char_4136_phonor": [
       "char_4136_phonor"
     ],
+    "char_4188_confes": [
+      "char_4188_confes"
+    ],
     "char_502_nblade": [
       "char_502_nblade",
       "char_1029_yato2"
@@ -217,6 +220,9 @@
     ],
     "char_491_humus": [
       "char_491_humus"
+    ],
+    "char_445_wscoot": [
+      "char_445_wscoot"
     ],
     "char_237_gravel": [
       "char_237_gravel"
@@ -446,6 +452,9 @@
     "char_4131_odda": [
       "char_4131_odda"
     ],
+    "char_4187_graceb": [
+      "char_4187_graceb"
+    ],
     "char_129_bluep": [
       "char_129_bluep"
     ],
@@ -545,6 +554,9 @@
     ],
     "char_4081_warmy": [
       "char_4081_warmy"
+    ],
+    "char_4198_christ": [
+      "char_4198_christ"
     ],
     "char_4164_tecno": [
       "char_4164_tecno"
@@ -743,6 +755,9 @@
     "char_4162_cathy": [
       "char_4162_cathy"
     ],
+    "char_4178_alanna": [
+      "char_4178_alanna"
+    ],
     "char_101_sora": [
       "char_101_sora"
     ],
@@ -800,8 +815,12 @@
     "char_4151_tinman": [
       "char_4151_tinman"
     ],
+    "char_4191_tippi": [
+      "char_4191_tippi"
+    ],
     "char_103_angel": [
-      "char_103_angel"
+      "char_103_angel",
+      "char_1041_angel2"
     ],
     "char_332_archet": [
       "char_332_archet"
@@ -820,6 +839,9 @@
     ],
     "char_430_fartth": [
       "char_430_fartth"
+    ],
+    "char_4193_lemuen": [
+      "char_4193_lemuen"
     ],
     "char_113_cqbw": [
       "char_113_cqbw",
@@ -951,7 +973,8 @@
       "char_245_cello"
     ],
     "char_250_phatom": [
-      "char_250_phatom"
+      "char_250_phatom",
+      "char_1042_phatm2"
     ],
     "char_1502_crosly": [
       "char_1502_crosly"
@@ -998,6 +1021,9 @@
     "char_4042_lumen": [
       "char_4042_lumen"
     ],
+    "char_4179_monstr": [
+      "char_4179_monstr"
+    ],
     "char_136_hsguma": [
       "char_136_hsguma"
     ],
@@ -1027,6 +1053,9 @@
     ],
     "char_4039_horn": [
       "char_4039_horn"
+    ],
+    "char_4194_rmixer": [
+      "char_4194_rmixer"
     ],
     "char_2026_yu": [
       "char_2026_yu"

@@ -12,6 +12,7 @@ bp_user = Blueprint("bp_user", __name__)
 
 
 @bp_user.route("/user/auth/v1/token_by_phone_password", methods=["POST"])
+@bp_user.route("/user/auth/v2/token_by_phone_code", methods=["POST"])
 def user_auth_v1_token_by_phone_password():
     request_json = request.get_json()
 
@@ -65,6 +66,22 @@ def user_online_v1_loginout():
     return response
 
 
+@bp_user.route("/user/info/v1/logout", methods=["POST"])
+def user_info_v1_logout():
+    request_json = request.get_json()
+
+    response = {"msg": "OK", "status": 0, "type": "A"}
+    return response
+
+
+@bp_user.route("/user/info/v1/update_agreement", methods=["POST"])
+def user_info_v1_update_agreement():
+    request_json = request.get_json()
+
+    response = {"msg": "OK", "status": 0, "type": "A"}
+    return response
+
+
 @bp_user.route("/user/changeAvatar", methods=["POST"])
 @player_data_decorator
 def user_changeAvatar(player_data):
@@ -88,4 +105,17 @@ def user_changeResume(player_data):
     player_data["status"]["resume"] = resume
 
     response = {}
+    return response
+
+
+@bp_user.route("/user/useRenameCard", methods=["POST"])
+@player_data_decorator
+def user_useRenameCard(player_data):
+    request_json = request.get_json()
+
+    player_data["status"]["nickName"] = request_json["nickName"]
+
+    response = {
+        "result": 0,
+    }
     return response

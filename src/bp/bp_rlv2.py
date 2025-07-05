@@ -953,6 +953,11 @@ class Rlv2BasicManager:
         self.player_data["rlv2"]["current"]["player"]["pending"] = pending_lst
 
 
+class Rlv2Theme1BasicManager(Rlv2BasicManager):
+    def get_floor_difficulty(self, mode, mode_grade):
+        return 0
+
+
 class Rlv2Theme2BasicManager(Rlv2BasicManager):
     def get_unkeep_buff(self):
         unkeep_buff = super().get_unkeep_buff()
@@ -1091,6 +1096,8 @@ class Rlv2Theme4BasicManager(Rlv2BasicManager):
 
 def get_rlv2_manager(player_data, request_json, response):
     theme_id = player_data["rlv2"]["current"]["game"]["theme"]
+    if theme_id == "rogue_1":
+        return Rlv2Theme1BasicManager(player_data, theme_id, request_json, response)
     if theme_id == "rogue_2":
         return Rlv2Theme2BasicManager(player_data, theme_id, request_json, response)
     if theme_id == "rogue_4":

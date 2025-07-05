@@ -9,6 +9,7 @@ from ..const.filepath import CONFIG_JSON, VERSION_JSON, SANDBOX_PERM_TABLE
 from ..util.const_json_loader import const_json_loader, ConstJson
 from ..util.player_data import PlayerData, player_data_template
 from ..util.helper import get_char_num_id
+from ..util.db_manager import IS_DB_READY, destroy_db, init_db
 
 
 @click.group(invoke_without_command=True)
@@ -369,6 +370,16 @@ def reset_all(
     player_data.save()
 
     click.echo("info: relogin is required for changes to take effect")
+
+
+@cli.command()
+@click.pass_context
+def reset_db(
+    ctx,
+):
+    if IS_DB_READY:
+        destroy_db()
+        init_db()
 
 
 if __name__ == "__main__":

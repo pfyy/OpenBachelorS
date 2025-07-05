@@ -4,6 +4,7 @@ import json
 from flask import Blueprint
 from flask import request
 from flask import send_file
+from flask import redirect
 import requests
 
 from ..const.json_const import true, false, null
@@ -22,6 +23,7 @@ bp_assetbundle = Blueprint("bp_assetbundle", __name__)
 
 
 HOT_UPDATE_LIST_JSON = "hot_update_list.json"
+ORIG_ASSET_URL_PREFIX = "https://ak.hycdn.cn/assetbundle/official/Android/assets"
 
 
 @bp_assetbundle.route(
@@ -70,12 +72,18 @@ def assetbundle_official_Android_assets(res_version, asset_filename):
     asset_abs_filepath = os.path.abspath(asset_filepath)
 
     if not os.path.isfile(asset_filepath):
-        url = f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_version}/{asset_filename}"
+        url = f"{ORIG_ASSET_URL_PREFIX}/{res_version}/{asset_filename}"
 
         req = requests.head(url)
 
         if req.status_code != 200:
             return "", 404
+
+        if (
+            const_json_loader[CONFIG_JSON]["redirect_asset"]
+            and asset_filename != HOT_UPDATE_LIST_JSON
+        ):
+            return redirect(f"{ORIG_ASSET_URL_PREFIX}/{res_version}/{asset_filename}")
 
         download_file(url, asset_filename, asset_dirpath)
 

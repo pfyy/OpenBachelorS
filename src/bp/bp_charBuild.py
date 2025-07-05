@@ -163,3 +163,16 @@ def charBuild_addonStage_battleFinish(player_data):
         "firstRewards": [],
     }
     return response
+
+
+@bp_charBuild.route("/charBuild/changeSkinSpState", methods=["POST"])
+@player_data_decorator
+def charBuild_changeSkinSpState(player_data):
+    request_json = request.get_json()
+
+    skin_id = request_json["skinId"]
+
+    player_data["skin"]["skinSp"][skin_id] = request_json["isSpecial"]
+
+    response = {}
+    return response

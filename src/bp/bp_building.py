@@ -174,3 +174,44 @@ def building_setPrivateDormOwner(player_data):
 
     response = {}
     return response
+
+
+@bp_building.route("/building/saveDiyPresetSolution", methods=["POST"])
+@player_data_decorator
+def building_saveDiyPresetSolution(player_data):
+    request_json = request.get_json()
+
+    solution_id = request_json["solutionId"]
+
+    player_data["building"]["diyPresetSolutions"][str(solution_id)] = {
+        "name": request_json["name"],
+        "solution": request_json["solution"],
+        "roomType": request_json["roomType"],
+        "thumbnail": "http://127.0.0.1/thumbnail.jpg",
+    }
+
+    response = {}
+    return response
+
+
+@bp_building.route("/building/getThumbnailUrl", methods=["POST"])
+def building_getThumbnailUrl():
+    request_json = request.get_json()
+
+    response = {"url": ["http://127.0.0.1/thumbnail.jpg"]}
+    return response
+
+
+@bp_building.route("/building/changePresetName", methods=["POST"])
+@player_data_decorator
+def building_changePresetName(player_data):
+    request_json = request.get_json()
+
+    solution_id = request_json["solutionId"]
+
+    player_data["building"]["diyPresetSolutions"][str(solution_id)]["name"] = (
+        request_json["name"]
+    )
+
+    response = {}
+    return response

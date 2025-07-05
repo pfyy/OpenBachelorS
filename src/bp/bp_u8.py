@@ -58,3 +58,11 @@ def u8_user_auth_v1_agreement_version():
         "type": "",
     }
     return response
+
+
+@bp_u8.route("/u8/user/auth/v1/update_agreement", methods=["POST"])
+def u8_user_auth_v1_update_agreement():
+    request_json = request.get_json()
+
+    response = {"msg": "OK", "status": 0, "type": ""}
+    return response

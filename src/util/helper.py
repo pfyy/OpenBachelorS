@@ -8,6 +8,7 @@ import subprocess
 from uuid import uuid4
 import re
 from hashlib import md5
+import random
 
 from pathvalidate import is_valid_filename
 from Crypto.Cipher import AES
@@ -133,7 +134,7 @@ def download_file(url: str, filename: str, dirpath: str):
 
 
 def is_valid_res_version(res_version: str) -> bool:
-    return re.fullmatch("[0-9A-Fa-f-]*", res_version) is not None
+    return re.fullmatch("[0-9A-Fa-f-_]*", res_version) is not None
 
 
 def is_valid_asset_filename(asset_filename: str) -> bool:
@@ -185,3 +186,45 @@ def validate_is_cheat(is_cheat: str, battle_id: str):
         char_arr.append(chr(ord(i) + 7))
     dst_is_cheat = b64encode("".join(char_arr).encode()).decode()
     return is_cheat == dst_is_cheat
+
+
+def get_random_key(key_probability_dict: dict):
+    r = random.random()
+    p = 0
+    for key, probability in key_probability_dict.items():
+        p += probability
+        if r < p:
+            return key
+    return None
+
+
+str_tag_dict = {
+    "PIONEER": "先锋干员",
+    "WARRIOR": "近卫干员",
+    "TANK": "重装干员",
+    "SNIPER": "狙击干员",
+    "CASTER": "术师干员",
+    "MEDIC": "医疗干员",
+    "SUPPORT": "辅助干员",
+    "SPECIAL": "特种干员",
+    "MELEE": "近战位",
+    "RANGED": "远程位",
+    "TIER_6": "高级资深干员",
+    "TIER_5": "资深干员",
+}
+
+
+def get_char_str_tag_lst(char_obj):
+    char_str_tag_lst = []
+
+    char_str_tag_lst.append(str_tag_dict[char_obj["profession"]])
+
+    char_str_tag_lst.append(str_tag_dict[char_obj["position"]])
+
+    if char_obj["rarity"] in str_tag_dict:
+        char_str_tag_lst.append(str_tag_dict[char_obj["rarity"]])
+
+    if char_obj["tagList"] is not None:
+        char_str_tag_lst += char_obj["tagList"].copy()
+
+    return char_str_tag_lst
