@@ -1,5 +1,5 @@
 CONFIG_JSON = "conf/config.json"
-VERSION_JSON = "conf/version.json"
+VERSION_JSON = "conf/version_2461.json"
 ASSIST_JSON = "conf/assist.json"
 SQUAD_JSON = "conf/squad.json"
 
