@@ -74,16 +74,16 @@ def assetbundle_official_Android_assets(res_version, asset_filename):
     if not os.path.isfile(asset_filepath):
         url = f"{ORIG_ASSET_URL_PREFIX}/{res_version}/{asset_filename}"
 
-        req = requests.head(url)
-
-        if req.status_code != 200:
-            return "", 404
-
         if (
             const_json_loader[CONFIG_JSON]["redirect_asset"]
             and asset_filename != HOT_UPDATE_LIST_JSON
         ):
             return redirect(f"{ORIG_ASSET_URL_PREFIX}/{res_version}/{asset_filename}")
+
+        req = requests.head(url)
+
+        if req.status_code != 200:
+            return "", 404
 
         download_file(url, asset_filename, asset_dirpath)
 
