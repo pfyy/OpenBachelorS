@@ -1,9 +1,9 @@
-flask==3.1.0
+flask==3.1.1
 waitress==3.0.2
-pathvalidate==3.2.1
-requests==2.32.3
-pycryptodome==3.21.0
-click==8.1.8
-prompt_toolkit==3.0.50
-psycopg[binary]==3.2.7
-psycopg_pool==3.2.6
+pathvalidate==3.3.1
+requests==2.32.4
+pycryptodome==3.23.0
+click==8.2.1
+prompt-toolkit==3.0.51
+psycopg[binary]==3.2.9
+psycopg-pool==3.2.6

@@ -360,3 +360,63 @@ def activity_vecBreakV2_changeBuffList(player_data):
 
     response = {}
     return response
+
+
+@misc_bp.route("/activity/bossRush/battleStart", methods=["POST"])
+@player_data_decorator
+def activity_bossRush_battleStart(player_data):
+    request_json = request.get_json()
+
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+        "apFailReturn": 0,
+        "isApProtect": 0,
+        "inApProtectPeriod": false,
+        "notifyPowerScoreNotEnoughIfFailed": false,
+    }
+    return response
+
+
+@misc_bp.route("/activity/bossRush/battleFinish", methods=["POST"])
+@player_data_decorator
+def activity_bossRush_battleFinish(player_data):
+    request_json = request.get_json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "result": 0,
+        "apFailReturn": 0,
+        "expScale": 0,
+        "goldScale": 0,
+        "rewards": [],
+        "firstRewards": [],
+        "unlockStages": [],
+        "unusualRewards": [],
+        "additionalRewards": [],
+        "furnitureRewards": [],
+        "alert": [],
+        "suggestFriend": false,
+        "pryResult": [],
+        "wave": 3,
+        "milestoneBefore": 0,
+        "milestoneAdd": 0,
+        "isMileStoneMax": true,
+        "tokenAdd": 0,
+        "isTokenMax": true,
+    }
+    return response
+
+
+@misc_bp.route("/activity/bossRush/relicSelect", methods=["POST"])
+@player_data_decorator
+def activity_bossRush_relicSelect(player_data):
+    request_json = request.get_json()
+
+    player_data["activity"]["BOSS_RUSH"][request_json["activityId"]]["relic"][
+        "select"
+    ] = request_json["relicId"]
+
+    response = {}
+    return response

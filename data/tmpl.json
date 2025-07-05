@@ -518,6 +518,88 @@
                 },
                 "activatedBuff": []
             }
+        },
+        "BOSS_RUSH": {
+            "act5bossrush": {
+                "milestone": {
+                    "point": 3625,
+                    "got": [
+                        "mileStone_1",
+                        "mileStone_10",
+                        "mileStone_11",
+                        "mileStone_12",
+                        "mileStone_13",
+                        "mileStone_14",
+                        "mileStone_15",
+                        "mileStone_16",
+                        "mileStone_17",
+                        "mileStone_18",
+                        "mileStone_19",
+                        "mileStone_2",
+                        "mileStone_20",
+                        "mileStone_21",
+                        "mileStone_22",
+                        "mileStone_23",
+                        "mileStone_24",
+                        "mileStone_25",
+                        "mileStone_26",
+                        "mileStone_27",
+                        "mileStone_28",
+                        "mileStone_29",
+                        "mileStone_3",
+                        "mileStone_30",
+                        "mileStone_31",
+                        "mileStone_32",
+                        "mileStone_33",
+                        "mileStone_34",
+                        "mileStone_35",
+                        "mileStone_36",
+                        "mileStone_37",
+                        "mileStone_38",
+                        "mileStone_39",
+                        "mileStone_4",
+                        "mileStone_40",
+                        "mileStone_41",
+                        "mileStone_42",
+                        "mileStone_43",
+                        "mileStone_44",
+                        "mileStone_45",
+                        "mileStone_5",
+                        "mileStone_6",
+                        "mileStone_7",
+                        "mileStone_8",
+                        "mileStone_9"
+                    ]
+                },
+                "relic": {
+                    "token": {
+                        "current": 0,
+                        "total": 240
+                    },
+                    "level": {
+                        "act5bossrush_relic_01": 3,
+                        "act5bossrush_relic_02": 3,
+                        "act5bossrush_relic_03": 3,
+                        "act5bossrush_relic_04": 3
+                    },
+                    "select": "act5bossrush_relic_01"
+                },
+                "best": {
+                    "act5bossrush_01": 2,
+                    "act5bossrush_tm01": 2,
+                    "act5bossrush_ex01": 2,
+                    "act5bossrush_02": 3,
+                    "act5bossrush_tm02": 3,
+                    "act5bossrush_ex02": 3,
+                    "act5bossrush_03": 3,
+                    "act5bossrush_tm03": 3,
+                    "act5bossrush_ex03": 3,
+                    "act5bossrush_04": 3,
+                    "act5bossrush_tm04": 3,
+                    "act5bossrush_ex04": 3,
+                    "act5bossrush_fin04": 3
+                }
+            }
         }
     },
     "status": {
