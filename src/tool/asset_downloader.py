@@ -1,6 +1,7 @@
 import os
 import json
 from multiprocessing import Pool
+import sys
 
 
 from ..app import app
@@ -34,6 +35,10 @@ def asset_download_worker_func(worker_param):
 if __name__ == "__main__":
     res_version = const_json_loader[VERSION_JSON]["version"]["resVersion"]
 
+    download_all = False
+    if "--download_all" in sys.argv:
+        download_all = True
+
     with app.test_request_context():
         assetbundle_official_Android_assets(res_version, HOT_UPDATE_LIST_JSON)
     with open(
@@ -46,6 +51,9 @@ if __name__ == "__main__":
 
     for ab_obj in hot_update_list["abInfos"]:
         ab_filename = get_asset_filename(ab_obj["name"])
+
+        if not download_all and ab_obj.get("pid"):
+            continue
 
         asset_filename_lst.append(ab_filename)
 
