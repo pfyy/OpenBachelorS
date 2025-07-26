@@ -1099,6 +1099,81 @@ class Rlv2Theme5BasicManager(Rlv2BasicManager):
         super().rlv2_createGame()
         self.player_data["rlv2"]["current"]["player"]["property"]["gold"] = 500
 
+    def get_raidian_buff_lst(self, stage_floor):
+        raidian_buff_lst = []
+
+        if stage_floor > 1:
+            stage_floor -= 1
+
+            raidian_buff_lst += [
+                {
+                    "key": "char_attribute_add",
+                    "blackboard": [
+                        {"key": "max_deploy_count", "value": 2},
+                        {
+                            "key": "selector.char",
+                            "valueStr": "token_10051_radian_tower1|token_10052_radian_tower2|token_10053_radian_tower3",
+                        },
+                    ],
+                },
+            ]
+
+        if stage_floor > 1:
+            stage_floor -= 1
+
+            raidian_buff_lst += [
+                {
+                    "key": "char_attribute_add",
+                    "blackboard": [
+                        {"key": "attack_speed", "value": 35},
+                        {
+                            "key": "selector.char",
+                            "valueStr": "token_10051_radian_tower1|token_10052_radian_tower2|token_10053_radian_tower3",
+                        },
+                    ],
+                },
+            ]
+
+        if stage_floor > 1:
+            stage_floor -= 1
+
+            raidian_buff_lst += [
+                {
+                    "key": "deck_card_buff",
+                    "blackboard": [
+                        {"key": "dont_occupy_deploy_cnt", "value": 1},
+                        {
+                            "key": "selector.char",
+                            "valueStr": "token_10051_radian_tower1|token_10052_radian_tower2|token_10053_radian_tower3",
+                        },
+                    ],
+                },
+                {
+                    "key": "char_ability_new_at_root",
+                    "blackboard": [
+                        {"key": "key", "valueStr": "rogue_2_occupy_zero[token]"},
+                        {
+                            "key": "selector.char",
+                            "valueStr": "token_10051_radian_tower1|token_10052_radian_tower2|token_10053_radian_tower3",
+                        },
+                    ],
+                },
+            ]
+
+        return raidian_buff_lst
+
+    def get_unkeep_buff(self):
+        unkeep_buff = super().get_unkeep_buff()
+
+        stage_id = self.request_json["stageId"]
+        stage_floor = self.get_stage_floor(stage_id)
+
+        raidian_buff_lst = self.get_raidian_buff_lst(stage_floor)
+
+        unkeep_buff += raidian_buff_lst
+
+        return unkeep_buff
+
     def get_stage_buff_lst(self, floor_difficulty):
         stage_id = self.request_json["stageId"]
 
