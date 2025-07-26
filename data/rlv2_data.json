@@ -3383,7 +3383,76 @@
                 }
             ]
         },
-        "rogue_5": {}
+        "rogue_5": {
+            "3": [
+                {
+                    "key": "bp_reward_increase",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": 2
+                        }
+                    ]
+                },
+                {
+                    "key": "immediate_reward",
+                    "blackboard": [
+                        {
+                            "key": "id",
+                            "valueStr": "rogue_5_shield"
+                        },
+                        {
+                            "key": "count",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "6": [
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "inc_outerbuff_shop_slot_unlock",
+                "blackboard": [
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            }
+        ],
+        "9": [
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_population"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            }
+        ]
     },
     "stage_floor": {
         "ro2_n_1_1": 1,
