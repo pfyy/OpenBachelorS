@@ -2509,6 +2509,652 @@
                     }
                 ]
             }
+        ],
+        "rogue_5": [
+            {
+                "key": "battle_reward_copper_choice_extra",
+                "blackboard": [
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "bp_reward_increase",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "candle_recruit_cost",
+                "blackboard": [
+                    {
+                        "key": "delta",
+                        "value": -2
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.02
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.02
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.04
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.04
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.04
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.04
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.05
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.05
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.05
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.05
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.06
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.06
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.06
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.06
+                    }
+                ]
+            },
+            {
+                "key": "deck_card_buff",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": -9
+                    },
+                    {
+                        "key": "selector.char",
+                        "valueStr": "token_10051_radian_tower1|token_10052_radian_tower2|token_10053_radian_tower3"
+                    }
+                ]
+            },
+            {
+                "key": "game_pass_bank_reward",
+                "blackboard": [
+                    {
+                        "key": "count",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_copper_draw_num"
+                    },
+                    {
+                        "key": "count",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_divinationkit"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_divinationkit"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_gold"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_hpmax"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_hpmax"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_squad_capacity"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_stash_recruit_limit"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "level_char_limit_add",
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "recruit_cost_char",
+                "blackboard": [
+                    {
+                        "key": "char_id_list",
+                        "valueStr": "char_4195_radian"
+                    },
+                    {
+                        "key": "delta",
+                        "value": -4
+                    }
+                ]
+            },
+            {
+                "key": "roguelike_character_in_candle",
+                "blackboard": []
+            },
+            {
+                "key": "secret_into_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_sky_ap"
+                    },
+                    {
+                        "key": "count",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "key": "secret_into_reward_once",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_sky_ap"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "set_choice_dynamic_param",
+                "blackboard": [
+                    {
+                        "key": "key",
+                        "valueStr": "ro5_camp_bat_unlock"
+                    },
+                    {
+                        "key": "value",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "set_choice_dynamic_param",
+                "blackboard": [
+                    {
+                        "key": "key",
+                        "valueStr": "ro5_double5_sounlock_1"
+                    },
+                    {
+                        "key": "value",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "set_choice_dynamic_param",
+                "blackboard": [
+                    {
+                        "key": "key",
+                        "valueStr": "ro5_double5_sounlock_2"
+                    },
+                    {
+                        "key": "value",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "sky_map_gen_delta",
+                "blackboard": [
+                    {
+                        "key": "origin_adjacent_no_battle",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "spzone_battle_fail_cost_ap",
+                "blackboard": [
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "unlock_node",
+                "blackboard": [
+                    {
+                        "key": "node",
+                        "valueStr": "DUEL"
+                    }
+                ]
+            },
+            {
+                "key": "unlock_node",
+                "blackboard": [
+                    {
+                        "key": "node",
+                        "valueStr": "EXPEDITION"
+                    }
+                ]
+            },
+            {
+                "key": "unlock_system",
+                "blackboard": [
+                    {
+                        "key": "type",
+                        "valueStr": "SHOP_REFRESH"
+                    }
+                ]
+            },
+            {
+                "key": "unlock_system",
+                "blackboard": [
+                    {
+                        "key": "type",
+                        "valueStr": "SPECIAL_ZONE_SHOP_REFRESH"
+                    }
+                ]
+            },
+            {
+                "key": "up_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_exp"
+                    },
+                    {
+                        "key": "up",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "mask",
+                        "valueStr": "battle"
+                    }
+                ]
+            },
+            {
+                "key": "up_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_exp"
+                    },
+                    {
+                        "key": "up",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "mask",
+                        "valueStr": "battle"
+                    }
+                ]
+            },
+            {
+                "key": "up_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_exp"
+                    },
+                    {
+                        "key": "up",
+                        "value": 0.1
+                    },
+                    {
+                        "key": "mask",
+                        "valueStr": "battle"
+                    }
+                ]
+            },
+            {
+                "key": "upgrade_cost_char",
+                "blackboard": [
+                    {
+                        "key": "char_id_list",
+                        "valueStr": "char_4195_radian"
+                    },
+                    {
+                        "key": "delta",
+                        "value": -2
+                    }
+                ]
+            },
+            {
+                "key": "zone_into_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_somaster_13"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    },
+                    {
+                        "key": "zone",
+                        "valueStr": "zone_4"
+                    }
+                ]
+            },
+            {
+                "key": "zone_into_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_somaster_17"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    },
+                    {
+                        "key": "zone",
+                        "valueStr": "zone_2"
+                    }
+                ]
+            },
+            {
+                "key": "zone_into_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_somaster_18"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    },
+                    {
+                        "key": "zone",
+                        "valueStr": "zone_3"
+                    }
+                ]
+            },
+            {
+                "key": "zone_into_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_somaster_19"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    },
+                    {
+                        "key": "zone",
+                        "valueStr": "zone_1"
+                    }
+                ]
+            }
         ]
     },
     "conditional_init_buff_lst": {
@@ -2736,7 +3382,8 @@
                     ]
                 }
             ]
-        }
+        },
+        "rogue_5": {}
     },
     "stage_floor": {
         "ro2_n_1_1": 1,

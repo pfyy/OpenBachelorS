@@ -264,7 +264,7 @@ class Rlv2BasicManager:
 
     def create_simple_zone_obj(self, zone_num_idx):
         zone_obj = {
-            "id": f"zone_{zone_num_idx+1}",
+            "id": f"zone_{zone_num_idx + 1}",
             "index": self.get_zone_idx(zone_num_idx),
             "nodes": {},
             "variation": [],
@@ -1094,6 +1094,12 @@ class Rlv2Theme4BasicManager(Rlv2BasicManager):
         return stage_buff_lst
 
 
+class Rlv2Theme5BasicManager(Rlv2BasicManager):
+    def rlv2_createGame(self):
+        super().rlv2_createGame()
+        self.player_data["rlv2"]["current"]["player"]["property"]["gold"] = 500
+
+
 def get_rlv2_manager(player_data, request_json, response):
     theme_id = player_data["rlv2"]["current"]["game"]["theme"]
     if theme_id == "rogue_1":
@@ -1102,6 +1108,8 @@ def get_rlv2_manager(player_data, request_json, response):
         return Rlv2Theme2BasicManager(player_data, theme_id, request_json, response)
     if theme_id == "rogue_4":
         return Rlv2Theme4BasicManager(player_data, theme_id, request_json, response)
+    if theme_id == "rogue_5":
+        return Rlv2Theme5BasicManager(player_data, theme_id, request_json, response)
     return Rlv2BasicManager(player_data, theme_id, request_json, response)
 
 
