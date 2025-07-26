@@ -3154,6 +3154,58 @@
                         "valueStr": "zone_1"
                     }
                 ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_shield"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_stash_recruit_limit"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "secret_into_reward_once",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_sky_ap"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "secret_into_reward_once",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_somaster_20"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
             }
         ]
     },
