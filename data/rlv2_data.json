@@ -6639,6 +6639,1297 @@
                     17
                 ]
             }
+        },
+        "rogue_5": {
+            "0": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.8
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.8
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.5
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.5
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_5_stash_recruit_limit"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_choice_dynamic_param",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "ro5_lokk_wrath_a"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wrath_num_limit",
+                        "blackboard": [
+                            {
+                                "key": "limit",
+                                "value": 1
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "1": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.9
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.9
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.5
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.5
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_5_stash_recruit_limit"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_choice_dynamic_param",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "ro5_lokk_wrath_a"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wrath_num_limit",
+                        "blackboard": [
+                            {
+                                "key": "limit",
+                                "value": 1
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "2": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.6
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.6
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_5_stash_recruit_limit"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_choice_dynamic_param",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "ro5_lokk_wrath_a"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wrath_num_limit",
+                        "blackboard": [
+                            {
+                                "key": "limit",
+                                "value": 4
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "3": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.6
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.6
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_5_stash_recruit_limit"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_choice_dynamic_param",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "ro5_lokk_wrath_a"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wrath_num_limit",
+                        "blackboard": [
+                            {
+                                "key": "limit",
+                                "value": 4
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "4": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.7
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.7
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_5_stash_recruit_limit"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_choice_dynamic_param",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "ro5_lokk_wrath_a"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wrath_num_limit",
+                        "blackboard": [
+                            {
+                                "key": "limit",
+                                "value": 4
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.5
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2101_dyspll|enemy_2121_dyspl2"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "5": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.8
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.8
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_5_stash_recruit_limit"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_choice_dynamic_param",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "ro5_lokk_wrath_a"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wrath_num_limit",
+                        "blackboard": [
+                            {
+                                "key": "limit",
+                                "value": 4
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.5
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2101_dyspll|enemy_2121_dyspl2"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "6": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.9
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_5_enemy_sp_zone_attri_up"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.9
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1
+                            },
+                            {
+                                "key": "def",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_5_stash_recruit_limit"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_choice_dynamic_param",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "ro5_lokk_wrath_b"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wrath_num_limit",
+                        "blackboard": [
+                            {
+                                "key": "limit",
+                                "value": 4
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.5
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2101_dyspll|enemy_2121_dyspl2"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "7": {
+                "buff_lst": [
+                    {
+                        "key": "immediate_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_5_stash_recruit_limit"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_choice_dynamic_param",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "ro5_lokk_wrath_b"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wrath_num_limit",
+                        "blackboard": [
+                            {
+                                "key": "limit",
+                                "value": 4
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.4
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.5
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2101_dyspll|enemy_2121_dyspl2"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            },
+            "8": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_def_down"
+                            },
+                            {
+                                "key": "def",
+                                "value": 1.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_def_down"
+                            },
+                            {
+                                "key": "def",
+                                "value": 1.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            },
+                            {
+                                "key": "selector.enemy_exclude",
+                                "valueStr": "enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1206_msfpin|enemy_1206_msfpin_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2|enemy_10059_cjgfod|enemy_10060_cjbfod|enemy_2121_dyspl2|enemy_2101_dyspll"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "recruit_cost",
+                        "blackboard": [
+                            {
+                                "key": "rarity",
+                                "valueStr": "TIER_5"
+                            },
+                            {
+                                "key": "profession",
+                                "valueStr": "PIONEER,WARRIOR,TANK,SNIPER,CASTER,SUPPORT,MEDIC,SPECIAL"
+                            },
+                            {
+                                "key": "delta",
+                                "value": 1
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    7
+                ]
+            },
+            "9": {
+                "buff_lst": [
+                    {
+                        "key": "level_char_limit_add",
+                        "blackboard": [
+                            {
+                                "key": "value",
+                                "value": -1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "sky_map_gen_delta",
+                        "blackboard": [
+                            {
+                                "key": "delta_battle_nodes_surround_ftt",
+                                "value": 1
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    7,
+                    8
+                ]
+            },
+            "10": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "11": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "12": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "13": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "14": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "15": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            }
         }
     }
 }
