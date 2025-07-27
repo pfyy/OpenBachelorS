@@ -2,7 +2,7 @@ from flask import Blueprint
 from flask import request
 
 from ..const.json_const import true, false, null
-from ..const.filepath import CONFIG_JSON, VERSION_JSON
+from ..const.filepath import CONFIG_JSON, VERSION_JSON, DISPLAY_META_TABLE
 from ..util.const_json_loader import const_json_loader
 from ..util.player_data import player_data_decorator
 from ..util.mail_helper import get_player_mailbox
@@ -123,8 +123,15 @@ def mail_removeAllReceivedMail(player_data):
 def mailCollection_getList(player_data):
     request_json = request.get_json()
 
+    display_meta_table = const_json_loader[DISPLAY_META_TABLE]
+
+    collection_lst = []
+
+    for i, _ in display_meta_table["mailArchiveData"]["mailArchiveInfoDict"]:
+        collection_lst.append(i)
+
     response = {
-        "collections": [],
+        "collections": collection_lst,
         "extra": [],
     }
     return response
