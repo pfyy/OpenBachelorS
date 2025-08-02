@@ -36,6 +36,8 @@ MOD_DIRPATH = "mod/"
 GAME_LINK_FILEPATH = "link/game.txt"
 MUMU_LINK_FILEPATH = "link/mumu12.txt"
 
+RES_LOCK_FILEPATH = "res_lock"
+
 SKIN_TABLE = "res/excel/skin_table.json"
 CHARWORD_TABLE = "res/excel/charword_table.json"
 UNIEQUIP_TABLE = "res/excel/uniequip_table.json"
