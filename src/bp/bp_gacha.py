@@ -1079,6 +1079,46 @@ class AdvancedGachaNewbeeManager(AdvancedGachaSimpleManager):
         ]
 
 
+class AdvancedGachaLimitedManager(AdvancedGachaSimpleManager):
+    def __init__(self, player_data, request_json, response, pool_id, gacha_type):
+        super().__init__(player_data, request_json, response, pool_id, gacha_type)
+
+        gacha_data = const_json_loader[GACHA_DATA]
+
+        self.is_valid_pool = True
+        if pool_id not in gacha_data["limit_info"]:
+            self.is_valid_pool = False
+
+        if not self.is_valid_pool:
+            print(f"warn: limit pool {self.pool_id} misconfigured")
+
+        if self.is_valid_pool:
+            self.limit_info = gacha_data["limit_info"][pool_id]
+
+    def get_basic_tier_6_pity_key(self):
+        return f"advanced_gacha_limit_pity_{self.pool_id}"
+
+    def get_avail_char_id_lst(self, char_rarity_rank):
+        avail_char_id_lst = super().get_avail_char_id_lst(char_rarity_rank)
+        if not self.is_valid_pool:
+            return avail_char_id_lst
+
+        if char_rarity_rank.name not in self.limit_info["weight_up_char_info"]:
+            return avail_char_id_lst
+
+        weight_up_char_id_lst = self.limit_info["weight_up_char_info"][
+            char_rarity_rank.name
+        ]["char_id_lst"].copy()
+        cnt = (
+            self.limit_info["weight_up_char_info"][char_rarity_rank.name]["weight"]
+            // 100
+        )
+        for _ in range(cnt):
+            avail_char_id_lst += weight_up_char_id_lst
+
+        return avail_char_id_lst
+
+
 def get_advanced_gacha_manager(player_data, request_json, response):
     pool_id = request_json["poolId"]
     gacha_type = pool_id_gacha_type_dict[pool_id]
@@ -1092,6 +1132,10 @@ def get_advanced_gacha_manager(player_data, request_json, response):
         )
     if gacha_type == "newbee":
         return AdvancedGachaNewbeeManager(
+            player_data, request_json, response, pool_id, gacha_type
+        )
+    if gacha_type == "limit":
+        return AdvancedGachaLimitedManager(
             player_data, request_json, response, pool_id, gacha_type
         )
     return AdvancedGachaSimpleManager(

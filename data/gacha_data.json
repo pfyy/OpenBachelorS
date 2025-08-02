@@ -482,6 +482,36 @@
                 ],
                 "percent": 0.25
             }
+        },
+        "LIMITED_64_0_1": {
+            "TIER_6": {
+                "char_id_lst": [
+                    "char_1044_hsgma2",
+                    "char_4202_haruka"
+                ],
+                "percent": 0.35
+            },
+            "TIER_5": {
+                "char_id_lst": [
+                    "char_4203_kichi"
+                ],
+                "percent": 0.5
+            }
+        }
+    },
+    "limit_info": {
+        "LIMITED_64_0_1": {
+            "limited_char_id": "char_1044_hsgma2",
+            "weight_up_char_info": {
+                "TIER_6": {
+                    "char_id_lst": [
+                        "char_1026_gvial2",
+                        "char_1016_agoat2",
+                        "char_4058_pepe"
+                    ],
+                    "weight": 500
+                }
+            }
         }
     }
 }
