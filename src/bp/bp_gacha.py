@@ -1118,6 +1118,69 @@ class AdvancedGachaLimitedManager(AdvancedGachaSimpleManager):
 
         return avail_char_id_lst
 
+    def gacha_getPoolDetail(self):
+        super().gacha_getPoolDetail()
+
+        if self.is_valid_pool:
+            self.response["detailInfo"]["limitedChar"] = [
+                self.limit_info["limited_char_id"]
+            ]
+
+            weight_up_char_info_lst = []
+
+            for char_tier_name, char_tier_obj in self.limit_info["weight_up_char_info"]:
+                weight_up_char_id_lst = char_tier_obj["char_id_lst"]
+                weight = char_tier_obj["weight"]
+
+                for _, char_id in weight_up_char_id_lst:
+                    weight_up_char_info_lst.append(
+                        {
+                            "rarityRank": CharRarityRank[char_tier_name].value,
+                            "charId": char_id,
+                            "weight": weight,
+                        },
+                    )
+
+            self.response["detailInfo"]["weightUpCharInfoList"] = (
+                weight_up_char_info_lst
+            )
+
+        self.response["detailInfo"]["gachaObjList"] = [
+            {"gachaObject": "TEXT", "type": 0, "imageType": 0, "param": "卡池干员列表"},
+            {
+                "gachaObject": "RATE_UP_6",
+                "type": 0,
+                "imageType": 0,
+                "param": "限定寻访",
+            },
+            {"gachaObject": "TEXT", "type": 2, "imageType": 0, "param": "出现概率上升"},
+            {
+                "gachaObject": "UP_CHAR_WITH_LIMIT",
+                "type": 0,
+                "imageType": 0,
+                "param": null,
+            },
+            {
+                "gachaObject": "TEXT",
+                "type": 1,
+                "imageType": 0,
+                "param": "全部可能出现的干员",
+            },
+            {"gachaObject": "AVAIL_CHAR", "type": 0, "imageType": 0, "param": null},
+            {
+                "gachaObject": "TEXT",
+                "type": 0,
+                "imageType": 0,
+                "param": "该寻访为【限定寻访】",
+            },
+            {
+                "gachaObject": "TEXT",
+                "type": 5,
+                "imageType": 0,
+                "param": "【不归花火】为<@limtedGa.21>【限定寻访·夏季】</>系列寻访。\r\n<@limtedGa.21>【限定寻访·夏季】</>寻访为<@limtedGa.21>【限定寻访】</>。\r\n在所有<@limtedGa.21>【限定寻访】</>中，如果连续<@limtedGa.percent>50</>次没有获得6星干员，则下一次获得6星干员的概率将从原本的<@limtedGa.percent>2%</>提升至<@limtedGa.percent>4%</>，如果该次还没有寻访到6星干员，则下一次寻访获得6星的概率由<@limtedGa.percent>4%</>提升到<@limtedGa.percent>6%</>。依此类推，每次提高<@limtedGa.percent>2%</>获得6星干员的概率，直至达到<@limtedGa.percent>100%</>时必定获得6星干员。\r\n在任意两个不同的<@limtedGa.21>【限定寻访】</>中，没有获得6星干员的累计次数不会累计，该次数会因为<@limtedGa.21>【限定寻访】</>的结束而清零。因为累计次数而增加的获得概率，不会应用于接下来任意一次<@limtedGa.21>【限定寻访】</>。\r\n在所有<@limtedGa.21>【限定寻访】</>中，每进行一次寻访，可获取一张<@limtedGa.attention>【寻访数据契约】</>，寻访十次则可获取十张<@limtedGa.attention>【寻访数据契约】</>，<@limtedGa.attention>【寻访数据契约】</>可用于当期<@limtedGa.attention>【寻访数据契约交换所】</>兑换指定干员。\r\n在本期<@limtedGa.21>【限定寻访】</>中，累计寻访300次，可以额外获得限定干员斩业星熊（仅限一次）。该次6星限定干员的获取是额外赠送，不产出<@limtedGa.attention>【寻访数据契约】</>，同时也不会影响本期<@limtedGa.21>【限定寻访】</>获得下一个6星干员的概率。该累计次数会在本期<@limtedGa.21>【限定寻访】</>的结束时清零。\r\n<@limtedGa.attention>【注意1】</>任何时候在<@limtedGa.21>【限定寻访】</>中获得一位6星干员，则下一次在<@limtedGa.21>【限定寻访】</>中获得6星干员的概率将恢复到<@limtedGa.percent>2%</>。\r\n<@limtedGa.attention>【注意2】</>在当期<@limtedGa.21>【限定寻访】</>中所获得的<@limtedGa.attention>【寻访数据契约】</>存在使用期限。在当期<@limtedGa.attention>【寻访数据契约交换所】</>关闭后，剩余未兑换的<@limtedGa.attention>【寻访数据契约】</>将会被自动兑换成<@limtedGa.lAttention>【寻访参数模型】</>，每张<@limtedGa.attention>【寻访数据契约】</>自动兑换成六张<@limtedGa.lAttention>【寻访参数模型】</>。<@limtedGa.lAttention>【寻访参数模型】</>不存在使用期限，可用于<@limtedGa.lAttention>【寻访参数模型交换所】</>兑换指定物品。\r\n<@limtedGa.attention>【注意3】</><@limtedGa.percent>5</>倍权值指在6星干员概率分布中【百炼嘉维尔[限定]/纯烬艾雅法拉[限定]/佩佩[限定]】的获得概率提高，而除【斩业星熊[限定]/遥】外的其他单个6星干员的获得概率相应降低，使得【百炼嘉维尔[限定]/纯烬艾雅法拉[限定]/佩佩[限定]】单个干员的获得概率达到其他单个6星干员（除【斩业星熊[限定]/遥】外）的<@limtedGa.percent>5</>倍。",
+            },
+        ]
+
 
 def get_advanced_gacha_manager(player_data, request_json, response):
     pool_id = request_json["poolId"]
