@@ -1118,6 +1118,23 @@ class AdvancedGachaLimitedManager(AdvancedGachaSimpleManager):
 
         return avail_char_id_lst
 
+    def post_gacha_operations(self, char_rarity_rank, char_id):
+        super().post_gacha_operations(char_rarity_rank, char_id)
+
+        if not self.is_valid_pool:
+            return
+
+        if self.pool_id not in self.player_data["gacha"]["limit"]:
+            self.player_data["gacha"]["limit"][self.pool_id] = {
+                "poolCnt": 0,
+                "recruitedFreeChar": false,
+                "leastFree": 0,
+            }
+
+        gacha_num = self.get_gacha_num()
+
+        self.player_data["gacha"]["limit"][self.pool_id]["poolCnt"] = gacha_num
+
     def gacha_getPoolDetail(self):
         super().gacha_getPoolDetail()
 
