@@ -458,6 +458,9 @@ class AdvancedGachaBasicManager:
             }
         )
 
+    def gacha_getFreeChar(self):
+        pass
+
 
 class AdvancedGachaSimpleManager(AdvancedGachaBasicManager):
     def get_basic_tier_6_pity_key(self):
@@ -1135,6 +1138,29 @@ class AdvancedGachaLimitedManager(AdvancedGachaSimpleManager):
 
         self.player_data["gacha"]["limit"][self.pool_id]["poolCnt"] = gacha_num
 
+    def gacha_getFreeChar(self):
+        if not self.is_valid_pool:
+            return
+
+        char_id = self.limit_info["limited_char_id"]
+
+        gacha_char_obj = get_gacha_char_obj(char_id)
+
+        self.player_data["gacha"]["limit"][self.pool_id]["recruitedFreeChar"] = True
+
+        self.response.update(
+            {
+                "items": [
+                    {
+                        "id": char_id,
+                        "type": "CHAR",
+                        "count": 1,
+                        "charGet": gacha_char_obj,
+                    },
+                ],
+            }
+        )
+
     def gacha_getPoolDetail(self):
         super().gacha_getPoolDetail()
 
@@ -1275,5 +1301,19 @@ def gacha_choosePoolUp(player_data):
         player_data, request_json, response
     )
     advanced_gacha_manager.gacha_choosePoolUp()
+
+    return response
+
+
+@bp_gacha.route("/gacha/getFreeChar", methods=["POST"])
+@player_data_decorator
+def gacha_getFreeChar(player_data):
+    request_json = request.get_json()
+    response = {}
+
+    advanced_gacha_manager = get_advanced_gacha_manager(
+        player_data, request_json, response
+    )
+    advanced_gacha_manager.gacha_getFreeChar()
 
     return response
