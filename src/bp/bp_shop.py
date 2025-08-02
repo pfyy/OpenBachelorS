@@ -146,3 +146,13 @@ def shop_getGoodPurchaseState(player_data):
         "result": {},
     }
     return response
+
+
+@bp_shop.route("/shop/getLMTGSGoodList", methods=["POST"])
+@player_data_decorator
+def shop_getLMTGSGoodList(player_data):
+    request_json = request.get_json()
+    response = {
+        "goodList": [],
+    }
+    return response
