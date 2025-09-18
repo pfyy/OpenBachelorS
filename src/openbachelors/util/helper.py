@@ -13,11 +13,13 @@ import asyncio
 import urllib.parse
 from pathlib import Path
 import time
+import functools
 
 from pathvalidate import is_valid_filename
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 import aiofiles
+import httpx
 
 from ..const.filepath import TMP_DIRPATH
 
@@ -148,49 +150,50 @@ def remove_aria2_tmpfile(tmp_filename):
         pass
 
 
-def get_url_lock_filepth(url: str) -> Path:
-    return Path(TMP_DIRPATH) / f"url_lock_{urllib.parse.quote(url, safe='')}"
+def get_filelock_filepth(filelock_name: str) -> Path:
+    return Path(TMP_DIRPATH) / f"{urllib.parse.quote(filelock_name, safe='')}.lock"
 
 
-URL_LOCK_EXPIRE_SEC = 60
+FILELOCK_EXPIRE_SEC = 600
 
 
-def is_url_locked(url: str) -> bool:
-    url_lock_filepth = get_url_lock_filepth(url)
-
+def try_expire_filelock(filelock_filepth: Path):
     cur_time = time.time()
 
     try:
-        mtime = url_lock_filepth.stat().st_mtime
-        if cur_time - URL_LOCK_EXPIRE_SEC < mtime < cur_time + URL_LOCK_EXPIRE_SEC:
-            return True
+        mtime = filelock_filepth.stat().st_mtime
+        if not (mtime - 10 < cur_time < mtime + FILELOCK_EXPIRE_SEC):
+            filelock_filepth.unlink(missing_ok=True)
+    except Exception:
+        pass
 
+
+def try_get_filelock(filelock_name: str) -> bool:
+    filelock_filepth = get_filelock_filepth(filelock_name)
+
+    os.makedirs(TMP_DIRPATH, exist_ok=True)
+
+    try_expire_filelock(filelock_filepth)
+
+    try:
+        filelock_filepth.touch(exist_ok=False)
+        return True
     except Exception:
         pass
 
     return False
 
 
-def lock_url(url: str):
-    os.makedirs(TMP_DIRPATH, exist_ok=True)
+def release_filelock(filelock_name: str) -> bool:
+    filelock_filepth = get_filelock_filepth(filelock_name)
 
-    url_lock_filepth = get_url_lock_filepth(url)
-
-    url_lock_filepth.touch()
-
-
-def unlock_url(url: str):
-    url_lock_filepth = get_url_lock_filepth(url)
-
-    url_lock_filepth.unlink(missing_ok=True)
+    filelock_filepth.unlink(missing_ok=True)
 
 
 async def download_file(url: str, filename: str, dirpath: str):
     os.makedirs(TMP_DIRPATH, exist_ok=True)
 
     tmp_filename = str(uuid4())
-
-    lock_url(url)
 
     try:
         proc = await asyncio.to_thread(
@@ -221,7 +224,6 @@ async def download_file(url: str, filename: str, dirpath: str):
             raise
     finally:
         remove_aria2_tmpfile(tmp_filename)
-        unlock_url(url)
 
 
 def is_valid_res_version(res_version: str) -> bool:
@@ -319,3 +321,8 @@ def get_char_str_tag_lst(char_obj):
         char_str_tag_lst += char_obj["tagList"].copy()
 
     return char_str_tag_lst
+
+
+@functools.lru_cache
+def get_httpx_client():
+    return httpx.AsyncClient()
