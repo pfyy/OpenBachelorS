@@ -184,7 +184,7 @@ def try_get_filelock(filelock_name: str) -> bool:
     return False
 
 
-def release_filelock(filelock_name: str) -> bool:
+def release_filelock(filelock_name: str):
     filelock_filepth = get_filelock_filepth(filelock_name)
 
     filelock_filepth.unlink(missing_ok=True)

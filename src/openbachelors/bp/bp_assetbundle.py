@@ -102,7 +102,7 @@ async def download_asset(res_version, asset_filename):
 
     src_res_version = const_json_loader[VERSION_JSON]["version"]["resVersion"]
     if const_json_loader[CONFIG_JSON]["mod"] and res_version != src_res_version:
-        mod_result = try_mod_result(res_version, asset_filename, src_res_version)
+        mod_result = await try_mod_result(res_version, asset_filename, src_res_version)
 
         if mod_result is not None:
             return mod_result
