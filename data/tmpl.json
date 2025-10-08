@@ -1009,6 +1009,16 @@
                     "act5bossrush_fin04": 3
                 }
             }
+        },
+        "TYPE_ACT24SIDE": {
+            "act24side": {
+                "tool": {
+                    "tool_trap": 2,
+                    "tool_wirebug": 2,
+                    "tool_flashbomb": 2,
+                    "tool_bomb": 2
+                }
+            }
         }
     },
     "status": {
