@@ -5455,8 +5455,9 @@
                     }
                 },
                 "squad": [
-                    null,
-                    null
+                    "trap_rnfcar",
+                    "trap_ads",
+                    "trap_edd"
                 ]
             }
         }
