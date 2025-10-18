@@ -1,9 +1,9 @@
 {
     "version": {
-        "resVersion": "25-09-28-12-13-16_6485b3",
-        "clientVersion": "2.6.41"
+        "resVersion": "25-10-13-16-21-56_229ee9",
+        "clientVersion": "2.6.61"
     },
-    "funcVer": "V066",
+    "funcVer": "V067",
     "tower_season": null,
     "crisis_v2_season": "crisis_v2_season_4_1"
 }
