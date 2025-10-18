@@ -63,6 +63,54 @@
                 ],
                 "fts": 1700000000,
                 "rts": 1700000000
+            },
+            "spst_16-01": {
+                "id": "spst_16-01",
+                "type": "STAGE",
+                "val": [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            },
+            "spst_16-02": {
+                "id": "spst_16-02",
+                "type": "STAGE",
+                "val": [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            },
+            "spst_16-03": {
+                "id": "spst_16-03",
+                "type": "STAGE",
+                "val": [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
+            },
+            "spst_16-04": {
+                "id": "spst_16-04",
+                "type": "STAGE",
+                "val": [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "fts": 1700000000,
+                "rts": 1700000000
             }
         },
         "mainlineBannedStages": [],
@@ -207,6 +255,111 @@
                         "main_15-18_1a",
                         "main_15-18_2a"
                     ]
+                },
+                "main_16-01#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-01_1a",
+                        "main_16-01_2a"
+                    ]
+                },
+                "main_16-02#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-02_1a",
+                        "main_16-02_2a"
+                    ]
+                },
+                "main_16-03#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-03_1a",
+                        "main_16-03_2a"
+                    ]
+                },
+                "main_16-04#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-04_1a",
+                        "main_16-04_2a"
+                    ]
+                },
+                "main_16-05#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-05_1a",
+                        "main_16-05_2a"
+                    ]
+                },
+                "main_16-06#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-06_1a",
+                        "main_16-06_2a"
+                    ]
+                },
+                "main_16-07#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-07_1a",
+                        "main_16-07_2a"
+                    ]
+                },
+                "main_16-09#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-09_1a",
+                        "main_16-09_2a"
+                    ]
+                },
+                "main_16-10#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-10_1a",
+                        "main_16-10_2a"
+                    ]
+                },
+                "main_16-11#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-11_1a",
+                        "main_16-11_2a"
+                    ]
+                },
+                "main_16-12#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-12_1a",
+                        "main_16-12_2a"
+                    ]
+                },
+                "main_16-13#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-13_1a",
+                        "main_16-13_2a"
+                    ]
+                },
+                "main_16-14#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-14_1a",
+                        "main_16-14_2a"
+                    ]
+                },
+                "main_16-15#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-15_1a",
+                        "main_16-15_2a"
+                    ]
+                },
+                "main_16-16#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_16-16_1a",
+                        "main_16-16_2a"
+                    ]
                 }
             },
             "groups": {
@@ -247,6 +400,47 @@
                             "state": 2
                         },
                         "main_15_12": {
+                            "state": 2
+                        }
+                    }
+                },
+                "main_16": {
+                    "point": 30,
+                    "rewards": {
+                        "main_16_1": {
+                            "state": 2
+                        },
+                        "main_16_2": {
+                            "state": 2
+                        },
+                        "main_16_3": {
+                            "state": 2
+                        },
+                        "main_16_4": {
+                            "state": 2
+                        },
+                        "main_16_5": {
+                            "state": 2
+                        },
+                        "main_16_6": {
+                            "state": 2
+                        },
+                        "main_16_7": {
+                            "state": 2
+                        },
+                        "main_16_8": {
+                            "state": 2
+                        },
+                        "main_16_9": {
+                            "state": 2
+                        },
+                        "main_16_10": {
+                            "state": 2
+                        },
+                        "main_16_11": {
+                            "state": 2
+                        },
+                        "main_16_12": {
                             "state": 2
                         }
                     }
