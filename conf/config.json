@@ -1,0 +1,15 @@
+{
+    "host": "127.0.0.1",
+    "port": 8443,
+    "use_db": false,
+    "db_url": "postgresql://postgres:123456@127.0.0.1:5432",
+    "adaptive": true,
+    "multi_user": true,
+    "redirect_asset": false,
+    "debug": true,
+    "mod": false,
+    "assist_ext": true,
+    "faketime": -1,
+    "multiplayer_addr": "127.0.0.1:8543",
+    "icebreaker_addr": "127.0.0.1:8544"
+}

@@ -1,0 +1,49 @@
+[project]
+name = "openbachelors"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Your Name", email = "you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pathvalidate (>=3.3.1,<4.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "pycryptodome (>=3.23.0,<4.0.0)",
+    "click (>=8.3.1,<9.0.0)",
+    "prompt-toolkit (>=3.0.52,<4.0.0)",
+    "psycopg[binary] (>=3.3.2,<4.0.0)",
+    "psycopg-pool (>=3.3.0,<4.0.0)",
+    "fastapi (>=0.127.1,<0.128.0)",
+    "uvicorn (>=0.40.0,<0.41.0)",
+    "pytest-asyncio (>=1.3.0,<2.0.0)",
+    "hypercorn (>=0.18.0,<0.19.0)",
+    "aiofiles (>=25.1.0,<26.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "orjson (>=3.11.5,<4.0.0)",
+]
+
+[tool.poetry]
+packages = [{ include = "openbachelors", from = "src" }]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.14.10"
+pytest = "^9.0.2"
+poethepoet = "0.37.0"
+
+[tool.poe.tasks]
+test = "pytest"
+dev = "uvicorn --port 8443 --reload openbachelors.app:app"
+prod = "hypercorn -b 127.0.0.1:8443 -w 16 openbachelors.app:app"
+
+
+[tool.poetry.scripts]
+asset-downloader = "openbachelors.tool.asset_downloader:main"
+console = "openbachelors.tool.console:cli"
+link-updater = "openbachelors.tool.link_updater:main"
+res-locker = "openbachelors.tool.res_locker:main"
+version-updater = "openbachelors.tool.version_updater:main"

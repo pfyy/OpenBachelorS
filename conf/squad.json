@@ -1,0 +1,34 @@
+{
+    "default": [
+        {
+            "char_id": "char_4087_ines",
+            "skill_index": 1,
+            "current_equip": "uniequip_002_ines"
+        },
+        {
+            "char_id": "char_1035_wisdel",
+            "skill_index": 2,
+            "current_equip": "uniequip_002_wisdel"
+        },
+        {
+            "char_id": "char_4133_logos",
+            "skill_index": 2,
+            "current_equip": "uniequip_002_logos"
+        },
+        {
+            "char_id": "char_1028_texas2",
+            "skill_index": 2,
+            "current_equip": "uniequip_002_texas2"
+        },
+        {
+            "char_id": "char_1016_agoat2",
+            "skill_index": 2,
+            "current_equip": "uniequip_002_agoat2"
+        },
+        {
+            "char_id": "char_2025_shu",
+            "skill_index": 2,
+            "current_equip": "uniequip_002_shu"
+        }
+    ]
+}

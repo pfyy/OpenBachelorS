@@ -1,0 +1,32 @@
+{
+    "mailList": [
+        {
+            "mailId": 0,
+            "uid": "1",
+            "items": [
+                {
+                    "id": "ap_supply_lt_120_2025_1",
+                    "count": 1,
+                    "type": "AP_SUPPLY"
+                },
+                {
+                    "id": "furni_act57d6_docCake_01",
+                    "count": 1,
+                    "type": "FURN"
+                }
+            ],
+            "from": "char_003_kalts",
+            "subject": "生日贺函",
+            "content": "首先，敬祝你生日快乐，博士。罗德岛能够在当今局势下平稳运行，离不开你的决策与提议。今日我不会，也不必再次向你强调责任的重要性，只是希望在接下来的宴会中，你能够注意自己的饮食情况。如果医疗部紧急通知我来问诊，于我们双方而言，都不会是一件愉快的事。\n关切自身，珍惜身边的同伴，愿我们再跨过一个年岁后，仍能有幸在此时相聚。\n注：随信的糕点并非食疗药品，口味也与正常糕点没有区别，你可以没有心理负担地食用。",
+            "createAt": 1700000000,
+            "expireAt": 2147483647,
+            "receiveAt": -1,
+            "state": 0,
+            "hasItem": 1,
+            "style": {},
+            "platform": -1,
+            "collectionId": "mail_birth_2025_1",
+            "type": 0
+        }
+    ]
+}
