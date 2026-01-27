@@ -9236,6 +9236,236 @@
                     13,
                     14
                 ]
+            },
+            "16": {
+                "buff_lst": [
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_attack_speed_down"
+                            },
+                            {
+                                "key": "attack_speed",
+                                "value": 20
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 2
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2124_dyjsfg"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 2
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2123_dyjsww"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "enemy_skill_blackboard_assign",
+                        "blackboard": [
+                            {
+                                "key": "skill_name",
+                                "valueStr": "SummonBranchEnemy"
+                            },
+                            {
+                                "key": "key",
+                                "valueStr": "branch_id"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2123_dyjsww"
+                            },
+                            {
+                                "key": "value_str",
+                                "valueStr": "dyjsww_summon_hard"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    8,
+                    9,
+                    10,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "17": {
+                "buff_lst": [
+                    {
+                        "key": "enemy_skill_blackboard_assign",
+                        "blackboard": [
+                            {
+                                "key": "skill_name",
+                                "valueStr": "SendPunchCard"
+                            },
+                            {
+                                "key": "key",
+                                "valueStr": "cnt"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2126_dycyue"
+                            },
+                            {
+                                "key": "value",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "enemy_skill_blackboard_assign",
+                        "blackboard": [
+                            {
+                                "key": "skill_name",
+                                "valueStr": "SendFireCard"
+                            },
+                            {
+                                "key": "key",
+                                "valueStr": "cnt"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2127_dysuih"
+                            },
+                            {
+                                "key": "value",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 2
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2130_dyswrd"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 2
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2131_dyfire"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    8,
+                    9,
+                    10,
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            },
+            "18": {
+                "buff_lst": [
+                    {
+                        "key": "level_hidden_group_enable",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "extra_enemy"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "enemy_talent_blackboard_assign",
+                        "blackboard": [
+                            {
+                                "key": "talent_key",
+                                "valueStr": "MasterBlcok"
+                            },
+                            {
+                                "key": "key",
+                                "valueStr": "prob"
+                            },
+                            {
+                                "key": "value",
+                                "value": 1
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2126_dycyue"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    8,
+                    9,
+                    10,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                ]
             }
         }
     }
