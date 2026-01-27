@@ -2512,6 +2512,31 @@
         ],
         "rogue_5": [
             {
+                "key": "battle_extra_drop",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "pool_change_copper_normal"
+                    },
+                    {
+                        "key": "rate",
+                        "value": 0.25
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    },
+                    {
+                        "key": "node",
+                        "valueStr": "BAT"
+                    },
+                    {
+                        "key": "node_sky",
+                        "valueStr": "BAT"
+                    }
+                ]
+            },
+            {
                 "key": "battle_reward_copper_choice_extra",
                 "blackboard": [
                     {
@@ -2597,7 +2622,25 @@
                 "blackboard": [
                     {
                         "key": "atk",
-                        "value": 0.04
+                        "value": 0.02
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.02
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.02
                     }
                 ]
             },
@@ -2632,6 +2675,33 @@
                 "key": "char_attribute_mul",
                 "blackboard": [
                     {
+                        "key": "atk",
+                        "value": 0.04
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.05
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "def",
+                        "value": 0.05
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
                         "key": "def",
                         "value": 0.05
                     }
@@ -2669,7 +2739,34 @@
                 "blackboard": [
                     {
                         "key": "max_hp",
-                        "value": 0.06
+                        "value": 0.04
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.04
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.04
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.04
                     }
                 ]
             },
@@ -2697,6 +2794,28 @@
                     {
                         "key": "max_hp",
                         "value": 0.06
+                    }
+                ]
+            },
+            {
+                "key": "char_attribute_mul",
+                "blackboard": [
+                    {
+                        "key": "max_hp",
+                        "value": 0.06
+                    }
+                ]
+            },
+            {
+                "key": "copper_redraw_freeze",
+                "blackboard": []
+            },
+            {
+                "key": "copper_redraw_freeze_count",
+                "blackboard": [
+                    {
+                        "key": "delta",
+                        "value": 2
                     }
                 ]
             },
@@ -2718,7 +2837,33 @@
                 "blackboard": [
                     {
                         "key": "count",
+                        "value": 15
+                    }
+                ]
+            },
+            {
+                "key": "game_pass_bank_reward",
+                "blackboard": [
+                    {
+                        "key": "count",
                         "value": 5
+                    }
+                ]
+            },
+            {
+                "key": "global_buff_normal",
+                "blackboard": [
+                    {
+                        "key": "key",
+                        "valueStr": "periodic_damage[enemy]"
+                    },
+                    {
+                        "key": "damage",
+                        "value": 1
+                    },
+                    {
+                        "key": "selector.enemy",
+                        "valueStr": "enemy_2101_dyspll|enemy_2121_dyspl2"
                     }
                 ]
             },
@@ -2732,6 +2877,19 @@
                     {
                         "key": "count",
                         "value": 3
+                    }
+                ]
+            },
+            {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_divinationkit"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
                     }
                 ]
             },
@@ -2879,11 +3037,115 @@
                 ]
             },
             {
+                "key": "immediate_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_stash_recruit_limit"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    }
+                ]
+            },
+            {
                 "key": "level_char_limit_add",
                 "blackboard": [
                     {
                         "key": "value",
                         "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "map_gen_change_zone",
+                "blackboard": [
+                    {
+                        "key": "zone_id_from",
+                        "valueStr": "zone_1"
+                    },
+                    {
+                        "key": "zone_id_to",
+                        "valueStr": "zone_1_b"
+                    }
+                ]
+            },
+            {
+                "key": "map_gen_change_zone",
+                "blackboard": [
+                    {
+                        "key": "zone_id_from",
+                        "valueStr": "zone_2"
+                    },
+                    {
+                        "key": "zone_id_to",
+                        "valueStr": "zone_2_b"
+                    }
+                ]
+            },
+            {
+                "key": "map_gen_change_zone",
+                "blackboard": [
+                    {
+                        "key": "zone_id_from",
+                        "valueStr": "zone_6"
+                    },
+                    {
+                        "key": "zone_id_to",
+                        "valueStr": "zone_6_b"
+                    }
+                ]
+            },
+            {
+                "key": "must_vert_path_node_type",
+                "blackboard": [
+                    {
+                        "key": "node_type",
+                        "valueStr": "SPECIAL_ZONE"
+                    }
+                ]
+            },
+            {
+                "key": "must_vert_path_node_type",
+                "blackboard": [
+                    {
+                        "key": "node_type",
+                        "valueStr": "STASHED_RECRUIT"
+                    }
+                ]
+            },
+            {
+                "key": "node_into_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_divinationkit"
+                    },
+                    {
+                        "key": "count",
+                        "value": 2
+                    },
+                    {
+                        "key": "node",
+                        "valueStr": "REST"
+                    }
+                ]
+            },
+            {
+                "key": "node_into_reward",
+                "blackboard": [
+                    {
+                        "key": "id",
+                        "valueStr": "rogue_5_population"
+                    },
+                    {
+                        "key": "count",
+                        "value": 1
+                    },
+                    {
+                        "key": "node",
+                        "valueStr": "STASHED_RECRUIT"
                     }
                 ]
             },
@@ -2965,6 +3227,74 @@
                     },
                     {
                         "key": "value",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "key": "shop_force_sell_once",
+                "blackboard": [
+                    {
+                        "key": "shop_ids",
+                        "valueStr": "zone_1_shop,zone_1_shop_copy1,zone_1_shop_copy2"
+                    },
+                    {
+                        "key": "item_id",
+                        "valueStr": "rogue_5_relic_legacy_151"
+                    },
+                    {
+                        "key": "slot_index",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "key": "shop_force_sell_once",
+                "blackboard": [
+                    {
+                        "key": "shop_ids",
+                        "valueStr": "zone_4_shop,default_shop"
+                    },
+                    {
+                        "key": "item_id",
+                        "valueStr": "rogue_5_relic_explore_13"
+                    },
+                    {
+                        "key": "slot_index",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "key": "shop_force_sell_once",
+                "blackboard": [
+                    {
+                        "key": "shop_ids",
+                        "valueStr": "zonesky_1_shop_1,zonesky_1_shop_2,zonesky_1_shop_3,zonesky_1_shop_4,zonesky_1_shop_cost,zonesky_1_shop_luckytile,zonesky_1_shop_sp_1,zonesky_1_shop_sp_2,zonesky_1_shop_sp_3,zonesky_1_shop_sp_4"
+                    },
+                    {
+                        "key": "item_id",
+                        "valueStr": "rogue_5_relic_final_5"
+                    },
+                    {
+                        "key": "slot_index",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "key": "shop_force_sell_once",
+                "blackboard": [
+                    {
+                        "key": "shop_ids",
+                        "valueStr": "zonesky_1_shop_1,zonesky_1_shop_2,zonesky_1_shop_3,zonesky_1_shop_4,zonesky_1_shop_cost,zonesky_1_shop_luckytile,zonesky_1_shop_sp_1,zonesky_1_shop_sp_2,zonesky_1_shop_sp_3,zonesky_1_shop_sp_4"
+                    },
+                    {
+                        "key": "item_id",
+                        "valueStr": "rogue_5_relic_legacy_164"
+                    },
+                    {
+                        "key": "slot_index",
                         "value": 1
                     }
                 ]
