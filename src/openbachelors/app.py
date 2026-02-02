@@ -8,6 +8,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 import uvicorn
+import truststore
 
 from .bp import (
     bp_account,
@@ -100,6 +101,8 @@ app.include_router(bp_user.router)
 app.include_router(bp_yostar.router)
 app.include_router(legacy_bp.router)
 app.include_router(misc_bp.router)
+
+truststore.inject_into_ssl()
 
 
 def main():
