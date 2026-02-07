@@ -1,0 +1,31 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update:
+    runs-on: windows-latest
+    if: "contains(github.event.head_commit.message, '[build]')"
+    steps:
+      - uses: actions/checkout@v4
+      - id: setup-python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: snok/install-poetry@v1
+        with:
+          virtualenvs-in-project: true
+          virtualenvs-path: .venv
+      - id: cached-poetry-dependencies
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+      - if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction
+      - run: .\build_exe.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: win
+          path: dist\main\
