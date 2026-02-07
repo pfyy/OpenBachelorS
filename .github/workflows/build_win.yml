@@ -15,7 +15,7 @@ jobs:
           python-version: "3.12"
       - run: pip install poetry
       - run: python -m poetry install --no-interaction
-      - run: python -m poetry pwsh .\build_exe.ps1
+      - run: python -m poetry run pwsh .\build_exe.ps1
       - uses: actions/upload-artifact@v4
         with:
           name: win
