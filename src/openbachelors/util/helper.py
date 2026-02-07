@@ -14,6 +14,7 @@ import urllib.parse
 from pathlib import Path
 import time
 import functools
+import sys
 
 from pathvalidate import is_valid_filename
 from Crypto.Cipher import AES
@@ -327,3 +328,7 @@ def get_char_str_tag_lst(char_obj):
 @functools.lru_cache
 def get_httpx_client():
     return httpx.AsyncClient()
+
+
+def is_app_frozen():
+    return getattr(sys, "frozen", False)

@@ -46,7 +46,7 @@ from .bp import (
     misc_bp,
 )
 from .util.db_manager import get_db_conn_or_pool, IS_DB_READY
-from .util.helper import get_httpx_client
+from .util.helper import get_httpx_client, is_app_frozen
 
 
 @asynccontextmanager
@@ -106,11 +106,16 @@ truststore.inject_into_ssl()
 
 
 def main():
+    reload = True
+
+    if is_app_frozen():
+        reload = False
+
     uvicorn.run(
         "openbachelors.app:app",
         host="127.0.0.1",
         port=8443,
-        reload=True,
+        reload=reload,
     )
 
 
