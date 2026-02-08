@@ -12,12 +12,17 @@ from ..util.const_json_loader import const_json_loader, ConstJson
 from ..util.player_data import PlayerData, player_data_template
 from ..util.helper import get_char_num_id
 from ..util.db_manager import IS_DB_READY, destroy_db, init_db
+from ..app import lifespan
 
 
 def become_sync(f):
+    async def _helper_func(*args, **kwargs):
+        async with lifespan(None):
+            await f(*args, **kwargs)
+
     @wraps(f)
     def wrapper(*args, **kwargs):
-        asyncio.run(f(*args, **kwargs))
+        asyncio.run(_helper_func(*args, **kwargs))
 
     wrapper.async_func = f
 
