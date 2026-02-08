@@ -2,7 +2,11 @@ import asyncio
 import sys
 import pytest_asyncio
 
-from openbachelors.util.db_manager import IS_DB_READY, get_db_conn_or_pool
+from openbachelors.util.db_manager import (
+    IS_DB_READY,
+    get_db_conn_or_pool,
+    clear_db_pool,
+)
 
 if sys.platform == "win32":
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
@@ -18,3 +22,4 @@ async def db_pool_fixture():
 
     if IS_DB_READY:
         await pool.close()
+        clear_db_pool()

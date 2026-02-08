@@ -45,7 +45,7 @@ from .bp import (
     legacy_bp,
     misc_bp,
 )
-from .util.db_manager import get_db_conn_or_pool, IS_DB_READY
+from .util.db_manager import get_db_conn_or_pool, IS_DB_READY, clear_db_pool
 from .util.helper import get_httpx_client, is_app_frozen
 
 
@@ -61,6 +61,7 @@ async def lifespan(app: FastAPI):
 
     if IS_DB_READY:
         await pool.close()
+        clear_db_pool()
 
     await httpx_client.aclose()
 

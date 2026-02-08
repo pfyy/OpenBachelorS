@@ -35,6 +35,11 @@ def get_db_conn_or_pool(use_pool=True):
     return pool
 
 
+def clear_db_pool():
+    global pool
+    pool = None
+
+
 def init_db():
     with psycopg.connect(get_db_url(with_database_name=False), autocommit=True) as conn:
         try:
