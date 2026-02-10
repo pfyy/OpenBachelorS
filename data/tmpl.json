@@ -2299,7 +2299,15 @@
             "custom": null,
             "template": null,
             "templateMedalList": null
-        }
+        },
+        "starFriendFlag": 1
+    },
+    "gallery": {
+        "collectionRewards": {},
+        "leafMap": {},
+        "stickerMap": {},
+        "magazineSquad": [],
+        "firstRewards": 1
     },
     "building": {
         "status": {

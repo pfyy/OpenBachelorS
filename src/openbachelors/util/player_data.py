@@ -650,6 +650,31 @@ def build_player_data_template():
 
     # ----------
 
+    display_meta_table = const_json_loader[DISPLAY_META_TABLE]
+
+    if "artGalleryCollectData" in display_meta_table:
+        for _, collection_set_obj in display_meta_table["artGalleryCollectData"][
+            "collectionSets"
+        ]:
+            for mission_id, _ in collection_set_obj["missionList"]:
+                tmpl_json_obj["gallery"]["collectionRewards"][mission_id] = 1
+
+    if "magazineLeafData" in display_meta_table:
+        for leaf_id, _ in display_meta_table["magazineLeafData"]["leafMap"]:
+            tmpl_json_obj["gallery"]["leafMap"][leaf_id] = {
+                "leafId": leaf_id,
+                "charSkin": null,
+                "decorList": [],
+                "getTs": 1700000000,
+                "version": 0,
+            }
+
+    if "stickerData" in display_meta_table:
+        for sticker_id, _ in display_meta_table["stickerData"]["stickerMap"]:
+            tmpl_json_obj["gallery"]["stickerMap"][sticker_id] = 1700000000
+
+    # ----------
+
     player_data_template = ConstJson(tmpl_json_obj)
     return player_data_template, char_id_lst
 
