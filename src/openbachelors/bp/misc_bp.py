@@ -866,3 +866,14 @@ async def invite_refreshInviteList(player_data, request: Request):
 
     response = {}
     return response
+
+
+@router.post("/gallery/getThumbnailUrl")
+@player_data_decorator
+async def gallery_getThumbnailUrl(player_data, request: Request):
+    request_json = await request.json()
+
+    num_id = len(request_json["idList"])
+
+    response = {"url": [None for _ in range(num_id)]}
+    return response
