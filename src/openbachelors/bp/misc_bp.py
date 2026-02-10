@@ -877,3 +877,30 @@ async def gallery_getThumbnailUrl(player_data, request: Request):
 
     response = {"url": [None for _ in range(num_id)]}
     return response
+
+
+@router.post("/gallery/changeMagazineSquad")
+@player_data_decorator
+async def gallery_changeMagazineSquad(player_data, request: Request):
+    request_json = await request.json()
+
+    player_data["gallery"]["magazineSquad"] = request_json["squad"]
+
+    response = {}
+    return response
+
+
+@router.post("/gallery/saveDiyMagazineV1")
+@player_data_decorator
+async def gallery_saveDiyMagazineV1(player_data, request: Request):
+    request_json = await request.json()
+
+    magazine_obj = request_json["magazine"]
+
+    leaf_id = magazine_obj["leafId"]
+
+    player_data["gallery"]["leafMap"][leaf_id]["charSkin"] = magazine_obj["charSkin"]
+    player_data["gallery"]["leafMap"][leaf_id]["decorList"] = magazine_obj["decorList"]
+
+    response = {}
+    return response
