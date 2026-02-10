@@ -904,3 +904,46 @@ async def gallery_saveDiyMagazineV1(player_data, request: Request):
 
     response = {}
     return response
+
+
+@router.post("/cg/getCgCollection")
+@player_data_decorator
+async def cg_getCgCollection(player_data, request: Request):
+    request_json = await request.json()
+
+    cg_lst = player_data.extra_save.save_obj.get("cg_lst", [])
+
+    response = {"cgList": cg_lst}
+    return response
+
+
+@router.post("/cg/addCgCollection")
+@player_data_decorator
+async def cg_addCgCollection(player_data, request: Request):
+    request_json = await request.json()
+
+    cg_lst = player_data.extra_save.save_obj.get("cg_lst", [])
+
+    cg_id = request_json["cgId"]
+
+    cg_lst.append(cg_id)
+    player_data.extra_save.save_obj["cg_lst"] = cg_lst
+
+    response = {"cgList": cg_lst}
+    return response
+
+
+@router.post("/cg/removeCgCollection")
+@player_data_decorator
+async def cg_removeCgCollection(player_data, request: Request):
+    request_json = await request.json()
+
+    cg_lst = player_data.extra_save.save_obj.get("cg_lst", [])
+
+    cg_id = request_json["cgId"]
+
+    cg_lst.remove(cg_id)
+    player_data.extra_save.save_obj["cg_lst"] = cg_lst
+
+    response = {"cgList": cg_lst}
+    return response
