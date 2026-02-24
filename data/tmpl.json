@@ -800,6 +800,177 @@
                     }
                 },
                 "activatedBuff": []
+            },
+            "act2break": {
+                "milestone": {
+                    "point": 3600,
+                    "got": [
+                        "mileStone_1",
+                        "mileStone_10",
+                        "mileStone_11",
+                        "mileStone_12",
+                        "mileStone_13",
+                        "mileStone_14",
+                        "mileStone_15",
+                        "mileStone_16",
+                        "mileStone_17",
+                        "mileStone_18",
+                        "mileStone_19",
+                        "mileStone_2",
+                        "mileStone_20",
+                        "mileStone_21",
+                        "mileStone_22",
+                        "mileStone_23",
+                        "mileStone_24",
+                        "mileStone_25",
+                        "mileStone_26",
+                        "mileStone_27",
+                        "mileStone_28",
+                        "mileStone_29",
+                        "mileStone_3",
+                        "mileStone_30",
+                        "mileStone_31",
+                        "mileStone_32",
+                        "mileStone_33",
+                        "mileStone_34",
+                        "mileStone_35",
+                        "mileStone_36",
+                        "mileStone_37",
+                        "mileStone_38",
+                        "mileStone_39",
+                        "mileStone_4",
+                        "mileStone_40",
+                        "mileStone_41",
+                        "mileStone_42",
+                        "mileStone_43",
+                        "mileStone_44",
+                        "mileStone_45",
+                        "mileStone_46",
+                        "mileStone_47",
+                        "mileStone_48",
+                        "mileStone_49",
+                        "mileStone_5",
+                        "mileStone_50",
+                        "mileStone_51",
+                        "mileStone_52",
+                        "mileStone_53",
+                        "mileStone_54",
+                        "mileStone_55",
+                        "mileStone_56",
+                        "mileStone_57",
+                        "mileStone_58",
+                        "mileStone_59",
+                        "mileStone_6",
+                        "mileStone_60",
+                        "mileStone_61",
+                        "mileStone_62",
+                        "mileStone_63",
+                        "mileStone_64",
+                        "mileStone_65",
+                        "mileStone_7",
+                        "mileStone_8",
+                        "mileStone_9"
+                    ]
+                },
+                "defendStages": {
+                    "act2break_sp01": {
+                        "stageId": "act2break_sp01",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp02": {
+                        "stageId": "act2break_sp02",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp03": {
+                        "stageId": "act2break_sp03",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp04": {
+                        "stageId": "act2break_sp04",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp05": {
+                        "stageId": "act2break_sp05",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp06": {
+                        "stageId": "act2break_sp06",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp07": {
+                        "stageId": "act2break_sp07",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp08": {
+                        "stageId": "act2break_sp08",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp09": {
+                        "stageId": "act2break_sp09",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp10": {
+                        "stageId": "act2break_sp10",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp11": {
+                        "stageId": "act2break_sp11",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp12": {
+                        "stageId": "act2break_sp12",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp13": {
+                        "stageId": "act2break_sp13",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp14": {
+                        "stageId": "act2break_sp14",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp15": {
+                        "stageId": "act2break_sp15",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    },
+                    "act2break_sp16": {
+                        "stageId": "act2break_sp16",
+                        "defendSquad": [],
+                        "recvTimeLimited": true,
+                        "recvNormal": true
+                    }
+                },
+                "activatedBuff": []
             }
         },
         "BOSS_RUSH": {
