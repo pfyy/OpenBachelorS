@@ -3,6 +3,7 @@ pkg upgrade
 pkg install git
 pkg install python python-pip
 pkg install rust
+pkg install binutils
 pkg install aria2
 pkg install postgresql
 
