@@ -1,11 +1,11 @@
 pkg upgrade
 
-pkg install git
-pkg install python python-pip
-pkg install rust
-pkg install binutils
-pkg install aria2
-pkg install postgresql
+pkg install -y git
+pkg install -y python python-pip
+pkg install -y rust
+pkg install -y binutils
+pkg install -y aria2
+pkg install -y postgresql
 
 export ANDROID_API_LEVEL=24
 
