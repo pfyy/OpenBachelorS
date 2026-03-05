@@ -1,4 +1,6 @@
-pkg upgrade
+set -euo pipefail
+
+pkg upgrade -y
 
 pkg install -y git
 pkg install -y python python-pip
