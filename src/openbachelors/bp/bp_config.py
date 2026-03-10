@@ -61,11 +61,6 @@ async def config_prod_official_remote_config(request: Request):
     return {}
 
 
-@router.get("/api/remote_config/1/prod/default/Android/remote_config")
-async def api_remote_config_1_prod_default_Android_remote_config(request: Request):
-    return {}
-
-
 @router.get("/config/prod/official/Android/version")
 async def config_prod_official_Android_version(request: Request):
     version = const_json_loader[VERSION_JSON]["version"].copy()

@@ -26,6 +26,7 @@ async def api_game_get_latest_game_info(request: Request):
             "source_package": null,
         },
         "client_version": client_version,
+        "state": 0,
     }
     return response
 
@@ -61,6 +62,7 @@ async def api_game_get_latest(request: Request):
 
 
 @router.get("/api/remote_config/1/prod/default/Windows/network_config")
+@router.get("/api/remote_config/1/prod/default/Android/network_config")
 async def api_remote_config_1_prod_default_Windows_network_config(request: Request):
     url = get_server_url(request)
 
@@ -83,6 +85,7 @@ async def api_remote_config_1_prod_default_Windows_network_config(request: Reque
 
 
 @router.get("/api/remote_config/1/prod/default/Windows/remote_config")
+@router.get("/api/remote_config/1/prod/default/Android/remote_config")
 async def api_remote_config_1_prod_default_Windows_remote_config(request: Request):
     response = {}
     return response
