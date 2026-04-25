@@ -627,6 +627,95 @@
                     }
                 },
                 "globalBan": false
+            },
+            "act3enemyduel": {
+                "milestone": {
+                    "point": 6300,
+                    "got": [
+                        "mileStone_1",
+                        "mileStone_10",
+                        "mileStone_11",
+                        "mileStone_12",
+                        "mileStone_13",
+                        "mileStone_14",
+                        "mileStone_15",
+                        "mileStone_16",
+                        "mileStone_17",
+                        "mileStone_18",
+                        "mileStone_19",
+                        "mileStone_2",
+                        "mileStone_20",
+                        "mileStone_21",
+                        "mileStone_22",
+                        "mileStone_23",
+                        "mileStone_24",
+                        "mileStone_25",
+                        "mileStone_26",
+                        "mileStone_27",
+                        "mileStone_28",
+                        "mileStone_29",
+                        "mileStone_3",
+                        "mileStone_30",
+                        "mileStone_31",
+                        "mileStone_32",
+                        "mileStone_33",
+                        "mileStone_34",
+                        "mileStone_35",
+                        "mileStone_36",
+                        "mileStone_37",
+                        "mileStone_38",
+                        "mileStone_39",
+                        "mileStone_4",
+                        "mileStone_40",
+                        "mileStone_41",
+                        "mileStone_42",
+                        "mileStone_43",
+                        "mileStone_44",
+                        "mileStone_45",
+                        "mileStone_46",
+                        "mileStone_47",
+                        "mileStone_48",
+                        "mileStone_49",
+                        "mileStone_5",
+                        "mileStone_50",
+                        "mileStone_6",
+                        "mileStone_7",
+                        "mileStone_8",
+                        "mileStone_9"
+                    ]
+                },
+                "dailyMission": {
+                    "process": 0,
+                    "state": 0
+                },
+                "modeInfo": {
+                    "soloOperation": {
+                        "highScore": 262900,
+                        "curStage": "act3enemyduel_01a",
+                        "isUnlock": true
+                    },
+                    "multiOperationMatch": {
+                        "highScore": 262900,
+                        "curStage": "act3enemyduel_01a",
+                        "isUnlock": true
+                    },
+                    "multiStandMatch": {
+                        "highScore": 1,
+                        "curStage": "act3enemyduel_01a",
+                        "isUnlock": true
+                    },
+                    "multiOperationRoom": {
+                        "highScore": 0,
+                        "curStage": "act3enemyduel_01a",
+                        "isUnlock": true
+                    },
+                    "multiStandRoom": {
+                        "highScore": 0,
+                        "curStage": "act3enemyduel_01a",
+                        "isUnlock": true
+                    }
+                },
+                "globalBan": false
             }
         },
         "VEC_BREAK_V2": {
@@ -6044,7 +6133,12 @@
         "unlockTheme": [
             "emoticon_basic",
             "emoticon_originium_slug",
-            "emticon_duel_basic"
+            "emticon_duel_basic",
+            "emoticon_autochess_basic",
+            "emoticon_autochess_basic_2",
+            "emoticon_foolsday_doctor",
+            "emoticon_foolsday_amiya",
+            "emoticon_foolsday_wisdel"
         ]
     },
     "recalRune": {
