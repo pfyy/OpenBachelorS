@@ -15,7 +15,7 @@ setup: install-package
 	pipx run poetry install
 
 dev:
-	pipx run poetry run poe dev
+	pipx run poetry run uvicorn --port 8443 --reload openbachelors.app:app
 
 prod:
 	PROD_FLAG=1 pipx run poetry run poe prod
