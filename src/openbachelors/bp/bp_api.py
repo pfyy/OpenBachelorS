@@ -92,6 +92,7 @@ async def api_remote_config_1_prod_default_Windows_remote_config(request: Reques
 
 
 @router.get("/api/gate/meta/Windows")
+@router.get("/api/gate/meta/Android")
 async def api_gate_meta_Windows(request: Request):
     response = {
         "preAnnounceId": "528",
