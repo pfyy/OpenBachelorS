@@ -165,3 +165,29 @@ async def aprilFool_act3fun_battleFinish(player_data, request: Request):
         "inRank": true,
     }
     return response
+
+
+@router.post("/aprilFool/act7fun/battleStart")
+@player_data_decorator
+async def aprilFool_act7fun_battleStart(player_data, request: Request):
+    request_json = await request.json()
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+    }
+    return response
+
+
+@router.post("/aprilFool/act7fun/battleFinish")
+@player_data_decorator
+async def aprilFool_act7fun_battleFinish(player_data, request: Request):
+    request_json = await request.json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "completeState": 2,
+        "rewards": [],
+        "unlockedStages": "",
+    }
+    return response
