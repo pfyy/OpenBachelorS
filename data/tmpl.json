@@ -6500,6 +6500,16 @@
                 "1",
                 "2"
             ]
+        },
+        "act7fun": {
+            "stages": {
+                "act7fun_01": 3,
+                "act7fun_02": 3,
+                "act7fun_03": 3,
+                "act7fun_04": 3,
+                "act7fun_05": 3,
+                "act7fun_06": 3
+            }
         }
     },
     "collectionReward": {
