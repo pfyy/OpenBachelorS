@@ -8,6 +8,7 @@ from ..const.filepath import CONFIG_JSON, VERSION_JSON, ACTIVITY_TABLE
 from ..util.const_json_loader import const_json_loader
 from ..util.player_data import player_data_decorator
 from ..util.battle_log_logger import log_battle_log_if_necessary
+from ..util.helper import get_httpx_client
 
 router = APIRouter()
 
@@ -473,6 +474,23 @@ async def activity_enemyDuel_queryMatch(player_data, request: Request):
     multiplayer_addr = const_json_loader[CONFIG_JSON]["multiplayer_addr"]
 
     server_token = get_server_token(player_data)
+
+    activity_id = player_data.extra_save.save_obj["enemyDuel_activityId"]
+    mode_id = player_data.extra_save.save_obj["enemyDuel_modeId"]
+    stage_id = player_data["activity"]["ENEMY_DUEL"][activity_id]["modeInfo"][mode_id][
+        "curStage"
+    ]
+
+    client = get_httpx_client()
+    r = await client.post(
+        "http://127.0.0.1:7443/obi/begin",
+        json={
+            "activity_id": activity_id,
+            "mode_id": mode_id,
+            "stage_id": stage_id,
+        },
+    )
+    r.raise_for_status()
 
     response = {
         "result": 0,
