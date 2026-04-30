@@ -520,6 +520,16 @@ async def activity_enemyDuel_multiBattleStart(player_data, request: Request):
 async def activity_enemyDuel_multiBattleFinish(player_data, request: Request):
     request_json = await request.json()
 
+    client = get_httpx_client()
+    r = await client.post(
+        "http://127.0.0.1:7443/obi/end",
+        json={
+            "survive_units": request_json.get("surviveUnits"),
+            "born_units": request_json.get("bornUnits"),
+        },
+    )
+    r.raise_for_status()
+
     response = {
         "result": 0,
         "choiceCnt": {"skip": 0, "normal": 5, "allIn": 5},
