@@ -111,6 +111,13 @@
                 ],
                 "fts": 1700000000,
                 "rts": 1700000000
+            },
+            "spst_17-01": {
+                "id": "spst_17-01",
+                "type": "STAGE",
+                "val": [],
+                "fts": 1700000000,
+                "rts": 1700000000
             }
         },
         "mainlineBannedStages": [],
@@ -360,6 +367,104 @@
                         "main_16-16_1a",
                         "main_16-16_2a"
                     ]
+                },
+                "main_17-01#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-01_1a",
+                        "main_17-01_2a"
+                    ]
+                },
+                "main_17-02#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-02_1a",
+                        "main_17-02_2a"
+                    ]
+                },
+                "main_17-03#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-03_1a",
+                        "main_17-03_2a"
+                    ]
+                },
+                "main_17-04#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-04_1a",
+                        "main_17-04_2a"
+                    ]
+                },
+                "main_17-05#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-05_1a",
+                        "main_17-05_2a"
+                    ]
+                },
+                "main_17-06#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-06_1a",
+                        "main_17-06_2a"
+                    ]
+                },
+                "main_17-07#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-07_1a",
+                        "main_17-07_2a"
+                    ]
+                },
+                "main_17-08#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-08_1a",
+                        "main_17-08_2a"
+                    ]
+                },
+                "main_17-09#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-09_1a",
+                        "main_17-09_2a"
+                    ]
+                },
+                "main_17-10#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-10_1a",
+                        "main_17-10_2a"
+                    ]
+                },
+                "main_17-11#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-11_1a",
+                        "main_17-11_2a"
+                    ]
+                },
+                "main_17-12#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-12_1a",
+                        "main_17-12_2a"
+                    ]
+                },
+                "main_17-14#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-14_1a",
+                        "main_17-14_2a"
+                    ]
+                },
+                "main_17-16#s": {
+                    "tagFinish": 2,
+                    "tagSelected": [
+                        "main_17-16_1a",
+                        "main_17-16_2a"
+                    ]
                 }
             },
             "groups": {
@@ -441,6 +546,47 @@
                             "state": 2
                         },
                         "main_16_12": {
+                            "state": 2
+                        }
+                    }
+                },
+                "main_17": {
+                    "point": 24,
+                    "rewards": {
+                        "main_17_1": {
+                            "state": 2
+                        },
+                        "main_17_2": {
+                            "state": 2
+                        },
+                        "main_17_3": {
+                            "state": 2
+                        },
+                        "main_17_4": {
+                            "state": 2
+                        },
+                        "main_17_5": {
+                            "state": 2
+                        },
+                        "main_17_6": {
+                            "state": 2
+                        },
+                        "main_17_7": {
+                            "state": 2
+                        },
+                        "main_17_8": {
+                            "state": 2
+                        },
+                        "main_17_9": {
+                            "state": 2
+                        },
+                        "main_17_10": {
+                            "state": 2
+                        },
+                        "main_17_11": {
+                            "state": 2
+                        },
+                        "main_17_12": {
                             "state": 2
                         }
                     }
@@ -691,27 +837,27 @@
                 "modeInfo": {
                     "soloOperation": {
                         "highScore": 262900,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     },
                     "multiOperationMatch": {
                         "highScore": 262900,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     },
                     "multiStandMatch": {
                         "highScore": 1,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     },
                     "multiOperationRoom": {
                         "highScore": 0,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     },
                     "multiStandRoom": {
                         "highScore": 0,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     }
                 },
@@ -2126,7 +2272,7 @@
             "init": 1
         },
         "ap": 999,
-        "maxAp": 180,
+        "maxAp": 210,
         "androidDiamond": 0,
         "iosDiamond": 0,
         "diamondShard": 60000,
@@ -4143,6 +4289,51 @@
                         ]
                     }
                 }
+            }
+        },
+        "clue": {
+            "unlock": true,
+            "state": {
+                "clue_1_1": 2,
+                "clue_1_2": 2,
+                "clue_1_3": 2,
+                "clue_1_4": 2,
+                "clue_1_5": 2,
+                "clue_2_1": 2,
+                "clue_2_2": 2,
+                "clue_2_3": 2,
+                "clue_2_4": 2,
+                "clue_2_5": 2,
+                "clue_3_1": 2,
+                "clue_3_2": 2,
+                "clue_3_3": 2,
+                "clue_3_4": 2,
+                "clue_3_5": 2,
+                "clue_4_1": 2,
+                "clue_4_2": 2,
+                "clue_4_3": 2,
+                "clue_4_4": 2
+            },
+            "reward": {
+                "clueActivity_1": 1,
+                "clueActivity_2": 1,
+                "clueActivity_3": 1,
+                "clueActivity_4": 1,
+                "clueActivity_5": 1,
+                "clueActivity_6": 1,
+                "clueActivity_7": 1,
+                "clueActivity_8": 1,
+                "clueActivity_9": 1,
+                "clueActivity_10": 1,
+                "clueActivity_11": 1,
+                "clueActivity_12": 1,
+                "clueActivity_13": 1,
+                "clueActivity_14": 1,
+                "clueActivity_15": 1,
+                "clueActivity_16": 1,
+                "clueActivity_17": 1,
+                "clueActivity_18": 1,
+                "clueActivity_19": 1
             }
         }
     },
@@ -6292,7 +6483,8 @@
         "longTermRecvRecord": {
             "signin_1": 1,
             "signin_2": 1,
-            "signin_3": 1
+            "signin_3": 1,
+            "signin_4": 1
         }
     },
     "aprilFool": {
