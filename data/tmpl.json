@@ -691,27 +691,27 @@
                 "modeInfo": {
                     "soloOperation": {
                         "highScore": 262900,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     },
                     "multiOperationMatch": {
                         "highScore": 262900,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     },
                     "multiStandMatch": {
                         "highScore": 1,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     },
                     "multiOperationRoom": {
                         "highScore": 0,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     },
                     "multiStandRoom": {
                         "highScore": 0,
-                        "curStage": "act3enemyduel_01a",
+                        "curStage": "act3enemyduel_01b",
                         "isUnlock": true
                     }
                 },
