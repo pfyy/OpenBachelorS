@@ -763,3 +763,14 @@ async def sandboxPerm_pinTopic(player_data, request: Request):
     player_data["sandboxPerm"]["pin"] = request_json["topicId"]
 
     return response
+
+
+@router.post("/sandboxPerm/changeTopic")
+@player_data_decorator
+async def sandboxPerm_changeTopic(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    player_data["sandboxPerm"]["topic"] = request_json["topicId"]
+
+    return response
