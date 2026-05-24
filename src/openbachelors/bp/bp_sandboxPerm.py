@@ -809,16 +809,33 @@ async def sandboxPerm_sandboxV3_changeDefend(player_data, request: Request):
     topic_id = request_json["topicId"]
 
     zone_id = request_json["zoneId"]
+    char_id_lst = request_json["chars"]
     flag = request_json["operate"]
+
+    for cur_zone_id, zone_obj in player_data["sandboxPerm"]["template"]["SANDBOX_V3"][
+        topic_id
+    ]["map"]["zone"]:
+        if zone_obj["defend"]["main"] in char_id_lst:
+            zone_obj["defend"]["main"] = -1
+
+        cur_sub_lst = zone_obj["defend"]["sub"].copy()
+
+        for char_id in char_id_lst:
+            try:
+                cur_sub_lst.remove(char_id)
+            except ValueError:
+                pass
+
+        zone_obj["defend"]["sub"] = cur_sub_lst
 
     if flag == 0:
         player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["map"]["zone"][
             zone_id
-        ]["defend"]["main"] = request_json["chars"][0]
+        ]["defend"]["main"] = char_id_lst[0]
 
     elif flag == 1:
         player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["map"]["zone"][
             zone_id
-        ]["defend"]["sub"] = request_json["chars"]
+        ]["defend"]["sub"] = char_id_lst
 
     return response
