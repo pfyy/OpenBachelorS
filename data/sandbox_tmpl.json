@@ -8845,6 +8845,674 @@
                     }
                 }
             }
+        },
+        "SANDBOX_V3": {
+            "sandbox_2": {
+                "current": null,
+                "game": {
+                    "modeId": "sandbox_2_mode_normal"
+                },
+                "map": {
+                    "zone": {
+                        "z_2_0": {
+                            "defend": {
+                                "main": -1,
+                                "sub": []
+                            }
+                        },
+                        "z_2_1": {
+                            "defend": {
+                                "main": -1,
+                                "sub": []
+                            }
+                        },
+                        "z_2_2": {
+                            "defend": {
+                                "main": -1,
+                                "sub": []
+                            }
+                        },
+                        "z_2_3": {
+                            "defend": {
+                                "main": -1,
+                                "sub": []
+                            }
+                        },
+                        "z_2_4": {
+                            "defend": {
+                                "main": -1,
+                                "sub": []
+                            }
+                        },
+                        "z_2_5": {
+                            "defend": {
+                                "main": -1,
+                                "sub": []
+                            }
+                        }
+                    },
+                    "node": {
+                        "sandbox_2_node_home": {
+                            "state": 0
+                        },
+                        "sandbox_2_node_01": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_02": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_03": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_04": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_05": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_06": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_07": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_08": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_09": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_10": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_11": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_12": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_13": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_14": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_15": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_16": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_17": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_18": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_19": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_20": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_21": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_22": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_23": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_24": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_25": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_26": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_27": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_28": {
+                            "state": 2
+                        },
+                        "sandbox_2_node_29": {
+                            "state": 2
+                        }
+                    }
+                },
+                "quest": {
+                    "pending": [
+                        {
+                            "id": "basenpcline_1",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    1,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_2",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    1,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_3",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    1,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_4",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    1,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_5",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    2,
+                                    2
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_6",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    3,
+                                    3
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_7",
+                            "state": 0,
+                            "progress": [
+                                [
+                                    11,
+                                    12
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_8",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    1,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_9",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    1,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_10",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    11,
+                                    11
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_11",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    11,
+                                    11
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_12",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    5,
+                                    5
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_13",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    9,
+                                    9
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_14",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    1,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_15",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    9,
+                                    9
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_16",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    1,
+                                    1
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_17",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    5,
+                                    5
+                                ]
+                            ]
+                        },
+                        {
+                            "id": "basenpcline_18",
+                            "state": 1,
+                            "progress": [
+                                [
+                                    11,
+                                    11
+                                ]
+                            ]
+                        }
+                    ],
+                    "complete": [
+                        "mainline1",
+                        "mainline2",
+                        "mainline3",
+                        "mainline4",
+                        "sideline_xb2smy",
+                        "sideline_xb2tex",
+                        "sideline_xb2amy"
+                    ]
+                },
+                "npc": {
+                    "normal": {},
+                    "base": {
+                        "trap": [
+                            {
+                                "instId": 1,
+                                "id": "basenpc_xb2mtr",
+                                "enable": true
+                            },
+                            {
+                                "instId": 2,
+                                "id": "basenpc_xb2smy",
+                                "enable": true
+                            },
+                            {
+                                "instId": 3,
+                                "id": "basenpc_xb2tex",
+                                "enable": true
+                            },
+                            {
+                                "instId": 4,
+                                "id": "basenpc_xb2amy",
+                                "enable": true
+                            },
+                            {
+                                "instId": 5,
+                                "id": "basenpc_xb2cls",
+                                "enable": true
+                            },
+                            {
+                                "instId": 6,
+                                "id": "basenpc_trademan",
+                                "enable": true
+                            }
+                        ],
+                        "enemy": [
+                            "basenpc_xbblsk_enemy",
+                            "basenpc_xbshap_enemy",
+                            "basenpc_xbhung_enemy",
+                            "basenpc_xbmedc_enemy",
+                            "basenpc_xbswrd_enemy",
+                            "basenpc_xb2eltrsm_enemy",
+                            "basenpc_xb2mcnd_enemy",
+                            "basenpc_xb2mcnrhd_enemy",
+                            "basenpc_xb2mcnrsh_enemy",
+                            "basenpc_xb2mcnelp_enemy",
+                            "basenpc_xb2mdrock_enemy",
+                            "basenpc_xb2mcnist_enemy"
+                        ]
+                    }
+                },
+                "base": {
+                    "level": 12,
+                    "cond": [],
+                    "wonder": [
+                        "wonder_1",
+                        "wonder_2",
+                        "wonder_3",
+                        "wonder_4"
+                    ],
+                    "shop": {
+                        "good": {}
+                    },
+                    "building": {},
+                    "animal": [],
+                    "debris": [],
+                    "production": {
+                        "unlock": true,
+                        "rate": {
+                            "sandbox_2_basegold": 0,
+                            "sandbox_2_basegoldEx": 0
+                        },
+                        "refreshTs": 2147483647,
+                        "harvestTs": 2147483647
+                    },
+                    "score": 0
+                },
+                "dungeon": {
+                    "difficulty": {
+                        "difficulty_1": {
+                            "state": 2,
+                            "cond": []
+                        },
+                        "difficulty_2": {
+                            "state": 2,
+                            "cond": []
+                        },
+                        "difficulty_3": {
+                            "state": 2,
+                            "cond": []
+                        },
+                        "difficulty_4": {
+                            "state": 2,
+                            "cond": []
+                        },
+                        "difficulty_5": {
+                            "state": 2,
+                            "cond": []
+                        },
+                        "difficulty_0": {
+                            "state": 2,
+                            "cond": []
+                        }
+                    }
+                },
+                "band": {
+                    "band_farmer": {
+                        "level": 3,
+                        "cond": [
+                            0,
+                            0
+                        ],
+                        "badge": true
+                    },
+                    "band_merchant": {
+                        "level": 3,
+                        "cond": [
+                            0,
+                            0
+                        ],
+                        "badge": true
+                    },
+                    "band_nomadic": {
+                        "level": 3,
+                        "cond": [
+                            0,
+                            0
+                        ],
+                        "badge": true
+                    },
+                    "band_tailor": {
+                        "level": 3,
+                        "cond": [
+                            0,
+                            0
+                        ],
+                        "badge": true
+                    },
+                    "band_slaveholder": {
+                        "level": 3,
+                        "cond": [
+                            0,
+                            0
+                        ],
+                        "badge": true
+                    },
+                    "band_urbanplanner": {
+                        "level": 3,
+                        "cond": [
+                            0,
+                            0
+                        ],
+                        "badge": true
+                    }
+                },
+                "inventory": {
+                    "coin": {
+                        "sandbox_2_basegold": 999999,
+                        "sandbox_2_basegoldEx": 999999
+                    },
+                    "trap": {},
+                    "cookbook": [
+                        "sandbox_2_food_1",
+                        "sandbox_2_food_2",
+                        "sandbox_2_food_3",
+                        "sandbox_2_food_4",
+                        "sandbox_2_food_5",
+                        "sandbox_2_food_6",
+                        "sandbox_2_food_7",
+                        "sandbox_2_food_8",
+                        "sandbox_2_food_9",
+                        "sandbox_2_food_10",
+                        "sandbox_2_food_11",
+                        "sandbox_2_food_12",
+                        "sandbox_2_food_13",
+                        "sandbox_2_food_14",
+                        "sandbox_2_food_15",
+                        "sandbox_2_food_16",
+                        "sandbox_2_food_17",
+                        "sandbox_2_food_18",
+                        "sandbox_2_food_19",
+                        "sandbox_2_food_20",
+                        "sandbox_2_food_21"
+                    ]
+                },
+                "tech": {
+                    "token": 0,
+                    "unlock": [
+                        "sandbox_2_tech_explore_1",
+                        "sandbox_2_tech_explore_2",
+                        "sandbox_2_tech_explore_3",
+                        "sandbox_2_tech_explore_4",
+                        "sandbox_2_tech_explore_5",
+                        "sandbox_2_tech_explore_6",
+                        "sandbox_2_tech_explore_7",
+                        "sandbox_2_tech_explore_8",
+                        "sandbox_2_tech_explore_9",
+                        "sandbox_2_tech_explore_10",
+                        "sandbox_2_tech_explore_11",
+                        "sandbox_2_tech_explore_12",
+                        "sandbox_2_tech_explore_13",
+                        "sandbox_2_tech_explore_14",
+                        "sandbox_2_tech_explore_15",
+                        "sandbox_2_tech_explore_16",
+                        "sandbox_2_tech_explore_17",
+                        "sandbox_2_tech_explore_18",
+                        "sandbox_2_tech_initial_1",
+                        "sandbox_2_tech_initial_2",
+                        "sandbox_2_tech_initial_3",
+                        "sandbox_2_tech_initial_4",
+                        "sandbox_2_tech_initial_5",
+                        "sandbox_2_tech_initial_6",
+                        "sandbox_2_tech_initial_7",
+                        "sandbox_2_tech_initial_8",
+                        "sandbox_2_tech_initial_9",
+                        "sandbox_2_tech_initial_10",
+                        "sandbox_2_tech_initial_11",
+                        "sandbox_2_tech_initial_12",
+                        "sandbox_2_tech_initial_13",
+                        "sandbox_2_tech_initial_14",
+                        "sandbox_2_tech_initial_15",
+                        "sandbox_2_tech_initial_16",
+                        "sandbox_2_tech_initial_17",
+                        "sandbox_2_tech_initial_18",
+                        "sandbox_2_tech_initial_19",
+                        "sandbox_2_tech_initial_20",
+                        "sandbox_2_tech_initial_21",
+                        "sandbox_2_tech_initial_22",
+                        "sandbox_2_tech_initial_23",
+                        "sandbox_2_tech_resource_1",
+                        "sandbox_2_tech_resource_2",
+                        "sandbox_2_tech_resource_3",
+                        "sandbox_2_tech_resource_4",
+                        "sandbox_2_tech_resource_5",
+                        "sandbox_2_tech_resource_6",
+                        "sandbox_2_tech_resource_7",
+                        "sandbox_2_tech_resource_8",
+                        "sandbox_2_tech_resource_9",
+                        "sandbox_2_tech_resource_10",
+                        "sandbox_2_tech_resource_11",
+                        "sandbox_2_tech_resource_12",
+                        "sandbox_2_tech_resource_13",
+                        "sandbox_2_tech_resource_14",
+                        "sandbox_2_tech_resource_15",
+                        "sandbox_2_tech_resource_16"
+                    ]
+                },
+                "collect": {
+                    "pending": {
+                        "achievement": {}
+                    },
+                    "complete": {
+                        "achievement": [
+                            "achieve_1_1",
+                            "achieve_1_2",
+                            "achieve_1_3",
+                            "achieve_1_4",
+                            "achieve_1_5",
+                            "achieve_1_6",
+                            "achieve_1_7",
+                            "achieve_2_1",
+                            "achieve_2_2",
+                            "achieve_2_3",
+                            "achieve_2_4",
+                            "achieve_2_5",
+                            "achieve_2_6",
+                            "achieve_2_7",
+                            "achieve_2_8",
+                            "achieve_2_9",
+                            "achieve_2_10",
+                            "achieve_2_11",
+                            "achieve_2_12",
+                            "achieve_2_13",
+                            "achieve_2_14",
+                            "achieve_2_15",
+                            "achieve_2_16",
+                            "achieve_2_17",
+                            "achieve_3_1",
+                            "achieve_3_2",
+                            "achieve_3_3",
+                            "achieve_3_4",
+                            "achieve_3_5",
+                            "achieve_3_6",
+                            "achieve_3_7",
+                            "achieve_3_8",
+                            "achieve_3_9",
+                            "achieve_3_10",
+                            "achieve_3_11",
+                            "achieve_3_12",
+                            "achieve_3_13",
+                            "achieve_3_14",
+                            "achieve_3_15",
+                            "achieve_3_16",
+                            "achieve_3_17",
+                            "achieve_3_18",
+                            "achieve_3_19",
+                            "achieve_3_20",
+                            "achieve_3_21",
+                            "achieve_3_22",
+                            "achieve_3_23",
+                            "achieve_3_24",
+                            "achieve_3_25",
+                            "achieve_3_26",
+                            "achieve_3_27",
+                            "achieve_3_28",
+                            "achieve_3_29",
+                            "achieve_3_30",
+                            "achieve_3_31",
+                            "achieve_3_32",
+                            "achieve_3_33",
+                            "achieve_3_34",
+                            "achieve_3_35"
+                        ],
+                        "quest": [
+                            "story_1",
+                            "story_2",
+                            "story_3",
+                            "story_4",
+                            "story_5",
+                            "story_6",
+                            "story_7"
+                        ],
+                        "music": [
+                            "music_sandbox_v3_1",
+                            "music_sandbox_v3_2",
+                            "music_sandbox_v3_3",
+                            "music_sandbox_v3_4",
+                            "music_sandbox_v3_5",
+                            "music_sandbox_v3_6",
+                            "music_sandbox_v3_7",
+                            "music_sandbox_v3_8",
+                            "music_sandbox_v3_9"
+                        ]
+                    }
+                }
+            }
         }
     },
     "isClose": false,
