@@ -752,3 +752,14 @@ async def sandboxPerm_sandboxV2_exitChallenge(player_data, request: Request):
     sandbox_manager.sandboxPerm_sandboxV2_exitChallenge()
 
     return response
+
+
+@router.post("/sandboxPerm/pinTopic")
+@player_data_decorator
+async def sandboxPerm_pinTopic(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    player_data["sandboxPerm"]["pin"] = request_json["topicId"]
+
+    return response
