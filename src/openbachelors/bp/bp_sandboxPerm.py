@@ -774,3 +774,51 @@ async def sandboxPerm_changeTopic(player_data, request: Request):
     player_data["sandboxPerm"]["topic"] = request_json["topicId"]
 
     return response
+
+
+@router.post("/sandboxPerm/sandboxV3/homeEnter")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_homeEnter(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    return response
+
+
+@router.post("/sandboxPerm/sandboxV3/switchMode")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_switchMode(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["game"]["modeId"] = (
+        request_json["modeId"]
+    )
+
+    return response
+
+
+@router.post("/sandboxPerm/sandboxV3/changeDefend")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_changeDefend(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    zone_id = request_json["zoneId"]
+    flag = request_json["operate"]
+
+    if flag == 0:
+        player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["map"]["zone"][
+            zone_id
+        ]["defend"]["main"] = request_json["chars"][0]
+
+    elif flag == 1:
+        player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["map"]["zone"][
+            zone_id
+        ]["defend"]["sub"] = request_json["chars"]
+
+    return response
