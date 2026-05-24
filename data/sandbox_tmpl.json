@@ -8847,5 +8847,21 @@
             }
         }
     },
-    "isClose": false
+    "isClose": false,
+    "loadTs": 1700000000,
+    "pin": "",
+    "summary": {
+        "SANDBOX_V2": {
+            "sandbox_1": {
+                "day": 1,
+                "inChallenge": false
+            }
+        },
+        "SANDBOX_V3": {
+            "sandbox_2": {
+                "baseLv": 12,
+                "inCurrent": false
+            }
+        }
+    }
 }

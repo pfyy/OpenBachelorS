@@ -10913,7 +10913,7 @@
                 "totalPut": 999
             },
             "bp": {
-                "point": 49000,
+                "point": 55000,
                 "reward": {
                     "bp_level_1": 1,
                     "bp_level_2": 1,
@@ -11054,7 +11054,22 @@
                     "bp_level_137": 1,
                     "bp_level_138": 1,
                     "bp_level_139": 1,
-                    "bp_level_140": 1
+                    "bp_level_140": 1,
+                    "bp_level_141": 1,
+                    "bp_level_142": 1,
+                    "bp_level_143": 1,
+                    "bp_level_144": 1,
+                    "bp_level_145": 1,
+                    "bp_level_146": 1,
+                    "bp_level_147": 1,
+                    "bp_level_148": 1,
+                    "bp_level_149": 1,
+                    "bp_level_150": 1,
+                    "bp_level_151": 1,
+                    "bp_level_152": 1,
+                    "bp_level_153": 1,
+                    "bp_level_154": 1,
+                    "bp_level_155": 1
                 }
             },
             "buff": {
@@ -17936,10 +17951,43 @@
                 "list": []
             },
             "challenge": {
-                "reward": {},
-                "grade": {},
+                "reward": {
+                    "rogue_5_challenge_01": 1,
+                    "rogue_5_challenge_02": 1,
+                    "rogue_5_challenge_03": 1,
+                    "rogue_5_challenge_04": 1,
+                    "rogue_5_challenge_05": 1,
+                    "rogue_5_challenge_06": 1,
+                    "rogue_5_challenge_07": 1,
+                    "rogue_5_challenge_08": 1,
+                    "rogue_5_challenge_09": 1,
+                    "rogue_5_challenge_10": 1
+                },
+                "grade": {
+                    "rogue_5_challenge_01": 2,
+                    "rogue_5_challenge_02": 2,
+                    "rogue_5_challenge_03": 2,
+                    "rogue_5_challenge_04": 2,
+                    "rogue_5_challenge_05": 2,
+                    "rogue_5_challenge_06": 2,
+                    "rogue_5_challenge_07": 2,
+                    "rogue_5_challenge_08": 2,
+                    "rogue_5_challenge_09": 2,
+                    "rogue_5_challenge_10": 2
+                },
                 "collect": {},
-                "highScore": {}
+                "highScore": {
+                    "rogue_5_challenge_01": 0,
+                    "rogue_5_challenge_02": 0,
+                    "rogue_5_challenge_03": 0,
+                    "rogue_5_challenge_04": 0,
+                    "rogue_5_challenge_05": 0,
+                    "rogue_5_challenge_06": 0,
+                    "rogue_5_challenge_07": 0,
+                    "rogue_5_challenge_08": 0,
+                    "rogue_5_challenge_09": 0,
+                    "rogue_5_challenge_10": 0
+                }
             },
             "monthTeam": {
                 "valid": [
