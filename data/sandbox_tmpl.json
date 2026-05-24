@@ -9210,6 +9210,11 @@
                                 "instId": 6,
                                 "id": "basenpc_trademan",
                                 "enable": true
+                            },
+                            {
+                                "instId": 7,
+                                "id": "basenpc_xb2ach",
+                                "enable": true
                             }
                         ],
                         "enemy": [
