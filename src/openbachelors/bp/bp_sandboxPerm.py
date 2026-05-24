@@ -829,9 +829,13 @@ async def sandboxPerm_sandboxV3_changeDefend(player_data, request: Request):
         zone_obj["defend"]["sub"] = cur_sub_lst
 
     if flag == 0:
+        if len(char_id_lst) > 0:
+            char_id = char_id_lst[0]
+        else:
+            char_id = -1
         player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["map"]["zone"][
             zone_id
-        ]["defend"]["main"] = char_id_lst[0]
+        ]["defend"]["main"] = char_id
 
     elif flag == 1:
         player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["map"]["zone"][
