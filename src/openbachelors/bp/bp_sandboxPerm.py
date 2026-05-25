@@ -921,6 +921,8 @@ async def sandboxPerm_sandboxV3_homeSave(player_data, request: Request):
 
     topic_id = request_json["topicId"]
 
+    sandbox_perm_table = const_json_loader[SANDBOX_PERM_TABLE]
+
     building_obj = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
         "base"
     ]["building"]
@@ -964,6 +966,30 @@ async def sandboxPerm_sandboxV3_homeSave(player_data, request: Request):
                 add_item_in_topic(player_data, topic_id, item_id, 1)
             # upgrade
             case 2:
-                pass
+                # remove old
+
+                building_item_lst = building_obj[item_id].copy()
+
+                for building_item_idx, building_item in enumerate(building_item_lst):
+                    if building_item["pos"] == pos:
+                        building_item_lst.pop(building_item_idx)
+                        break
+
+                building_obj[item_id] = building_item_lst
+
+                # add new
+
+                new_item_id = sandbox_perm_table["detail"]["SANDBOX_V3"][topic_id][
+                    "baseTrapUpgradeData"
+                ][item_id]["upgradeItemId"]
+
+                if new_item_id not in building_obj:
+                    building_obj[new_item_id] = []
+
+                new_building_item_lst = building_obj[new_item_id].copy()
+
+                new_building_item_lst.append(building_item)
+
+                building_obj[new_item_id] = new_building_item_lst
 
     return response
