@@ -843,3 +843,74 @@ async def sandboxPerm_sandboxV3_changeDefend(player_data, request: Request):
         ]["defend"]["sub"] = char_id_lst
 
     return response
+
+
+@router.post("/sandboxPerm/sandboxV3/homeShopBuy")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_homeShopBuy(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+    good_id = request_json["goodId"]
+    count = request_json["count"]
+
+    sandbox_perm_table = const_json_loader[SANDBOX_PERM_TABLE]
+    item_id = sandbox_perm_table["detail"]["SANDBOX_V3"][topic_id]["baseShopGoodData"][
+        good_id
+    ]["itemId"]
+
+    trap_obj = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
+        "inventory"
+    ]["trap"]
+
+    if item_id in trap_obj:
+        num_item = trap_obj[item_id]
+    else:
+        num_item = 0
+
+    num_item += count
+
+    trap_obj[item_id] = num_item
+
+    response["items"] = [
+        {
+            "id": item_id,
+            "count": count,
+        }
+    ]
+
+    return response
+
+
+@router.post("/sandboxPerm/sandboxV3/homeShopSell")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_homeShopSell(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+    item_id = request_json["itemId"]
+    count = request_json["count"]
+
+    trap_obj = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
+        "inventory"
+    ]["trap"]
+
+    if item_id in trap_obj:
+        num_item = trap_obj[item_id]
+    else:
+        num_item = 0
+
+    num_item -= count
+
+    trap_obj[item_id] = num_item
+
+    response["items"] = [
+        {
+            "id": "sandbox_2_basegold",
+            "count": 0,
+        }
+    ]
+
+    return response
