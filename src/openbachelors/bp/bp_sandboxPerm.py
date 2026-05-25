@@ -911,3 +911,59 @@ async def sandboxPerm_sandboxV3_homeShopSell(player_data, request: Request):
     ]
 
     return response
+
+
+@router.post("/sandboxPerm/sandboxV3/homeSave")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_homeSave(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    building_obj = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
+        "base"
+    ]["building"]
+
+    for op in request_json["operation"]:
+        op_type = op["type"]
+        item_id = op["itemId"]
+
+        pos = op["pos"]
+        dir = op.get("dir", 3)
+
+        if item_id not in building_obj:
+            building_obj[item_id] = []
+
+        match op_type:
+            # add
+            case 1:
+                building_item_lst = building_obj[item_id].copy()
+
+                building_item_lst.append(
+                    {
+                        "pos": pos,
+                        "dir": dir,
+                    }
+                )
+
+                building_obj[item_id] = building_item_lst
+
+                add_item_in_topic(player_data, topic_id, item_id, -1)
+            # remove
+            case 3:
+                building_item_lst = building_obj[item_id].copy()
+
+                for building_item_idx, building_item in enumerate(building_item_lst):
+                    if building_item["pos"] == pos:
+                        building_item_lst.pop(building_item_idx)
+                        break
+
+                building_obj[item_id] = building_item_lst
+
+                add_item_in_topic(player_data, topic_id, item_id, 1)
+            # upgrade
+            case 2:
+                pass
+
+    return response
