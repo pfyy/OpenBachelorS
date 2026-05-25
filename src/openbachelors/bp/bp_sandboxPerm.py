@@ -966,6 +966,13 @@ async def sandboxPerm_sandboxV3_homeSave(player_data, request: Request):
                 add_item_in_topic(player_data, topic_id, item_id, 1)
             # upgrade
             case 2:
+                new_item_id = sandbox_perm_table["detail"]["SANDBOX_V3"][topic_id][
+                    "baseTrapUpgradeData"
+                ][item_id]["upgradeItemId"]
+
+                if new_item_id not in building_obj:
+                    building_obj[new_item_id] = []
+
                 # remove old
 
                 building_item_lst = building_obj[item_id].copy()
@@ -978,13 +985,6 @@ async def sandboxPerm_sandboxV3_homeSave(player_data, request: Request):
                 building_obj[item_id] = building_item_lst
 
                 # add new
-
-                new_item_id = sandbox_perm_table["detail"]["SANDBOX_V3"][topic_id][
-                    "baseTrapUpgradeData"
-                ][item_id]["upgradeItemId"]
-
-                if new_item_id not in building_obj:
-                    building_obj[new_item_id] = []
 
                 new_building_item_lst = building_obj[new_item_id].copy()
 
