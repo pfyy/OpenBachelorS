@@ -8985,188 +8985,7 @@
                     }
                 },
                 "quest": {
-                    "pending": [
-                        {
-                            "id": "basenpcline_1",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    1,
-                                    1
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_2",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    1,
-                                    1
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_3",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    1,
-                                    1
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_4",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    1,
-                                    1
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_5",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    2,
-                                    2
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_6",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    3,
-                                    3
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_7",
-                            "state": 0,
-                            "progress": [
-                                [
-                                    11,
-                                    12
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_8",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    1,
-                                    1
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_9",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    1,
-                                    1
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_10",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    11,
-                                    11
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_11",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    11,
-                                    11
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_12",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    5,
-                                    5
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_13",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    9,
-                                    9
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_14",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    1,
-                                    1
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_15",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    9,
-                                    9
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_16",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    1,
-                                    1
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_17",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    5,
-                                    5
-                                ]
-                            ]
-                        },
-                        {
-                            "id": "basenpcline_18",
-                            "state": 1,
-                            "progress": [
-                                [
-                                    11,
-                                    11
-                                ]
-                            ]
-                        }
-                    ],
+                    "pending": [],
                     "complete": [
                         "mainline1",
                         "mainline2",
@@ -9174,7 +8993,8 @@
                         "mainline4",
                         "sideline_xb2smy",
                         "sideline_xb2tex",
-                        "sideline_xb2amy"
+                        "sideline_xb2amy",
+                        "basenpcline"
                     ]
                 },
                 "npc": {
@@ -9687,6 +9507,10 @@
                 },
                 "dungeon": {
                     "difficulty": {
+                        "difficulty_0": {
+                            "state": 2,
+                            "cond": []
+                        },
                         "difficulty_1": {
                             "state": 2,
                             "cond": []
@@ -9704,10 +9528,6 @@
                             "cond": []
                         },
                         "difficulty_5": {
-                            "state": 2,
-                            "cond": []
-                        },
-                        "difficulty_0": {
                             "state": 2,
                             "cond": []
                         }
