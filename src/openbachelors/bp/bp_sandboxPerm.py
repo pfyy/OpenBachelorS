@@ -992,4 +992,8 @@ async def sandboxPerm_sandboxV3_homeSave(player_data, request: Request):
 
                 building_obj[new_item_id] = new_building_item_lst
 
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["base"]["animal"] = (
+        request_json["catchedAnimals"]
+    )
+
     return response
