@@ -845,6 +845,21 @@ async def sandboxPerm_sandboxV3_changeDefend(player_data, request: Request):
     return response
 
 
+def add_item_in_topic(player_data, topic_id: str, item_id: str, count: int):
+    trap_obj = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
+        "inventory"
+    ]["trap"]
+
+    if item_id in trap_obj:
+        num_item = trap_obj[item_id]
+    else:
+        num_item = 0
+
+    num_item += count
+
+    trap_obj[item_id] = num_item
+
+
 @router.post("/sandboxPerm/sandboxV3/homeShopBuy")
 @player_data_decorator
 async def sandboxPerm_sandboxV3_homeShopBuy(player_data, request: Request):
@@ -860,18 +875,7 @@ async def sandboxPerm_sandboxV3_homeShopBuy(player_data, request: Request):
         good_id
     ]["itemId"]
 
-    trap_obj = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
-        "inventory"
-    ]["trap"]
-
-    if item_id in trap_obj:
-        num_item = trap_obj[item_id]
-    else:
-        num_item = 0
-
-    num_item += count
-
-    trap_obj[item_id] = num_item
+    add_item_in_topic(player_data, topic_id, item_id, count)
 
     response["items"] = [
         {
@@ -893,24 +897,17 @@ async def sandboxPerm_sandboxV3_homeShopSell(player_data, request: Request):
     item_id = request_json["itemId"]
     count = request_json["count"]
 
-    trap_obj = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
-        "inventory"
-    ]["trap"]
-
-    if item_id in trap_obj:
-        num_item = trap_obj[item_id]
-    else:
-        num_item = 0
-
-    num_item -= count
-
-    trap_obj[item_id] = num_item
+    add_item_in_topic(player_data, topic_id, item_id, -count)
 
     response["items"] = [
         {
             "id": "sandbox_2_basegold",
             "count": 0,
-        }
+        },
+        {
+            "id": "sandbox_2_basegoldEx",
+            "count": 0,
+        },
     ]
 
     return response
