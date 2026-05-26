@@ -9588,7 +9588,9 @@
                         "sandbox_2_basegold": 999999,
                         "sandbox_2_basegoldEx": 999999
                     },
-                    "trap": {},
+                    "trap": {
+                        "sandbox_2_building_base_pdline_1": 999
+                    },
                     "cookbook": [
                         "sandbox_2_food_1",
                         "sandbox_2_food_2",
