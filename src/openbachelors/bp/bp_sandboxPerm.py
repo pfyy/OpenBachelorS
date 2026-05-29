@@ -1042,22 +1042,36 @@ async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
             "refreshPrice": 0,
         },
         "bag": {
-            "coin": {},
-            "material": {},
-            "relic": [],
             "recipe": [
                 "sandbox_2_recipe_infrastructure_1",
                 "sandbox_2_recipe_infrastructure_2",
                 "sandbox_2_recipe_infrastructure_3",
+                "sandbox_2_recipe_infrastructure_4",
+                "sandbox_2_recipe_infrastructure_5",
                 "sandbox_2_recipe_infrastructure_6",
                 "sandbox_2_recipe_infrastructure_8",
                 "sandbox_2_recipe_infrastructure_9",
                 "sandbox_2_recipe_infrastructure_10",
+                "sandbox_2_recipe_infrastructure_12",
                 "sandbox_2_recipe_process_1",
                 "sandbox_2_recipe_producer_7",
+                "sandbox_2_recipe_tactical_1",
+                "sandbox_2_recipe_tactical_2",
+                "sandbox_2_recipe_tactical_6",
+                "sandbox_2_recipe_tactical_7",
                 "sandbox_2_recipe_tactical_11",
             ],
-            "trap": {},
+            "material": {
+                "sandbox_2_beef": 3,
+                "sandbox_2_crab": 3,
+                "sandbox_2_poultry": 3,
+                "sandbox_2_supermeat": 3,
+                "sandbox_2_venison": 3,
+                "sandbox_2_water": 3,
+                "sandbox_2_wheat": 3,
+            },
+            "coin": {"sandbox_2_gold": 60},
+            "relic": [],
         },
         "shop": {
             "shopId": "",
@@ -1155,5 +1169,36 @@ async def sandboxPerm_sandboxV3_giveUpGame(player_data, request: Request):
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"] = None
 
     player_data["sandboxPerm"]["summary"]["SANDBOX_V3"][topic_id]["inCurrent"] = False
+
+    return response
+
+
+@router.post("/sandboxPerm/sandboxV3/chooseBand")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_chooseBand(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    band_id = request_json["bandId"]
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["band"][
+        "id"
+    ] = band_id
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["band"][
+        "level"
+    ] = 3
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
+        "maxRecruit"
+    ] = 12
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
+        "canRecruit"
+    ] = 12
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
+        "state"
+    ] = 1
 
     return response
