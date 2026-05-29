@@ -1079,7 +1079,7 @@ async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
             "recruit": {"show": false, "price": 0},
             "refreshPrice": 0,
             "sellPrice": {},
-            "showBattleShop": false,
+            "showBattleShop": true,
         },
         "save": null,
         "dailyReport": null,
