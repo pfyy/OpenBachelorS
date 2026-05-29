@@ -997,3 +997,163 @@ async def sandboxPerm_sandboxV3_homeSave(player_data, request: Request):
     )
 
     return response
+
+
+@router.post("/sandboxPerm/sandboxV3/createGame")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    node_id = request_json["nodeId"]
+    difficulty_id = request_json["difficultyId"]
+    if not difficulty_id:
+        difficulty_id = ""
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"] = {
+        "nodeId": node_id,
+        "state": 0,
+        "game": {
+            "idx": 1,
+            "openTs": 1700000000,
+            "difficultyId": difficulty_id,
+            "npcInstId": -1,
+            "day": 1,
+            "weather": "weather_normal",
+            "windDir": 0,
+            "power": 0,
+            "pros": 0,
+            "aesth": 0,
+            "success": false,
+        },
+        "band": {"id": "", "level": 0},
+        "map": {"subStage": [], "initIndex": [], "unlockIndex": []},
+        "troop": {
+            "slots": [],
+            "chars": {},
+            "food": {},
+            "maxRecruit": 0,
+            "canRecruit": 0,
+            "currentRecruit": [],
+            "removeChar": [],
+            "defend": {"mainIds": [], "otherIds": []},
+            "refreshPrice": 0,
+        },
+        "bag": {
+            "coin": {},
+            "material": {},
+            "relic": [],
+            "recipe": [
+                "sandbox_2_recipe_infrastructure_1",
+                "sandbox_2_recipe_infrastructure_2",
+                "sandbox_2_recipe_infrastructure_3",
+                "sandbox_2_recipe_infrastructure_6",
+                "sandbox_2_recipe_infrastructure_8",
+                "sandbox_2_recipe_infrastructure_9",
+                "sandbox_2_recipe_infrastructure_10",
+                "sandbox_2_recipe_process_1",
+                "sandbox_2_recipe_producer_7",
+                "sandbox_2_recipe_tactical_11",
+            ],
+            "trap": {},
+        },
+        "shop": {
+            "shopId": "",
+            "slots": [],
+            "recruit": {"show": false, "price": 0},
+            "refreshPrice": 0,
+            "sellPrice": {},
+            "showBattleShop": false,
+        },
+        "save": null,
+        "dailyReport": null,
+        "event": null,
+        "effect": {
+            "rune": [
+                "sandbox_v3_talent_1",
+                "sandbox_v3_talent_2_lv1",
+                "sandbox_v3_talent_2_lv2",
+                "sandbox_v3_talent_3_lv1",
+                "sandbox_v3_talent_3_lv2",
+                "sandbox_v3_talent_4_lv1",
+                "sandbox_v3_talent_4_lv2",
+                "sandbox_v3_talent_5_lv1",
+                "sandbox_v3_talent_5_lv2",
+                "sandbox_v3_talent_6_lv1",
+                "sandbox_v3_talent_6_lv2",
+                "sandbox_v3_talent_7_lv1",
+                "sandbox_v3_talent_7_lv2",
+                "sandbox_v3_talent_8",
+                "sandbox_v3_weather_heat[ex]",
+                "sandbox_v3_weather_lightning[ex]",
+                "sandbox_v3_weather_rain[ex]",
+                "sandbox_v3_weather_storm[ex]",
+            ],
+            "shopRefreshDiscount": 20,
+            "shopRefreshFree": 1,
+            "shopSlotAdd": 2,
+            "shopStockAdd": {
+                "sandbox_2_good_beef_6": 9,
+                "sandbox_2_good_brick_5": 5,
+                "sandbox_2_good_crab_9": 9,
+                "sandbox_2_good_diamond_5": 5,
+                "sandbox_2_good_iron_10": 10,
+                "sandbox_2_good_plank_5": 5,
+                "sandbox_2_good_poultry_6": 9,
+                "sandbox_2_good_steel_5": 5,
+                "sandbox_2_good_stone_10": 10,
+                "sandbox_2_good_supermeat_3": 2,
+                "sandbox_2_good_venison_9": 9,
+                "sandbox_2_good_wheat_10": 9,
+                "sandbox_2_good_wheat_9": 9,
+                "sandbox_2_good_wood_10": 10,
+            },
+            "shopDiscountRate": 30,
+            "gapGainItem": {},
+            "recipeRefreshDiscount": 0,
+            "productAdd": {},
+            "trapDrop": {},
+            "buildReturn": {},
+            "taskRefreshAdd": 3,
+            "initGainItem": {
+                "sandbox_2_beef": 3,
+                "sandbox_2_crab": 3,
+                "sandbox_2_gold": 60,
+                "sandbox_2_poultry": 3,
+                "sandbox_2_recipe_infrastructure_12": 1,
+                "sandbox_2_recipe_infrastructure_4": 1,
+                "sandbox_2_recipe_infrastructure_5": 1,
+                "sandbox_2_recipe_tactical_1": 1,
+                "sandbox_2_recipe_tactical_2": 1,
+                "sandbox_2_recipe_tactical_6": 1,
+                "sandbox_2_recipe_tactical_7": 1,
+                "sandbox_2_supermeat": 3,
+                "sandbox_2_venison": 3,
+                "sandbox_2_water": 3,
+                "sandbox_2_wheat": 3,
+            },
+            "rookieCharIds": [],
+            "sellPrice": {},
+        },
+    }
+
+    player_data["sandboxPerm"]["summary"]["SANDBOX_V3"][topic_id]["inCurrent"] = True
+
+    return response
+
+
+@router.post("/sandboxPerm/sandboxV3/giveUpGame")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_giveUpGame(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"] = None
+
+    player_data["sandboxPerm"]["summary"]["SANDBOX_V3"][topic_id]["inCurrent"] = False
+
+    return response
