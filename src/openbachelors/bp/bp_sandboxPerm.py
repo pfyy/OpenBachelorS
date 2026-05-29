@@ -1195,7 +1195,7 @@ async def sandboxPerm_sandboxV3_chooseBand(player_data, request: Request):
     ] = 12
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
         "canRecruit"
-    ] = 12
+    ] = 6
 
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
         "state"
