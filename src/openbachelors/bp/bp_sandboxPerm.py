@@ -2,6 +2,7 @@ from enum import Enum
 import random
 from functools import cmp_to_key
 from copy import deepcopy
+import logging
 
 from fastapi import APIRouter
 from fastapi import Request
@@ -17,6 +18,8 @@ from ..util.const_json_loader import const_json_loader, ConstJson
 from ..util.player_data import player_data_decorator
 from ..util.battle_log_logger import log_battle_log_if_necessary
 from ..util.helper import get_char_num_id
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -1356,6 +1359,12 @@ async def sandboxPerm_sandboxV3_battleStart(player_data, request: Request):
     return response
 
 
+def get_item_type(item_id: str) -> str:
+    sandbox_perm_table = const_json_loader[SANDBOX_PERM_TABLE]
+
+    return sandbox_perm_table["itemData"][item_id]["itemType"]
+
+
 @router.post("/sandboxPerm/sandboxV3/battleFinish")
 @player_data_decorator
 async def sandboxPerm_sandboxV3_battleFinish(player_data, request: Request):
@@ -1393,6 +1402,40 @@ async def sandboxPerm_sandboxV3_battleFinish(player_data, request: Request):
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["map"][
         "unlockIndex"
     ] = map_unlock_lst
+
+    coin_dict = {}
+    material_dict = {}
+    relic_lst = []
+    recipe_lst = []
+    trap_dict = {}
+
+    for item_obj in item_lst:
+        item_id = item_obj["itemId"]
+        item_cnt = item_obj["cnt"]
+
+        item_type = get_item_type(item_id)
+
+        match item_type:
+            case "COIN":
+                coin_dict[item_id] = item_cnt
+            case "FOODMAT" | "SPECIALMAT" | "BUILDINGMAT" | "PRODUCT":
+                material_dict[item_id] = item_cnt
+            case "RELIC":
+                relic_lst.append(item_id)
+            case "RECIPE":
+                recipe_lst.append(item_id)
+            case "BUILDING" | "ANIMAL" | "TACTICAL":
+                trap_dict[item_id] = item_cnt
+            case _:
+                logger.warning(f"unknown item {item_id} of item_type {item_type}")
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["bag"] = {
+        "coin": coin_dict,
+        "material": material_dict,
+        "relic": relic_lst,
+        "recipe": recipe_lst,
+        "trap": trap_dict,
+    }
 
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
         "state"
