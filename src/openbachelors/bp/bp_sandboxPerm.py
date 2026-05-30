@@ -1006,6 +1006,36 @@ async def sandboxPerm_sandboxV3_homeSave(player_data, request: Request):
     return response
 
 
+def get_stage_id(topic_id: str, node_id: str) -> str:
+    sandbox_perm_table = const_json_loader[SANDBOX_PERM_TABLE]
+
+    return sandbox_perm_table["detail"]["SANDBOX_V3"][topic_id]["mainMapData"]["nodes"][
+        node_id
+    ]["stageId"]
+
+
+def try_get_story_map_obj(topic_id: str, node_id: str) -> dict | None:
+    stage_id = get_stage_id(topic_id, node_id)
+
+    sandbox_perm_table = const_json_loader[SANDBOX_PERM_TABLE]
+    story_stage_data = sandbox_perm_table["detail"]["SANDBOX_V3"][topic_id][
+        "storyStageData"
+    ]
+
+    if stage_id not in story_stage_data:
+        return None
+
+    story_stage_obj = story_stage_data[stage_id]
+
+    story_map_obj = {
+        "subStage": story_stage_obj["subStageIdList"].copy(),
+        "initIndex": story_stage_obj["initialSubStageIndexList"].copy(),
+        "unlockIndex": story_stage_obj["initialSubStageIndexList"].copy(),
+    }
+
+    return story_map_obj
+
+
 @router.post("/sandboxPerm/sandboxV3/createGame")
 @player_data_decorator
 async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
@@ -1159,6 +1189,12 @@ async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
             "sellPrice": {},
         },
     }
+
+    story_map_obj = try_get_story_map_obj(topic_id, node_id)
+    if story_map_obj:
+        player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
+            "map"
+        ] = story_map_obj
 
     player_data["sandboxPerm"]["summary"]["SANDBOX_V3"][topic_id]["inCurrent"] = True
 
