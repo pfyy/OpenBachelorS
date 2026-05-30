@@ -7,7 +7,12 @@ from fastapi import APIRouter
 from fastapi import Request
 
 from ..const.json_const import true, false, null
-from ..const.filepath import CONFIG_JSON, VERSION_JSON, SANDBOX_PERM_TABLE
+from ..const.filepath import (
+    CONFIG_JSON,
+    VERSION_JSON,
+    SANDBOX_PERM_TABLE,
+    UNIEQUIP_TABLE,
+)
 from ..util.const_json_loader import const_json_loader, ConstJson
 from ..util.player_data import player_data_decorator
 from ..util.battle_log_logger import log_battle_log_if_necessary
@@ -1306,9 +1311,15 @@ async def sandboxPerm_sandboxV3_getDailyRecruitList(player_data, request: Reques
 
     topic_id = request_json["topicId"]
 
+    uniequip_table = const_json_loader[UNIEQUIP_TABLE]
+
+    sub_prof_lst = []
+    for sub_prof_id, sub_prof_obj in uniequip_table["subProfDict"]:
+        sub_prof_lst.append(sub_prof_id)
+
     response.update(
         {
-            "subProfessionList": [],
+            "subProfessionList": sub_prof_lst,
             "tempCharList": [],
             "rookieCharList": [],
         }
