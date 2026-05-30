@@ -1034,8 +1034,8 @@ async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
             "slots": [],
             "chars": {},
             "food": {},
-            "maxRecruit": 0,
-            "canRecruit": 0,
+            "maxRecruit": 12,
+            "canRecruit": 6,
             "currentRecruit": [],
             "removeChar": [],
             "defend": {"mainIds": [], "otherIds": []},
@@ -1190,15 +1190,50 @@ async def sandboxPerm_sandboxV3_chooseBand(player_data, request: Request):
         "level"
     ] = 3
 
-    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
-        "maxRecruit"
-    ] = 12
-    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
-        "canRecruit"
-    ] = 6
-
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
         "state"
     ] = 1
+
+    return response
+
+
+@router.post("/sandboxPerm/sandboxV3/initRecruit")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_initRecruit(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    return response
+
+
+@router.post("/sandboxPerm/sandboxV3/battleStart")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_battleStart(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    response.update(
+        {
+            "battleId": "00000000-0000-0000-0000-000000000000",
+            "battleShopId": "",
+        }
+    )
+
+    return response
+
+
+@router.post("/sandboxPerm/sandboxV3/battleFinish")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_battleFinish(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    topic_id = request_json["topicId"]
 
     return response
