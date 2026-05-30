@@ -1130,7 +1130,10 @@ async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
                 "sandbox_2_water": 3,
                 "sandbox_2_wheat": 3,
             },
-            "coin": {"sandbox_2_gold": 999999},
+            "coin": {
+                "sandbox_2_gold": 999999,
+                "sandbox_2_dimensioncoin": 999999,
+            },
             "relic": [],
         },
         "shop": {
