@@ -1366,6 +1366,30 @@ async def sandboxPerm_sandboxV3_battleFinish(player_data, request: Request):
 
     topic_id = request_json["topicId"]
 
+    save_obj = request_json["sandboxV3Data"]["saveData"]
+
+    save_obj.pop("itemSave", None)
+    save_obj.pop("relicItemOrder", None)
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
+        "save"
+    ] = save_obj
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["game"][
+        "power"
+    ] = save_obj["powerValue"]
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["game"][
+        "pros"
+    ] = save_obj["prosperity"]
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["game"][
+        "aesth"
+    ] = save_obj["aesthetics"]
+
+    map_unlock_lst = [room["index"] for room in save_obj["roomSave"]]
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["map"][
+        "unlockIndex"
+    ] = map_unlock_lst
+
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
         "state"
     ] = 5
