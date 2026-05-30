@@ -1199,27 +1199,7 @@ async def sandboxPerm_sandboxV3_chooseBand(player_data, request: Request):
     return response
 
 
-@router.post("/sandboxPerm/sandboxV3/initRecruit")
-@player_data_decorator
-async def sandboxPerm_sandboxV3_initRecruit(player_data, request: Request):
-    request_json = await request.json()
-    response = {}
-
-    topic_id = request_json["topicId"]
-
-    recruit_lst = request_json["ownChars"]
-
-    assist_obj = request_json["assistFriend"]
-    if assist_obj:
-        assist_char = assist_obj["assistChar"]
-        recruit_lst.append(
-            {
-                "charInstId": get_char_num_id(assist_char["charId"]),
-                "skillIndex": assist_char["skillIndex"],
-                "currentEquip": assist_char["currentEquip"],
-            }
-        )
-
+def recruit_char(player_data, topic_id: str, recruit_lst: list):
     slot_lst = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
         "current"
     ]["troop"]["slots"].copy()
@@ -1247,6 +1227,30 @@ async def sandboxPerm_sandboxV3_initRecruit(player_data, request: Request):
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
         "currentRecruit"
     ] = cur_recruit_lst
+
+
+@router.post("/sandboxPerm/sandboxV3/initRecruit")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_initRecruit(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    recruit_lst = request_json["ownChars"]
+
+    assist_obj = request_json["assistFriend"]
+    if assist_obj:
+        assist_char = assist_obj["assistChar"]
+        recruit_lst.append(
+            {
+                "charInstId": get_char_num_id(assist_char["charId"]),
+                "skillIndex": assist_char["skillIndex"],
+                "currentEquip": assist_char["currentEquip"],
+            }
+        )
+
+    recruit_char(player_data, topic_id, recruit_lst)
 
     return response
 
@@ -1320,5 +1324,9 @@ async def sandboxPerm_sandboxV3_dailyRecruit(player_data, request: Request):
     response = {}
 
     topic_id = request_json["topicId"]
+
+    recruit_lst = [request_json["ownChar"]]
+
+    recruit_char(player_data, topic_id, recruit_lst)
 
     return response
