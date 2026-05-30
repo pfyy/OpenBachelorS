@@ -1036,6 +1036,26 @@ def try_get_story_map_obj(topic_id: str, node_id: str) -> dict | None:
     return story_map_obj
 
 
+def try_get_shop_id(topic_id: str, node_id: str, shop_type: str) -> str | None:
+    stage_id = get_stage_id(topic_id, node_id)
+
+    sandbox_perm_table = const_json_loader[SANDBOX_PERM_TABLE]
+
+    stage_shop_list_data = sandbox_perm_table["detail"]["SANDBOX_V3"][topic_id][
+        "stageShopListData"
+    ]
+
+    if stage_id not in stage_shop_list_data:
+        return None
+
+    stage_shop_obj = stage_shop_list_data[stage_id]
+    for shop_idx, shop_obj in stage_shop_obj:
+        if shop_obj["shopType"] == shop_type:
+            return shop_obj["shopId"]
+
+    return None
+
+
 @router.post("/sandboxPerm/sandboxV3/createGame")
 @player_data_decorator
 async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
@@ -1196,6 +1216,12 @@ async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
             "map"
         ] = story_map_obj
 
+    rest_shop_id = try_get_shop_id(topic_id, node_id, "REST")
+    if rest_shop_id:
+        player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
+            "shop"
+        ]["shopId"] = rest_shop_id
+
     player_data["sandboxPerm"]["summary"]["SANDBOX_V3"][topic_id]["inCurrent"] = True
 
     return response
@@ -1312,10 +1338,18 @@ async def sandboxPerm_sandboxV3_battleStart(player_data, request: Request):
         "state"
     ] = 2
 
+    node_id = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
+        "nodeId"
+    ]
+
+    battle_shop_id = try_get_shop_id(topic_id, node_id, "BATTLE")
+    if not battle_shop_id:
+        battle_shop_id = ""
+
     response.update(
         {
             "battleId": "00000000-0000-0000-0000-000000000000",
-            "battleShopId": "",
+            "battleShopId": battle_shop_id,
         }
     )
 
