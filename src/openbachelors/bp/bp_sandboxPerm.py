@@ -10,6 +10,7 @@ from ..const.filepath import CONFIG_JSON, VERSION_JSON, SANDBOX_PERM_TABLE
 from ..util.const_json_loader import const_json_loader, ConstJson
 from ..util.player_data import player_data_decorator
 from ..util.battle_log_logger import log_battle_log_if_necessary
+from ..util.helper import get_char_num_id
 
 router = APIRouter()
 
@@ -1204,6 +1205,50 @@ async def sandboxPerm_sandboxV3_initRecruit(player_data, request: Request):
     response = {}
 
     topic_id = request_json["topicId"]
+
+    recruit_lst = request_json["ownChars"]
+
+    assist_obj = request_json["assistFriend"]
+    if assist_obj:
+        assist_char = assist_obj["assistChar"]
+        recruit_lst.append(
+            {
+                "charInstId": get_char_num_id(assist_char["charId"]),
+                "skillIndex": assist_char["skillIndex"],
+                "currentEquip": assist_char["currentEquip"],
+            }
+        )
+
+    slot_lst = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
+        "current"
+    ]["troop"]["slots"].copy()
+    cur_recruit_lst = player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id][
+        "current"
+    ]["troop"]["currentRecruit"].copy()
+
+    for recruit_obj in recruit_lst:
+        new_inst_id = len(slot_lst) + 1
+        slot_obj = {
+            "charInstId": new_inst_id,
+            "skillIndex": recruit_obj["skillIndex"],
+            "currentEquip": recruit_obj["currentEquip"],
+        }
+        slot_lst.append(slot_obj)
+
+        char_obj = player_data["troop"]["chars"][str(recruit_obj["charInstId"])].copy()
+        char_obj["instId"] = new_inst_id
+        player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
+            "troop"
+        ]["chars"][str(new_inst_id)] = char_obj
+
+        cur_recruit_lst.append(new_inst_id)
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
+        "slots"
+    ] = slot_lst
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
+        "currentRecruit"
+    ] = cur_recruit_lst
 
     return response
 
