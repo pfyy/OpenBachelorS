@@ -1,6 +1,7 @@
 from enum import Enum
 import random
 from functools import cmp_to_key
+from copy import deepcopy
 
 from fastapi import APIRouter
 from fastapi import Request
@@ -1228,11 +1229,8 @@ async def sandboxPerm_sandboxV3_initRecruit(player_data, request: Request):
 
     for recruit_obj in recruit_lst:
         new_inst_id = len(slot_lst) + 1
-        slot_obj = {
-            "charInstId": new_inst_id,
-            "skillIndex": recruit_obj["skillIndex"],
-            "currentEquip": recruit_obj["currentEquip"],
-        }
+        slot_obj = deepcopy(recruit_obj)
+        slot_obj["charInstId"] = new_inst_id
         slot_lst.append(slot_obj)
 
         char_obj = player_data["troop"]["chars"][str(recruit_obj["charInstId"])].copy()
