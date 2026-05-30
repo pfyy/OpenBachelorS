@@ -1376,6 +1376,10 @@ async def sandboxPerm_sandboxV3_battleFinish(player_data, request: Request):
     ] = save_obj
 
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["game"][
+        "day"
+    ] = 2
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["game"][
         "power"
     ] = save_obj["powerValue"]
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["game"][
