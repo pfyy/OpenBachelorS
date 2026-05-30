@@ -1039,6 +1039,32 @@ def try_get_story_map_obj(topic_id: str, node_id: str) -> dict | None:
     return story_map_obj
 
 
+def get_random_map_obj(topic_id: str) -> dict:
+    sandbox_perm_table = const_json_loader[SANDBOX_PERM_TABLE]
+
+    sub_stage_data = sandbox_perm_table["detail"]["SANDBOX_V3"][topic_id][
+        "subStageData"
+    ]
+
+    sub_stage_id_lst = []
+
+    for sub_stage_id, sub_stage_obj in sub_stage_data:
+        if len(sub_stage_id) != 5:
+            continue
+
+        sub_stage_id_lst.append(sub_stage_id)
+
+    num_map_sub_stage = 9
+    map_sub_stage_id_lst = random.sample(sub_stage_id_lst, num_map_sub_stage)
+    map_init_index = random.randint(0, num_map_sub_stage - 1)
+
+    return {
+        "subStage": map_sub_stage_id_lst,
+        "initIndex": [map_init_index],
+        "unlockIndex": [map_init_index],
+    }
+
+
 def try_get_shop_id(topic_id: str, node_id: str, shop_type: str) -> str | None:
     stage_id = get_stage_id(topic_id, node_id)
 
@@ -1216,11 +1242,12 @@ async def sandboxPerm_sandboxV3_createGame(player_data, request: Request):
         },
     }
 
-    story_map_obj = try_get_story_map_obj(topic_id, node_id)
-    if story_map_obj:
-        player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
-            "map"
-        ] = story_map_obj
+    map_obj = try_get_story_map_obj(topic_id, node_id)
+    if not map_obj:
+        map_obj = get_random_map_obj(topic_id)
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["map"] = (
+        map_obj
+    )
 
     rest_shop_id = try_get_shop_id(topic_id, node_id, "REST")
     if rest_shop_id:
