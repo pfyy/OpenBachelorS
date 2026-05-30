@@ -1216,6 +1216,10 @@ async def sandboxPerm_sandboxV3_battleStart(player_data, request: Request):
 
     topic_id = request_json["topicId"]
 
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
+        "currentRecruit"
+    ] = []
+
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
         "state"
     ] = 2
