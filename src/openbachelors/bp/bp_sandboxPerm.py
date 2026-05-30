@@ -1368,8 +1368,8 @@ async def sandboxPerm_sandboxV3_battleFinish(player_data, request: Request):
 
     save_obj = request_json["sandboxV3Data"]["saveData"]
 
-    save_obj.pop("itemSave", None)
-    save_obj.pop("relicItemOrder", None)
+    item_lst = save_obj.pop("itemSave", None)
+    relic_lst = save_obj.pop("relicItemOrder", None)
 
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
         "save"
@@ -1393,6 +1393,10 @@ async def sandboxPerm_sandboxV3_battleFinish(player_data, request: Request):
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["map"][
         "unlockIndex"
     ] = map_unlock_lst
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["bag"][
+        "relic"
+    ] = relic_lst
 
     player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"][
         "state"
