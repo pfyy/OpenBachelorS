@@ -1,5 +1,6 @@
 CONFIG_JSON = "conf/config.json"
 VERSION_JSON = "conf/version.json"
+# VERSION_JSON = "conf/version_en.json"
 VERSION_WINDOWS_JSON = "conf/version_windows.json"
 ASSIST_JSON = "conf/assist.json"
 SQUAD_JSON = "conf/squad.json"
@@ -41,6 +42,7 @@ MUMU_LINK_FILEPATH = "link/mumu12.txt"
 RES_LOCK_FILEPATH = "res_lock"
 
 RES_EXCEL_DIRPATH = "res/excel/"
+# RES_EXCEL_DIRPATH = "res_en/excel/"
 
 SKIN_TABLE = RES_EXCEL_DIRPATH + "skin_table.json"
 CHARWORD_TABLE = RES_EXCEL_DIRPATH + "charword_table.json"

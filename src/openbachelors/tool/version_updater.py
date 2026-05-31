@@ -10,6 +10,7 @@ def get_version():
     try:
         server_version = requests.get(
             "https://ak-conf.hypergryph.com/config/prod/official/Android/version",
+            # "https://ark-us-static-online.yo-star.com/assetbundle/official/Android/version",
             timeout=REQUESTS_TIMEOUT,
         ).json()
         if "resVersion" in server_version and "clientVersion" in server_version:
@@ -36,6 +37,7 @@ def get_func_ver():
     try:
         server_network_config = requests.get(
             "https://ak-conf.hypergryph.com/config/prod/official/network_config",
+            # "https://ak-conf.arknights.global/config/prod/official/network_config",
             timeout=REQUESTS_TIMEOUT,
         ).json()
         if "content" in server_network_config:
