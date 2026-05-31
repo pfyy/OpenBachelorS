@@ -20350,8 +20350,8 @@
         "endTime": -1,
         "startShowTime": 1745924400,
         "endShowTime": -1,
-        "remakeStartTime": -1,
-        "remakeEndTime": -1,
+        "remakeStartTime": 1771930800,
+        "remakeEndTime": 1773140399,
         "storyEntryPicId": "storyEntryPic_act37side",
         "storyPicId": null,
         "storyMainColor": null,
@@ -20856,8 +20856,8 @@
         "endTime": -1,
         "startShowTime": 1747911600,
         "endShowTime": -1,
-        "remakeStartTime": -1,
-        "remakeEndTime": -1,
+        "remakeStartTime": 1778151600,
+        "remakeEndTime": 1779361199,
         "storyEntryPicId": "storyEntryPic_act38side",
         "storyPicId": null,
         "storyMainColor": null,
@@ -21524,8 +21524,8 @@
         "endTime": -1,
         "startShowTime": 1750935600,
         "endShowTime": -1,
-        "remakeStartTime": -1,
-        "remakeEndTime": -1,
+        "remakeStartTime": 1780657200,
+        "remakeEndTime": 1781866799,
         "storyEntryPicId": "storyEntryPic_act39side",
         "storyPicId": null,
         "storyMainColor": null,
@@ -24841,6 +24841,1686 @@
                 "requiredStages": [
                     {
                         "stageId": "act44side_st03",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            }
+        ]
+    },
+    "act45side": {
+        "id": "act45side",
+        "name": "Somniloquium Serenum",
+        "entryType": "ACTIVITY",
+        "actType": "ACTIVITY_STORY",
+        "startTime": 1770724800,
+        "endTime": -1,
+        "startShowTime": 1772535600,
+        "endShowTime": -1,
+        "remakeStartTime": -1,
+        "remakeEndTime": -1,
+        "storyEntryPicId": "storyEntryPic_act45side",
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": [],
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_st01",
+                "storyGroup": "act45side",
+                "storySort": 1,
+                "storyDependence": null,
+                "storyCanShow": 1,
+                "storyCode": "SS-ST-1",
+                "storyName": "Red Light at the Crossroads",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_st01",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_st01",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_st01",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_01_beg",
+                "storyGroup": "act45side",
+                "storySort": 2,
+                "storyDependence": "act45side_level_act45side_st01",
+                "storyCanShow": 1,
+                "storyCode": "SS-1",
+                "storyName": "Dream of the Lattice Window",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_01_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_01_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_01",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_01_end",
+                "storyGroup": "act45side",
+                "storySort": 3,
+                "storyDependence": "act45side_level_act45side_01_beg",
+                "storyCanShow": 1,
+                "storyCode": "SS-1",
+                "storyName": "Dream of the Lattice Window",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_01_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_01_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_01",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_02_beg",
+                "storyGroup": "act45side",
+                "storySort": 4,
+                "storyDependence": "act45side_level_act45side_01_end",
+                "storyCanShow": 1,
+                "storyCode": "SS-2",
+                "storyName": "Quiet Hallway's End",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_02_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_02_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_02",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_02_end",
+                "storyGroup": "act45side",
+                "storySort": 5,
+                "storyDependence": "act45side_level_act45side_02_beg",
+                "storyCanShow": 1,
+                "storyCode": "SS-2",
+                "storyName": "Quiet Hallway's End",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_02_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_02_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_02",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_03_beg",
+                "storyGroup": "act45side",
+                "storySort": 6,
+                "storyDependence": "act45side_level_act45side_02_end",
+                "storyCanShow": 1,
+                "storyCode": "SS-3",
+                "storyName": "Music Room's Radiance",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_03_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_03_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_03",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_03_end",
+                "storyGroup": "act45side",
+                "storySort": 7,
+                "storyDependence": "act45side_level_act45side_03_beg",
+                "storyCanShow": 1,
+                "storyCode": "SS-3",
+                "storyName": "Music Room's Radiance",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_03_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_03_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_03",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_04_beg",
+                "storyGroup": "act45side",
+                "storySort": 8,
+                "storyDependence": "act45side_level_act45side_03_end",
+                "storyCanShow": 1,
+                "storyCode": "SS-4",
+                "storyName": "Guest Room Maze",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_04_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_04_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_04",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_04_end",
+                "storyGroup": "act45side",
+                "storySort": 9,
+                "storyDependence": "act45side_level_act45side_04_beg",
+                "storyCanShow": 1,
+                "storyCode": "SS-4",
+                "storyName": "Guest Room Maze",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_04_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_04_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_04",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_05_beg",
+                "storyGroup": "act45side",
+                "storySort": 10,
+                "storyDependence": "act45side_level_act45side_04_end",
+                "storyCanShow": 1,
+                "storyCode": "SS-5",
+                "storyName": "Invitation to the Ball",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_05_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_05_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_05",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_05_end",
+                "storyGroup": "act45side",
+                "storySort": 11,
+                "storyDependence": "act45side_level_act45side_05_beg",
+                "storyCanShow": 1,
+                "storyCode": "SS-5",
+                "storyName": "Invitation to the Ball",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_05_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_05_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_05",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_06_beg",
+                "storyGroup": "act45side",
+                "storySort": 12,
+                "storyDependence": "act45side_level_act45side_05_end",
+                "storyCanShow": 1,
+                "storyCode": "SS-6",
+                "storyName": "Echoing Hall",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_06_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_06_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_06",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_06_end",
+                "storyGroup": "act45side",
+                "storySort": 13,
+                "storyDependence": "act45side_level_act45side_06_beg",
+                "storyCanShow": 1,
+                "storyCode": "SS-6",
+                "storyName": "Echoing Hall",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_06_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_06_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_06",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_07_beg",
+                "storyGroup": "act45side",
+                "storySort": 14,
+                "storyDependence": "act45side_level_act45side_06_end",
+                "storyCanShow": 1,
+                "storyCode": "SS-7",
+                "storyName": "Relic of Eternal Splendor",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_07_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_07_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_07",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_07_end",
+                "storyGroup": "act45side",
+                "storySort": 15,
+                "storyDependence": "act45side_level_act45side_07_beg",
+                "storyCanShow": 1,
+                "storyCode": "SS-7",
+                "storyName": "Relic of Eternal Splendor",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_07_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_07_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_07",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_08_beg",
+                "storyGroup": "act45side",
+                "storySort": 16,
+                "storyDependence": "act45side_level_act45side_07_end",
+                "storyCanShow": 1,
+                "storyCode": "SS-8",
+                "storyName": "Fairytale Beginning",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_08_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_08_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_08",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act45side_level_act45side_08_end",
+                "storyGroup": "act45side",
+                "storySort": 17,
+                "storyDependence": "act45side_level_act45side_08_beg",
+                "storyCanShow": 1,
+                "storyCode": "SS-8",
+                "storyName": "Fairytale Beginning",
+                "storyPic": null,
+                "storyInfo": "info/activities/act45side/level_act45side_08_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act45side/level_act45side_08_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act45side_08",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            }
+        ]
+    },
+    "act46side": {
+        "id": "act46side",
+        "name": "Retracing Our Steps",
+        "entryType": "ACTIVITY",
+        "actType": "ACTIVITY_STORY",
+        "startTime": 1776168000,
+        "endTime": -1,
+        "startShowTime": 1778583600,
+        "endShowTime": -1,
+        "remakeStartTime": -1,
+        "remakeEndTime": -1,
+        "storyEntryPicId": "storyEntryPic_act46side",
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": [],
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_st01",
+                "storyGroup": "act46side",
+                "storySort": 1,
+                "storyDependence": null,
+                "storyCanShow": 1,
+                "storyCode": "OS-ST-1",
+                "storyName": "Landslide",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_st01",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_st01",
+                "avgTag": "Interlude",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_st01",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_01_beg",
+                "storyGroup": "act46side",
+                "storySort": 2,
+                "storyDependence": "act46side_level_act46side_st01",
+                "storyCanShow": 1,
+                "storyCode": "OS-1",
+                "storyName": "Amidst the Wailing",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_01_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_01_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_01",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_01_end",
+                "storyGroup": "act46side",
+                "storySort": 3,
+                "storyDependence": "act46side_level_act46side_01_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-1",
+                "storyName": "Amidst the Wailing",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_01_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_01_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_01",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_02_beg",
+                "storyGroup": "act46side",
+                "storySort": 4,
+                "storyDependence": "act46side_level_act46side_01_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-2",
+                "storyName": "Lovely Neighbors",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_02_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_02_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_02",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_02_end",
+                "storyGroup": "act46side",
+                "storySort": 5,
+                "storyDependence": "act46side_level_act46side_02_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-2",
+                "storyName": "Lovely Neighbors",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_02_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_02_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_02",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_03_beg",
+                "storyGroup": "act46side",
+                "storySort": 6,
+                "storyDependence": "act46side_level_act46side_02_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-3",
+                "storyName": "Among Snowy Shrubs",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_03_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_03_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_03",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_03_end",
+                "storyGroup": "act46side",
+                "storySort": 7,
+                "storyDependence": "act46side_level_act46side_03_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-3",
+                "storyName": "Among Snowy Shrubs",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_03_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_03_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_03",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_04_beg",
+                "storyGroup": "act46side",
+                "storySort": 8,
+                "storyDependence": "act46side_level_act46side_03_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-4",
+                "storyName": "Conjoined Lives",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_04_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_04_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_04",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_04_end",
+                "storyGroup": "act46side",
+                "storySort": 9,
+                "storyDependence": "act46side_level_act46side_04_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-4",
+                "storyName": "Conjoined Lives",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_04_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_04_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_04",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_st02",
+                "storyGroup": "act46side",
+                "storySort": 10,
+                "storyDependence": "act46side_level_act46side_04_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-ST-2",
+                "storyName": "A Pilgrimage, A Knell",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_st02",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_st02",
+                "avgTag": "Interlude",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_st02",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_05_beg",
+                "storyGroup": "act46side",
+                "storySort": 11,
+                "storyDependence": "act46side_level_act46side_st02",
+                "storyCanShow": 1,
+                "storyCode": "OS-5",
+                "storyName": "A Lonely Winter's Night",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_05_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_05_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_05",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_05_end",
+                "storyGroup": "act46side",
+                "storySort": 12,
+                "storyDependence": "act46side_level_act46side_05_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-5",
+                "storyName": "A Lonely Winter's Night",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_05_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_05_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_05",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_06_beg",
+                "storyGroup": "act46side",
+                "storySort": 13,
+                "storyDependence": "act46side_level_act46side_05_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-6",
+                "storyName": "Emerald",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_06_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_06_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_06",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_06_end",
+                "storyGroup": "act46side",
+                "storySort": 14,
+                "storyDependence": "act46side_level_act46side_06_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-6",
+                "storyName": "Emerald",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_06_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_06_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_06",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_07_beg",
+                "storyGroup": "act46side",
+                "storySort": 15,
+                "storyDependence": "act46side_level_act46side_06_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-7",
+                "storyName": "Incense and Shadows",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_07_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_07_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_07",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_07_end",
+                "storyGroup": "act46side",
+                "storySort": 16,
+                "storyDependence": "act46side_level_act46side_07_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-7",
+                "storyName": "Incense and Shadows",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_07_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_07_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_07",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_08_beg",
+                "storyGroup": "act46side",
+                "storySort": 17,
+                "storyDependence": "act46side_level_act46side_07_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-8",
+                "storyName": "Proclamation",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_08_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_08_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_08",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_08_end",
+                "storyGroup": "act46side",
+                "storySort": 18,
+                "storyDependence": "act46side_level_act46side_08_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-8",
+                "storyName": "Proclamation",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_08_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_08_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_08",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_st03",
+                "storyGroup": "act46side",
+                "storySort": 19,
+                "storyDependence": "act46side_level_act46side_08_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-ST-3",
+                "storyName": "Road of the Heartseekers",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_st03",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_st03",
+                "avgTag": "Interlude",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_st03",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_09_beg",
+                "storyGroup": "act46side",
+                "storySort": 20,
+                "storyDependence": "act46side_level_act46side_st03",
+                "storyCanShow": 1,
+                "storyCode": "OS-9",
+                "storyName": "Cold Steel",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_09_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_09_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_09",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_09_end",
+                "storyGroup": "act46side",
+                "storySort": 21,
+                "storyDependence": "act46side_level_act46side_09_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-9",
+                "storyName": "Cold Steel",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_09_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_09_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_09",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_10_beg",
+                "storyGroup": "act46side",
+                "storySort": 22,
+                "storyDependence": "act46side_level_act46side_09_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-10",
+                "storyName": "By Kjeragandr",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_10_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_10_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_10",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_10_end",
+                "storyGroup": "act46side",
+                "storySort": 23,
+                "storyDependence": "act46side_level_act46side_10_beg",
+                "storyCanShow": 1,
+                "storyCode": "OS-10",
+                "storyName": "By Kjeragandr",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_10_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_10_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_10",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act46side_level_act46side_st04",
+                "storyGroup": "act46side",
+                "storySort": 24,
+                "storyDependence": "act46side_level_act46side_10_end",
+                "storyCanShow": 1,
+                "storyCode": "OS-ST-4",
+                "storyName": "'Arrival'",
+                "storyPic": null,
+                "storyInfo": "info/activities/act46side/level_act46side_st04",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act46side/level_act46side_st04",
+                "avgTag": "Interlude",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act46side_st04",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            }
+        ]
+    },
+    "act47side": {
+        "id": "act47side",
+        "name": "Unrealized Realities",
+        "entryType": "ACTIVITY",
+        "actType": "ACTIVITY_STORY",
+        "startTime": 1779375600,
+        "endTime": -1,
+        "startShowTime": 1781175600,
+        "endShowTime": -1,
+        "remakeStartTime": -1,
+        "remakeEndTime": -1,
+        "storyEntryPicId": "storyEntryPic_act47side",
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": [],
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_st01",
+                "storyGroup": "act47side",
+                "storySort": 1,
+                "storyDependence": null,
+                "storyCanShow": 1,
+                "storyCode": "UR-ST-1",
+                "storyName": "Reflected in the River",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_st01",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_st01",
+                "avgTag": "Interlude",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_st01",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_01_beg",
+                "storyGroup": "act47side",
+                "storySort": 2,
+                "storyDependence": "act47side_level_act47side_st01",
+                "storyCanShow": 1,
+                "storyCode": "UR-1",
+                "storyName": "Cacophonous Sky",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_01_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_01_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_01",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_01_end",
+                "storyGroup": "act47side",
+                "storySort": 3,
+                "storyDependence": "act47side_level_act47side_01_beg",
+                "storyCanShow": 1,
+                "storyCode": "UR-1",
+                "storyName": "Cacophonous Sky",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_01_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_01_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_01",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_02_beg",
+                "storyGroup": "act47side",
+                "storySort": 4,
+                "storyDependence": "act47side_level_act47side_01_end",
+                "storyCanShow": 1,
+                "storyCode": "UR-2",
+                "storyName": "Undocumented Passenger",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_02_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_02_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_02",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_02_end",
+                "storyGroup": "act47side",
+                "storySort": 5,
+                "storyDependence": "act47side_level_act47side_02_beg",
+                "storyCanShow": 1,
+                "storyCode": "UR-2",
+                "storyName": "Undocumented Passenger",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_02_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_02_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_02",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_03_beg",
+                "storyGroup": "act47side",
+                "storySort": 6,
+                "storyDependence": "act47side_level_act47side_02_end",
+                "storyCanShow": 1,
+                "storyCode": "UR-3",
+                "storyName": "Stall Protection",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_03_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_03_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_03",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_03_end",
+                "storyGroup": "act47side",
+                "storySort": 7,
+                "storyDependence": "act47side_level_act47side_03_beg",
+                "storyCanShow": 1,
+                "storyCode": "UR-3",
+                "storyName": "Stall Protection",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_03_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_03_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_03",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_04_beg",
+                "storyGroup": "act47side",
+                "storySort": 8,
+                "storyDependence": "act47side_level_act47side_03_end",
+                "storyCanShow": 1,
+                "storyCode": "UR-4",
+                "storyName": "Jet Stream Over Clear Skies",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_04_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_04_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_04",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_04_end",
+                "storyGroup": "act47side",
+                "storySort": 9,
+                "storyDependence": "act47side_level_act47side_04_beg",
+                "storyCanShow": 1,
+                "storyCode": "UR-4",
+                "storyName": "Jet Stream Over Clear Skies",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_04_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_04_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_04",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_st02",
+                "storyGroup": "act47side",
+                "storySort": 10,
+                "storyDependence": "act47side_level_act47side_04_end",
+                "storyCanShow": 1,
+                "storyCode": "UR-ST-2",
+                "storyName": "Test Flight",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_st02",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_st02",
+                "avgTag": "Interlude",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_st02",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_05_beg",
+                "storyGroup": "act47side",
+                "storySort": 11,
+                "storyDependence": "act47side_level_act47side_st02",
+                "storyCanShow": 1,
+                "storyCode": "UR-5",
+                "storyName": "See and Salute",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_05_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_05_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_05",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_05_end",
+                "storyGroup": "act47side",
+                "storySort": 12,
+                "storyDependence": "act47side_level_act47side_05_beg",
+                "storyCanShow": 1,
+                "storyCode": "UR-5",
+                "storyName": "See and Salute",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_05_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_05_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_05",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_06_beg",
+                "storyGroup": "act47side",
+                "storySort": 13,
+                "storyDependence": "act47side_level_act47side_05_end",
+                "storyCanShow": 1,
+                "storyCode": "UR-6",
+                "storyName": "Intersecting Routes",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_06_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_06_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_06",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_06_end",
+                "storyGroup": "act47side",
+                "storySort": 14,
+                "storyDependence": "act47side_level_act47side_06_beg",
+                "storyCanShow": 1,
+                "storyCode": "UR-6",
+                "storyName": "Intersecting Routes",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_06_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_06_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_06",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_07_beg",
+                "storyGroup": "act47side",
+                "storySort": 15,
+                "storyDependence": "act47side_level_act47side_06_end",
+                "storyCanShow": 1,
+                "storyCode": "UR-7",
+                "storyName": "Tarmac",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_07_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_07_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_07",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_07_end",
+                "storyGroup": "act47side",
+                "storySort": 16,
+                "storyDependence": "act47side_level_act47side_07_beg",
+                "storyCanShow": 1,
+                "storyCode": "UR-7",
+                "storyName": "Tarmac",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_07_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_07_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_07",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_08_beg",
+                "storyGroup": "act47side",
+                "storySort": 17,
+                "storyDependence": "act47side_level_act47side_07_end",
+                "storyCanShow": 1,
+                "storyCode": "UR-8",
+                "storyName": "Roosting Grounds",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_08_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_08_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_08",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_08_end",
+                "storyGroup": "act47side",
+                "storySort": 18,
+                "storyDependence": "act47side_level_act47side_08_beg",
+                "storyCanShow": 1,
+                "storyCode": "UR-8",
+                "storyName": "Roosting Grounds",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_08_end",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_08_end",
+                "avgTag": "After Operation",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_08",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "act47side_level_act47side_st03",
+                "storyGroup": "act47side",
+                "storySort": 19,
+                "storyDependence": "act47side_level_act47side_08_end",
+                "storyCanShow": 1,
+                "storyCode": "UR-ST-3",
+                "storyName": "Flight Resumption",
+                "storyPic": null,
+                "storyInfo": "info/activities/act47side/level_act47side_st03",
+                "storyCanEnter": 1,
+                "storyTxt": "activities/act47side/level_act47side_st03",
+                "avgTag": "Interlude",
+                "unLockType": "BY_START_TIME",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "act47side_st03",
                         "minState": "PLAYED",
                         "maxState": "COMPLETE"
                     }
@@ -28786,8 +30466,8 @@
                 "storySort": 1,
                 "storyDependence": null,
                 "storyCanShow": 0,
-                "storyCode": "2-1",
-                "storyName": "To Lungmen",
+                "storyCode": "TR-11",
+                "storyName": "Tactical Blockage",
                 "storyPic": null,
                 "storyInfo": "info/obt/main/level_main_02-01_beg",
                 "storyCanEnter": 1,
@@ -38593,6 +40273,701 @@
                     {
                         "stageId": "st_15-03",
                         "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            }
+        ]
+    },
+    "main_16": {
+        "id": "main_16",
+        "name": "Abnormal Spectrum",
+        "entryType": "MAINLINE",
+        "actType": "MAIN_STORY",
+        "startTime": -1,
+        "endTime": -1,
+        "startShowTime": 1773932400,
+        "endShowTime": -1,
+        "remakeStartTime": -1,
+        "remakeEndTime": -1,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": [],
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_st_16-01",
+                "storyGroup": "main_16",
+                "storySort": 236,
+                "storyDependence": "main_16_level_st_16-01",
+                "storyCanShow": 0,
+                "storyCode": "16-1",
+                "storyName": "Fool's Salvation",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_st_16-01",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_st_16-01",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "st_16-01",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-01_beg",
+                "storyGroup": "main_16",
+                "storySort": 237,
+                "storyDependence": "main_16_level_main_16-01_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-2",
+                "storyName": "Distant Dawn",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-01_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-01_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-01",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-03_beg",
+                "storyGroup": "main_16",
+                "storySort": 238,
+                "storyDependence": "main_16_level_main_16-03_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-3",
+                "storyName": "Path in Sight",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-03_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-03_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-02",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-04_beg",
+                "storyGroup": "main_16",
+                "storySort": 239,
+                "storyDependence": "main_16_level_main_16-04_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-4",
+                "storyName": "Strength in Numbers",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-04_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-04_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-03",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-04_end",
+                "storyGroup": "main_16",
+                "storySort": 240,
+                "storyDependence": "main_16_level_main_16-04_end",
+                "storyCanShow": 0,
+                "storyCode": "16-4",
+                "storyName": "Strength in Numbers",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-04_end",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-04_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-03",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-05_beg",
+                "storyGroup": "main_16",
+                "storySort": 241,
+                "storyDependence": "main_16_level_main_16-05_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-5",
+                "storyName": "Dividing Line",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-05_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-05_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-04",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-06_end",
+                "storyGroup": "main_16",
+                "storySort": 242,
+                "storyDependence": "main_16_level_main_16-06_end",
+                "storyCanShow": 0,
+                "storyCode": "16-6",
+                "storyName": "Flickering Pain",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-06_end",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-06_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-05",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-07_beg",
+                "storyGroup": "main_16",
+                "storySort": 243,
+                "storyDependence": "main_16_level_main_16-07_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-7",
+                "storyName": "Final Ecstasy",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-07_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-07_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-06",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-08_end",
+                "storyGroup": "main_16",
+                "storySort": 244,
+                "storyDependence": "main_16_level_main_16-08_end",
+                "storyCanShow": 0,
+                "storyCode": "16-8",
+                "storyName": "Nowhere to Find",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-08_end",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-08_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-07",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-09_beg",
+                "storyGroup": "main_16",
+                "storySort": 245,
+                "storyDependence": "main_16_level_main_16-09_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-9",
+                "storyName": "Defense of the Mad",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-09_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-09_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-08",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-09_end",
+                "storyGroup": "main_16",
+                "storySort": 246,
+                "storyDependence": "main_16_level_main_16-09_end",
+                "storyCanShow": 0,
+                "storyCode": "16-9",
+                "storyName": "Defense of the Mad",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-09_end",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-09_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-08",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-10_beg",
+                "storyGroup": "main_16",
+                "storySort": 247,
+                "storyDependence": "main_16_level_main_16-10_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-10",
+                "storyName": "Silenced Cries",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-10_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-10_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-09",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-11_end",
+                "storyGroup": "main_16",
+                "storySort": 248,
+                "storyDependence": "main_16_level_main_16-11_end",
+                "storyCanShow": 0,
+                "storyCode": "16-11",
+                "storyName": "Tombstone",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-11_end",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-11_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-10",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-12_beg",
+                "storyGroup": "main_16",
+                "storySort": 249,
+                "storyDependence": "main_16_level_main_16-12_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-12",
+                "storyName": "Six Feet Under",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-12_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-12_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-11",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-13_beg",
+                "storyGroup": "main_16",
+                "storySort": 250,
+                "storyDependence": "main_16_level_main_16-13_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-13",
+                "storyName": "Never Forgotten",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-13_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-13_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-12",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-14_beg",
+                "storyGroup": "main_16",
+                "storySort": 251,
+                "storyDependence": "main_16_level_main_16-14_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-14",
+                "storyName": "Lone Path",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-14_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-14_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-13",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-15_beg",
+                "storyGroup": "main_16",
+                "storySort": 252,
+                "storyDependence": "main_16_level_main_16-15_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-15",
+                "storyName": "Roaring Wilds",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-15_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-15_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-14",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-16_beg",
+                "storyGroup": "main_16",
+                "storySort": 253,
+                "storyDependence": "main_16_level_main_16-16_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-16",
+                "storyName": "Revealing the Truth",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-16_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-16_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-15",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-17_beg",
+                "storyGroup": "main_16",
+                "storySort": 254,
+                "storyDependence": "main_16_level_main_16-17_beg",
+                "storyCanShow": 0,
+                "storyCode": "16-17",
+                "storyName": "Voices Unheard",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-17_beg",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-17_beg",
+                "avgTag": "Before Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-16",
+                        "minState": "PLAYED",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_main_16-18_end",
+                "storyGroup": "main_16",
+                "storySort": 255,
+                "storyDependence": "main_16_level_main_16-18_end",
+                "storyCanShow": 0,
+                "storyCode": "16-18",
+                "storyName": "The Red Sun Lingers",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_main_16-18_end",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_main_16-18_end",
+                "avgTag": "After Operation",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "main_16-17",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_st_16-02",
+                "storyGroup": "main_16",
+                "storySort": 256,
+                "storyDependence": "main_16_level_st_16-02",
+                "storyCanShow": 0,
+                "storyCode": "16-19",
+                "storyName": "Oath of the Mad",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_st_16-02",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_st_16-02",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "st_16-02",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_spst_16-01",
+                "storyGroup": "main_16",
+                "storySort": 257,
+                "storyDependence": "main_16_level_spst_16-01",
+                "storyCanShow": 0,
+                "storyCode": "EG-7",
+                "storyName": "A Letter",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_spst_16-01",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_spst_16-01",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "spst_16-01",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_spst_16-02",
+                "storyGroup": "main_16",
+                "storySort": 258,
+                "storyDependence": "main_16_level_spst_16-02",
+                "storyCanShow": 0,
+                "storyCode": "EG-8",
+                "storyName": "Events of the Past",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_spst_16-02",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_spst_16-02",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "spst_16-02",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_spst_16-03",
+                "storyGroup": "main_16",
+                "storySort": 259,
+                "storyDependence": "main_16_level_spst_16-03",
+                "storyCanShow": 0,
+                "storyCode": "EG-9",
+                "storyName": "Homecoming",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_spst_16-03",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_spst_16-03",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "spst_16-03",
+                        "minState": "PASS",
+                        "maxState": "COMPLETE"
+                    }
+                ]
+            },
+            {
+                "storyReviewType": "NONE",
+                "storyId": "main_16_level_spst_16-04",
+                "storyGroup": "main_16",
+                "storySort": 260,
+                "storyDependence": "main_16_level_spst_16-04",
+                "storyCanShow": 0,
+                "storyCode": "EG-10",
+                "storyName": "No Way Forward",
+                "storyPic": null,
+                "storyInfo": "info/obt/main/level_spst_16-04",
+                "storyCanEnter": 1,
+                "storyTxt": "obt/main/level_spst_16-04",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 1,
+                "requiredStages": [
+                    {
+                        "stageId": "spst_16-04",
+                        "minState": "PASS",
                         "maxState": "COMPLETE"
                     }
                 ]
@@ -52387,6 +54762,744 @@
                 "storyInfo": "info/obt/memory/story_kazema_2_1",
                 "storyCanEnter": 0,
                 "storyTxt": "obt/memory/story_kazema_2_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_nymph_set_1": {
+        "id": "story_nymph_set_1",
+        "name": "Leaping Glimmer",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_nymph_set_1_story_1",
+                "storyGroup": "story_nymph_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Leaping Glimmer",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_nymph_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_nymph_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_wscoot_set_1": {
+        "id": "story_wscoot_set_1",
+        "name": "Just Wait For Daybreak",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_wscoot_set_1_story_1",
+                "storyGroup": "story_wscoot_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Just Wait For Daybreak",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_wscoot_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_wscoot_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_whitw2_set_1": {
+        "id": "story_whitw2_set_1",
+        "name": "A Game of Scents",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_whitw2_set_1_story_1",
+                "storyGroup": "story_whitw2_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "A Game of Scents",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_whitw2_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_whitw2_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_ashlok_set_1": {
+        "id": "story_ashlok_set_1",
+        "name": "Duel",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_ashlok_set_1_story_1",
+                "storyGroup": "story_ashlok_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Duel",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_ashlok_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_ashlok_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_mantra_set_1": {
+        "id": "story_mantra_set_1",
+        "name": "Ever-Present",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_mantra_set_1_story_1",
+                "storyGroup": "story_mantra_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Ever-Present",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_mantra_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_mantra_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_bobb_set_1": {
+        "id": "story_bobb_set_1",
+        "name": "Someone to Walk With",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_bobb_set_1_story_1",
+                "storyGroup": "story_bobb_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Someone to Walk With",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_bobb_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_bobb_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_tippi_set_1": {
+        "id": "story_tippi_set_1",
+        "name": "Acceptance Speech",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_tippi_set_1_story_1",
+                "storyGroup": "story_tippi_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Acceptance Speech",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_tippi_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_tippi_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_pinecn_set_2": {
+        "id": "story_pinecn_set_2",
+        "name": "Starting Anew",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_pinecn_set_2_story_1",
+                "storyGroup": "story_pinecn_set_2",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Starting Anew",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_pinecn_2_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_pinecn_2_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_cetsyr_set_1": {
+        "id": "story_cetsyr_set_1",
+        "name": "As Time Itself",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_cetsyr_set_1_story_1",
+                "storyGroup": "story_cetsyr_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "As Time Itself",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_cetsyr_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_cetsyr_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_blkkgt_set_1": {
+        "id": "story_blkkgt_set_1",
+        "name": "A Knight's Journey",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_blkkgt_set_1_story_1",
+                "storyGroup": "story_blkkgt_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "A Knight's Journey",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_blkkgt_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_blkkgt_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_halo2_set_1": {
+        "id": "story_halo2_set_1",
+        "name": "Kjerag Holiday",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_halo2_set_1_story_1",
+                "storyGroup": "story_halo2_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Kjerag Holiday",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_halo2_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_halo2_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_lava2_set_1": {
+        "id": "story_lava2_set_1",
+        "name": "All the Same",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_lava2_set_1_story_1",
+                "storyGroup": "story_lava2_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "All the Same",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_lava2_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_lava2_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_kichi_set_1": {
+        "id": "story_kichi_set_1",
+        "name": "Lucky Stars",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_kichi_set_1_story_1",
+                "storyGroup": "story_kichi_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Lucky Stars",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_kichi_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_kichi_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_snhunt_set_1": {
+        "id": "story_snhunt_set_1",
+        "name": "One Last Bolt Towards the Mountains",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_snhunt_set_1_story_1",
+                "storyGroup": "story_snhunt_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "One Last Bolt Towards the Mountains",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_snhunt_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_snhunt_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_demkni_set_1": {
+        "id": "story_demkni_set_1",
+        "name": "Fertile Soil",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_demkni_set_1_story_1",
+                "storyGroup": "story_demkni_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Fertile Soil",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_demkni_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_demkni_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_rfalcn_set_1": {
+        "id": "story_rfalcn_set_1",
+        "name": "Traces of the Future",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_rfalcn_set_1_story_1",
+                "storyGroup": "story_rfalcn_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Traces of the Future",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_rfalcn_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_rfalcn_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_makiri_set_1": {
+        "id": "story_makiri_set_1",
+        "name": "Bar Shin-Matsuri",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_makiri_set_1_story_1",
+                "storyGroup": "story_makiri_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "Bar Shin-Matsuri",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_makiri_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_makiri_1_1",
+                "avgTag": "Interlude",
+                "unLockType": "STAGE_CLEAR",
+                "costItemType": "NONE",
+                "costItemId": null,
+                "costItemCount": 0,
+                "stageCount": 0,
+                "requiredStages": null
+            }
+        ]
+    },
+    "story_philae_set_1": {
+        "id": "story_philae_set_1",
+        "name": "New Life",
+        "entryType": "NONE",
+        "actType": "NONE",
+        "startTime": 0,
+        "endTime": 0,
+        "startShowTime": 0,
+        "endShowTime": 0,
+        "remakeStartTime": 0,
+        "remakeEndTime": 0,
+        "storyEntryPicId": null,
+        "storyPicId": null,
+        "storyMainColor": null,
+        "customType": 0,
+        "storyCompleteMedalId": null,
+        "rewards": null,
+        "infoUnlockDatas": [
+            {
+                "storyReviewType": "NONE",
+                "storyId": "story_philae_set_1_story_1",
+                "storyGroup": "story_philae_set_1",
+                "storySort": 0,
+                "storyDependence": null,
+                "storyCanShow": 0,
+                "storyCode": null,
+                "storyName": "New Life",
+                "storyPic": null,
+                "storyInfo": "info/obt/memory/story_philae_1_1",
+                "storyCanEnter": 0,
+                "storyTxt": "obt/memory/story_philae_1_1",
                 "avgTag": "Interlude",
                 "unLockType": "STAGE_CLEAR",
                 "costItemType": "NONE",

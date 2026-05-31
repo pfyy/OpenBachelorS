@@ -1738,6 +1738,29 @@
         "setFlags": [],
         "completedRewards": []
     },
+    "obt/guide/recalrune/guide_recal_rune_intro": {
+        "id": "obt/guide/recalrune/guide_recal_rune_intro",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "recal_rune_intro",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
     "obt/main/level_main_00-01_beg": {
         "id": "obt/main/level_main_00-01_beg",
         "needCommit": true,
@@ -13172,6 +13195,2865 @@
         "setFlags": [],
         "completedRewards": []
     },
+    "activities/act47side/level_act47side_st01": {
+        "id": "activities/act47side/level_act47side_st01",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_st01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_01_beg": {
+        "id": "activities/act47side/level_act47side_01_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_01",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_01_end": {
+        "id": "activities/act47side/level_act47side_01_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act47side_01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_01",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_02_beg": {
+        "id": "activities/act47side/level_act47side_02_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_02",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_02_end": {
+        "id": "activities/act47side/level_act47side_02_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act47side_02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_02",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_03_beg": {
+        "id": "activities/act47side/level_act47side_03_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_03",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_03_end": {
+        "id": "activities/act47side/level_act47side_03_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act47side_03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_03",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_04_beg": {
+        "id": "activities/act47side/level_act47side_04_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_04",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_04_end": {
+        "id": "activities/act47side/level_act47side_04_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act47side_04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_04",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_st02": {
+        "id": "activities/act47side/level_act47side_st02",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_st02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_05_beg": {
+        "id": "activities/act47side/level_act47side_05_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_05",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_05",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_05_end": {
+        "id": "activities/act47side/level_act47side_05_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act47side_05",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_05",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_06_beg": {
+        "id": "activities/act47side/level_act47side_06_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_06",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_06",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_06_end": {
+        "id": "activities/act47side/level_act47side_06_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act47side_06",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_06",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_07_beg": {
+        "id": "activities/act47side/level_act47side_07_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_07",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_07",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_07_end": {
+        "id": "activities/act47side/level_act47side_07_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act47side_07",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_07",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_08_beg": {
+        "id": "activities/act47side/level_act47side_08_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_08",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_08",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_08_end": {
+        "id": "activities/act47side/level_act47side_08_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act47side_08",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act47side_08",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act47side/level_act47side_st03": {
+        "id": "activities/act47side/level_act47side_st03",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act47side_st03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_entry": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_entry",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_entry",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_stage_info": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_stage_info",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "STORY_FINISH_OR_CUSTOM_OPERATION",
+            "key": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_entry|mode_training_1_stage_info",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_band": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_band",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "STORY_FINISH_OR_CUSTOM_OPERATION",
+            "key": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_stage_info|mode_training_1_band",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r1_prepare": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r1_prepare",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r1_prepare",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r1_deploy": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r1_deploy",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r1_deploy",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r1_refresh": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r1_refresh",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r1_refresh",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r2_prepare": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r2_prepare",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r2_prepare",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r2_deploy": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r2_deploy",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r2_deploy",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r2_active": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r2_active",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r2_active",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r2_battle": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r2_battle",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r2_battle",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r3_prepare": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r3_prepare",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r3_prepare",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r4_prepare": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_mode_training_1_r4_prepare",
+        "needCommit": false,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "mode_training_1_r4_prepare",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 0,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_st01": {
+        "id": "activities/act46side/level_act46side_st01",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_st01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_01_beg": {
+        "id": "activities/act46side/level_act46side_01_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_01",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_01_end": {
+        "id": "activities/act46side/level_act46side_01_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_01",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_02_beg": {
+        "id": "activities/act46side/level_act46side_02_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_02",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_02_end": {
+        "id": "activities/act46side/level_act46side_02_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_02",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_03_beg": {
+        "id": "activities/act46side/level_act46side_03_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_03",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_03_end": {
+        "id": "activities/act46side/level_act46side_03_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_03",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_04_beg": {
+        "id": "activities/act46side/level_act46side_04_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_04",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_04_end": {
+        "id": "activities/act46side/level_act46side_04_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_04",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_st02": {
+        "id": "activities/act46side/level_act46side_st02",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_st02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_05_beg": {
+        "id": "activities/act46side/level_act46side_05_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_05",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_05",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_05_end": {
+        "id": "activities/act46side/level_act46side_05_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_05",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_05",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_06_beg": {
+        "id": "activities/act46side/level_act46side_06_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_06",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_06",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_06_end": {
+        "id": "activities/act46side/level_act46side_06_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_06",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_06",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_07_beg": {
+        "id": "activities/act46side/level_act46side_07_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_07",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_07",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_07_end": {
+        "id": "activities/act46side/level_act46side_07_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_07",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_07",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_08_beg": {
+        "id": "activities/act46side/level_act46side_08_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_08",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_08",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_08_end": {
+        "id": "activities/act46side/level_act46side_08_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_08",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_08",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_st03": {
+        "id": "activities/act46side/level_act46side_st03",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_st03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_09_beg": {
+        "id": "activities/act46side/level_act46side_09_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_09",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_09",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_09_end": {
+        "id": "activities/act46side/level_act46side_09_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_09",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_09",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_10_beg": {
+        "id": "activities/act46side/level_act46side_10_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_10",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_10",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_10_end": {
+        "id": "activities/act46side/level_act46side_10_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act46side_10",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_10",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_st04": {
+        "id": "activities/act46side/level_act46side_st04",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act46side_st04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/Guide/guide_act46side_monopoly_stage1": {
+        "id": "activities/act46side/Guide/guide_act46side_monopoly_stage1",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "monopoly_station_rebuild_01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/level_act46side_entry": {
+        "id": "activities/act46side/level_act46side_entry",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": true,
+        "trigger": {
+            "type": "ACTIVITY_LOADED",
+            "key": "act46side",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/Level/act46side_05": {
+        "id": "activities/act46side/Level/act46side_05",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_05",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act46side/Level/act46side_10": {
+        "id": "activities/act46side/Level/act46side_10",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act46side_10",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_st_16-01": {
+        "id": "obt/main/level_st_16-01",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "st_16-01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-01_beg": {
+        "id": "obt/main/level_main_16-01_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-01",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-03_beg": {
+        "id": "obt/main/level_main_16-03_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-02",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-04_beg": {
+        "id": "obt/main/level_main_16-04_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-03",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-04_end": {
+        "id": "obt/main/level_main_16-04_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "main_16-03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-03",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-05_beg": {
+        "id": "obt/main/level_main_16-05_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-04",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-06_end": {
+        "id": "obt/main/level_main_16-06_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "main_16-05",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-05",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-07_beg": {
+        "id": "obt/main/level_main_16-07_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-06",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-06",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-08_end": {
+        "id": "obt/main/level_main_16-08_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "main_16-07",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-07",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-09_beg": {
+        "id": "obt/main/level_main_16-09_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-08",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-08",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-09_end": {
+        "id": "obt/main/level_main_16-09_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "main_16-08",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-08",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-10_beg": {
+        "id": "obt/main/level_main_16-10_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-09",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-09",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-11_end": {
+        "id": "obt/main/level_main_16-11_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "main_16-10",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-10",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-12_beg": {
+        "id": "obt/main/level_main_16-12_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-11",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-11",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-13_beg": {
+        "id": "obt/main/level_main_16-13_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-12",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-12",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-14_beg": {
+        "id": "obt/main/level_main_16-14_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-13",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-13",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-15_beg": {
+        "id": "obt/main/level_main_16-15_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-14",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-14",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-16_beg": {
+        "id": "obt/main/level_main_16-16_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-15",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-15",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-17_beg": {
+        "id": "obt/main/level_main_16-17_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "main_16-16",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-16",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_main_16-18_end": {
+        "id": "obt/main/level_main_16-18_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "main_16-17",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-17",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_st_16-02": {
+        "id": "obt/main/level_st_16-02",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "st_16-02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_spst_16-01": {
+        "id": "obt/main/level_spst_16-01",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "spst_16-01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_spst_16-02": {
+        "id": "obt/main/level_spst_16-02",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "spst_16-02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_spst_16-03": {
+        "id": "obt/main/level_spst_16-03",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "spst_16-03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "obt/main/level_spst_16-04": {
+        "id": "obt/main/level_spst_16-04",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "spst_16-04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "Obt/Tutorial/Level/main_16-16": {
+        "id": "Obt/Tutorial/Level/main_16-16",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "main_16-16",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1vhalfidle/guide_act1vhalfidle_first": {
+        "id": "activities/act1vhalfidle/guide_act1vhalfidle_first",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "act1vhalfidle_first",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1vhalfidle/guide_act1vhalfidle_trstage_end": {
+        "id": "activities/act1vhalfidle/guide_act1vhalfidle_trstage_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "act1vhalfidle_trstage_end",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1vhalfidle/guide_act1vhalfidle_pack": {
+        "id": "activities/act1vhalfidle/guide_act1vhalfidle_pack",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "act1vhalfidle_pack",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_st01": {
+        "id": "activities/act45side/level_act45side_st01",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_st01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_01_beg": {
+        "id": "activities/act45side/level_act45side_01_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_01",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_01_end": {
+        "id": "activities/act45side/level_act45side_01_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act45side_01",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_01",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_02_beg": {
+        "id": "activities/act45side/level_act45side_02_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_02",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_02_end": {
+        "id": "activities/act45side/level_act45side_02_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act45side_02",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_02",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_03_beg": {
+        "id": "activities/act45side/level_act45side_03_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_03",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_03_end": {
+        "id": "activities/act45side/level_act45side_03_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act45side_03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_03",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_04_beg": {
+        "id": "activities/act45side/level_act45side_04_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_04",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_04_end": {
+        "id": "activities/act45side/level_act45side_04_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act45side_04",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_04",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_05_beg": {
+        "id": "activities/act45side/level_act45side_05_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_05",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_05",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_05_end": {
+        "id": "activities/act45side/level_act45side_05_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act45side_05",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_05",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_06_beg": {
+        "id": "activities/act45side/level_act45side_06_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_06",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_06",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_06_end": {
+        "id": "activities/act45side/level_act45side_06_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act45side_06",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_06",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_07_beg": {
+        "id": "activities/act45side/level_act45side_07_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_07",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_07",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_07_end": {
+        "id": "activities/act45side/level_act45side_07_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act45side_07",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_07",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_08_beg": {
+        "id": "activities/act45side/level_act45side_08_beg",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "BEFORE_BATTLE",
+            "key": "act45side_08",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_08",
+                    "minState": "UNLOCKED",
+                    "maxState": "PLAYED"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act45side/level_act45side_08_end": {
+        "id": "activities/act45side/level_act45side_08_end",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "AFTER_BATTLE",
+            "key": "act45side_08",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": [
+                {
+                    "stageId": "act45side_08",
+                    "minState": "PASS",
+                    "maxState": "COMPLETE"
+                }
+            ]
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
     "activities/act44side/level_act44side_st01": {
         "id": "activities/act44side/level_act44side_st01",
         "needCommit": true,
@@ -16080,6 +18962,29 @@
         "trigger": {
             "type": "BEFORE_BATTLE",
             "key": "st_15-03",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act6fun/level_act6fun_entry": {
+        "id": "activities/act6fun/level_act6fun_entry",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "ACTIVITY_ANNOUNCE",
+            "key": "act6fun",
             "useRegex": false
         },
         "condition": {
@@ -19432,7 +22337,7 @@
         "videoResource": true,
         "trigger": {
             "type": "ACTIVITY_LOADED",
-            "key": "act38side",
+            "key": "act38sre",
             "useRegex": false
         },
         "condition": {
@@ -20081,7 +22986,7 @@
         "videoResource": true,
         "trigger": {
             "type": "ACTIVITY_LOADED",
-            "key": "act37side",
+            "key": "act37sre",
             "useRegex": false
         },
         "condition": {
@@ -45162,6 +48067,52 @@
         "setFlags": [],
         "completedRewards": []
     },
+    "activities/act1autochess/Guide/guide_auto_chess_shop_home": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_shop_home",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "auto_chess_shop_home",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "activities/act1autochess/Guide/guide_auto_chess_shop_quick_assist": {
+        "id": "activities/act1autochess/Guide/guide_auto_chess_shop_quick_assist",
+        "needCommit": true,
+        "repeatable": false,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "auto_chess_shop_quick_assist",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
     "obt/rune/rune_season_0_1/ui_rune_season_0_1_cc": {
         "id": "obt/rune/rune_season_0_1/ui_rune_season_0_1_cc",
         "needCommit": true,
@@ -45861,6 +48812,29 @@
         "trigger": {
             "type": "CUSTOM_OPERATION",
             "key": "rogue_5_RO5_ending_3",
+            "useRegex": false
+        },
+        "condition": {
+            "minProgress": -1,
+            "maxProgress": -1,
+            "minPlayerLevel": 1,
+            "requiredFlags": [],
+            "excludedFlags": [],
+            "requiredStages": []
+        },
+        "setProgress": -1,
+        "setFlags": [],
+        "completedRewards": []
+    },
+    "Obt/Roguelike/RO5/level_rogue5_ending_4": {
+        "id": "Obt/Roguelike/RO5/level_rogue5_ending_4",
+        "needCommit": true,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": "rogue_5_RO5_ending_4",
             "useRegex": false
         },
         "condition": {
@@ -51269,6 +54243,294 @@
     },
     "obt/memory/story_kazema_2_1": {
         "id": "obt/memory/story_kazema_2_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_nymph_1_1": {
+        "id": "obt/memory/story_nymph_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_wscoot_1_1": {
+        "id": "obt/memory/story_wscoot_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_whitw2_1_1": {
+        "id": "obt/memory/story_whitw2_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_ashlok_1_1": {
+        "id": "obt/memory/story_ashlok_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_mantra_1_1": {
+        "id": "obt/memory/story_mantra_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_bobb_1_1": {
+        "id": "obt/memory/story_bobb_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_tippi_1_1": {
+        "id": "obt/memory/story_tippi_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_pinecn_2_1": {
+        "id": "obt/memory/story_pinecn_2_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_cetsyr_1_1": {
+        "id": "obt/memory/story_cetsyr_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_blkkgt_1_1": {
+        "id": "obt/memory/story_blkkgt_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_halo2_1_1": {
+        "id": "obt/memory/story_halo2_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_lava2_1_1": {
+        "id": "obt/memory/story_lava2_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_kichi_1_1": {
+        "id": "obt/memory/story_kichi_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_snhunt_1_1": {
+        "id": "obt/memory/story_snhunt_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_demkni_1_1": {
+        "id": "obt/memory/story_demkni_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_rfalcn_1_1": {
+        "id": "obt/memory/story_rfalcn_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_makiri_1_1": {
+        "id": "obt/memory/story_makiri_1_1",
+        "needCommit": false,
+        "repeatable": true,
+        "disabled": false,
+        "videoResource": false,
+        "trigger": {
+            "type": "CUSTOM_OPERATION",
+            "key": null,
+            "useRegex": false
+        },
+        "condition": null,
+        "setProgress": -1,
+        "setFlags": null,
+        "completedRewards": null
+    },
+    "obt/memory/story_philae_1_1": {
+        "id": "obt/memory/story_philae_1_1",
         "needCommit": false,
         "repeatable": true,
         "disabled": false,

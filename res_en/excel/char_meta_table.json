@@ -121,6 +121,9 @@
             "char_253_greyy",
             "char_1027_greyy2"
         ],
+        "char_4051_akkord": [
+            "char_4051_akkord"
+        ],
         "char_328_cammou": [
             "char_328_cammou"
         ],
@@ -181,6 +184,9 @@
         ],
         "char_452_bstalk": [
             "char_452_bstalk"
+        ],
+        "char_4208_wintim": [
+            "char_4208_wintim"
         ],
         "char_130_doberm": [
             "char_130_doberm"
@@ -293,6 +299,9 @@
         ],
         "char_484_robrta": [
             "char_484_robrta"
+        ],
+        "char_616_pithst": [
+            "char_616_pithst"
         ],
         "char_355_ethan": [
             "char_355_ethan"
@@ -458,6 +467,12 @@
         "char_4187_graceb": [
             "char_4187_graceb"
         ],
+        "char_4185_amoris": [
+            "char_4185_amoris"
+        ],
+        "char_394_hadiya": [
+            "char_394_hadiya"
+        ],
         "char_129_bluep": [
             "char_129_bluep"
         ],
@@ -495,6 +510,9 @@
         "char_4203_kichi": [
             "char_4203_kichi"
         ],
+        "char_4213_skybx": [
+            "char_4213_skybx"
+        ],
         "char_002_amiya": [
             "char_002_amiya"
         ],
@@ -518,7 +536,8 @@
             "char_1043_leizi2"
         ],
         "char_135_halo": [
-            "char_135_halo"
+            "char_135_halo",
+            "char_1047_halo2"
         ],
         "char_344_beewax": [
             "char_344_beewax"
@@ -666,6 +685,9 @@
         "char_163_hpsts": [
             "char_163_hpsts"
         ],
+        "char_4207_branch": [
+            "char_4207_branch"
+        ],
         "char_378_asbest": [
             "char_378_asbest"
         ],
@@ -723,6 +745,9 @@
         "char_4104_coldst": [
             "char_4104_coldst"
         ],
+        "char_4211_snhunt": [
+            "char_4211_snhunt"
+        ],
         "char_4177_brigid": [
             "char_4177_brigid"
         ],
@@ -739,7 +764,8 @@
             "char_4105_almond"
         ],
         "char_174_slbell": [
-            "char_174_slbell"
+            "char_174_slbell",
+            "char_1046_sbell2"
         ],
         "char_254_vodfox": [
             "char_254_vodfox"
@@ -774,6 +800,9 @@
         "char_4045_heidi": [
             "char_4045_heidi"
         ],
+        "char_4184_dolris": [
+            "char_4184_dolris"
+        ],
         "char_343_tknogi": [
             "char_343_tknogi"
         ],
@@ -798,6 +827,9 @@
         "char_478_kirara": [
             "char_478_kirara"
         ],
+        "char_4186_tmoris": [
+            "char_4186_tmoris"
+        ],
         "char_241_panda": [
             "char_241_panda"
         ],
@@ -821,6 +853,9 @@
         ],
         "char_4124_iana": [
             "char_4124_iana"
+        ],
+        "char_4183_mortis": [
+            "char_4183_mortis"
         ],
         "char_4151_tinman": [
             "char_4151_tinman"
@@ -952,6 +987,9 @@
         "char_4146_nymph": [
             "char_4146_nymph"
         ],
+        "char_4204_mantra": [
+            "char_4204_mantra"
+        ],
         "char_450_necras": [
             "char_450_necras"
         ],
@@ -984,6 +1022,9 @@
         ],
         "char_4072_ironmn": [
             "char_4072_ironmn"
+        ],
+        "char_4212_nasti": [
+            "char_4212_nasti"
         ],
         "char_245_cello": [
             "char_245_cello"
@@ -1084,7 +1125,8 @@
             "char_2024_chyue"
         ],
         "char_172_svrash": [
-            "char_172_svrash"
+            "char_172_svrash",
+            "char_1045_svash2"
         ],
         "char_293_thorns": [
             "char_293_thorns",
@@ -1092,6 +1134,12 @@
         ],
         "char_4082_qiubai": [
             "char_4082_qiubai"
+        ],
+        "char_4182_oblvns": [
+            "char_4182_oblvns"
+        ],
+        "char_617_sharp2": [
+            "char_617_sharp2"
         ],
         "char_4088_hodrer": [
             "char_4088_hodrer"
@@ -1142,6 +1190,9 @@
         ],
         "char_4064_mlynar": [
             "char_4064_mlynar"
+        ],
+        "char_4214_cairn": [
+            "char_4214_cairn"
         ],
         "char_230_savage": [
             "char_230_savage"
