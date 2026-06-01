@@ -2258,6 +2258,9 @@
                     "skill_gp": 2,
                     "skill_fly": 2,
                     "skill_stop": 2
+                },
+                "unlockItemMap": {
+                    "act50side_special_level_unlock": 1
                 }
             }
         }
