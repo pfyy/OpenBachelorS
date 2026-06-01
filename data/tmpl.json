@@ -2251,6 +2251,14 @@
                     "tool_flashbomb": 2,
                     "tool_bomb": 2
                 }
+            },
+            "act50side": {
+                "tool": {
+                    "skill_turn": 2,
+                    "skill_gp": 2,
+                    "skill_fly": 2,
+                    "skill_stop": 2
+                }
             }
         }
     },
