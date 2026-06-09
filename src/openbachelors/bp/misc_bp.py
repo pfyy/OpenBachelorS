@@ -550,7 +550,10 @@ async def templateTrap_setTrapSquad(player_data, request: Request):
         request_json["trapSquad"]
     )
 
-    response = {}
+    response = {
+        "trapDomainId": request_json.get("trapDomainId"),
+        "trapSquad": request_json.get("trapSquad"),
+    }
     return response
 
 
