@@ -1012,3 +1012,49 @@ async def activity_act24side_battleFinish(player_data, request: Request):
         "mealMeldingRewards": [],
     }
     return response
+
+
+@router.post("/activity/football/battleStart")
+@player_data_decorator
+async def activity_football_battleStart(player_data, request: Request):
+    request_json = await request.json()
+
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+        "apFailReturn": 0,
+        "isApProtect": 0,
+        "inApProtectPeriod": false,
+        "notifyPowerScoreNotEnoughIfFailed": false,
+    }
+    return response
+
+
+@router.post("/activity/football/battleFinish")
+@player_data_decorator
+async def activity_football_battleFinish(player_data, request: Request):
+    request_json = await request.json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "result": 0,
+        "apFailReturn": 0,
+        "expScale": 0,
+        "goldScale": 0,
+        "rewards": [],
+        "firstRewards": [],
+        "unlockStages": [],
+        "unusualRewards": [],
+        "additionalRewards": [],
+        "furnitureRewards": [],
+        "alert": [],
+        "suggestFriend": false,
+        "pryResult": [],
+        "enemyScore": 0,
+        "selfScore": 99,
+        "isNewRecord": true,
+        "milestoneBefore": 0,
+        "milestoneAdd": 0,
+    }
+    return response

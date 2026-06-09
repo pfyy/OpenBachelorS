@@ -2263,6 +2263,84 @@
                     "act50side_special_level_unlock": 1
                 }
             }
+        },
+        "ACT_FOOTBALL": {
+            "act1football": {
+                "milestone": {
+                    "point": 1500,
+                    "got": [
+                        "mileStone_1",
+                        "mileStone_10",
+                        "mileStone_11",
+                        "mileStone_12",
+                        "mileStone_13",
+                        "mileStone_14",
+                        "mileStone_15",
+                        "mileStone_16",
+                        "mileStone_17",
+                        "mileStone_18",
+                        "mileStone_19",
+                        "mileStone_2",
+                        "mileStone_20",
+                        "mileStone_21",
+                        "mileStone_22",
+                        "mileStone_23",
+                        "mileStone_24",
+                        "mileStone_25",
+                        "mileStone_26",
+                        "mileStone_27",
+                        "mileStone_28",
+                        "mileStone_29",
+                        "mileStone_3",
+                        "mileStone_30",
+                        "mileStone_4",
+                        "mileStone_5",
+                        "mileStone_6",
+                        "mileStone_7",
+                        "mileStone_8",
+                        "mileStone_9"
+                    ]
+                },
+                "stage": {
+                    "act1football_tr01": {
+                        "self": 99,
+                        "enemy": 0
+                    },
+                    "act1football_01": {
+                        "self": 99,
+                        "enemy": 0
+                    },
+                    "act1football_02": {
+                        "self": 99,
+                        "enemy": 0
+                    },
+                    "act1football_03": {
+                        "self": 99,
+                        "enemy": 0
+                    },
+                    "act1football_04": {
+                        "self": 99,
+                        "enemy": 0
+                    },
+                    "act1football_05": {
+                        "self": 99,
+                        "enemy": 0
+                    },
+                    "act1football_06": {
+                        "self": 99,
+                        "enemy": 0
+                    },
+                    "act1football_07": {
+                        "self": 99,
+                        "enemy": 0
+                    },
+                    "act1football_s01": {
+                        "self": 99,
+                        "enemy": 0
+                    }
+                },
+                "isBuffUnlocked": true
+            }
         }
     },
     "status": {
@@ -6831,6 +6909,16 @@
                 },
                 "squad": [
                     "trap_267_xdmac1"
+                ]
+            },
+            "template_trap_1football": {
+                "traps": {
+                    "act1football_buff_1": {
+                        "count": 1
+                    }
+                },
+                "squad": [
+                    "act1football_buff_1"
                 ]
             }
         }
