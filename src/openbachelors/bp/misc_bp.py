@@ -975,6 +975,9 @@ async def activity_act24side_setTool(player_data, request: Request):
 async def activity_act24side_battleStart(player_data, request: Request):
     request_json = await request.json()
 
+    stage_id = request_json["stageId"]
+    player_data.extra_save.save_obj["cur_stage_id"] = stage_id
+
     response = {
         "result": 0,
         "battleId": "00000000-0000-0000-0000-000000000000",
@@ -1056,7 +1059,7 @@ async def activity_football_battleFinish(player_data, request: Request):
         "pryResult": [],
         "enemyScore": 0,
         "selfScore": 99,
-        "isNewRecord": true,
+        "isNewRecord": false,
         "milestoneBefore": 0,
         "milestoneAdd": 0,
     }
