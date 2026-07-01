@@ -35,6 +35,7 @@ router = APIRouter()
 
 HOT_UPDATE_LIST_JSON = "hot_update_list.json"
 ORIG_ASSET_URL_PREFIX = "https://ak.hycdn.cn"
+# ORIG_ASSET_URL_PREFIX = "https://ark-us-static-online.yo-star.com"
 
 
 class DownloadAssetResult:
