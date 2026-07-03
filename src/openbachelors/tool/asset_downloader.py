@@ -91,15 +91,14 @@ def main():
     for ab_obj in hot_update_list["abInfos"]:
         ab_filename = get_asset_filename(ab_obj["name"])
 
-        if not download_all:
-            pass
-
         asset_filename_lst.append(ab_filename)
 
     for pack_obj in hot_update_list["packInfos"]:
         pack_filename = get_asset_filename(pack_obj["name"])
 
         asset_filename_lst.append(pack_filename)
+
+    logger.info(f"# file to download: {len(asset_filename_lst)}")
 
     future_lst = []
     ret_val_lst = []
