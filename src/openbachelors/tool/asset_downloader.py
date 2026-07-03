@@ -69,6 +69,28 @@ def asset_download_worker_func(worker_param):
         os._exit(1)
 
 
+def get_asset_filename_lst_full(hot_update_list):
+    asset_filename_lst = []
+
+    for ab_obj in hot_update_list["abInfos"]:
+        ab_filename = get_asset_filename(ab_obj["name"])
+
+        asset_filename_lst.append(ab_filename)
+
+    for pack_obj in hot_update_list["packInfos"]:
+        pack_filename = get_asset_filename(pack_obj["name"])
+
+        asset_filename_lst.append(pack_filename)
+
+    return asset_filename_lst
+
+
+def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list):
+    asset_filename_lst = []
+
+    return asset_filename_lst
+
+
 def main():
     platform_name = "Android"
     res_version = const_json_loader[VERSION_JSON]["version"]["resVersion"]
@@ -115,17 +137,12 @@ def main():
     ) as f:
         hot_update_list = json.load(f)
 
-    asset_filename_lst = []
-
-    for ab_obj in hot_update_list["abInfos"]:
-        ab_filename = get_asset_filename(ab_obj["name"])
-
-        asset_filename_lst.append(ab_filename)
-
-    for pack_obj in hot_update_list["packInfos"]:
-        pack_filename = get_asset_filename(pack_obj["name"])
-
-        asset_filename_lst.append(pack_filename)
+    if download_all:
+        asset_filename_lst = get_asset_filename_lst_full(hot_update_list)
+    else:
+        asset_filename_lst = get_asset_filename_lst_exclude_local(
+            local_hot_update_list, hot_update_list
+        )
 
     logger.info(f"# file to download: {len(asset_filename_lst)}")
 
