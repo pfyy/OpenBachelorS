@@ -4,7 +4,9 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import sys
 import asyncio
 import logging
-
+from tkinter.filedialog import askopenfilename
+from pathlib import Path
+import zipfile
 
 from ..app import app
 from ..const.json_const import true, false, null
@@ -78,6 +80,33 @@ def main():
     download_all = False
     if "--download_all" in sys.argv:
         download_all = True
+
+    if not download_all:
+        match platform_name:
+            case "Android":
+                apk_filepath = askopenfilename(
+                    filetypes=[("APK", ".apk")],
+                )
+
+                with zipfile.ZipFile(apk_filepath) as f:
+                    local_hot_update_list = json.loads(
+                        f.read("assets/AB/Android/hot_update_list.json")
+                    )
+            case "Windows":
+                exe_filepath = askopenfilename(
+                    filetypes=[("Arknights", "Arknights.exe")],
+                )
+
+                local_hot_update_list = json.loads(
+                    (
+                        Path(exe_filepath).parent
+                        / "Arknights_Data"
+                        / "StreamingAssets"
+                        / "AB"
+                        / "Windows"
+                        / "hot_update_list.json"
+                    ).read_text(encoding="utf-8")
+                )
 
     asyncio.run(download_asset(res_version, HOT_UPDATE_LIST_JSON, platform_name))
     with open(
