@@ -110,12 +110,12 @@ def main():
 
         for future in as_completed(future_lst):
             ret_val_lst.append(future.result())
+
+        pool.shutdown()
     except KeyboardInterrupt:
         pool.shutdown(wait=False, cancel_futures=True)
         logger.warning("keyboard interrupt")
         sys.exit(1)
-    finally:
-        pool.shutdown()
 
     logger.info("--- summary ---")
 
