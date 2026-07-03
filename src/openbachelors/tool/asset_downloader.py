@@ -82,15 +82,7 @@ def main():
         ab_filename = get_asset_filename(ab_obj["name"])
 
         if not download_all:
-            pid = ab_obj.get("pid")
-            if (
-                pid
-                and pid != "lpack_lcom"
-                and not pid.startswith("lpack_init")
-                and pid != "lpack_char"
-                and pid != "lpack_furn"
-            ):
-                continue
+            pass
 
         asset_filename_lst.append(ab_filename)
 
