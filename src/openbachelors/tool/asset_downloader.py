@@ -99,22 +99,23 @@ def main():
     ret_val_lst = []
 
     try:
-        with ProcessPoolExecutor(
+        pool = ProcessPoolExecutor(
             NUM_ASSET_DOWNLOAD_WORKER,
             initializer=init_asset_download_worker,
-        ) as pool:
-            for asset_filename in asset_filename_lst:
-                future_lst.append(
-                    pool.submit(
-                        asset_download_worker_func, (res_version, asset_filename)
-                    )
-                )
+        )
+        for asset_filename in asset_filename_lst:
+            future_lst.append(
+                pool.submit(asset_download_worker_func, (res_version, asset_filename))
+            )
 
-            for future in as_completed(future_lst):
-                ret_val_lst.append(future.result())
+        for future in as_completed(future_lst):
+            ret_val_lst.append(future.result())
     except KeyboardInterrupt:
+        pool.shutdown(wait=False, cancel_futures=True)
         logger.warning("keyboard interrupt")
         sys.exit(1)
+    finally:
+        pool.shutdown()
 
     logger.info("--- summary ---")
 
