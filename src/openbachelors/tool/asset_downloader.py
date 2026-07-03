@@ -110,8 +110,8 @@ def main():
                     )
                 )
 
-                for future in as_completed(future_lst):
-                    ret_val_lst.append(future.result())
+            for future in as_completed(future_lst):
+                ret_val_lst.append(future.result())
     except KeyboardInterrupt:
         logger.warning("keyboard interrupt")
         sys.exit(1)
