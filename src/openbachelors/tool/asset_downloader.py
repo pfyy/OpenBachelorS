@@ -90,9 +90,9 @@ def get_ab_dict(hot_update_list):
 
     for ab_obj in hot_update_list["abInfos"]:
         ab_name = ab_obj["name"]
-        ab_md5 = ab_obj["md5"]
+        ab_hash = ab_obj["hash"]
 
-        ab_dict[ab_name] = ab_md5
+        ab_dict[ab_name] = ab_hash
 
     return ab_dict
 
