@@ -147,7 +147,7 @@ def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list)
     download_pack_id_set = set()
 
     for pack_id in used_pack_dict:
-        if len(used_pack_dict[pack_id]) == len(pack_ab_dict[pack_id]):
+        if len(used_pack_dict[pack_id]) / len(pack_ab_dict[pack_id]) > 0.5:
             download_pack_id_set.add(pack_id)
 
     for ab_name in download_ab_name_lst:
