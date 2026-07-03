@@ -1265,20 +1265,20 @@
             "permanent": {
                 "state": 1,
                 "scoreTotal": [
-                    120,
-                    310,
-                    170,
+                    130,
+                    330,
+                    180,
                     110,
                     100,
-                    60
+                    70
                 ],
                 "scoreSingle": [
-                    120,
-                    310,
-                    170,
+                    130,
+                    330,
+                    180,
                     110,
                     100,
-                    60
+                    70
                 ],
                 "comment": [
                     "comments_0_1",
@@ -1363,10 +1363,14 @@
                     "node_75": 3
                 },
                 "exRunes": {
+                    "node_39": 3,
                     "node_40": 3,
                     "node_65": 3,
                     "node_66": 3,
-                    "node_70": 3
+                    "node_67": 3,
+                    "node_68": 3,
+                    "node_70": 3,
+                    "node_73": 3
                 },
                 "runePack": {
                     "pack_1": 2,
@@ -1480,6 +1484,55 @@
                         "node_34": 3,
                         "node_35": 3,
                         "node_36": 3
+                    },
+                    "challenge": {
+                        "keypoint_1": 2,
+                        "keypoint_2": 2,
+                        "keypoint_3": 2
+                    }
+                },
+                "crisis_v2_02-02_b": {
+                    "state": 1,
+                    "scoreTotal": [
+                        20,
+                        240,
+                        40,
+                        100,
+                        80,
+                        0
+                    ],
+                    "rune": {
+                        "node_1": 3,
+                        "node_2": 3,
+                        "node_3": 3,
+                        "node_4": 3,
+                        "node_5": 3,
+                        "node_6": 3,
+                        "node_7": 3,
+                        "node_8": 3,
+                        "node_10": 3,
+                        "node_11": 3,
+                        "node_12": 3,
+                        "node_13": 3,
+                        "node_14": 3,
+                        "node_15": 3,
+                        "node_16": 3,
+                        "node_17": 3,
+                        "node_19": 3,
+                        "node_20": 3,
+                        "node_21": 3,
+                        "node_23": 3,
+                        "node_24": 3,
+                        "node_25": 3,
+                        "node_26": 3,
+                        "node_27": 3,
+                        "node_28": 3,
+                        "node_30": 3,
+                        "node_31": 3,
+                        "node_32": 3,
+                        "node_33": 3,
+                        "node_34": 3,
+                        "node_35": 3
                     },
                     "challenge": {
                         "keypoint_1": 2,
