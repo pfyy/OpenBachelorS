@@ -8,7 +8,12 @@ import logging
 
 from ..app import app
 from ..const.json_const import true, false, null
-from ..const.filepath import CONFIG_JSON, VERSION_JSON, ASSET_DIRPATH
+from ..const.filepath import (
+    CONFIG_JSON,
+    VERSION_JSON,
+    ASSET_DIRPATH,
+    VERSION_WINDOWS_JSON,
+)
 from ..util.const_json_loader import const_json_loader
 from ..bp.bp_assetbundle import (
     download_asset,
@@ -23,12 +28,12 @@ NUM_ASSET_DOWNLOAD_WORKER = 8
 
 
 async def async_asset_download_worker_func(worker_param):
-    res_version, asset_filename = worker_param
+    res_version, asset_filename, platform_name = worker_param
 
     logger.info(f"downloading {asset_filename}")
 
     try:
-        ret_val = await download_asset(res_version, asset_filename, "Android")
+        ret_val = await download_asset(res_version, asset_filename, platform_name)
     except Exception as e:
         logger.error(f"exception during download of {asset_filename}: {e}")
         return asset_filename
@@ -63,13 +68,18 @@ def asset_download_worker_func(worker_param):
 
 
 def main():
+    platform_name = "Android"
     res_version = const_json_loader[VERSION_JSON]["version"]["resVersion"]
+
+    if "--windows" in sys.argv:
+        platform_name = "Windows"
+        res_version = const_json_loader[VERSION_WINDOWS_JSON]["version"]["resVersion"]
 
     download_all = False
     if "--download_all" in sys.argv:
         download_all = True
 
-    asyncio.run(download_asset(res_version, HOT_UPDATE_LIST_JSON, "Android"))
+    asyncio.run(download_asset(res_version, HOT_UPDATE_LIST_JSON, platform_name))
     with open(
         os.path.join(ASSET_DIRPATH, res_version, HOT_UPDATE_LIST_JSON),
         encoding="utf-8",
@@ -101,7 +111,10 @@ def main():
         )
         for asset_filename in asset_filename_lst:
             future_lst.append(
-                pool.submit(asset_download_worker_func, (res_version, asset_filename))
+                pool.submit(
+                    asset_download_worker_func,
+                    (res_version, asset_filename, platform_name),
+                )
             )
 
         for future in as_completed(future_lst):
