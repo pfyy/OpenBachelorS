@@ -54,8 +54,6 @@ def cli(ctx, interactive):
             except Exception:
                 traceback.print_exc()
 
-        exit()
-
 
 def configure_current_equip(player_data, char_num_id, evolve_phase):
     char_obj = player_data["troop"]["chars"][str(char_num_id)]
