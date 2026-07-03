@@ -91,8 +91,9 @@ def get_ab_dict(hot_update_list):
     for ab_obj in hot_update_list["abInfos"]:
         ab_name = ab_obj["name"]
         ab_hash = ab_obj["hash"]
+        ab_md5 = ab_obj["md5"]
 
-        ab_dict[ab_name] = ab_hash
+        ab_dict[ab_name] = ab_hash, ab_md5
 
     return ab_dict
 
@@ -124,8 +125,9 @@ def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list)
 
     download_ab_name_lst = []
 
-    for ab_name, ab_hash in ab_dict.items():
-        if ab_hash != local_ab_dict.get(ab_name):
+    for ab_name, (ab_hash, ab_md5) in ab_dict.items():
+        local_ab_hash, local_ab_md5 = local_ab_dict.get(ab_name, (None, None))
+        if not (local_ab_hash == ab_hash or local_ab_md5 == ab_md5):
             download_ab_name_lst.append(ab_name)
 
     pack_ab_dict, ab_pack_dict = get_pack_ab_dict(hot_update_list)
