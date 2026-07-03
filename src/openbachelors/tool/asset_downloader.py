@@ -124,8 +124,8 @@ def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list)
 
     download_ab_name_lst = []
 
-    for ab_name, ab_md5 in ab_dict.items():
-        if ab_md5 != local_ab_dict.get(ab_name):
+    for ab_name, ab_hash in ab_dict.items():
+        if ab_hash != local_ab_dict.get(ab_name):
             download_ab_name_lst.append(ab_name)
 
     pack_ab_dict, ab_pack_dict = get_pack_ab_dict(hot_update_list)
