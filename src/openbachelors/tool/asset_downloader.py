@@ -85,8 +85,39 @@ def get_asset_filename_lst_full(hot_update_list):
     return asset_filename_lst
 
 
+def get_ab_dict(hot_update_list):
+    ab_dict = {}
+
+    for ab_obj in hot_update_list["abInfos"]:
+        ab_name = ab_obj["name"]
+        ab_md5 = ab_obj["md5"]
+
+        ab_dict[ab_name] = ab_md5
+
+    return ab_dict
+
+
 def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list):
     asset_filename_lst = []
+
+    local_ab_dict = get_ab_dict(local_hot_update_list)
+    ab_dict = get_ab_dict(hot_update_list)
+
+    download_ab_name_lst = []
+
+    for ab_name, ab_md5 in ab_dict.items():
+        if ab_md5 != local_ab_dict.get(ab_name):
+            download_ab_name_lst.append(ab_name)
+
+    for ab_name in download_ab_name_lst:
+        ab_filename = get_asset_filename(ab_name)
+
+        asset_filename_lst.append(ab_filename)
+
+    for pack_obj in hot_update_list["packInfos"]:
+        pack_filename = get_asset_filename(pack_obj["name"])
+
+        asset_filename_lst.append(pack_filename)
 
     return asset_filename_lst
 
