@@ -53,9 +53,13 @@ def init_asset_download_worker():
 
 
 def asset_download_worker_func(worker_param):
-    return asset_download_worker_loop.run_until_complete(
-        async_asset_download_worker_func(worker_param)
-    )
+    try:
+        return asset_download_worker_loop.run_until_complete(
+            async_asset_download_worker_func(worker_param)
+        )
+    except KeyboardInterrupt:
+        logger.warning("child proc keyboard interrupt")
+        os._exit(1)
 
 
 def main():
