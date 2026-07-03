@@ -97,6 +97,25 @@ def get_ab_dict(hot_update_list):
     return ab_dict
 
 
+def get_pack_ab_dict(hot_update_list):
+    pack_ab_dict = {}
+    ab_pack_dict = {}
+    for ab_obj in hot_update_list["abInfos"]:
+        ab_name = ab_obj["name"]
+        pack_id = ab_obj.get("pid")
+
+        if not pack_id:
+            continue
+
+        if pack_id not in pack_ab_dict:
+            pack_ab_dict[pack_id] = set()
+
+        pack_ab_dict[pack_id].add(ab_name)
+        ab_pack_dict[ab_name] = pack_id
+
+    return pack_ab_dict, ab_pack_dict
+
+
 def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list):
     asset_filename_lst = []
 
@@ -109,13 +128,37 @@ def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list)
         if ab_md5 != local_ab_dict.get(ab_name):
             download_ab_name_lst.append(ab_name)
 
+    pack_ab_dict, ab_pack_dict = get_pack_ab_dict(hot_update_list)
+
+    used_pack_dict = {}
+
     for ab_name in download_ab_name_lst:
+        pack_id = ab_pack_dict.get(ab_name)
+
+        if not pack_id:
+            continue
+
+        if pack_id not in used_pack_dict:
+            used_pack_dict[pack_id] = set()
+        used_pack_dict[pack_id].add(ab_name)
+
+    download_pack_id_set = set()
+
+    for pack_id in used_pack_dict:
+        if len(used_pack_dict[pack_id]) == len(pack_ab_dict[pack_id]):
+            download_pack_id_set.add(pack_id)
+
+    for ab_name in download_ab_name_lst:
+        pack_id = ab_pack_dict.get(ab_name)
+        if pack_id and pack_id in download_pack_id_set:
+            continue
+
         ab_filename = get_asset_filename(ab_name)
 
         asset_filename_lst.append(ab_filename)
 
-    for pack_obj in hot_update_list["packInfos"]:
-        pack_filename = get_asset_filename(pack_obj["name"])
+    for pack_id in download_pack_id_set:
+        pack_filename = get_asset_filename(pack_id)
 
         asset_filename_lst.append(pack_filename)
 
