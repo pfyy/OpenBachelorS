@@ -183,7 +183,7 @@ def main():
         match platform_name:
             case "Android":
                 apk_filepath = askopenfilename(
-                    filetypes=[("APK", ".apk")],
+                    filetypes=[("APK", ".apk"), ("OBB", ".obb")],
                 )
 
                 with zipfile.ZipFile(apk_filepath) as f:
