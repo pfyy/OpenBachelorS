@@ -5,6 +5,7 @@ from ..const.filepath import (
     GAME_LINK_FILEPATH,
     PC_GAME_LINK_FILEPATH,
     MUMU_LINK_FILEPATH,
+    MUMU_15_LINK_FILEPATH,
     LD_LINK_FILEPATH,
 )
 
@@ -43,6 +44,30 @@ def get_mumu_link():
 
         mumu_link = mumu_link.replace("http://", "https://", 1)
         return mumu_link
+    except Exception:
+        return None
+
+
+def get_mumu_15_link():
+    try:
+        mumu_15_obj = requests.post(
+            "https://api.mumuglobal.com/api/v2/download/nx",
+            timeout=REQUESTS_TIMEOUT,
+            data=[
+                ("architecture", "x86_64"),
+                ("machine", "{}"),
+                ("usage", "1"),
+                ("channel", "gw-overseas12"),
+            ],
+        ).json()
+
+        mumu_15_link = "\n".join(
+            [
+                i["link"].replace("http://", "https://", 1)
+                for i in mumu_15_obj["data"]["components"]
+            ]
+        )
+        return mumu_15_link
     except Exception:
         return None
 
@@ -91,6 +116,12 @@ def main():
     if mumu_link is not None:
         with open(MUMU_LINK_FILEPATH, "w", encoding="utf-8") as f:
             f.write(mumu_link)
+
+    mumu_15_link = get_mumu_15_link()
+
+    if mumu_15_link is not None:
+        with open(MUMU_15_LINK_FILEPATH, "w", encoding="utf-8") as f:
+            f.write(mumu_15_link)
 
     ld_link = get_ld_link()
 
