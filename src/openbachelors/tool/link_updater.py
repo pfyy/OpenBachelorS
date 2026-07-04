@@ -3,8 +3,9 @@ import json
 
 from ..const.filepath import (
     GAME_LINK_FILEPATH,
-    MUMU_LINK_FILEPATH,
     PC_GAME_LINK_FILEPATH,
+    MUMU_LINK_FILEPATH,
+    LD_LINK_FILEPATH,
 )
 
 REQUESTS_TIMEOUT = 60
@@ -46,6 +47,18 @@ def get_mumu_link():
         return None
 
 
+def get_ld_link():
+    try:
+        ld_link = requests.get(
+            "https://files.ldrescdn.com/player_files/en/leidian",
+            timeout=REQUESTS_TIMEOUT,
+        ).json()["mnq14"]["url"]
+
+        return ld_link
+    except Exception:
+        return None
+
+
 def get_pc_game_link():
     try:
         obj = requests.get(
@@ -67,17 +80,23 @@ def main():
         with open(GAME_LINK_FILEPATH, "w", encoding="utf-8") as f:
             f.write(game_link)
 
+    pc_game_link = get_pc_game_link()
+
+    if pc_game_link is not None:
+        with open(PC_GAME_LINK_FILEPATH, "w", encoding="utf-8") as f:
+            f.write(pc_game_link)
+
     mumu_link = get_mumu_link()
 
     if mumu_link is not None:
         with open(MUMU_LINK_FILEPATH, "w", encoding="utf-8") as f:
             f.write(mumu_link)
 
-    pc_game_link = get_pc_game_link()
+    ld_link = get_ld_link()
 
-    if pc_game_link is not None:
-        with open(PC_GAME_LINK_FILEPATH, "w", encoding="utf-8") as f:
-            f.write(pc_game_link)
+    if ld_link is not None:
+        with open(LD_LINK_FILEPATH, "w", encoding="utf-8") as f:
+            f.write(ld_link)
 
 
 if __name__ == "__main__":
