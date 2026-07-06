@@ -6,7 +6,7 @@ from collections import namedtuple
 import logging
 
 from ..const.json_const import true, false, null
-from ..const.filepath import CONFIG_JSON, MOD_DIRPATH
+from ..const.filepath import CONFIG_JSON, MOD_DIRPATH, MOD_WINDOWS_DIRPATH
 from ..util.const_json_loader import const_json_loader, ConstJson
 from ..util.helper import get_asset_filename
 
@@ -20,8 +20,9 @@ AbInfo = namedtuple(
 
 
 class ModLoader:
-    def __init__(self):
-        os.makedirs(MOD_DIRPATH, exist_ok=True)
+    def __init__(self, mod_dirpath):
+        self.mod_dirpath = mod_dirpath
+        os.makedirs(self.mod_dirpath, exist_ok=True)
 
         self.mod_dict = {}
         self.ab_dict = {}
@@ -33,8 +34,8 @@ class ModLoader:
         if not const_json_loader[CONFIG_JSON]["mod"]:
             return
 
-        for mod_filename in os.listdir(MOD_DIRPATH):
-            mod_filepath = os.path.join(MOD_DIRPATH, mod_filename)
+        for mod_filename in os.listdir(self.mod_dirpath):
+            mod_filepath = os.path.join(self.mod_dirpath, mod_filename)
             if (
                 not os.path.isfile(mod_filepath)
                 or not mod_filename.endswith(".dat")
@@ -115,4 +116,5 @@ class ModLoader:
         return None
 
 
-mod_loader = ModLoader()
+mod_loader = ModLoader(MOD_DIRPATH)
+mod_windows_loader = ModLoader(MOD_WINDOWS_DIRPATH)

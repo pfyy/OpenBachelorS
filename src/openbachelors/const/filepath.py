@@ -34,6 +34,7 @@ TMP_DIRPATH = "tmp/"
 ASSET_DIRPATH = "asset/"
 
 MOD_DIRPATH = "mod/"
+MOD_WINDOWS_DIRPATH = "mod_windows/"
 
 GAME_LINK_FILEPATH = "link/game.txt"
 PC_GAME_LINK_FILEPATH = "link/pc_game.txt"

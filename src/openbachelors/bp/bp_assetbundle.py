@@ -15,11 +15,10 @@ from ..const.filepath import (
     CONFIG_JSON,
     VERSION_JSON,
     ASSET_DIRPATH,
-    MOD_DIRPATH,
     TMP_DIRPATH,
 )
 from ..util.const_json_loader import const_json_loader
-from ..util.mod_loader import mod_loader
+from ..util.mod_loader import mod_loader, mod_windows_loader
 from ..util.helper import (
     is_valid_res_version,
     is_valid_asset_filename,
@@ -64,17 +63,27 @@ DownloadAssetResultType = (
 )
 
 
+def get_platform_mod_loader(platform_name):
+    match platform_name:
+        case "Android":
+            return mod_loader
+        case "Windows":
+            return mod_windows_loader
+
+
 async def try_mod_result(res_version, asset_filename, src_res_version, platform_name):
-    if mod_loader.hot_update_list is None:
+    platform_mod_loader = get_platform_mod_loader(platform_name)
+
+    if platform_mod_loader.hot_update_list is None:
         await download_asset(src_res_version, HOT_UPDATE_LIST_JSON, platform_name)
         async with aiofiles.open(
             os.path.join(ASSET_DIRPATH, src_res_version, HOT_UPDATE_LIST_JSON),
             encoding="utf-8",
         ) as f:
             src_hot_update_list = json.loads(await f.read())
-        mod_loader.build_hot_update_list(src_hot_update_list)
+        platform_mod_loader.build_hot_update_list(src_hot_update_list)
     if asset_filename == HOT_UPDATE_LIST_JSON:
-        hot_update_list = mod_loader.hot_update_list.copy()
+        hot_update_list = platform_mod_loader.hot_update_list.copy()
         hot_update_list["versionId"] = res_version
         if IS_DEBUG:
             os.makedirs(TMP_DIRPATH, exist_ok=True)
@@ -86,9 +95,11 @@ async def try_mod_result(res_version, asset_filename, src_res_version, platform_
                 await f.write(json.dumps(hot_update_list, ensure_ascii=False, indent=4))
         return DownloadAssetResult.Response(response=hot_update_list)
 
-    mod_filename = mod_loader.get_mod_filename_by_asset_filename(asset_filename)
+    mod_filename = platform_mod_loader.get_mod_filename_by_asset_filename(
+        asset_filename
+    )
     if mod_filename is not None:
-        mod_filepath = os.path.join(MOD_DIRPATH, mod_filename)
+        mod_filepath = os.path.join(platform_mod_loader.mod_dirpath, mod_filename)
         mod_abs_filepath = os.path.abspath(mod_filepath)
         return DownloadAssetResult.SendFile(file_path=mod_abs_filepath)
 
