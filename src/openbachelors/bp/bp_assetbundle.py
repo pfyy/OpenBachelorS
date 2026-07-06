@@ -14,6 +14,7 @@ from ..const.json_const import true, false, null
 from ..const.filepath import (
     CONFIG_JSON,
     VERSION_JSON,
+    VERSION_WINDOWS_JSON,
     ASSET_DIRPATH,
     TMP_DIRPATH,
 )
@@ -112,7 +113,14 @@ async def download_asset(res_version, asset_filename, platform_name):
     ):
         return DownloadAssetResult.HttpStatusCode(status_code=400)
 
-    src_res_version = const_json_loader[VERSION_JSON]["version"]["resVersion"]
+    match platform_name:
+        case "Android":
+            src_res_version = const_json_loader[VERSION_JSON]["version"]["resVersion"]
+        case "Windows":
+            src_res_version = const_json_loader[VERSION_WINDOWS_JSON]["version"][
+                "resVersion"
+            ]
+
     if const_json_loader[CONFIG_JSON]["mod"] and res_version != src_res_version:
         mod_result = await try_mod_result(
             res_version, asset_filename, src_res_version, platform_name
