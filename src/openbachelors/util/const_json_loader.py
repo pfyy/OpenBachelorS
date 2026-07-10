@@ -133,5 +133,8 @@ class ConstJsonLoader:
     def __getitem__(self, key):
         return self.const_json_dict[key]
 
+    def __contains__(self, key):
+        return key in self.const_json_dict
+
 
 const_json_loader = ConstJsonLoader()

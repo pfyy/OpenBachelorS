@@ -49,6 +49,7 @@ from ..const.filepath import (
     MULTI_EXTRA_SAVE_DIRPATH,
     ROGUELIKE_TOPIC_TABLE,
     CAMPAIGN_TABLE,
+    CRISIS_V2_TABLE,
 )
 from .const_json_loader import const_json_loader, ConstJson, ConstJsonLike, SavableThing
 from .battle_replay_manager import BattleReplayManager, DBBattleReplayManager
@@ -672,6 +673,25 @@ def build_player_data_template():
     if "stickerData" in display_meta_table:
         for sticker_id, _ in display_meta_table["stickerData"]["stickerMap"]:
             tmpl_json_obj["gallery"]["stickerMap"][sticker_id] = 1700000000
+
+    # ----------
+
+    crisis_v2_table = const_json_loader[CRISIS_V2_TABLE]
+    if "recalRuneData" in crisis_v2_table:
+        for season_id, season_obj in crisis_v2_table["recalRuneData"]["seasons"]:
+            tmpl_json_obj["recalRune"]["seasons"][season_id] = {
+                "stage": {},
+                "reward": {"junior": 1, "senior": 1},
+            }
+
+            for stage_id, stage_obj in season_obj["stages"]:
+                rune_lst = [rune_id for rune_id, _ in stage_obj["runes"]]
+
+                tmpl_json_obj["recalRune"]["seasons"][season_id]["stage"][stage_id] = {
+                    "state": 1,
+                    "record": 25,
+                    "runes": rune_lst,
+                }
 
     # ----------
 
