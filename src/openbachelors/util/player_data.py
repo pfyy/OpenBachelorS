@@ -695,6 +695,17 @@ def build_player_data_template():
 
     # ----------
 
+    display_meta_table = const_json_loader[DISPLAY_META_TABLE]
+
+    tmpl_json_obj["emoticon"]["unlockTheme"] = []
+
+    for emoticon_id, emoticon_obj in display_meta_table["emoticonData"][
+        "emoticonThemeDataDict"
+    ]:
+        tmpl_json_obj["emoticon"]["unlockTheme"].append(emoticon_id)
+
+    # ----------
+
     player_data_template = ConstJson(tmpl_json_obj)
     return player_data_template, char_id_lst
 
