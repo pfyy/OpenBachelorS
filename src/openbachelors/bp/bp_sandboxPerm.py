@@ -1512,3 +1512,25 @@ async def sandboxPerm_sandboxV3_dailyRecruit(player_data, request: Request):
     recruit_char(player_data, topic_id, recruit_lst)
 
     return response
+
+
+@router.post("/sandboxPerm/sandboxV3/eatFood")
+@player_data_decorator
+async def sandboxPerm_sandboxV3_eatFood(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    topic_id = request_json["topicId"]
+
+    char_inst_id = request_json["charInstId"]
+    food_id = request_json["cookbook"]
+    sub_lst = request_json["sub"]
+
+    player_data["sandboxPerm"]["template"]["SANDBOX_V3"][topic_id]["current"]["troop"][
+        "food"
+    ][str(char_inst_id)] = {
+        "id": food_id,
+        "sub": sub_lst,
+    }
+
+    return response
