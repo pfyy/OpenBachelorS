@@ -1,4 +1,5 @@
 import random
+import json
 
 from fastapi import APIRouter
 from fastapi import Request
@@ -897,6 +898,23 @@ async def gallery_changeMagazineSquad(player_data, request: Request):
 @player_data_decorator
 async def gallery_saveDiyMagazineV1(player_data, request: Request):
     request_json = await request.json()
+
+    magazine_obj = request_json["magazine"]
+
+    leaf_id = magazine_obj["leafId"]
+
+    player_data["gallery"]["leafMap"][leaf_id]["charSkin"] = magazine_obj["charSkin"]
+    player_data["gallery"]["leafMap"][leaf_id]["decorList"] = magazine_obj["decorList"]
+
+    response = {}
+    return response
+
+
+@router.post("/gallery/saveDiyMagazineV2")
+@player_data_decorator
+async def gallery_saveDiyMagazineV2(player_data, request: Request):
+    request_form = await request.form()
+    request_json = json.loads(await request_form["json"].read())
 
     magazine_obj = request_json["magazine"]
 
