@@ -2957,13 +2957,13 @@
                         "state": 1,
                         "type": "MASTER"
                     },
-                    "mcnist_n_master6_1": {
-                        "id": "mcnist_n_master6_1",
+                    "mcnist_n_master5_1": {
+                        "id": "mcnist_n_master5_1",
                         "state": 1,
                         "type": "MASTER"
                     },
-                    "mcnist_n_master5_1": {
-                        "id": "mcnist_n_master5_1",
+                    "mcnist_n_master6_1": {
+                        "id": "mcnist_n_master6_1",
                         "state": 1,
                         "type": "MASTER"
                     }
