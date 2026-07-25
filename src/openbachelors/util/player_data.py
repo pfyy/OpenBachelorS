@@ -50,6 +50,7 @@ from ..const.filepath import (
     ROGUELIKE_TOPIC_TABLE,
     CAMPAIGN_TABLE,
     CRISIS_V2_TABLE,
+    CHAR_META_TABLE,
 )
 from .const_json_loader import const_json_loader, ConstJson, ConstJsonLike, SavableThing
 from .battle_replay_manager import BattleReplayManager, DBBattleReplayManager
@@ -627,19 +628,19 @@ def build_player_data_template():
 
     # ----------
 
-    # temporary
+    if CHAR_META_TABLE in const_json_loader:
+        char_meta_table = const_json_loader[CHAR_META_TABLE]
 
-    if str(get_char_num_id("char_4195_radian")) in tmpl_json_obj["troop"]["chars"]:
-        tmpl_json_obj["troop"]["chars"][str(get_char_num_id("char_4195_radian"))][
-            "master"
-        ] = {
-            "master_radian_1": 2,
-            "master_radian_2": 1,
-            "master_radian_3": 3,
-            "master_radian_4": 3,
-            "master_radian_5": 3,
-            "master_radian_6": 3,
-        }
+        for char_master_id, char_master_obj in char_meta_table["charMasterDataMap"]:
+            char_id = char_master_obj["charId"]
+            char_num_id = get_char_num_id(char_id)
+
+            char_obj = tmpl_json_obj["troop"]["chars"][str(char_num_id)]
+
+            if "master" not in char_obj:
+                char_obj["master"] = {}
+
+            char_obj["master"][char_master_id] = len(char_master_obj["levelList"])
 
     # ----------
 
