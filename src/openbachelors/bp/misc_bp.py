@@ -1082,3 +1082,17 @@ async def activity_football_battleFinish(player_data, request: Request):
         "milestoneAdd": 0,
     }
     return response
+
+
+@router.post("/troop/pinSpecialOperator")
+@player_data_decorator
+async def troop_pinSpecialOperator(player_data, request: Request):
+    request_json = await request.json()
+
+    char_num_id_str = request_json["instId"]
+    char_id = player_data["troop"]["chars"][char_num_id_str]["charId"]
+
+    player_data["mission"]["pinnedSpecialOperator"] = char_id
+
+    response = {}
+    return response
