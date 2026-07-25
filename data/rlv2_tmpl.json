@@ -21245,9 +21245,7 @@
                         "ro6_ending_3": 1
                     }
                 },
-                "legacy": [
-                    "rogue_6_legacy_10"
-                ],
+                "legacy": [],
                 "bandGrade": {
                     "rogue_6_band_1": {
                         "ro6_ending_1": 15,
