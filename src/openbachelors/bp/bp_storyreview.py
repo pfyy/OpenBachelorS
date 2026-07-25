@@ -21,5 +21,10 @@ async def storyreview_readStory(player_data, request: Request):
 @player_data_decorator
 async def story_finishStory(player_data, request: Request):
     request_json = await request.json()
+
+    story_id = request_json["storyId"]
+
+    player_data["status"]["flags"][story_id] = 1
+
     response = {"items": []}
     return response
