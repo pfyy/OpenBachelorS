@@ -2773,6 +2773,223 @@
                         "type": "UNIEQUIP"
                     }
                 }
+            },
+            "char_4230_mcnist": {
+                "EVOLVE": {
+                    "mcnist_n_evolve_1": {
+                        "id": "mcnist_n_evolve_1",
+                        "state": 1,
+                        "type": "EVOLVE"
+                    },
+                    "mcnist_n_evolve_2": {
+                        "id": "mcnist_n_evolve_2",
+                        "state": 1,
+                        "type": "EVOLVE"
+                    }
+                },
+                "SKILL": {
+                    "mcnist_n_skill1_1": {
+                        "id": "mcnist_n_skill1_1",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill1_2": {
+                        "id": "mcnist_n_skill1_2",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill1_3": {
+                        "id": "mcnist_n_skill1_3",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill1_4": {
+                        "id": "mcnist_n_skill1_4",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill1_5": {
+                        "id": "mcnist_n_skill1_5",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill1_6": {
+                        "id": "mcnist_n_skill1_6",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill2_1": {
+                        "id": "mcnist_n_skill2_1",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill2_2": {
+                        "id": "mcnist_n_skill2_2",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill2_3": {
+                        "id": "mcnist_n_skill2_3",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill2_4": {
+                        "id": "mcnist_n_skill2_4",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill2_5": {
+                        "id": "mcnist_n_skill2_5",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill2_6": {
+                        "id": "mcnist_n_skill2_6",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill3_1": {
+                        "id": "mcnist_n_skill3_1",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill3_2": {
+                        "id": "mcnist_n_skill3_2",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill3_3": {
+                        "id": "mcnist_n_skill3_3",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill3_4": {
+                        "id": "mcnist_n_skill3_4",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill3_5": {
+                        "id": "mcnist_n_skill3_5",
+                        "state": 1,
+                        "type": "SKILL"
+                    },
+                    "mcnist_n_skill3_6": {
+                        "id": "mcnist_n_skill3_6",
+                        "state": 1,
+                        "type": "SKILL"
+                    }
+                },
+                "TALENT": {
+                    "mcnist_n_talent1_1": {
+                        "id": "mcnist_n_talent1_1",
+                        "state": 1,
+                        "type": "TALENT"
+                    },
+                    "mcnist_n_talent1_2": {
+                        "id": "mcnist_n_talent1_2",
+                        "state": 1,
+                        "type": "TALENT"
+                    },
+                    "mcnist_n_talent2_1": {
+                        "id": "mcnist_n_talent2_1",
+                        "state": 1,
+                        "type": "TALENT"
+                    }
+                },
+                "MASTER": {
+                    "mcnist_n_master1_1": {
+                        "id": "mcnist_n_master1_1",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master1_2": {
+                        "id": "mcnist_n_master1_2",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master1_3": {
+                        "id": "mcnist_n_master1_3",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master2_1": {
+                        "id": "mcnist_n_master2_1",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master2_2": {
+                        "id": "mcnist_n_master2_2",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master2_3": {
+                        "id": "mcnist_n_master2_3",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master3_1": {
+                        "id": "mcnist_n_master3_1",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master3_2": {
+                        "id": "mcnist_n_master3_2",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master3_3": {
+                        "id": "mcnist_n_master3_3",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master4_1": {
+                        "id": "mcnist_n_master4_1",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master4_2": {
+                        "id": "mcnist_n_master4_2",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master4_3": {
+                        "id": "mcnist_n_master4_3",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master6_1": {
+                        "id": "mcnist_n_master6_1",
+                        "state": 1,
+                        "type": "MASTER"
+                    },
+                    "mcnist_n_master5_1": {
+                        "id": "mcnist_n_master5_1",
+                        "state": 1,
+                        "type": "MASTER"
+                    }
+                },
+                "UNIEQUIP": {
+                    "mcnist_n_uniequip0_1": {
+                        "id": "mcnist_n_uniequip0_1",
+                        "state": 1,
+                        "type": "UNIEQUIP"
+                    },
+                    "mcnist_n_uniequip1_1": {
+                        "id": "mcnist_n_uniequip1_1",
+                        "state": 1,
+                        "type": "UNIEQUIP"
+                    },
+                    "mcnist_n_uniequip1_2": {
+                        "id": "mcnist_n_uniequip1_2",
+                        "state": 1,
+                        "type": "UNIEQUIP"
+                    },
+                    "mcnist_n_uniequip1_3": {
+                        "id": "mcnist_n_uniequip1_3",
+                        "state": 1,
+                        "type": "UNIEQUIP"
+                    }
+                }
             }
         }
     },
