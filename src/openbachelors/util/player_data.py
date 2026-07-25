@@ -628,9 +628,9 @@ def build_player_data_template():
 
     # ----------
 
-    if CHAR_META_TABLE in const_json_loader:
-        char_meta_table = const_json_loader[CHAR_META_TABLE]
+    char_meta_table = const_json_loader[CHAR_META_TABLE]
 
+    if "charMasterDataMap" in char_meta_table:
         for char_master_id, char_master_obj in char_meta_table["charMasterDataMap"]:
             char_id = char_master_obj["charId"]
             char_num_id = get_char_num_id(char_id)
