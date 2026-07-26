@@ -5078,7 +5078,26 @@
                     ]
                 }
             ],
-            "6": [],
+            "6": [
+                {
+                    "key": "bp_reward_increase",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": 2
+                        }
+                    ]
+                },
+                {
+                    "key": "inc_outerbuff_shop_slot_unlock",
+                    "blackboard": [
+                        {
+                            "key": "count",
+                            "value": 2
+                        }
+                    ]
+                }
+            ],
             "9": []
         }
     },
@@ -11299,8 +11318,96 @@
                 "child_mode_grade_lst": []
             },
             "5": {
-                "buff_lst": [],
-                "child_mode_grade_lst": []
+                "buff_lst": [
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.05
+                            }
+                        ]
+                    },
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.05
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": [
+                    4
+                ]
             },
             "6": {
                 "buff_lst": [],
