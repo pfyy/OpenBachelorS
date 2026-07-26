@@ -1294,6 +1294,15 @@ class Rlv2Theme6BasicManager(Rlv2BasicManager):
             "y": 0,
         }
 
+    def leave_node(self):
+        super().leave_node()
+
+        if self.player_data["rlv2"]["current"]["player"]["cursor"]["position"] is None:
+            self.player_data["rlv2"]["current"]["player"]["cursor"]["position"] = {
+                "x": 0,
+                "y": 0,
+            }
+
 
 def get_rlv2_manager(player_data, request_json, response):
     theme_id = player_data["rlv2"]["current"]["game"]["theme"]
