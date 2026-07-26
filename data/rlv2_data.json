@@ -3783,23 +3783,6 @@
                 ]
             },
             {
-                "key": "game_settle_reward",
-                "blackboard": [
-                    {
-                        "key": "id",
-                        "valueStr": "rogue_6_legacy_10"
-                    },
-                    {
-                        "key": "count",
-                        "value": 1
-                    },
-                    {
-                        "key": "is_success",
-                        "value": 0
-                    }
-                ]
-            },
-            {
                 "key": "immediate_reward",
                 "blackboard": [
                     {
