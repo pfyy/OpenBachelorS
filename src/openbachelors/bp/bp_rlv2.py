@@ -940,6 +940,12 @@ class Rlv2BasicManager:
         pending_lst.pop(0)
         self.player_data["rlv2"]["current"]["player"]["pending"] = pending_lst
 
+    def rlv2_gridZone_moveAndBattleStart(self):
+        pass
+
+    def rlv2_gridZone_moveTo(self):
+        pass
+
 
 class Rlv2Theme1BasicManager(Rlv2BasicManager):
     def get_floor_difficulty(self, mode, mode_grade):
@@ -1445,4 +1451,30 @@ async def rlv2_setPinned(player_data, request: Request):
     player_data["rlv2"]["pinned"] = theme_id
 
     response = {}
+    return response
+
+
+@router.post("/rlv2/gridZone/moveAndBattleStart")
+@player_data_decorator
+async def rlv2_gridZone_moveAndBattleStart(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    rlv2_manager = get_rlv2_manager(player_data, request_json, response)
+
+    rlv2_manager.rlv2_gridZone_moveAndBattleStart()
+
+    return response
+
+
+@router.post("/rlv2/gridZone/moveTo")
+@player_data_decorator
+async def rlv2_gridZone_moveTo(player_data, request: Request):
+    request_json = await request.json()
+    response = {}
+
+    rlv2_manager = get_rlv2_manager(player_data, request_json, response)
+
+    rlv2_manager.rlv2_gridZone_moveTo()
+
     return response
