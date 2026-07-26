@@ -10689,6 +10689,98 @@
                     17
                 ]
             }
+        },
+        "rogue_6": {
+            "0": {
+                "buff_lst": [
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "atk",
+                                "value": -0.3
+                            }
+                        ]
+                    },
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": -0.4
+                            }
+                        ]
+                    },
+                    {
+                        "key": "game_settle_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_legacy_10"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            },
+                            {
+                                "key": "is_success",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.7
+                            },
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "none"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.6
+                            },
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "none"
+                            }
+                        ]
+                    }
+                ],
+                "child_mode_grade_lst": []
+            }
         }
     }
 }
