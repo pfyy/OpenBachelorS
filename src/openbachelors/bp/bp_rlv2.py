@@ -1226,6 +1226,35 @@ class Rlv2Theme5BasicManager(Rlv2BasicManager):
         return stage_buff_lst
 
 
+class Rlv2Theme6BasicManager(Rlv2BasicManager):
+    def rlv2_finishEvent(self):
+        super().rlv2_finishEvent()
+
+        grid_zone_obj = {"zones": {}, "stepRemain": 999, "needConfirmStepZero": false}
+        map_obj = self.player_data["rlv2"]["current"]["map"]["zones"]
+
+        for zone_index_str, zone_obj in map_obj:
+            zone_id = zone_obj["id"]
+
+            grid_zone_obj["zones"][zone_id] = {
+                "nodes": {},
+            }
+
+            for node_id, node_obj in zone_obj["nodes"]:
+                grid_zone_obj["zones"][zone_id]["nodes"][node_id] = {
+                    "content": {},
+                    "state": 0,
+                    "show": true,
+                }
+
+        self.player_data["rlv2"]["current"]["module"]["gridZone"] = grid_zone_obj
+
+        self.player_data["rlv2"]["current"]["player"]["cursor"]["position"] = {
+            "x": 0,
+            "y": 0,
+        }
+
+
 def get_rlv2_manager(player_data, request_json, response):
     theme_id = player_data["rlv2"]["current"]["game"]["theme"]
     if theme_id == "rogue_1":
@@ -1236,6 +1265,8 @@ def get_rlv2_manager(player_data, request_json, response):
         return Rlv2Theme4BasicManager(player_data, theme_id, request_json, response)
     if theme_id == "rogue_5":
         return Rlv2Theme5BasicManager(player_data, theme_id, request_json, response)
+    if theme_id == "rogue_6":
+        return Rlv2Theme6BasicManager(player_data, theme_id, request_json, response)
     return Rlv2BasicManager(player_data, theme_id, request_json, response)
 
 
