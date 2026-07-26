@@ -13137,15 +13137,1195 @@
                 "child_mode_grade_lst": []
             },
             "13": {
-                "buff_lst": [],
+                "buff_lst": [
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.76
+                            }
+                        ]
+                    },
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.76
+                            }
+                        ]
+                    },
+                    {
+                        "key": "force_blur_type_until_count",
+                        "blackboard": [
+                            {
+                                "key": "node_type",
+                                "valueStr": "FINAL"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_def_down"
+                            },
+                            {
+                                "key": "def",
+                                "value": 1.5
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2150_shchmr"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_6_level_13"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2150_shchmr"
+                            },
+                            {
+                                "key": "ep_damage_ratio",
+                                "value": 0.1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_cost",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_max_weight"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "level_char_limit_add",
+                        "blackboard": [
+                            {
+                                "key": "value",
+                                "value": -1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "recruit_cost_zone",
+                        "blackboard": [
+                            {
+                                "key": "rarity",
+                                "valueStr": "TIER_5"
+                            },
+                            {
+                                "key": "profession",
+                                "valueStr": "PIONEER,WARRIOR,TANK,SNIPER,CASTER,SUPPORT,MEDIC,SPECIAL"
+                            },
+                            {
+                                "key": "delta",
+                                "value": 1
+                            },
+                            {
+                                "key": "zone_list",
+                                "valueStr": "zone_1,zone_2,zone_3,zone_4,zone_5,zone_6,zone_4_1,zone_portal_normal_1_1,zone_portal_normal_1_2,zone_portal_normal_2_1,zone_portal_normal_2_2,zone_portal_normal_3_1,zone_portal_normal_3_2,zone_portal_normal_4_1,zone_portal_normal_4_2,zone_portal_normal_5_1,zone_portal_normal_5_2,zone_portal_normal_5_3,zone_portal_normal_6_1,zone_portal_normal_6_2,zone_portal_normal_6_3,zone_portal_normal_7_1,zone_portal_normal_7_2,zone_portal_normal_8_1,zone_portal_normal_8_2,zone_portal_normal_9"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "unlock_node",
+                        "blackboard": [
+                            {
+                                "key": "node",
+                                "valueStr": "BATTLE_SAVAGE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_1"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_2"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.3
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_6"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_3"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_4"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_5"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "zone_into_cost_ratio",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_gold"
+                            },
+                            {
+                                "key": "ratio",
+                                "value": 0.1
+                            }
+                        ]
+                    }
+                ],
                 "child_mode_grade_lst": []
             },
             "14": {
-                "buff_lst": [],
+                "buff_lst": [
+                    {
+                        "key": "battle_event_cost",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_ap"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            },
+                            {
+                                "key": "event_key",
+                                "valueStr": "SIMPLE"
+                            },
+                            {
+                                "key": "event_args",
+                                "valueStr": "enemy_2137_shsdgo,rogue_6_level_11"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "enemy_talent_blackboard_assign",
+                        "blackboard": [
+                            {
+                                "key": "talent_key",
+                                "valueStr": "Aura"
+                            },
+                            {
+                                "key": "key",
+                                "valueStr": "value_damage"
+                            },
+                            {
+                                "key": "value",
+                                "value": 100
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2148_shorbb"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "force_blur_type_until_count",
+                        "blackboard": [
+                            {
+                                "key": "node_type",
+                                "valueStr": "FINAL"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_def_down"
+                            },
+                            {
+                                "key": "def",
+                                "value": 1.5
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2150_shchmr"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 2
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2148_shorbb"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_6_level_11"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2137_shsdgo"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_6_level_13"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2150_shchmr"
+                            },
+                            {
+                                "key": "ep_damage_ratio",
+                                "value": 0.1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_cost",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_max_weight"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "level_char_limit_add",
+                        "blackboard": [
+                            {
+                                "key": "value",
+                                "value": -1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "recruit_cost_zone",
+                        "blackboard": [
+                            {
+                                "key": "rarity",
+                                "valueStr": "TIER_5"
+                            },
+                            {
+                                "key": "profession",
+                                "valueStr": "PIONEER,WARRIOR,TANK,SNIPER,CASTER,SUPPORT,MEDIC,SPECIAL"
+                            },
+                            {
+                                "key": "delta",
+                                "value": 1
+                            },
+                            {
+                                "key": "zone_list",
+                                "valueStr": "zone_1,zone_2,zone_3,zone_4,zone_5,zone_6,zone_4_1,zone_portal_normal_1_1,zone_portal_normal_1_2,zone_portal_normal_2_1,zone_portal_normal_2_2,zone_portal_normal_3_1,zone_portal_normal_3_2,zone_portal_normal_4_1,zone_portal_normal_4_2,zone_portal_normal_5_1,zone_portal_normal_5_2,zone_portal_normal_5_3,zone_portal_normal_6_1,zone_portal_normal_6_2,zone_portal_normal_6_3,zone_portal_normal_7_1,zone_portal_normal_7_2,zone_portal_normal_8_1,zone_portal_normal_8_2,zone_portal_normal_9"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "unlock_node",
+                        "blackboard": [
+                            {
+                                "key": "node",
+                                "valueStr": "BATTLE_SAVAGE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_1"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_2"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.3
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_6"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_3"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_4"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_5"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "zone_into_cost_ratio",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_gold"
+                            },
+                            {
+                                "key": "ratio",
+                                "value": 0.1
+                            }
+                        ]
+                    }
+                ],
                 "child_mode_grade_lst": []
             },
             "15": {
-                "buff_lst": [],
+                "buff_lst": [
+                    {
+                        "key": "battle_event_cost",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_ap"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            },
+                            {
+                                "key": "event_key",
+                                "valueStr": "SIMPLE"
+                            },
+                            {
+                                "key": "event_args",
+                                "valueStr": "enemy_2137_shsdgo,rogue_6_level_11"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.49
+                            }
+                        ]
+                    },
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.49
+                            }
+                        ]
+                    },
+                    {
+                        "key": "enemy_talent_blackboard_assign",
+                        "blackboard": [
+                            {
+                                "key": "talent_key",
+                                "valueStr": "Aura"
+                            },
+                            {
+                                "key": "key",
+                                "valueStr": "value_damage"
+                            },
+                            {
+                                "key": "value",
+                                "value": 100
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2148_shorbb"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "force_blur_type_until_count",
+                        "blackboard": [
+                            {
+                                "key": "node_type",
+                                "valueStr": "FINAL"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 1.15
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_damage_resistance[inf]"
+                            },
+                            {
+                                "key": "damage_resistance",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_def_down"
+                            },
+                            {
+                                "key": "def",
+                                "value": 1.5
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2150_shchmr"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "BOSS"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "ELITE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.3
+                            },
+                            {
+                                "key": "selector.enemy_level_type",
+                                "valueStr": "NORMAL"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 1.5
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2137_shsdgo"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 2
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2148_shorbb"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_6_level_11"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2137_shsdgo"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_6_level_13"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2150_shchmr"
+                            },
+                            {
+                                "key": "ep_damage_ratio",
+                                "value": 0.1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "rogue_6_level_15"
+                            },
+                            {
+                                "key": "selector.enemy",
+                                "valueStr": "enemy_2137_shsdgo"
+                            },
+                            {
+                                "key": "hp_ratio",
+                                "value": 0.01
+                            }
+                        ]
+                    },
+                    {
+                        "key": "immediate_cost",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_max_weight"
+                            },
+                            {
+                                "key": "count",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "key": "level_char_limit_add",
+                        "blackboard": [
+                            {
+                                "key": "value",
+                                "value": -1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "recruit_cost_zone",
+                        "blackboard": [
+                            {
+                                "key": "rarity",
+                                "valueStr": "TIER_5"
+                            },
+                            {
+                                "key": "profession",
+                                "valueStr": "PIONEER,WARRIOR,TANK,SNIPER,CASTER,SUPPORT,MEDIC,SPECIAL"
+                            },
+                            {
+                                "key": "delta",
+                                "value": 1
+                            },
+                            {
+                                "key": "zone_list",
+                                "valueStr": "zone_1,zone_2,zone_3,zone_4,zone_5,zone_6,zone_4_1,zone_portal_normal_1_1,zone_portal_normal_1_2,zone_portal_normal_2_1,zone_portal_normal_2_2,zone_portal_normal_3_1,zone_portal_normal_3_2,zone_portal_normal_4_1,zone_portal_normal_4_2,zone_portal_normal_5_1,zone_portal_normal_5_2,zone_portal_normal_5_3,zone_portal_normal_6_1,zone_portal_normal_6_2,zone_portal_normal_6_3,zone_portal_normal_7_1,zone_portal_normal_7_2,zone_portal_normal_8_1,zone_portal_normal_8_2,zone_portal_normal_9"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "recruit_cost_zone",
+                        "blackboard": [
+                            {
+                                "key": "rarity",
+                                "valueStr": "TIER_6"
+                            },
+                            {
+                                "key": "profession",
+                                "valueStr": "PIONEER,WARRIOR,TANK,SNIPER,CASTER,SUPPORT,MEDIC,SPECIAL"
+                            },
+                            {
+                                "key": "delta",
+                                "value": 1
+                            },
+                            {
+                                "key": "zone_list",
+                                "valueStr": "zone_1,zone_2,zone_3,zone_4,zone_5,zone_6,zone_4_1,zone_portal_normal_1_1,zone_portal_normal_1_2,zone_portal_normal_2_1,zone_portal_normal_2_2,zone_portal_normal_3_1,zone_portal_normal_3_2,zone_portal_normal_4_1,zone_portal_normal_4_2,zone_portal_normal_5_1,zone_portal_normal_5_2,zone_portal_normal_5_3,zone_portal_normal_6_1,zone_portal_normal_6_2,zone_portal_normal_6_3,zone_portal_normal_7_1,zone_portal_normal_7_2,zone_portal_normal_8_1,zone_portal_normal_8_2,zone_portal_normal_9"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "unlock_node",
+                        "blackboard": [
+                            {
+                                "key": "node",
+                                "valueStr": "BATTLE_SAVAGE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_1"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_2"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.3
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_6"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_3"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_4"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.4
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_5"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "zone_into_cost_ratio",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_gold"
+                            },
+                            {
+                                "key": "ratio",
+                                "value": 0.1
+                            }
+                        ]
+                    }
+                ],
                 "child_mode_grade_lst": []
             }
         }
