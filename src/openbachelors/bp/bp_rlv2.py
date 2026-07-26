@@ -940,11 +940,31 @@ class Rlv2BasicManager:
         pending_lst.pop(0)
         self.player_data["rlv2"]["current"]["player"]["pending"] = pending_lst
 
+    def convert_gridZone_req(self):
+        node_id = self.request_json["route"][0]
+
+        zone_idx = self.player_data["rlv2"]["current"]["player"]["cursor"]["zone"]
+        node_obj = self.player_data["rlv2"]["current"]["map"]["zones"][str(zone_idx)][
+            "nodes"
+        ][node_id]
+
+        node_pos_x = node_obj["pos"]["x"]
+        node_pos_y = node_obj["pos"]["y"]
+
+        self.request_json["to"] = {
+            "x": node_pos_x,
+            "y": node_pos_y,
+        }
+
     def rlv2_gridZone_moveAndBattleStart(self):
-        pass
+        self.convert_gridZone_req()
+
+        self.rlv2_moveAndBattleStart()
 
     def rlv2_gridZone_moveTo(self):
-        pass
+        self.convert_gridZone_req()
+
+        self.rlv2_moveTo()
 
 
 class Rlv2Theme1BasicManager(Rlv2BasicManager):
