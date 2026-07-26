@@ -941,7 +941,7 @@ class Rlv2BasicManager:
         self.player_data["rlv2"]["current"]["player"]["pending"] = pending_lst
 
     def convert_gridZone_req(self):
-        node_id = self.request_json["route"][0]
+        node_id = self.request_json["route"][-1]
 
         zone_idx = self.player_data["rlv2"]["current"]["player"]["cursor"]["zone"]
         node_obj = self.player_data["rlv2"]["current"]["map"]["zones"][str(zone_idx)][
@@ -1255,6 +1255,20 @@ class Rlv2Theme5BasicManager(Rlv2BasicManager):
 class Rlv2Theme6BasicManager(Rlv2BasicManager):
     def rlv2_finishEvent(self):
         super().rlv2_finishEvent()
+
+        self.player_data["rlv2"]["current"]["module"]["scrap"] = {
+            "activeVehicle": {"isWalk": false, "instId": "s_1"},
+            "inventory": {
+                "s_1": {
+                    "instId": "s_1",
+                    "id": "rogue_6_scrap_M_11",
+                    "value": 1,
+                    "useCnt": 3,
+                    "ts": 1700000000,
+                },
+            },
+            "limit": 10,
+        }
 
         grid_zone_obj = {"zones": {}, "stepRemain": 999, "needConfirmStepZero": false}
         map_obj = self.player_data["rlv2"]["current"]["map"]["zones"]
