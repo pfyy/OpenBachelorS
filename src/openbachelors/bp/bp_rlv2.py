@@ -1303,6 +1303,57 @@ class Rlv2Theme6BasicManager(Rlv2BasicManager):
                 "y": 0,
             }
 
+    def get_stage_buff_lst(self, floor_difficulty):
+        stage_id = self.request_json["stageId"]
+
+        stage_floor = self.get_stage_floor(stage_id)
+
+        stage_buff_lst = []
+
+        floor_difficulty_rate = 1 + 0.01 * floor_difficulty
+
+        stage_buff_lst += [
+            {
+                "key": "zone_into_buff",
+                "blackboard": [
+                    {"key": "buff", "valueStr": "global_buff_normal"},
+                    {"key": "key", "valueStr": "enemy_atk_down"},
+                    {"key": "atk", "value": floor_difficulty_rate},
+                    {"key": "selector.profession", "valueStr": "none"},
+                ],
+            },
+            {
+                "key": "zone_into_buff",
+                "blackboard": [
+                    {"key": "buff", "valueStr": "global_buff_normal"},
+                    {"key": "key", "valueStr": "enemy_max_hp_down"},
+                    {"key": "max_hp", "value": floor_difficulty_rate},
+                    {"key": "selector.profession", "valueStr": "none"},
+                ],
+            },
+        ]
+
+        for i in range(stage_floor):
+            stage_buff_lst += [
+                {
+                    "key": "global_buff_normal",
+                    "blackboard": [
+                        {"key": "key", "valueStr": "enemy_atk_down"},
+                        {"key": "atk", "value": floor_difficulty_rate},
+                        {"key": "selector.profession", "valueStr": "none"},
+                    ],
+                },
+                {
+                    "key": "global_buff_normal",
+                    "blackboard": [
+                        {"key": "key", "valueStr": "enemy_max_hp_down"},
+                        {"key": "max_hp", "value": floor_difficulty_rate},
+                        {"key": "selector.profession", "valueStr": "none"},
+                    ],
+                },
+            ]
+        return stage_buff_lst
+
 
 def get_rlv2_manager(player_data, request_json, response):
     theme_id = player_data["rlv2"]["current"]["game"]["theme"]
