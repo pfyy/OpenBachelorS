@@ -5056,6 +5056,11 @@
                     ]
                 }
             ]
+        },
+        "rogue_6": {
+            "3": [],
+            "6": [],
+            "9": []
         }
     },
     "stage_floor": {
@@ -10779,6 +10784,66 @@
                         ]
                     }
                 ],
+                "child_mode_grade_lst": []
+            },
+            "1": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "2": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "3": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "4": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "5": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "6": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "7": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "8": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "9": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "10": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "11": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "12": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "13": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "14": {
+                "buff_lst": [],
+                "child_mode_grade_lst": []
+            },
+            "15": {
+                "buff_lst": [],
                 "child_mode_grade_lst": []
             }
         }
