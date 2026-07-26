@@ -5058,7 +5058,26 @@
             ]
         },
         "rogue_6": {
-            "3": [],
+            "3": [
+                {
+                    "key": "bp_reward_increase",
+                    "blackboard": [
+                        {
+                            "key": "value",
+                            "value": 2
+                        }
+                    ]
+                },
+                {
+                    "key": "node_light_range",
+                    "blackboard": [
+                        {
+                            "key": "count",
+                            "value": 1
+                        }
+                    ]
+                }
+            ],
             "6": [],
             "9": []
         }
@@ -11028,7 +11047,167 @@
                 "child_mode_grade_lst": []
             },
             "3": {
-                "buff_lst": [],
+                "buff_lst": [
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "atk",
+                                "value": -0.1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "char_attribute_mul",
+                        "blackboard": [
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "trap"
+                            },
+                            {
+                                "key": "selector.char",
+                                "valueStr": "trap_324_shmbmb"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": -0.1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "force_blur_type_until_count",
+                        "blackboard": [
+                            {
+                                "key": "node_type",
+                                "valueStr": "FINAL"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "game_settle_reward",
+                        "blackboard": [
+                            {
+                                "key": "id",
+                                "valueStr": "rogue_6_legacy_10"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            },
+                            {
+                                "key": "is_success",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_atk_down"
+                            },
+                            {
+                                "key": "atk",
+                                "value": 0.9
+                            },
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "none"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "global_buff_normal",
+                        "blackboard": [
+                            {
+                                "key": "key",
+                                "valueStr": "enemy_max_hp_down"
+                            },
+                            {
+                                "key": "max_hp",
+                                "value": 0.9
+                            },
+                            {
+                                "key": "selector.profession",
+                                "valueStr": "none"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "unlock_system",
+                        "blackboard": [
+                            {
+                                "key": "type",
+                                "valueStr": "BAN_SUB_WEATHER"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.15
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_3"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_2"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_4"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_5"
+                            }
+                        ]
+                    }
+                ],
                 "child_mode_grade_lst": []
             },
             "4": {
