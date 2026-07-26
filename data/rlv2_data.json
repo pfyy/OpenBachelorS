@@ -11211,7 +11211,91 @@
                 "child_mode_grade_lst": []
             },
             "4": {
-                "buff_lst": [],
+                "buff_lst": [
+                    {
+                        "key": "force_blur_type_until_count",
+                        "blackboard": [
+                            {
+                                "key": "node_type",
+                                "valueStr": "FINAL"
+                            },
+                            {
+                                "key": "count",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "key": "unlock_node",
+                        "blackboard": [
+                            {
+                                "key": "node",
+                                "valueStr": "BATTLE_SAVAGE"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "unlock_system",
+                        "blackboard": [
+                            {
+                                "key": "type",
+                                "valueStr": "BAN_SUB_WEATHER"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.15
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_3"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_2"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_4"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "weather_prob_up",
+                        "blackboard": [
+                            {
+                                "key": "prob",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "zone_id",
+                                "valueStr": "zone_5"
+                            }
+                        ]
+                    }
+                ],
                 "child_mode_grade_lst": []
             },
             "5": {
