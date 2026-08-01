@@ -7145,6 +7145,32 @@
     },
     "limitedBuff": {},
     "inventory": {},
+    "arkodc": {
+        "topics": {
+            "ark_odc_act53side": {
+                "varSeqs": {
+                    "q001_bool_game_open": 1
+                },
+                "rewards": {
+                    "ark_odc_act53side_reward_q001": 1,
+                    "ark_odc_act53side_reward_q002": 1,
+                    "ark_odc_act53side_reward_q003": 1,
+                    "ark_odc_act53side_reward_tre_a": 1,
+                    "ark_odc_act53side_reward_tre_b": 1,
+                    "ark_odc_act53side_reward_tre_c": 1,
+                    "ark_odc_act53side_reward_tre_d": 1,
+                    "ark_odc_act53side_reward_tre_e": 1,
+                    "ark_odc_act53side_reward_tre_mdw_bat": 1,
+                    "ark_odc_act53side_reward_tre_bpm_bat": 1
+                },
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        }
+    },
     "templateTrap": {
         "domains": {
             "act32side": {
