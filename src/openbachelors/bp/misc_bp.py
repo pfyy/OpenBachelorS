@@ -1096,3 +1096,84 @@ async def troop_pinSpecialOperator(player_data, request: Request):
 
     response = {}
     return response
+
+
+@router.post("/arkodc/savePosition")
+@player_data_decorator
+async def arkodc_savePosition(player_data, request: Request):
+    request_json = await request.json()
+
+    topic_id = request_json["topicId"]
+
+    player_data["arkodc"]["topics"][topic_id]["position"] = {
+        "x": request_json["x"],
+        "y": request_json["y"],
+        "z": request_json["z"],
+    }
+
+    response = {}
+    return response
+
+
+@router.post("/arkodc/triggerInteraction")
+@player_data_decorator
+async def arkodc_triggerInteraction(player_data, request: Request):
+    request_json = await request.json()
+
+    response = {
+        "items": [],
+    }
+    return response
+
+
+@router.post("/arkodc/restart")
+@player_data_decorator
+async def arkodc_restart(player_data, request: Request):
+    request_json = await request.json()
+
+    response = {}
+    return response
+
+
+@router.post("/arkodc/battleStart")
+@player_data_decorator
+async def arkodc_battleStart(player_data, request: Request):
+    request_json = await request.json()
+
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+        "apFailReturn": 0,
+        "isApProtect": 0,
+        "inApProtectPeriod": false,
+        "notifyPowerScoreNotEnoughIfFailed": false,
+    }
+    return response
+
+
+@router.post("/arkodc/battleFinish")
+@player_data_decorator
+async def arkodc_battleFinish(player_data, request: Request):
+    request_json = await request.json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "result": 0,
+        "apFailReturn": 0,
+        "expScale": 1.2,
+        "goldScale": 1.2,
+        "rewards": [],
+        "firstRewards": [],
+        "unlockStages": [],
+        "unusualRewards": [],
+        "additionalRewards": [],
+        "furnitureRewards": [],
+        "overrideRewards": [],
+        "alert": [],
+        "suggestFriend": false,
+        "pryResult": [],
+        "itemReturn": [],
+        "extra": {},
+    }
+    return response
