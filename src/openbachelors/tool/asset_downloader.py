@@ -7,6 +7,7 @@ import logging
 from tkinter.filedialog import askopenfilename
 from pathlib import Path
 import zipfile
+import itertools
 
 from ..app import app
 from ..const.json_const import true, false, null
@@ -145,10 +146,13 @@ def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list)
         used_pack_dict[pack_id].add(ab_name)
 
     download_pack_id_set = set()
+    extra_pack_id_set = set()
 
     for pack_id in used_pack_dict:
         if len(used_pack_dict[pack_id]) / len(pack_ab_dict[pack_id]) > 0.8:
             download_pack_id_set.add(pack_id)
+        elif len(used_pack_dict[pack_id]) / len(pack_ab_dict[pack_id]) > 0.5:
+            extra_pack_id_set.add(pack_id)
 
     for ab_name in download_ab_name_lst:
         pack_id = ab_pack_dict.get(ab_name)
@@ -159,7 +163,7 @@ def get_asset_filename_lst_exclude_local(local_hot_update_list, hot_update_list)
 
         asset_filename_lst.append(ab_filename)
 
-    for pack_id in download_pack_id_set:
+    for pack_id in itertools.chain(download_pack_id_set, extra_pack_id_set):
         pack_filename = get_asset_filename(pack_id)
 
         asset_filename_lst.append(pack_filename)
