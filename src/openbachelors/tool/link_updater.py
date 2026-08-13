@@ -9,6 +9,7 @@ from ..const.filepath import (
     LD_LINK_FILEPATH,
     PC_GAME_EN_LINK_FILEPATH,
 )
+from ..util.helper import get_en_launcher_header
 
 REQUESTS_TIMEOUT = 60
 
@@ -101,7 +102,39 @@ def get_pc_game_link():
 
 def get_pc_game_en_link():
     try:
-        return None
+        obj = requests.get(
+            "https://api-launcher-en.yo-star.com/api/launcher/game/config",
+            headers=get_en_launcher_header(),
+            timeout=REQUESTS_TIMEOUT,
+        ).json()
+
+        version = obj["data"]["game_latest_version"]
+        file_path = obj["data"]["game_latest_file_path"]
+
+        obj = requests.get(
+            "https://api-launcher-en.yo-star.com/api/launcher/game/config/json",
+            params={
+                "version": version,
+                "file_path": file_path,
+            },
+            headers=get_en_launcher_header(),
+            timeout=REQUESTS_TIMEOUT,
+        ).json()
+
+        url = obj["data"]["url"]
+
+        obj = requests.get(url).json()
+
+        source = obj["source"]
+
+        link_lst = []
+
+        for i in obj["file"]:
+            link_lst.append(
+                f"https://launcher-pkg-ark-en.yo-star.com/{source}{i['path']}"
+            )
+
+        return "\n".join(link_lst)
     except Exception:
         return None
 
@@ -137,7 +170,7 @@ def main():
         with open(LD_LINK_FILEPATH, "w", encoding="utf-8") as f:
             f.write(ld_link)
 
-    pc_game_en_link = get_pc_game_link()
+    pc_game_en_link = get_pc_game_en_link()
 
     if pc_game_en_link is not None:
         with open(PC_GAME_EN_LINK_FILEPATH, "w", encoding="utf-8") as f:
