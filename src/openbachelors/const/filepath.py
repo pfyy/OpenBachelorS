@@ -39,6 +39,7 @@ MOD_WINDOWS_DIRPATH = "mod_windows/"
 
 GAME_LINK_FILEPATH = "link/game.txt"
 PC_GAME_LINK_FILEPATH = "link/pc_game.txt"
+PC_GAME_EN_LINK_FILEPATH = "link/pc_game_en.txt"
 MUMU_LINK_FILEPATH = "link/mumu12.txt"
 MUMU_15_LINK_FILEPATH = "link/mumu15.txt"
 LD_LINK_FILEPATH = "link/ld14.txt"
