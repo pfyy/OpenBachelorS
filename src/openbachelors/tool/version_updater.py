@@ -24,6 +24,7 @@ def get_pc_version():
     try:
         server_version = requests.get(
             "https://ak-conf.hypergryph.com/config/prod/official/Windows/version",
+            # "https://ark-us-static-online.yo-star.com/assetbundle/official/Windows/version",
             timeout=REQUESTS_TIMEOUT,
         ).json()
         if "resVersion" in server_version and "clientVersion" in server_version:
