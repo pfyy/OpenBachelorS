@@ -7,6 +7,7 @@ from ..const.filepath import (
     MUMU_LINK_FILEPATH,
     MUMU_15_LINK_FILEPATH,
     LD_LINK_FILEPATH,
+    PC_GAME_EN_LINK_FILEPATH,
 )
 
 REQUESTS_TIMEOUT = 60
@@ -98,6 +99,13 @@ def get_pc_game_link():
         return None
 
 
+def get_pc_game_en_link():
+    try:
+        return None
+    except Exception:
+        return None
+
+
 def main():
     game_link = get_game_link()
 
@@ -128,6 +136,12 @@ def main():
     if ld_link is not None:
         with open(LD_LINK_FILEPATH, "w", encoding="utf-8") as f:
             f.write(ld_link)
+
+    pc_game_en_link = get_pc_game_link()
+
+    if pc_game_en_link is not None:
+        with open(PC_GAME_EN_LINK_FILEPATH, "w", encoding="utf-8") as f:
+            f.write(pc_game_en_link)
 
 
 if __name__ == "__main__":
