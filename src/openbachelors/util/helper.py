@@ -332,3 +332,23 @@ def get_httpx_client():
 
 def is_app_frozen():
     return getattr(sys, "frozen", False)
+
+
+def get_en_launcher_header():
+    t = int(time.time())
+
+    head = {"game_tag": "Arknights_EN", "time": t, "version": "1.8.1"}
+
+    head_str = json.dumps(head, separators=(",", ":"))
+    sign = md5(
+        f"{head_str}DE7108E9B2842FD460F4777702727869".encode("utf-8")
+    ).hexdigest()
+
+    return {
+        "Authorization": json.dumps(
+            {
+                "head": head,
+                "sign": sign,
+            }
+        )
+    }
