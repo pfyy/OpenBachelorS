@@ -1,5 +1,7 @@
 import requests
 import json
+from urllib.parse import urlparse
+from pathlib import Path
 
 from ..const.filepath import (
     GAME_LINK_FILEPATH,
@@ -134,7 +136,13 @@ def get_pc_game_en_link():
                 f"https://launcher-pkg-ark-en.yo-star.com{source}{i['path']}"
             )
 
-        return "\n".join(link_lst)
+        result_lst = []
+
+        for link in link_lst:
+            dirpath = Path(urlparse(link).path.lstrip("/")).parent.as_posix()
+            result_lst.append(f"{link}\n  dir={dirpath}")
+
+        return "\n".join(result_lst)
     except Exception:
         return None
 
