@@ -131,7 +131,7 @@ def get_pc_game_en_link():
 
         for i in obj["file"]:
             link_lst.append(
-                f"https://launcher-pkg-ark-en.yo-star.com/{source}{i['path']}"
+                f"https://launcher-pkg-ark-en.yo-star.com{source}{i['path']}"
             )
 
         return "\n".join(link_lst)
