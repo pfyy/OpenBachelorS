@@ -293,7 +293,7 @@ def get_random_key(key_probability_dict: dict):
     return None
 
 
-str_tag_dict = {
+str_tag_cn_dict = {
     "PIONEER": "先锋干员",
     "WARRIOR": "近卫干员",
     "TANK": "重装干员",
@@ -308,8 +308,32 @@ str_tag_dict = {
     "TIER_5": "资深干员",
 }
 
+str_tag_en_dict = {
+    "PIONEER": "Vanguard",
+    "WARRIOR": "Guard",
+    "TANK": "Defender",
+    "SNIPER": "Sniper",
+    "CASTER": "Caster",
+    "MEDIC": "Medic",
+    "SUPPORT": "Supporter",
+    "SPECIAL": "Specialist",
+    "MELEE": "Melee",
+    "RANGED": "Ranged",
+    "TIER_6": "Top Operator",
+    "TIER_5": "Senior Operator",
+}
 
-def get_char_str_tag_lst(char_obj):
+
+def get_str_tag_dict(is_en: bool = False) -> dict:
+    if is_en:
+        return str_tag_en_dict
+
+    return str_tag_cn_dict
+
+
+def get_char_str_tag_lst(char_obj, is_en: bool = False):
+    str_tag_dict = get_str_tag_dict(is_en)
+
     char_str_tag_lst = []
 
     char_str_tag_lst.append(str_tag_dict[char_obj["profession"]])
