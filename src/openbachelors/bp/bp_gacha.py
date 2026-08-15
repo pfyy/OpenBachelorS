@@ -222,6 +222,16 @@ class NormalGachaBasicManager:
         self.refresh_tag_lst()
 
 
+def is_gacha_table_en():
+    gacha_table = const_json_loader[GACHA_TABLE]
+
+    for i, tag_obj in gacha_table["gachaTags"]:
+        if tag_obj["tagName"] == "近卫干员":
+            return False
+
+    return True
+
+
 def build_tag_id_char_id_set_dict():
     tag_id_char_id_set_dict = {}
 
@@ -234,10 +244,12 @@ def build_tag_id_char_id_set_dict():
         str_tag = tag_obj["tagName"]
         str_tag_tag_id_dict[str_tag] = tag_id
 
+    is_en = is_gacha_table_en()
+
     character_table = const_json_loader[CHARACTER_TABLE]
     for i, char_id in player_char_id_lst:
         char_obj = character_table[char_id]
-        str_tag_lst = get_char_str_tag_lst(char_obj)
+        str_tag_lst = get_char_str_tag_lst(char_obj, is_en)
 
         for str_tag in str_tag_lst:
             if str_tag in str_tag_tag_id_dict:
