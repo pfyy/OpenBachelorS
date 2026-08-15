@@ -2,7 +2,7 @@ CONFIG_JSON = "conf/config.json"
 VERSION_JSON = "conf/version.json"
 VERSION_JSON = "conf/version_en.json"
 VERSION_WINDOWS_JSON = "conf/version_windows.json"
-# VERSION_WINDOWS_JSON = "conf/version_en_windows.json"
+VERSION_WINDOWS_JSON = "conf/version_en_windows.json"
 ASSIST_JSON = "conf/assist.json"
 SQUAD_JSON = "conf/squad.json"
 
