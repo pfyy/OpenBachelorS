@@ -14378,6 +14378,447 @@
                     "displayDetailRewards": []
                 }
             }
+        },
+        "camp_r_31": {
+            "stageId": "camp_r_31",
+            "isSmallScale": 0,
+            "breakLadders": [
+                {
+                    "killCnt": 100,
+                    "breakFeeAdd": 0,
+                    "rewards": [
+                        {
+                            "id": "4006",
+                            "count": 20,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30043",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "killCnt": 200,
+                    "breakFeeAdd": 0,
+                    "rewards": [
+                        {
+                            "id": "4003",
+                            "count": 300,
+                            "type": "DIAMOND_SHD"
+                        },
+                        {
+                            "id": "30053",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "killCnt": 250,
+                    "breakFeeAdd": 0,
+                    "rewards": [
+                        {
+                            "id": "4006",
+                            "count": 30,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30063",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "killCnt": 300,
+                    "breakFeeAdd": 0,
+                    "rewards": [
+                        {
+                            "id": "4003",
+                            "count": 400,
+                            "type": "DIAMOND_SHD"
+                        },
+                        {
+                            "id": "30103",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "31013",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "killCnt": 325,
+                    "breakFeeAdd": 0,
+                    "rewards": [
+                        {
+                            "id": "4006",
+                            "count": 40,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "31023",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "31033",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "killCnt": 350,
+                    "breakFeeAdd": 0,
+                    "rewards": [
+                        {
+                            "id": "4003",
+                            "count": 600,
+                            "type": "DIAMOND_SHD"
+                        },
+                        {
+                            "id": "31064",
+                            "count": 1,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "31074",
+                            "count": 1,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "killCnt": 375,
+                    "breakFeeAdd": 0,
+                    "rewards": [
+                        {
+                            "id": "4006",
+                            "count": 60,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "32001",
+                            "count": 1,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "furni_annihilation_s31_01",
+                            "count": 1,
+                            "type": "FURN"
+                        }
+                    ]
+                },
+                {
+                    "killCnt": 400,
+                    "breakFeeAdd": 0,
+                    "rewards": [
+                        {
+                            "id": "4003",
+                            "count": 1000,
+                            "type": "DIAMOND_SHD"
+                        },
+                        {
+                            "id": "30155",
+                            "count": 1,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "31084",
+                            "count": 1,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "isCustomized": false,
+            "dropGains": {
+                "PERMANENT": {
+                    "dropLadders": [
+                        {
+                            "killCnt": 0,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        }
+                    ],
+                    "gainLadders": [],
+                    "displayRewards": [],
+                    "displayDetailRewards": []
+                },
+                "ROTATE": {
+                    "dropLadders": [
+                        {
+                            "killCnt": 0,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        },
+                        {
+                            "killCnt": 100,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        },
+                        {
+                            "killCnt": 200,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        },
+                        {
+                            "killCnt": 250,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        },
+                        {
+                            "killCnt": 300,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        },
+                        {
+                            "killCnt": 325,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        },
+                        {
+                            "killCnt": 350,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        },
+                        {
+                            "killCnt": 375,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        },
+                        {
+                            "killCnt": 400,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        }
+                    ],
+                    "gainLadders": [
+                        {
+                            "killCnt": 0,
+                            "apFailReturn": 25,
+                            "favor": 0,
+                            "expGain": 0,
+                            "goldGain": 0,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 100,
+                            "apFailReturn": 17,
+                            "favor": 8,
+                            "expGain": 80,
+                            "goldGain": 80,
+                            "displayDiamondShdNum": 85
+                        },
+                        {
+                            "killCnt": 200,
+                            "apFailReturn": 10,
+                            "favor": 15,
+                            "expGain": 150,
+                            "goldGain": 150,
+                            "displayDiamondShdNum": 160
+                        },
+                        {
+                            "killCnt": 250,
+                            "apFailReturn": 7,
+                            "favor": 18,
+                            "expGain": 180,
+                            "goldGain": 180,
+                            "displayDiamondShdNum": 205
+                        },
+                        {
+                            "killCnt": 300,
+                            "apFailReturn": 5,
+                            "favor": 20,
+                            "expGain": 200,
+                            "goldGain": 200,
+                            "displayDiamondShdNum": 240
+                        },
+                        {
+                            "killCnt": 325,
+                            "apFailReturn": 3,
+                            "favor": 22,
+                            "expGain": 220,
+                            "goldGain": 220,
+                            "displayDiamondShdNum": 280
+                        },
+                        {
+                            "killCnt": 350,
+                            "apFailReturn": 2,
+                            "favor": 23,
+                            "expGain": 230,
+                            "goldGain": 230,
+                            "displayDiamondShdNum": 305
+                        },
+                        {
+                            "killCnt": 375,
+                            "apFailReturn": 1,
+                            "favor": 24,
+                            "expGain": 240,
+                            "goldGain": 240,
+                            "displayDiamondShdNum": 335
+                        },
+                        {
+                            "killCnt": 400,
+                            "apFailReturn": 0,
+                            "favor": 25,
+                            "expGain": 250,
+                            "goldGain": 250,
+                            "displayDiamondShdNum": 370
+                        }
+                    ],
+                    "displayRewards": [
+                        {
+                            "type": "DIAMOND_SHD",
+                            "id": "4003",
+                            "dropType": "DIAMOND_MATERIAL"
+                        },
+                        {
+                            "type": "CARD_EXP",
+                            "id": "2002",
+                            "dropType": "NORMAL"
+                        }
+                    ],
+                    "displayDetailRewards": [
+                        {
+                            "occPercent": "ALWAYS",
+                            "type": "DIAMOND_SHD",
+                            "id": "4003",
+                            "dropType": "DIAMOND_MATERIAL"
+                        },
+                        {
+                            "occPercent": "ALWAYS",
+                            "type": "CARD_EXP",
+                            "id": "2002",
+                            "dropType": "NORMAL"
+                        }
+                    ]
+                },
+                "TRAINING": {
+                    "dropLadders": [
+                        {
+                            "killCnt": 0,
+                            "dropInfo": {
+                                "firstPassRewards": null,
+                                "passRewards": null,
+                                "displayDetailRewards": null
+                            }
+                        }
+                    ],
+                    "gainLadders": [
+                        {
+                            "killCnt": 0,
+                            "apFailReturn": 25,
+                            "favor": 0,
+                            "expGain": 0,
+                            "goldGain": 0,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 100,
+                            "apFailReturn": 17,
+                            "favor": 8,
+                            "expGain": 80,
+                            "goldGain": 80,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 200,
+                            "apFailReturn": 10,
+                            "favor": 15,
+                            "expGain": 150,
+                            "goldGain": 150,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 250,
+                            "apFailReturn": 7,
+                            "favor": 18,
+                            "expGain": 180,
+                            "goldGain": 180,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 300,
+                            "apFailReturn": 5,
+                            "favor": 20,
+                            "expGain": 200,
+                            "goldGain": 200,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 325,
+                            "apFailReturn": 3,
+                            "favor": 22,
+                            "expGain": 220,
+                            "goldGain": 220,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 350,
+                            "apFailReturn": 2,
+                            "favor": 23,
+                            "expGain": 230,
+                            "goldGain": 230,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 375,
+                            "apFailReturn": 1,
+                            "favor": 24,
+                            "expGain": 240,
+                            "goldGain": 240,
+                            "displayDiamondShdNum": 0
+                        },
+                        {
+                            "killCnt": 400,
+                            "apFailReturn": 0,
+                            "favor": 25,
+                            "expGain": 250,
+                            "goldGain": 250,
+                            "displayDiamondShdNum": 0
+                        }
+                    ],
+                    "displayRewards": [],
+                    "displayDetailRewards": []
+                }
+            }
         }
     },
     "campaignGroups": {
@@ -14714,7 +15155,8 @@
         "camp_r_27": 1,
         "camp_r_28": 2,
         "camp_r_29": 2,
-        "camp_r_30": 2
+        "camp_r_30": 2,
+        "camp_r_31": 1
     },
     "campaignConstTable": {
         "systemPreposedStage": "main_01-05",
@@ -15081,6 +15523,18 @@
             "duration": 105,
             "startTs": 1777892400,
             "endTs": 1786964399
+        },
+        {
+            "groupId": "group_r_31",
+            "stageId": "camp_r_31",
+            "mapId": "map_13",
+            "unknownRegions": [
+                "camp_region_unknow_12_1",
+                "camp_region_unknow_12_2"
+            ],
+            "duration": 77,
+            "startTs": 1786964400,
+            "endTs": 1793617199
         }
     ],
     "campaignTrainingStageOpenTimes": [
@@ -15936,6 +16390,74 @@
             ],
             "startTs": 1790593200,
             "endTs": 1793012399
+        },
+        {
+            "groupId": "group_tr_69",
+            "stages": [
+                "camp_r_03",
+                "camp_r_06",
+                "camp_r_09",
+                "camp_r_12",
+                "camp_r_15",
+                "camp_r_18",
+                "camp_r_21",
+                "camp_r_24",
+                "camp_r_27",
+                "camp_r_30"
+            ],
+            "startTs": 1793012400,
+            "endTs": 1795431599
+        },
+        {
+            "groupId": "group_tr_70",
+            "stages": [
+                "camp_r_02",
+                "camp_r_05",
+                "camp_r_08",
+                "camp_r_11",
+                "camp_r_14",
+                "camp_r_17",
+                "camp_r_20",
+                "camp_r_23",
+                "camp_r_26",
+                "camp_r_29"
+            ],
+            "startTs": 1795431600,
+            "endTs": 1797850799
+        },
+        {
+            "groupId": "group_tr_71",
+            "stages": [
+                "camp_r_01",
+                "camp_r_04",
+                "camp_r_07",
+                "camp_r_10",
+                "camp_r_13",
+                "camp_r_16",
+                "camp_r_19",
+                "camp_r_22",
+                "camp_r_25",
+                "camp_r_28"
+            ],
+            "startTs": 1797850800,
+            "endTs": 1800269999
+        },
+        {
+            "groupId": "group_tr_72",
+            "stages": [
+                "camp_r_03",
+                "camp_r_06",
+                "camp_r_09",
+                "camp_r_12",
+                "camp_r_15",
+                "camp_r_18",
+                "camp_r_21",
+                "camp_r_24",
+                "camp_r_27",
+                "camp_r_30"
+            ],
+            "startTs": 1800270000,
+            "endTs": 1802689199
         }
     ],
     "campaignTrainingAllOpenTimes": [
@@ -15989,5 +16511,241 @@
             "startTs": 1777892400,
             "endTs": 1780311599
         }
-    ]
+    ],
+    "campaignZoneMapData": {
+        "camp_zone_2": {
+            "camp_r_11": {
+                "position": {
+                    "x": 122.0,
+                    "y": -85.0
+                }
+            },
+            "camp_r_20": {
+                "position": {
+                    "x": 28.0,
+                    "y": 73.0
+                }
+            },
+            "camp_r_26": {
+                "position": {
+                    "x": 100.0,
+                    "y": 113.0
+                }
+            }
+        },
+        "camp_zone_7": {
+            "camp_r_06": {
+                "position": {
+                    "x": 158.0,
+                    "y": 16.0
+                }
+            },
+            "camp_r_18": {
+                "position": {
+                    "x": 111.0,
+                    "y": -124.0
+                }
+            },
+            "camp_r_28": {
+                "position": {
+                    "x": -14.0,
+                    "y": 18.0
+                }
+            }
+        },
+        "camp_zone_6": {
+            "camp_r_05": {
+                "position": {
+                    "x": 182.0,
+                    "y": 1.0
+                }
+            },
+            "camp_r_13": {
+                "position": {
+                    "x": 102.0,
+                    "y": -39.0
+                }
+            },
+            "camp_r_29": {
+                "position": {
+                    "x": 98.0,
+                    "y": 73.0
+                }
+            }
+        },
+        "camp_zone_4": {
+            "camp_r_01": {
+                "position": {
+                    "x": 129.0,
+                    "y": 80.0
+                }
+            },
+            "camp_r_10": {
+                "position": {
+                    "x": 207.0,
+                    "y": 35.0
+                }
+            }
+        },
+        "camp_zone_5": {
+            "camp_r_04": {
+                "position": {
+                    "x": 118.0,
+                    "y": 14.0
+                }
+            },
+            "camp_r_21": {
+                "position": {
+                    "x": 167.0,
+                    "y": 62.0
+                }
+            }
+        },
+        "camp_zone_3": {
+            "camp_01": {
+                "position": {
+                    "x": 322.0,
+                    "y": -73.0
+                }
+            },
+            "camp_r_02": {
+                "position": {
+                    "x": 204.0,
+                    "y": 6.0
+                }
+            },
+            "camp_r_03": {
+                "position": {
+                    "x": 249.0,
+                    "y": 33.0
+                }
+            }
+        },
+        "camp_zone_8": {
+            "camp_r_07": {
+                "position": {
+                    "x": 159.0,
+                    "y": 12.0
+                }
+            }
+        },
+        "camp_zone_1": {
+            "camp_02": {
+                "position": {
+                    "x": 60.0,
+                    "y": -7.0
+                }
+            },
+            "camp_03": {
+                "position": {
+                    "x": 99.0,
+                    "y": 71.0
+                }
+            },
+            "camp_r_15": {
+                "position": {
+                    "x": 121.0,
+                    "y": 17.0
+                }
+            }
+        },
+        "camp_zone_9": {
+            "camp_r_08": {
+                "position": {
+                    "x": 267.0,
+                    "y": -134.0
+                }
+            },
+            "camp_r_14": {
+                "position": {
+                    "x": 189.0,
+                    "y": 73.0
+                }
+            },
+            "camp_r_22": {
+                "position": {
+                    "x": 163.0,
+                    "y": -54.0
+                }
+            },
+            "camp_r_25": {
+                "position": {
+                    "x": 266.0,
+                    "y": -34.0
+                }
+            }
+        },
+        "camp_zone_10": {
+            "camp_r_09": {
+                "position": {
+                    "x": 58.0,
+                    "y": -114.0
+                }
+            },
+            "camp_r_17": {
+                "position": {
+                    "x": 42.0,
+                    "y": -150.0
+                }
+            },
+            "camp_r_19": {
+                "position": {
+                    "x": 105.0,
+                    "y": -107.0
+                }
+            },
+            "camp_r_23": {
+                "position": {
+                    "x": 38.0,
+                    "y": -48.0
+                }
+            }
+        },
+        "camp_zone_11": {
+            "camp_r_12": {
+                "position": {
+                    "x": 115.0,
+                    "y": -16.0
+                }
+            }
+        },
+        "camp_zone_12": {
+            "camp_r_16": {
+                "position": {
+                    "x": 82.0,
+                    "y": -28.0
+                }
+            },
+            "camp_r_27": {
+                "position": {
+                    "x": 118.0,
+                    "y": 2.0
+                }
+            }
+        },
+        "camp_zone_13": {
+            "camp_r_24": {
+                "position": {
+                    "x": 120.0,
+                    "y": 21.0
+                }
+            }
+        },
+        "camp_zone_14": {
+            "camp_r_30": {
+                "position": {
+                    "x": 67.0,
+                    "y": -14.0
+                }
+            }
+        },
+        "camp_zone_15": {
+            "camp_r_31": {
+                "position": {
+                    "x": 155.0,
+                    "y": -17.0
+                }
+            }
+        }
+    }
 }

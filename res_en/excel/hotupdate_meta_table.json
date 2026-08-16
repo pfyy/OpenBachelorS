@@ -560,6 +560,83 @@
             "picType": "NONE",
             "logoId": null,
             "color": null
+        },
+        {
+            "picId": "pic69_s_2",
+            "groupId": 14,
+            "sortId": 4,
+            "startTime": 1783350000,
+            "endTime": 1785149999,
+            "textList": null,
+            "picType": "SKIN",
+            "logoId": "rilakkuma",
+            "color": null
+        },
+        {
+            "picId": "pic69_a_2",
+            "groupId": 14,
+            "sortId": 3,
+            "startTime": 1783350000,
+            "endTime": 1785149999,
+            "textList": null,
+            "picType": "NONE",
+            "logoId": null,
+            "color": null
+        },
+        {
+            "picId": "pic70_s_1",
+            "groupId": 15,
+            "sortId": 3,
+            "startTime": 1784214000,
+            "endTime": 1786618799,
+            "textList": null,
+            "picType": "SKIN",
+            "logoId": "nian_12",
+            "color": null
+        },
+        {
+            "picId": "pic70_a_1",
+            "groupId": 15,
+            "sortId": 2,
+            "startTime": 1784214000,
+            "endTime": 1786013999,
+            "textList": null,
+            "picType": "NONE",
+            "logoId": null,
+            "color": null
+        },
+        {
+            "picId": "pic70_a_2",
+            "groupId": 15,
+            "sortId": 1,
+            "startTime": 1785423600,
+            "endTime": 1786618799,
+            "textList": null,
+            "picType": "NONE",
+            "logoId": null,
+            "color": null
+        },
+        {
+            "picId": "pic71_a_1",
+            "groupId": 16,
+            "sortId": 2,
+            "startTime": 1786622400,
+            "endTime": 1787223599,
+            "textList": null,
+            "picType": "NONE",
+            "logoId": null,
+            "color": null
+        },
+        {
+            "picId": "pic71_s_1",
+            "groupId": 16,
+            "sortId": 3,
+            "startTime": 1786622400,
+            "endTime": 1787828399,
+            "textList": null,
+            "picType": "SKIN",
+            "logoId": "game_8",
+            "color": null
         }
     ],
     "movieInfo": null

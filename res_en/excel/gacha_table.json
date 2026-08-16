@@ -5776,6 +5776,90 @@
             "limitParam": null
         },
         {
+            "gachaPoolId": "DOUBLE_EN_40_0_5",
+            "gachaIndex": 868,
+            "openTime": 1784286000,
+            "endTime": 1785495599,
+            "gachaPoolName": "Rare Operators useful in all kinds of stages",
+            "gachaPoolSummary": "Ends at 03:59, July 31",
+            "gachaPoolDetail": "-",
+            "guaranteeName": "Standard Selection",
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "DOUBLE",
+            "dynMeta": null,
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
+            "gachaPoolId": "DOUBLE_EN_40_0_7",
+            "gachaIndex": 867,
+            "openTime": 1785495600,
+            "endTime": 1786705199,
+            "gachaPoolName": "Rare Operators useful in all kinds of stages",
+            "gachaPoolSummary": "Ends at 03:59, August 14",
+            "gachaPoolDetail": "-",
+            "guaranteeName": "Standard Selection",
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "DOUBLE",
+            "dynMeta": null,
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
+            "gachaPoolId": "SINGLE_EN_41_0_1",
+            "gachaIndex": 39,
+            "openTime": 1786622400,
+            "endTime": 1787828399,
+            "gachaPoolName": "By My Rules",
+            "gachaPoolSummary": "Ends at 03:59, August 27",
+            "gachaPoolDetail": "-",
+            "guaranteeName": "Focused Selection",
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "SINGLE",
+            "dynMeta": null,
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
+            "gachaPoolId": "DOUBLE_EN_41_0_2",
+            "gachaIndex": 864,
+            "openTime": 1786705200,
+            "endTime": 1787914799,
+            "gachaPoolName": "Rare Operators useful in all kinds of stages",
+            "gachaPoolSummary": "Ends August 28 03:59",
+            "gachaPoolDetail": "-",
+            "guaranteeName": "Standard Selection",
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "DOUBLE",
+            "dynMeta": null,
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
             "gachaPoolId": "LIMITED_EN_4_3_1",
             "gachaIndex": 10,
             "openTime": 1609362000,
@@ -6370,6 +6454,32 @@
                 "hasFreeChar": true,
                 "freeCount": 300,
                 "limitedCharId": "char_1045_svash2",
+                "version": 1
+            }
+        },
+        {
+            "gachaPoolId": "LIMITED_EN_40_0_4",
+            "gachaIndex": 10,
+            "openTime": 1784214000,
+            "endTime": 1785409199,
+            "gachaPoolName": "Ashes to Ashes, Ages on Ages",
+            "gachaPoolSummary": "Ends at 03:59, 7/30",
+            "gachaPoolDetail": null,
+            "guaranteeName": null,
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": "LMTGS_COIN_7001",
+            "CDPrimColor": "f36900",
+            "CDSecColor": "d43e2a",
+            "freeBackColor": "ff9e00",
+            "gachaRuleType": "LIMITED",
+            "dynMeta": null,
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": {
+                "hasFreeChar": true,
+                "freeCount": 300,
+                "limitedCharId": "char_2027_wang",
                 "version": 1
             }
         },
@@ -9490,6 +9600,139 @@
             "limitParam": null
         },
         {
+            "gachaPoolId": "CLASSIC_DOUBLE_EN_40_0_2",
+            "gachaIndex": 9928,
+            "openTime": 1784026800,
+            "endTime": 1785236399,
+            "gachaPoolName": "Rare Operators useful in all kinds of stages",
+            "gachaPoolSummary": "Ends at 03:59, July 28",
+            "gachaPoolDetail": null,
+            "guaranteeName": "Kernel Selection",
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "CLASSIC_DOUBLE",
+            "dynMeta": {
+                "main6RarityCharId": "char_179_cgbird",
+                "sub6RarityCharId": "char_332_archet",
+                "rare5CharList": [
+                    "char_338_iris",
+                    "char_367_swllow",
+                    "char_215_mantic"
+                ],
+                "scrollIndex": 8
+            },
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
+            "gachaPoolId": "FESCLASSIC_EN_40_0_3",
+            "gachaIndex": 9927,
+            "openTime": 1785236400,
+            "endTime": 1786445999,
+            "gachaPoolName": "Rare Operators useful in all kinds of stages",
+            "gachaPoolSummary": "Ends at 03:59, August 11",
+            "gachaPoolDetail": null,
+            "guaranteeName": null,
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "FESCLASSIC",
+            "dynMeta": {
+                "rarityPickCharDict": {
+                    "TIER_5": [
+                        "char_128_plosis",
+                        "char_102_texas",
+                        "char_140_whitew",
+                        "char_143_ghost",
+                        "char_204_platnm",
+                        "char_242_otter",
+                        "char_171_bldsk",
+                        "char_173_slchan",
+                        "char_195_glassb",
+                        "char_326_glacus",
+                        "char_243_waaifu",
+                        "char_356_broca",
+                        "char_373_lionhd",
+                        "char_294_ayer",
+                        "char_378_asbest",
+                        "char_349_chiave",
+                        "char_401_elysm",
+                        "char_415_flint",
+                        "char_346_aosta",
+                        "char_214_kafka",
+                        "char_455_nothin",
+                        "char_363_toddi",
+                        "char_475_akafyu",
+                        "char_431_ashlok"
+                    ],
+                    "TIER_6": [
+                        "char_112_siege",
+                        "char_291_aglina",
+                        "char_147_shining",
+                        "char_010_chen",
+                        "char_248_mgllan",
+                        "char_213_mostma",
+                        "char_222_bpipe",
+                        "char_358_lisa",
+                        "char_311_mudrok",
+                        "char_264_f12yin",
+                        "char_437_mizuki",
+                        "char_430_fartth"
+                    ]
+                },
+                "homeDescConst": "In Kernel Locating, the rate-up operators can be <color=#00a8ff>freely selected and locked in</color>! After selection, the rate-up operators <color=#00a8ff>cannot be changed</color>. A <color=#00a8ff>5-star</color> and above operator is guaranteed within the first 10 headhunting attempts!",
+                "chooseRuleConst": "During <color=#00a8ff>Kernel Locating</color>, you can <color=#00a8ff>choose and lock in</color> <color=#00a8ff>two 6-star operators</color> and <color=#00a8ff>three 5-star operators</color> to become rate-up operators.\nWhile making your selection, you can further choose <color=#00a8ff>one 6-star operator</color> and <color=#00a8ff>one 5-star operator</color> to become <color=#00a8ff>available for exchange in the Store</color>. The chosen operators will become available in <color=#ffd800>[Distinctions]</color> and <color=#00a8ff>[Universal Certificates Exchange Area]</color>.\nFor the duration of the current Kernel Locating pool, the rate-up operators <color=#00a8ff>cannot be changed</color>.",
+                "star6ChooseRuleConst": "In the current Kernel Locating, you can select <color=#00a8ff>2 operators</color> from the following 6-star operators, increasing their <color=#00a8ff>total appearance rate to be 50% of the 6-star rate</color>",
+                "star5ChooseRuleConst": "In the current Kernel Locating, you can select <color=#00a8ff>3 operators</color> from the following 5-star operators, increasing their <color=#00a8ff>total appearance rate to be 50% of the 5-star rate</color>",
+                "scrollIndex": 8,
+                "pickUpPerCharPercent": {
+                    "TIER_5": 0.1666625,
+                    "TIER_6": 0.25
+                }
+            },
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
+            "gachaPoolId": "CLASSIC_DOUBLE_EN_40_0_4",
+            "gachaIndex": 9926,
+            "openTime": 1786446000,
+            "endTime": 1787655599,
+            "gachaPoolName": "Rare Operators useful in all kinds of stages",
+            "gachaPoolSummary": "Ends at 03:59, August 25",
+            "gachaPoolDetail": null,
+            "guaranteeName": "Kernel Selection",
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "CLASSIC_DOUBLE",
+            "dynMeta": {
+                "main6RarityCharId": "char_225_haak",
+                "sub6RarityCharId": "char_472_pasngr",
+                "rare5CharList": [
+                    "char_166_skfire",
+                    "char_107_liskam",
+                    "char_379_sesa"
+                ],
+                "scrollIndex": 8
+            },
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
             "gachaPoolId": "SPECIAL_EN_32_0_8",
             "gachaIndex": 40,
             "openTime": 1742922000,
@@ -9709,6 +9952,96 @@
                 "detailTitle": "Orienteering Headhunting Introduction",
                 "detailInfo": "During <@ga.SPGacha>[Orienteering Headhunting]</>, you can <@ga.SPGacha>freely select and lock in </><@ga.SPGacha>three 6-star </>and<@ga.SPGacha> three 5-star </>Operators and raise their rates!\n<@ga.SPGacha>After selection, the rate-up Operators cannot be changed</>.",
                 "homeIntroDesc": "In Orienteering Headhunting, you can <@ga.SPGacha>freely select and lock in</> <@ga.SPGacha>three 5-star and three 6-star Operators</> of this pool and raise their rates! After selection, the rate-up Operators <@ga.SPGacha>cannot be changed</>. A <@ga.SPGacha>5-star</> and above operator is guaranteed within the first 10 headhunting attempts!"
+            },
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
+            "gachaPoolId": "SPECIAL_EN_40_0_6",
+            "gachaIndex": 40,
+            "openTime": 1785423600,
+            "endTime": 1786618799,
+            "gachaPoolName": "Orienteering Headhunting",
+            "gachaPoolSummary": "Ends at 03:59, August 13",
+            "gachaPoolDetail": null,
+            "guaranteeName": null,
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "SPECIAL",
+            "dynMeta": {
+                "rarityPickCharDict": {
+                    "TIER_5": [
+                        "char_492_quercu",
+                        "char_4014_lunacu",
+                        "char_341_sntlla",
+                        "char_4147_mitm",
+                        "char_4178_alanna",
+                        "char_4207_branch"
+                    ],
+                    "TIER_6": [
+                        "char_4010_etlchi",
+                        "char_4179_monstr",
+                        "char_4202_haruka",
+                        "char_4132_ascln",
+                        "char_1019_siege2",
+                        "char_4026_vulpis"
+                    ]
+                },
+                "star6ChooseRule": "In the current Orienteering Headhunting, you can select <@ga.SPGacha>3 operators</> from the following 6-star operators, increasing their <@ga.SPGacha>total appearance rate to be 100% of the 6 star-rate.</>",
+                "star5ChooseRule": "In the current Orienteering Headhunting, you can select <@ga.SPGacha>3 operators</> from the following 5-star operators, increasing their <@ga.SPGacha>total appearance rate to be 60% of the 5-star rate.</>",
+                "detailTitle": "Orienteering Headhunting Introduction",
+                "detailInfo": "During <@ga.SPGacha>[Orienteering Headhunting]</>, you can <@ga.SPGacha>freely select and lock in </><@ga.SPGacha>three 6-star </>and<@ga.SPGacha> three 5-star </>Operators and raise their rates!\n<@ga.SPGacha>After selection, the rate-up Operators cannot be changed</>.",
+                "homeIntroDesc": "In Orienteering Headhunting, you can <@ga.SPGacha>freely select and lock in</> <@ga.SPGacha>three 5-star and three 6-star Operators</> of this pool and raise their rates! After selection, the rate-up Operators <@ga.SPGacha>cannot be changed</>. A <@ga.SPGacha>5-star</> and above operator is guaranteed within the first 10 headhunting attempts!"
+            },
+            "linkageRuleId": null,
+            "linkageParam": null,
+            "limitParam": null
+        },
+        {
+            "gachaPoolId": "RETURN_EN_41_0_1",
+            "gachaIndex": 41,
+            "openTime": 1786622400,
+            "endTime": 1918205999,
+            "gachaPoolName": "Returning Headhunting",
+            "gachaPoolSummary": "Ends at {0}",
+            "gachaPoolDetail": null,
+            "guaranteeName": null,
+            "guarantee5Avail": 1,
+            "guarantee5Count": 10,
+            "LMTGSID": null,
+            "CDPrimColor": null,
+            "CDSecColor": null,
+            "freeBackColor": null,
+            "gachaRuleType": "BACKFLOW",
+            "dynMeta": {
+                "rarityPickCharDict": {
+                    "TIER_5": [
+                        "char_497_ctable",
+                        "char_4032_provs",
+                        "char_4071_peper",
+                        "char_4014_lunacu",
+                        "char_493_firwhl",
+                        "char_446_aroma"
+                    ],
+                    "TIER_6": [
+                        "char_1020_reed2",
+                        "char_4082_qiubai",
+                        "char_2012_typhon",
+                        "char_1032_excu2",
+                        "char_4117_ray",
+                        "char_4132_ascln"
+                    ]
+                },
+                "star6ChooseRule": "In the current Returning Headhunting, you can select <@ga.SPGacha.Return>3 operators</> from the following 6-star operators, increasing their <@ga.SPGacha.Return>total appearance rate to be 100% of the 6-star rate.</>",
+                "star5ChooseRule": "In the current Returning Headhunting, you can select <@ga.SPGacha.Return>3 operators</> from the following 5-star operators, increasing their <@ga.SPGacha.Return>total appearance rate to be 60% of the 5-star rate.</>",
+                "detailTitle": "Returning Headhunting Introduction",
+                "detailInfo": "During <@ga.SPGacha.Return>Returning Headhunting</>, you can <@ga.SPGacha.Return>freely select and lock in </><@ga.SPGacha.Return>three 6-star </>and<@ga.SPGacha.Return> three 5-star </>Operators and raise their rates!\n<@ga.SPGacha.Return>After selection, the rate-up Operators cannot be changed</>.",
+                "homeIntroDesc": "In Returning Headhunting, you can <@ga.SPGacha.Return>freely select and lock in</> <@ga.SPGacha.Return>three 6-star and three 5-star Operators</> of this pool and raise their rates! After selection, the rate-up Operators <@ga.SPGacha.Return>cannot be changed</>. A <@ga.SPGacha.Return>5-star</> and above operator is guaranteed within the first 10 headhunting attempts!"
             },
             "linkageRuleId": null,
             "linkageParam": null,
@@ -10425,7 +10758,7 @@
             4
         ]
     },
-    "recruitDetail": "<@rc.title>Recruit Rules</>\n\n<@rc.em>※Rare recruitment tag rules※</>\n<@rc.em>When the Top Operator tag is chosen and the recruitment time is set to 9 hours, a 6-star operator is guaranteed</>\n<@rc.em>When the Senior Operator tag is chosen, the Top Operator tag is excluded, and the recruitment time is set to 9 hours, a 5-star operator is guaranteed</>\n\n<@rc.subtitle>※All Possible Operators※</>\n<@rc.eml>Operators displayed in green cannot be obtained through Headhunting. You can get them through Recruitment</>\n\n★\n<@rc.eml>Lancet-2</> / <@rc.eml>Castle-3</> / <@rc.eml>THRM-EX</> / <@rc.eml>Justice Knight</> / <@rc.eml>Friston-3</> / <@rc.eml>PhonoR-0</> / <@rc.eml>CONFESS-47</>\n--------------------\n★★\n<@rc.eml>Yato</> / <@rc.eml>Noir Corne</> / <@rc.eml>Rangers</> / <@rc.eml>Durin</> / <@rc.eml>12F</>\n--------------------\n★★★\n<@rc.eml>Adnachiel</> / Fang / Vanilla / Plume / Melantha / Beagle / Kroos / Lava / Hibiscus / Ansel / Steward / Orchid / Catapult / Midnight / Popukar / Spot\n--------------------\n★★★★\n<@rc.eml>Estelle</> / <@rc.eml>Purestream</> / Haze / Gitano / Jessica / Meteor / Shirayuki / Scavenger / Vigna / Dobermann / Matoimaru / Frostleaf / Mousse / Gravel / Rope / Myrrh / Perfumer / Matterhorn / Cuora / Gummy / Earthspirit / Shaw / Beehunter / Greyy / Sussurro / Myrtle / Vermeil / May / Ambriel / Utage / Cutter / Podenco / Click / Jaye / Aciddrop / Arene / Bubble / Jackie / Pinecone / Beanstalk\n--------------------\n★★★★★\n<@rc.eml>Indra</> / <@rc.eml>Vulcan</> / Ptilopsis / Zima / Texas / Specter / Blue Poison / Platinum / Meteorite / Mayer / Silence / Warfarin / Nearl / Projekt Red / Liskarm / Croissant / Provence / Firewatch / Cliffheart / Pramanix / Istina / Manticore / FEater / Nightmare / Swire / Glaucus / Astesia / Executor / Waai Fu / GreyThroat / Reed / Broca / Hung / Leizi / Sesa / Shamare / Elysium / Asbestos / Tsukinogi / Leonhardt / Ayerscarpe / Andreana / Chiave / Beeswax / Flint / April / Aosta / Whisperain / Kafka / Iris / Mr. Nothing / Toddifons / Akafuyu\n--------------------\n★★★★★★\nExusiai / Siege / Ifrit / Shining / Nightingale / Hoshiguma / Saria / SilverAsh / Skadi / Ch'en / Schwarz / Hellagur / Magallan / Mostima / Blaze / Aak / Ceobe / Bagpipe / Phantom / Weedy / Rosa / Suzuran / Thorns / Eunectes / Surtr / Blemishine / Mudrock / Mountain / Archetto / Saga / Passenger / Kal'tsit",
+    "recruitDetail": "<@rc.title>Recruit Rules</>\n\n<@rc.em>Rare recruitment tag rules</>\n<@rc.em>When the Top Operator tag is chosen and the recruitment time is set to 9 hours, a 6-star operator is guaranteed</>\n<@rc.em>When the Senior Operator tag is chosen, the Top Operator tag is excluded, and the recruitment time is set to 9 hours, a 5-star operator is guaranteed</>\n\n<@rc.subtitle>All Possible Operators</>\n<@rc.eml>Operators displayed in green cannot be obtained through Headhunting. You can get them through Recruitment</>\n\n★\n<@rc.eml>Lancet-2</> / <@rc.eml>Castle-3</> / <@rc.eml>THRM-EX</> / <@rc.eml>Justice Knight</> / <@rc.eml>Friston-3</> / <@rc.eml>PhonoR-0</> / <@rc.eml>CONFESS-47</>\n--------------------\n★★\n<@rc.eml>Yato</> / <@rc.eml>Noir Corne</> / <@rc.eml>Rangers</> / <@rc.eml>Durin</> / <@rc.eml>12F</>\n--------------------\n★★★\n<@rc.eml>Adnachiel</> / Fang / Vanilla / Plume / Melantha / Beagle / Kroos / Lava / Hibiscus / Ansel / Steward / Orchid / Catapult / Midnight / Popukar / Spot\n--------------------\n★★★★\n<@rc.eml>Estelle</> / <@rc.eml>Purestream</> / Haze / Gitano / Jessica / Meteor / Shirayuki / Scavenger / Vigna / Dobermann / Matoimaru / Frostleaf / Mousse / Gravel / Rope / Myrrh / Perfumer / Matterhorn / Cuora / Gummy / Earthspirit / Shaw / Beehunter / Greyy / Sussurro / Myrtle / Vermeil / May / Ambriel / Utage / Cutter / Podenco / Click / Jaye / Aciddrop / Arene / Bubble / Jackie / Pinecone / Beanstalk / Indigo\n--------------------\n★★★★★\n<@rc.eml>Indra</> / <@rc.eml>Vulcan</> / Ptilopsis / Zima / Texas / Specter / Blue Poison / Platinum / Meteorite / Mayer / Silence / Warfarin / Nearl / Projekt Red / Liskarm / Croissant / Provence / Firewatch / Cliffheart / Pramanix / Istina / Manticore / FEater / Nightmare / Swire / Glaucus / Astesia / Executor / Waai Fu / GreyThroat / Reed / Broca / Hung / Leizi / Sesa / Shamare / Elysium / Asbestos / Tsukinogi / Leonhardt / Ayerscarpe / Andreana / Chiave / Beeswax / Flint / April / Aosta / Whisperain / Kafka / Iris / Mr. Nothing / Toddifons / Akafuyu / Kirara\n--------------------\n★★★★★★\nExusiai / Siege / Ifrit / Shining / Nightingale / Hoshiguma / Saria / SilverAsh / Skadi / Ch'en / Schwarz / Hellagur / Magallan / Mostima / Blaze / Aak / Ceobe / Bagpipe / Phantom / Weedy / Rosa / Suzuran / Thorns / Eunectes / Surtr / Blemishine / Mudrock / Mountain / Archetto / Saga / Passenger / Kal'tsit / Carnelian",
     "showGachaLogEntry": false,
     "carousel": [
         {
@@ -12613,6 +12946,48 @@
             "spriteId": "picDouble_en_40_0_3"
         },
         {
+            "poolId": "LIMITED_EN_40_0_4",
+            "index": 864,
+            "startTime": 1784214000,
+            "endTime": 1785409199,
+            "spriteId": "picLimited_en_40_0_4"
+        },
+        {
+            "poolId": "DOUBLE_EN_40_0_5",
+            "index": 868,
+            "startTime": 1784286000,
+            "endTime": 1785495599,
+            "spriteId": "picDouble_en_40_0_5"
+        },
+        {
+            "poolId": "DOUBLE_EN_40_0_7",
+            "index": 867,
+            "startTime": 1785495600,
+            "endTime": 1786705199,
+            "spriteId": "picDouble_en_40_0_7"
+        },
+        {
+            "poolId": "SINGLE_EN_41_0_1",
+            "index": 39,
+            "startTime": 1786622400,
+            "endTime": 1787828399,
+            "spriteId": "picSingle_en_41_0_1"
+        },
+        {
+            "poolId": "DOUBLE_EN_41_0_2",
+            "index": 863,
+            "startTime": 1786705200,
+            "endTime": 1787914799,
+            "spriteId": "picDouble_en_41_0_2"
+        },
+        {
+            "poolId": "RETURN_EN_41_0_1",
+            "index": 41,
+            "startTime": 1786622400,
+            "endTime": 1918205999,
+            "spriteId": "picReturn_en_41_0_1"
+        },
+        {
             "poolId": "FESCLASSIC_EN_24_0_4",
             "index": 9999,
             "startTime": 1701774000,
@@ -12786,6 +13161,12 @@
             "openTime": 1776168000,
             "endTime": 1777373999,
             "freeCount": 1
+        },
+        {
+            "poolId": "LIMITED_EN_40_0_4",
+            "openTime": 1784214000,
+            "endTime": 1785409199,
+            "freeCount": 1
         }
     ],
     "limitTenGachaItem": [
@@ -12876,6 +13257,10 @@
         {
             "itemId": "LIMITED_TKT_GACHA_10_6701",
             "endTime": 1777373999
+        },
+        {
+            "itemId": "LIMITED_TKT_GACHA_10_7001",
+            "endTime": 1785409199
         }
     ],
     "linkageTenGachaItem": [
@@ -13004,6 +13389,10 @@
         "FESCLASSIC_EN_39_0_1": {
             "rarityRank5ItemId": "classic_fes_pick_tier_5_6701",
             "rarityRank6ItemId": "classic_fes_pick_tier_6_6701"
+        },
+        "FESCLASSIC_EN_40_0_3": {
+            "rarityRank5ItemId": "classic_fes_pick_tier_5_7001",
+            "rarityRank6ItemId": "classic_fes_pick_tier_6_7001"
         }
     },
     "dicRecruit6StarHint": {
@@ -13017,7 +13406,8 @@
         "CLASSIC_ATTAIN": "The rate changes based upon the number of Headhunting rolls. For more details, see<color=#00C8FF> [Kernal Headhunting] </color> below.",
         "SPECIAL": "This rate changes based upon the number of Headhunting rolls. For more details,   see<color=#00C8FF> [Standard Headhunting] </color>below.",
         "DOUBLE": "This rate changes based upon the number of Headhunting rolls. For more details,   see<color=#00C8FF> [Standard Headhunting] </color>below.",
-        "CLASSIC_DOUBLE": "This rate changes based upon the number of Headhunting rolls. For more details,   see<color=#00C8FF> [Kernel Headhunting] </color>below."
+        "CLASSIC_DOUBLE": "This rate changes based upon the number of Headhunting rolls. For more details,   see<color=#00C8FF> [Kernel Headhunting] </color>below.",
+        "BACKFLOW": "This rate changes based upon the number of Headhunting rolls. For more details,   see<color=#00C8FF> [Returning Headhunting] </color>below."
     },
     "specialGachaPercentDict": {
         "4": 0.6,

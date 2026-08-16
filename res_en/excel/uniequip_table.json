@@ -52451,6 +52451,1367 @@
             "hasUnlockMission": true,
             "isSpecialEquip": false,
             "charColor": "#8d0000"
+        },
+        "uniequip_001_wang": {
+            "uniEquipId": "uniequip_001_wang",
+            "uniEquipName": "Wang's Badge",
+            "uniEquipIcon": "uniequip_001_wang",
+            "uniEquipDesc": "Operator Wang has demonstrated a remarkable aptitude for battlefield ambush and trap deployment.\nThe Field Operations Department has thus passed the following resolution:\nThis operator shall be appointed a Specialist Operator during field operations to exercise Trapmaster responsibilities.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.",
+            "typeIcon": "original",
+            "typeName1": "ORIGINAL",
+            "typeName2": null,
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_0",
+            "charId": "char_2027_wang",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 0,
+            "missionList": [],
+            "unlockFavors": null,
+            "itemCost": null,
+            "type": "INITIAL",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 0,
+            "hasUnlockMission": false,
+            "isSpecialEquip": false,
+            "charColor": "#ce9e43"
+        },
+        "uniequip_002_wang": {
+            "uniEquipId": "uniequip_002_wang",
+            "uniEquipName": "Beast-Shaped Stone Container",
+            "uniEquipIcon": "uniequip_002_wang",
+            "uniEquipDesc": "The 'cloudbeast' picks up a white piece, drops it on the board, then leaps onto the incense burner, looking at Wang with a meow.\nThis is his new weiqi partner, formerly the container for his weiqi stones. Though now in beast form, it is well-versed at the game after spectating matches for centuries. However...\nAfter a few turns, Wang captures a major piece and secures a victory. The 'cloudbeast' immediately jumps down from the burner, crashing onto the board and sending the stones flying everywhere.\nWang rarely bothers trying to handle it. Once it is done venting its anger, it picks up the pieces before finding a suitable napping spot—as a mere container, it is only natural for it to act like this.\n......\nYet, it is the only source of noise in the room.\nThe cloudbeast falls asleep on Wang's lap, and only silence is left, a silence he is more than familiar with.\nAll is silent, as if imprisoned in the old temple.\nWith the board before him and the container beside, he finds himself stricken with countless sorrows and worries.\nIn his heart there is only the occasional pain from the crystals, that turn into clock hands moving in slow motion.\nThe 'cloudbeast' rolls over and stretches inside the sleeve of Wang's robe, using his hand as a pillow as it returns to its dreams.\nHe had given life to the container and stones, but how they perceive the realm could not be any more different.\nPerhaps its life on the sidelines as an outside observer has granted it a sort of optimism.\nWhile even the most careful of strategists can find themselves lost in a labyrinth, one can save oneself from such a fate with an outsider's view of the situation.\nIt has still managed to find this solitary stone, ever since Wang replaced Sui. Was it because the container would lose any significance and struggle to take form without him?\nOr is it only by leaving the stones inside the container that he can calm himself down and stay composed?\nThe stone stays silent as the container warms his cold hand.\nThe warmth is its answer: he was never alone.\nNot only it, but everything in his room on Rhodes Island also serves as a constant reminder: Yi personally placed the potted plant on his desk, Dusk painted the ever-shifting patterns on the curtains, the burner was Nian's work, the incense within chosen by Fāng, and the box of food next to it was full of tangerine cakes made by Yu...\nAfter centuries of solitude, his siblings and even his own creation implore him to change.\nThis match, he gladly concedes.\nHis hand, now warm from the 'cloudbeast' earlier, reaches out to open the box of food, and he takes out a cake. He eats most of it and gives the rest to the 'cloudbeast' still fast asleep on his lap.\nIt opens its eyes and sniffs the pastry before it, before giving the treat a cautious lick. It then buries its head in Wang's palm, eating it all and leaving no crumbs behind.\nWang has never shown any kindness to geists, but when this abandoned waregeist returned to his side, all his thoughts and plots turned only to sighs, and he has never managed to shake off or escape from this 'helpless' thing since.\nWith a soft sigh, he leaves his hand on the now-snoring 'cloudbeast' as he returns his gaze to the board, beginning his endless plotting.",
+            "typeIcon": "trp-x",
+            "typeName1": "TRP",
+            "typeName2": "X",
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_2027_wang",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [
+                "uniequip_002_wang_1",
+                "uniequip_002_wang_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30155",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 80000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 60,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30145",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 100000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30165",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 120000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 1,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#ce9e43"
+        },
+        "uniequip_001_chen3": {
+            "uniEquipId": "uniequip_001_chen3",
+            "uniEquipName": "Ch'en the Dawnstreak's Badge",
+            "uniEquipIcon": "uniequip_001_chen3",
+            "uniEquipDesc": "Operator Ch'en the Dawnstreak has demonstrated a remarkable aptitude for inflicting Arts damage on the enemy in close-quarters combat.\nThe Field Operations Department has thus passed the following resolution:\nThis operator shall be appointed a Guard Operator during field operations to exercise Arts Fighter responsibilities.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.",
+            "typeIcon": "original",
+            "typeName1": "ORIGINAL",
+            "typeName2": null,
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_0",
+            "charId": "char_1050_chen3",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 0,
+            "missionList": [],
+            "unlockFavors": null,
+            "itemCost": null,
+            "type": "INITIAL",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 0,
+            "hasUnlockMission": false,
+            "isSpecialEquip": false,
+            "charColor": "#cd1518"
+        },
+        "uniequip_002_chen3": {
+            "uniEquipId": "uniequip_002_chen3",
+            "uniEquipName": "Remnant Pages of Memory",
+            "uniEquipIcon": "uniequip_002_chen3",
+            "uniEquipDesc": "As the chaos from the Sui incident subsides, the scriptgeists vanished, though the damage done to the city remains.\nCollapsed walls are moved away, and overturned shelves propped upright, as scrolls of artwork and calligraphy sit in a neat pile near the rubble. Right beside is a plaque split into two, bearing characters that read 'Study of the Wordseekers'.\nAccording to Ch'en Chao-ch'ien, this is one of Baizao's finest book repositories, and something of a historical gem. More importantly, rumors say it houses a vast collection of works discovered by those seeking the truth behind the bestial Sui's incident a hundred and twenty years ago that caused the characters on the ancient records to vanish. The owner Mr. Huang is also an antique connoisseur, and despite Baizao's many changes, he still keeps this placed unchanged even today.\n'So, which books among the remainder do you consider a vestige of her?'\nAfter digging out so many books from the ruins that she had lost count, Ch'en cannot help but pose the question as she catches her breath.\n'Maybe all, or maybe none.' After hours of physical labor, Ch'en Chao-ch'ien mutters her reply, a trace of irritation in her voice. 'Maybe the traces she left behind aren't in any book or scroll, and we'll only get to see her again once every hole in history has been patched up.'\n'Every hole in history...'\nCh'en Hui-chieh, new to Yan's extensive history and literature, does not quite grasp how heavy that sentence is.\nAfter the recent turmoil over the past few days, Ch'en Hui-chieh now holds a genuine respect for the individual who has guarded Yan's writings and history for nearly a thousand years, but a doubt still flashes through her mind—should people even be bringing a deceased person back to life? And by going to such lengths?\nCh'en picks up another scroll from the ruins. A simple yet ancient painting of a mountain village. Huge splashes of ink depict a village surrounded by lush mountains, but a huge empty sky leaves the composition somewhat unbalanced, making her wonder if the negative space was left deliberately for something to be written in.\n'Good work, ladies. Please, take a break.' Mr. Huang comes over with two cups of tea and snacks to reward the two women helping him out.\n'Sir, do you know what scenery this painting is meant to be depicting?'\n'Hmm... now this is a strange one. The trees look like those you'd see in the north, but the design of the homes is what you'd find in the south. As for where you might find this particular view...'\nPerhaps this is what the study before her looked like, before it was reduced to ruins.\nThat is the nature of history—it is not passed on so easily. It can be unconsciously forgotten, or even consciously erased. And sometimes, it is more than just a view or a few names lost.\nThe past is not as important as the present, and while a place fit for 'righteousness' may lie behind us, the road there is bound to be found in history.\nPerhaps she should start by finding the name of this painting.\n\nThe next day, Ch'en Chao-ch'ien wakes up after an all-nighter at Sky Mirror Pavilion to find a farewell letter on her desk:\nI dare not stay idle with a thousand matters to attend to, but the search for history's traces is not limited to just the pavilion. The land is vast, and we will meet again.\nSincerely, Ch'en Hui-chieh",
+            "typeIcon": "aft-x",
+            "typeName1": "AFT",
+            "typeName2": "X",
+            "equipShiningColor": "red",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_1050_chen3",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [
+                "uniequip_002_chen3_1",
+                "uniequip_002_chen3_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30115",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 80000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 60,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30155",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 100000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30145",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 120000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 1,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#cd1518"
+        },
+        "uniequip_001_ju": {
+            "uniEquipId": "uniequip_001_ju",
+            "uniEquipName": "Ju's Badge",
+            "uniEquipIcon": "uniequip_001_ju",
+            "uniEquipDesc": "Operator Ju has demonstrated a remarkable aptitude for maintaining distance whilst conducting suppressive fire against enemies of heavy caliber.\nThe Field Operations Department has thus passed the following resolution:\nThis operator shall be appointed a Sniper Operator during field operations to exercise Besieger responsibilities.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.",
+            "typeIcon": "original",
+            "typeName1": "ORIGINAL",
+            "typeName2": null,
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_0",
+            "charId": "char_4221_ju",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 0,
+            "missionList": [],
+            "unlockFavors": null,
+            "itemCost": null,
+            "type": "INITIAL",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 0,
+            "hasUnlockMission": false,
+            "isSpecialEquip": false,
+            "charColor": "#af6f48"
+        },
+        "uniequip_002_ju": {
+            "uniEquipId": "uniequip_002_ju",
+            "uniEquipName": "Scarecrow in the Field",
+            "uniEquipIcon": "uniequip_002_ju",
+            "uniEquipDesc": "He senses an unprecedented blockage. Looking down, He notices the water flowing by His left ribs has been reduced by thirty percent. Curious to find out why, He approaches the field, clad in a blue robe. In the distance, an unfinished dirt dam stretches across the narrowest part of the valley, with water already pooling behind it. It is His interest rather than His ire that is piqued.\n'Water's seeping from the rocks, so we'll open a channel that flows down to the mouth.' Atop the dam, a craftsman dressed in brown directs the others, probably their leader.\n'Why do you want to cut off the river's flow?' He steps forward and asks.\nThe craftsman wipes the sweat off his brow. 'To prevent a disaster from happening, of course.'\n'Disaster?'\n'This mountain region is prone to both droughts and floods, but with a dam, we can control the flow, and store or release the water when needed.'\n'But the river has followed nature's course unabated since antiquity. Now you force it to go where you please. Do you not fear angering the river god?'\nSome of the others laugh at this, but the craftsman answers coolly: 'The river has its paths to follow, and so do we. Until now, it's taken away our basic right to live, while the gods haven't cared a whit. So it's up to us to change how the river flows.'\nFor the next few days, He watches silently from the side as the crew toils day and night to reinforce the dam. The craftsman turns around to joke: 'Sir, you stare at us all day, but you look less like a scholar keen for knowledge, and more like an expressionless scarefowl out in the field.' He does not answer, and continues His silent watch.\nOne month later, a spring rain suddenly descends on the unfinished dam. The workers with the craftsman carry more dirt over, drive piles into the ground, and secure it all with bamboo rope with all the effort they can muster. But the resulting flash flood from the rain sends a muddy wave towards the dam, forcing a rift open. Immediately they rush forward to plug the crack despite risking their own lives. Seeing this, He casually flips His palm over, and the rushing water slows down. They take advantage of this momentary lull to fill the gap with every heavy object they can find. When the rain finally stops, the dam is battered, yet stands. The craftsman heaves a sigh of relief and turns around to see the scholar, still watching him silently in His pristine blue robes.\n'We'll have to thank the river god for showing us mercy this time.'\n'River god? Shouldn't you be thanking yourselves? Does that not make more sense to you?'\n'No.' The craftsman shakes his head. 'I can tell what happened earlier was pure luck and nothing else. 'As for where the luck came from—'\nHe straightens his back and points at the river behind the dam, gradually slowing down: 'If the sky clears up, we'll open the sluice gates tomorrow and let the water flow. Rest assured, O river god, we're not trying to stop the river, but simply requesting that it flow according to the rules—the seasons.'\n'If you say so.' He turns around, about to leave.\n'A moment, sir.'\n'I keep seeing you wandering around the dam recently. If you could allow me a guess, you have a genuine interest in our creation? If I'm right, why don't you stay?\n'Stay here, go to the fields, and see what we've made. Visit our group... and see the path we humans have paved for ourselves.'\n'Oh?' He pauses, then turns back.\n'Of course, if you'd rather be the scarefowl in the field and wish only to silently watch others from behind, there's nothing wrong with that either.\n'Though I'm just curious if you're unwilling to measure it yourself—\n'Just how much does this mortal way actually weigh?'",
+            "typeIcon": "sie-x",
+            "typeName1": "SIE",
+            "typeName2": "X",
+            "equipShiningColor": "red",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_4221_ju",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 50,
+            "missionList": [
+                "uniequip_002_ju_1",
+                "uniequip_002_ju_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "31084",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 40000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30044",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 50000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 8,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "31044",
+                        "count": 5,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 60000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 1,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#af6f48"
+        },
+        "uniequip_001_yu": {
+            "uniEquipId": "uniequip_001_yu",
+            "uniEquipName": "Yu's Badge",
+            "uniEquipIcon": "uniequip_001_yu",
+            "uniEquipDesc": "Operator Yu has demonstrated a remarkable aptitude for preservation of the front while inflicting Elemental damage on the enemy.\nThe Field Operations Department has thus passed the following resolution:\nThis operator shall be appointed a Defender Operator during field operations to exercise Primal Protector responsibilities.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.",
+            "typeIcon": "original",
+            "typeName1": "ORIGINAL",
+            "typeName2": null,
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_0",
+            "charId": "char_2026_yu",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 0,
+            "missionList": [],
+            "unlockFavors": null,
+            "itemCost": null,
+            "type": "INITIAL",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 0,
+            "hasUnlockMission": false,
+            "isSpecialEquip": false,
+            "charColor": "#d22552"
+        },
+        "uniequip_002_yu": {
+            "uniEquipId": "uniequip_002_yu",
+            "uniEquipName": "Tastes of Life",
+            "uniEquipIcon": "uniequip_002_yu",
+            "uniEquipDesc": "Specially delivered meals often carry a feeling or longing.\nSavors at Yu's delivery service kind of just happened somehow. It started when an elderly regular fell and injured himself. His children bring him back to his hometown. Yu paid him a visit with some roasted fowlbeast the man had ordered. The old man was astonished, but then smiled bitterly: 'Why bother coming all the way here? I had ordered this as a birthday gift for myself, but what's there to celebrate now? I might as well just kick the bucket here and now!'\nHis voice was loud on purpose. His children's whispers could be heard from the other side of the door, their prior argument about who would be their father's caretaker now silenced. The old man pushed the roast fowlbeast aside, claiming a lack of appetite. Yu sighed, and put a pair of chopsticks in the man's hand as he said: 'You might be angry, but don't make your stomach upset too.'\nAfter devouring the meat, the old man slowly closed his eyes, remarking: 'It clearly tastes like the ones I had when I was a child, but there's just something different about it... Ah, yes. It used to be livelier around me back then.'\nYu only makes deliveries when he has time to spare. There was a time when a rich merchant by the name of Liu would repeatedly send someone to grab his order, though it was always a bowl of plain noodles without any oil. He remembers that customer.\nThe Liu estate was past its glory days. Yu crossed the knee-high doorstep to find a now dilapidated and desolate home, with most of its belongings sold off. Upon hearing his noodles were here, the bedridden merchant struggled to raise his head for a bite. As he tasted the specially provided extra serving of scallions with his noodles, tears ran down his face.\n'So you still remember that broke, wretched peddler. The bowl of noodles you gave me for free back made me set on selling all my possessions on a gamble. If even plain noodles could taste this good, then how bad could life possibly get, right? So I tried again and again. Big wins followed with big losses, in a loop... before I finally encountered a devastating loss. You're the only one left who cares about me now.'\nYu was silent, and sat there until the merchant finished his meal.\nThe first funeral feast Yu attended was also of a regular. His first time experiencing the taste of a forever farewell, he was somewhat bewildered and lost. The banquet's atmosphere was just about like any other banquet—though some were wordlessly grieving, others were busy toasting to their superiors, while friends and relatives simply chatted about day-to-day matters. As if the banquet had turned into an ordinary meal after a good crying session. What he found incomprehensible was the deceased's last wish: he had asked Yu to serve the spicy chili oil hotpot at his funeral feast so everyone could merrily enjoy the meal.\nA guest, invigorated by the food, recounted an awkward episode when the man had accidentally dropped his work pass into a hotpot, causing the spicy soup to splash all over his colleagues, generating some laughter. Others shared more amusing anecdotes, his bad habits, aspirations, and his catchphrase—'I'll treat you to dinner sometime.' As Yu looked at the pot before him, he suddenly understood the deceased's intention: he simply wanted to say goodbye by treating everyone to a meal.\nThis banquet was like any other feast under heaven—It brings joy to some, while sorrow to others. Some prefer spice while others prefer sugar. Such is life in the mortal realm.",
+            "typeIcon": "prp-x",
+            "typeName1": "PRP",
+            "typeName2": "X",
+            "equipShiningColor": "red",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_2026_yu",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [
+                "uniequip_002_yu_1",
+                "uniequip_002_yu_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30145",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 80000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 60,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30165",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 100000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30115",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 120000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 1,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#d22552"
+        },
+        "uniequip_001_philae": {
+            "uniEquipId": "uniequip_001_philae",
+            "uniEquipName": "Philae's Badge",
+            "uniEquipIcon": "uniequip_001_philae",
+            "uniEquipDesc": "Operator Philae has demonstrated a remarkable aptitude for preservation of the front while inflicting Elemental damage on the enemy.\nThe Field Operations Department has thus passed the following resolution:\nThis operator shall be appointed a Defender Operator during field operations to exercise Primal Protector responsibilities.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.",
+            "typeIcon": "original",
+            "typeName1": "ORIGINAL",
+            "typeName2": null,
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_0",
+            "charId": "char_4148_philae",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 0,
+            "missionList": [],
+            "unlockFavors": null,
+            "itemCost": null,
+            "type": "INITIAL",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 0,
+            "hasUnlockMission": false,
+            "isSpecialEquip": false,
+            "charColor": "#dbac2e"
+        },
+        "uniequip_002_philae": {
+            "uniEquipId": "uniequip_002_philae",
+            "uniEquipName": "The Days Rubbed to Silence",
+            "uniEquipIcon": "uniequip_002_philae",
+            "uniEquipDesc": "The first thing Philae sees upon waking up is a fresh apple on her table. Dazed for a moment, she breathes, chants, and falls back asleep without even realizing it. The room is quiet, with a faint incense wafting about. An amulet rests in her hand, her fingers feeling a cold sensation emanating from it.\nRecently, she has slowly gotten used to helping out with small matters. She is calmer and much more mature than when she bid farewell to the priests. She is now accustomed to the lively noise around her, receiving instructions for missions, her companions' cheerful banter, the cries of newborns, and the wails for the departed—she remembers all these sounds, shelving them away in the depths of her heart. During her meditations, she opens the cabinet within herself, and repeatedly relives those cherished feelings.\nBut some feelings come late. They do not descend upon her when she casts her Arts, only lingering elsewhere, dormant and watching, before gently landing on her shoulder. Like when an obelisk crumbles, or cracks in a mud wall spread silently in the night, the lingering echoes of death intertwine with her Arts, slowly yet endlessly proliferating through Philae's mind, returning every time she casts her Arts. Even now, when she seems able to 'coexist with the shadows in her life and turn them into motivation', the clattering echoes remain.\nAs she subconsciously falls back asleep from exhaustion, the 'clatter' wakes her up. Philae clutches her old amulet, rubbing every familiar scratch as she closes her eyes again, recalling the morning mist on the River of Life, the prayer stele at the end of the stone steps, the elder's wrinkled hands, and the 'clatter' repeatedly sounding between reality and dreams like falling dust. With her life of spiritual training, meditation feels more like relaxation to her, so she finds it impossible to determine if this stillness is an attempt at purification or escape. But she also knows that no one else can give her an answer, and she will never be able to convince herself with words borrowed from another.\nPhilae sighs, rises from bed, and picks up the apple on the table. It is sweet, and as the juice spreads across her tongue, the 'clatter' stops. Life continues with the amulet in hand, now imbued with warmth. Philae slowly eats the apple. She has to go out, meet people, listen to the wind and rain, and hear the sounds of life and death, until it all drowns out the 'clatter' in her head.",
+            "typeIcon": "prp-x",
+            "typeName1": "PRP",
+            "typeName2": "X",
+            "equipShiningColor": "red",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_4148_philae",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 50,
+            "missionList": [
+                "uniequip_002_philae_1",
+                "uniequip_002_philae_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "31094",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 40000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30014",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 50000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 8,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "31024",
+                        "count": 5,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 60000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 1,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#dbac2e"
+        },
+        "uniequip_001_cairn": {
+            "uniEquipId": "uniequip_001_cairn",
+            "uniEquipName": "Cairn's Badge",
+            "uniEquipIcon": "uniequip_001_cairn",
+            "uniEquipDesc": "Operator Cairn has demonstrated a remarkable aptitude for preservation of the front while inflicting Elemental damage on the enemy.\nThe Field Operations Department has thus passed the following resolution:\nThis operator shall be appointed a Defender Operator during field operations to exercise Primal Protector responsibilities.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.",
+            "typeIcon": "original",
+            "typeName1": "ORIGINAL",
+            "typeName2": null,
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_0",
+            "charId": "char_4214_cairn",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 0,
+            "missionList": [],
+            "unlockFavors": null,
+            "itemCost": null,
+            "type": "INITIAL",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 0,
+            "hasUnlockMission": false,
+            "isSpecialEquip": false,
+            "charColor": "#b83f29"
+        },
+        "uniequip_002_cairn": {
+            "uniEquipId": "uniequip_002_cairn",
+            "uniEquipName": "'Parachute'",
+            "uniEquipIcon": "uniequip_002_cairn",
+            "uniEquipDesc": "You know, I'm serious about throwing my life away for love. That's why I came here.' The man shifts uncomfortably in his chair.\n'I know.'\n'But well, it's really hard to pull off.' The man continues shifting around awkwardly. Ferne scratches her head. She is quite sure she hasn't left any thumbtacks on the chair.\n'I know.'\n'I'm sure you also know how nice the folks here are, and that there's plenty of cops. The lake she jumped in back then is now a popular tourist spot, so even if I entertained the thought, someone's just gonna call the cops to dredge me up and save my life. So if you're gonna help me end my life for love, you'll have to clear the whole place out first, and that's impossible, so—' The man shoots an earnest look at Ferne. She feels that rather than imploring her to take his request, he is hoping she will refuse.\n'Yeah, I know. But I can manage that much.'\n'......' The man slinks silently into his chair. Ferne can clearly see he is more terrified than relieved to hear her response.\n'But on one condition.'\n'Is it money? Well, you know I don't got much. So how about we just—' The man suddenly springs up from his seat, as if desperately clutching his last chance to live.\n'No, not money! Didn't you write hundreds of apology letters since she passed? Go find them all.'\n\nThe next day, the man stands on the very same rock where his lover had jumped into the lake from, all those years ago. As Ferne had promised, no one else is present at this scenic spot to save him. Every step he takes is underlined by a shrill clinking of chains, connecting his feet to a huge sack filled with his letters of remorse.\nAt first, he had approached the unassuming guide wanting to hear a firm 'no', in the hopes of putting a stop to his suicidal ideation. So how did it turn out like this?\nHe knows he can no longer run at this point. It was his long-lasting guilt over many years that brought him here, and he wouldn't be able to live with himself if he ran away now.\nThe man heaves a long sigh, and jumps down.\n\nThe lake water is very cold.\nNow, has he stayed true to her? Has he stayed true to himself?\nHe does not know.\nAll he knows is how cold the water is. Is this the cold ending she wanted when she threw herself into the lake?\nHe does not want it one bit.\nThe man struggles in desperation, wishing he had never talked to that guide. If his feet weren't shackled to that sack full of letters, he'd still have a chance—\n'Cough—Hack!'\nA large sturdy net lifts him up from the water. Ferne, who should have left long ago, appears and winks at him.\n'You... I... where are the chains? And the sack?'\n'Underwater.'\n'Then my suicide, I—'\n'If you still really want to, then you'll have to make a separate request. But I remember your original one wasn't about that. It was about helping someone get over their guilt and delivering an apology.'",
+            "typeIcon": "prp-x",
+            "typeName1": "PRP",
+            "typeName2": "X",
+            "equipShiningColor": "red",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_4214_cairn",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 50,
+            "missionList": [
+                "uniequip_002_cairn_1",
+                "uniequip_002_cairn_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "31034",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 40000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30054",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 50000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 8,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "31064",
+                        "count": 5,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 60000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 1,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#b83f29"
+        },
+        "uniequip_004_irene": {
+            "uniEquipId": "uniequip_004_irene",
+            "uniEquipName": "Irene's Specialized Badge",
+            "uniEquipIcon": "uniequip_004_irene",
+            "uniEquipDesc": "In light of permissions granted sui gratis, the Field Operations Department has hence passed the following resolution with respect to Irene:\nWhere the entailing mission would fall under Integrated Strategies scope, this operator shall be pursuant to tactics of a reinforced nature in meeting the enemy.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.\n'You shall go through the harshest of trials.'",
+            "typeIcon": "isw-a",
+            "typeName1": "ISW",
+            "typeName2": "A",
+            "equipShiningColor": "purple",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_4009_irene",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 1,
+                        "type": "MATERIAL"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 1,
+                        "type": "MATERIAL"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 1,
+                        "type": "MATERIAL"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 4,
+            "hasUnlockMission": false,
+            "isSpecialEquip": true,
+            "specialEquipDesc": "Limited Modality",
+            "specialEquipColor": "0098dc",
+            "charColor": "#a27381"
+        },
+        "uniequip_004_pasngr": {
+            "uniEquipId": "uniequip_004_pasngr",
+            "uniEquipName": "Passenger's Specialized Badge",
+            "uniEquipIcon": "uniequip_004_pasngr",
+            "uniEquipDesc": "In light of permissions granted sui gratis, the Field Operations Department has hence passed the following resolution with respect to Passenger:\nWhere the entailing mission would fall under Reclamation Algorithm scope, this operator shall be pursuant to tactics of a reinforced nature in meeting the enemy.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.\n'Your demise is the punishment you deserve.'",
+            "typeIcon": "ra-a",
+            "typeName1": "RA",
+            "typeName2": "A",
+            "equipShiningColor": "purple",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_472_pasngr",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 1,
+                        "type": "MATERIAL"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 1,
+                        "type": "MATERIAL"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 1,
+                        "type": "MATERIAL"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1784214000,
+            "uniEquipShowEnd": 1786622400,
+            "charEquipOrder": 4,
+            "hasUnlockMission": false,
+            "isSpecialEquip": true,
+            "specialEquipDesc": "Limited Modality",
+            "specialEquipColor": "0098dc",
+            "charColor": "#f7bd7d"
+        },
+        "uniequip_001_demetr": {
+            "uniEquipId": "uniequip_001_demetr",
+            "uniEquipName": "Bellone's Badge",
+            "uniEquipIcon": "uniequip_001_demetr",
+            "uniEquipDesc": "Operator Bellone has demonstrated a remarkable aptitude for asserting the advantage in close-quarters combat.\nThe Field Operations Department has thus passed the following resolution:\nThis operator shall be appointed a Guard Operator during field operations to exercise Fighter responsibilities.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.",
+            "typeIcon": "original",
+            "typeName1": "ORIGINAL",
+            "typeName2": null,
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_0",
+            "charId": "char_4037_demetr",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 0,
+            "missionList": [],
+            "unlockFavors": null,
+            "itemCost": null,
+            "type": "INITIAL",
+            "uniEquipGetTime": 1786622400,
+            "uniEquipShowEnd": 1789570800,
+            "charEquipOrder": 0,
+            "hasUnlockMission": false,
+            "isSpecialEquip": false,
+            "charColor": "#6c6165"
+        },
+        "uniequip_002_demetr": {
+            "uniEquipId": "uniequip_002_demetr",
+            "uniEquipName": "The Instrument",
+            "uniEquipIcon": "uniequip_002_demetr",
+            "uniEquipDesc": "Even now, as he blends drinks in his private bar in Nuova Volsinii, Demetri occasionally thinks back to the last time they were gathered around the dinner table of the Bellones' house.\nHe had met with his informant in the Famiglia Rossati earlier that day, and returned home to see the dinner table already set up. It was not a particularly special day, but it was a rare one: Leon was back from the Ministero dei Lavori Pubblici, and both Bernardo and Lavinia were home. Such occasions had become hard to come by.\nHe sat down in his usual seat and began to talk about the information he had garnered, but Bernardo took a glance at the look on Lavinia's face and interrupted him. He knew that Lavinia, unlike the other famiglia-backed judges, had her own ideas about the mafiosi of Siracusa, but assumed the day would eventually come when she truly became a part of Bellone. That Bernardo only meant that now was not the time.\nHe decided to give his report later that night. The information gathering operation had been Demetri's own idea. Bernardo had been giving him fewer orders recently, allowing him to act on his own judgment most of the time. The famiglie were stirring as the new city neared completion, and he felt the need to be aware of their movements. It was his duty as the advisor to the Bellones, after all. He would prove to Bernardo that he was worthy to carry the famiglia's future.\nHe carved the stewed meat with his knife and served the soup for the others. The heavy atmosphere brought about by his news of Rossati's movements had dissipated—Leon was chatting excitedly about what he saw at the Ministero dei Lavori Pubblici, with the occasional comment by Lavinia. Bernardo said little, but nodded from time to time. The Ministero dei Lavori Pubblici has long been closely watched by the famiglie, and those experiences were of no doubt mixed with bloodshed and violence, yet Leon's words seemed to carry hope and expectation, as though they were heralding a brand-new future that was completely different from the past.\nDemetri thought his words were naive. Not that there was anything wrong with naivete, of course. It was only natural that the future Don should expand his horizons, so that when the time came to take over, he would have the vision to see the big picture and choose the best course of action. He would have to understand and take care of all of the famiglia's members, and ensure Bellone's continued prosperity. Though Leon's path had deviated somewhat from his expectations, Demetri had believed that he would groom Leon into the perfect Don, at which point he and his knife would become the Don's perfect tools.\nThinking back now, perhaps he was the truly naive one.\nDemetri cuts the ice cube into a sphere with his knife, and places it into the glass. This knife has been with him for so many years and remains a useful instrument to this day; he is much the same.",
+            "typeIcon": "fgt-y",
+            "typeName1": "FGT",
+            "typeName2": "Y",
+            "equipShiningColor": "red",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_4037_demetr",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [
+                "uniequip_002_demetr_1",
+                "uniequip_002_demetr_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30145",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 80000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 60,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30165",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 100000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30115",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 120000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1786622400,
+            "uniEquipShowEnd": 1789570800,
+            "charEquipOrder": 2,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#6c6165"
+        },
+        "uniequip_001_liesel": {
+            "uniEquipId": "uniequip_001_liesel",
+            "uniEquipName": "Ripresa's Badge",
+            "uniEquipIcon": "uniequip_001_liesel",
+            "uniEquipDesc": "Operator Ripresa has demonstrated a remarkable aptitude for inflicting Arts casualties on multitudes of enemies.\nThe Field Operations Department has thus passed the following resolution:\nThis operator shall be appointed a Caster Operator during field operations to exercise Splash Caster responsibilities.\nIn witness whereof,\nThis badge is hereby conferred upon the above named.",
+            "typeIcon": "original",
+            "typeName1": "ORIGINAL",
+            "typeName2": null,
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_0",
+            "charId": "char_4031_liesel",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 0,
+            "missionList": [],
+            "unlockFavors": null,
+            "itemCost": null,
+            "type": "INITIAL",
+            "uniEquipGetTime": 1786622400,
+            "uniEquipShowEnd": 1789570800,
+            "charEquipOrder": 0,
+            "hasUnlockMission": false,
+            "isSpecialEquip": false,
+            "charColor": "#797d74"
+        },
+        "uniequip_002_liesel": {
+            "uniEquipId": "uniequip_002_liesel",
+            "uniEquipName": "'Dusk Covenant'",
+            "uniEquipIcon": "uniequip_002_liesel",
+            "uniEquipDesc": "The conductor's baton brushes past the last note on the score, and the performance concludes to fervent applause. As usual, Liesel turns around to bow, but someone in the audience catches her eye. It is a Caprinae woman, around the same age as Paola, with both anxiety and suppressed joy in her eyes, as though she were listening to some distant melody only she could hear.\nWhy would this bright, uplifting piece bring about such emotions? It was Paola's favorite work, and Liesel had pestered her for months before she figured out the details, for she had been fascinated by the music's freedom and spontaneity, unbound like a dancer upon the vast plains. Paola had told her not to be obsessed with accuracy, but to imagine the floating sensation of being thrown to the clouds...\n'Thank you. I thought I would never hear music like that again.\n'I used to hear such melodies from street corners in my hometown. It was the most unrestrained sound I'd ever heard. But then the wandering musician was chased off by the guards.\n'The musicians of the spires say that such dissonance is an affront to art, that it is only beautiful to the untrained.\n'But... is beauty something that can be so arbitrarily defined?'\nThe woman falls silent. There seemed to be some kind of unspeakable pain there, hidden where Liesel could not tread. Perhaps it was the very reason Paola came to Nuovo Volsinii. She recalls Paola's comments in the margins of a copied score:\nExpression and beauty are not privileges, and nothing can stop true passion. Do not be fazed by criticism and scrutiny. Express yourself to your heart's delight, and we shall meet in equality. Passion will create unity, and we will come together to make new things.\nLiesel had not understood at the time. All she knew was that the words were beautiful and warm, just like Paola herself. Now, seeing the longing and sorrow in this woman's eyes, she realizes that the reason this piece was Paola's favorite was not because of the beauty of the music itself, but because it represented the voices of the musicians who loved music, and Paola's own vision when she founded the orchestra. Everyone who expresses themselves through their instrument deserves to be listened to.\nThis brings her one step closer to Paola.\n'My mother left Leithanien, brought this music here, and taught it to me. Now that it's where people can hear it, this orchestra will make sure it deserves to be heard.'\nLiesel extends her hand.\n'Welcome to Nuova Volsinii. We'll perform it again next time.'\nThe woman smiles, a faint smile as if her doubts have faded away.\n'Thank you... I'll come again.'\nAs Liesel watches the woman leave, she recalls how Paola stood upon the podium, and the dedication on the score—\nTo all musicians.\nLiesel Memminger takes a deep breath and looks up.\nShe must prepare for tomorrow's performance.",
+            "typeIcon": "spc-y",
+            "typeName1": "SPC",
+            "typeName2": "Y",
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_4031_liesel",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 50,
+            "missionList": [
+                "uniequip_002_liesel_1",
+                "uniequip_002_liesel_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "31094",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 40000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30014",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 50000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 8,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "31024",
+                        "count": 5,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 60000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1786622400,
+            "uniEquipShowEnd": 1789570800,
+            "charEquipOrder": 2,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#797d74"
+        },
+        "uniequip_003_agoat2": {
+            "uniEquipId": "uniequip_003_agoat2",
+            "uniEquipName": "Life I Want to Retain",
+            "uniEquipIcon": "uniequip_003_agoat2",
+            "uniEquipDesc": "[Name] Marshmallow 3\n[Description] Radiation-induced mutations in Volcano Watchers stable after four generations of selective breeding, resulting in an early floral transition phenotype that retains positive traits of the original lineage, allowing for transplant during the flowering period. Rapid color change in stem cross-section observed when soil Originium levels above threshold, allowing for quicker detection of impending volcanic eruption compared to previous petal observation method.\n[Cultivation and Management] To ensure sample quality and quantity, and to maintain consistency with field environment, the research team employed genetic resource preservation, with regular cultivation managed by specialists with the support of Wilhelm University's College of Geology and the Rhodes Island office in New Siesta. Regular reviews are still required to ensure smooth cultivation and breeding. See the appendix for details.\n[Addendum] Staff reported that some kind of creature had been chewing the plants, but nothing appeared on the camera feeds. After a review, Adele provided the following recommendations:\n1. Put fresh grass, fruit, and ice cream on a dining table. There should be different fruits and ice cream each day, with no repetition in any given week;\n2. Keep the break room TV on at all times. Tune it to Siestan Traffic at 8 A.M., Volcano's Kitchen (Junior Edition) at noon, and Love in Siesta at 8 P.M. daily (program updated on a regular basis);\n3. Check your personal belongings daily; if anything is missing, place extra marshmallows on the dining table the following day and check your own pocket the day after. Report and hand in any unknown items you find.\nFor staff members who were still skeptical, Adele left these words—\n'There's no malice in it; they're just curious. Sometimes I can't help but think... The lava running down the mountainside when a volcano erupts is like the land's exposed blood vessel. You can almost hear a massive heart beating underground, trying to tell us something, only we don't understand yet. Perhaps they, like us, are hoping that these flowers will grow and evolve, and translate the language of Terra for us.'",
+            "typeIcon": "wdm-y",
+            "typeName1": "WDM",
+            "typeName2": "Y",
+            "equipShiningColor": "blue",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_1016_agoat2",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [
+                "uniequip_003_agoat2_1",
+                "uniequip_003_agoat2_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30115",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 80000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 60,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30155",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 100000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30145",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 120000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1786622400,
+            "uniEquipShowEnd": 1789570800,
+            "charEquipOrder": 2,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#852529"
+        },
+        "uniequip_003_haak": {
+            "uniEquipId": "uniequip_003_haak",
+            "uniEquipName": "Remnant of the Malpractice",
+            "uniEquipIcon": "uniequip_003_haak",
+            "uniEquipDesc": "'Sit still if you still want to keep your arm.'\nThe logistics operator sits back on the bench, embarrassed. He would not have come to Aak if he hadn't hurt his arm.\n'Tell me again how you got hurt?'\n'I fell while helping Engineering train their new fighting robot.'\n'And how'd that end up with you getting a metal rod stuck in there?'\n'It didn't.' The operator's voice gets lower and lower. 'Medical put that in during last week's surgery.'\n'Oh?'\n'Fracture. Same arm, same reason.' The operator scratches his head. 'Please don't tell anyone. I just couldn't get over getting punched by that robot.'\nAak lets out a couple of exaggerated laughs.\n'Let's begin. This may hurt a little.'\n'Wait, I haven't—arrrggghhh!'\nThe operator's gaze searches the room for something to distract himself with. He finds a tattered notebook open on the table, the wild scribblings on it like some kind of magical incantation:\n'Simmer a hundred poisonous things until any solids are fully dissolved. Extract the clear liquid and keep it away from heat or light sources.'\nAak takes out a tube of an eerie blue liquid from an insulated container.\n'Insert it three inches above the artery.'\nAak stabs with the needle.\n'One drop of blood, and death is assured!'\n'Wait—' The operator cries out, sweating profusely.\nAak clicks his tongue and stuffs a towel in the operator's mouth.\nWhen the operator wakes up again, he sees that the wound on his arm has been sewn up.\nAak says, 'Do the opposite, sever the nerve conduction, and cut the dosage in half to reverse death.'\n'Th-That notebook?' The operator looks again at the desk. The notebook was gone.\n'Oh, it's a ledger, a record of lives owed. It tells who killed who, and how they did it. But the writer and everyone mentioned in it are already dead.'\n'Then, my arm...'\n'Is fine. I gave all your muscles an explosive boost. That robot will be no match for you now,' says Aak. 'But I do mean <i>all</i> your muscles, including involuntary ones like your diaphragm.'\n'What—*hic* What do you mean?'\n'It means you'll be hiccupping like that for a couple of weeks. If you'd rather not, there are other options. Maybe you'd prefer the gas in your intestines to be expelled uncontrollably?'\nHe barely finishes his sentence before the patient flees, still hiccupping as he runs. Aak pats his pocket where the rogue doctor's notes lay.\nHe speaks softly, as though whispering to himself, but also as though he were slowly explaining to someone with rare patience:\n'The old man thought he'd live for a long time because he had something on those people. But he's the one who ended up dying in the worst way.\n'I'm different. I heal them or break them on a whim. The only use I have for this notebook is for doodling, and as a reminder not to live such a tedious life.'",
+            "typeIcon": "gee-y",
+            "typeName1": "GEE",
+            "typeName2": "Y",
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_225_haak",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [
+                "uniequip_003_haak_1",
+                "uniequip_003_haak_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30155",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 80000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 60,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30145",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 100000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30165",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 120000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1786622400,
+            "uniEquipShowEnd": 1789570800,
+            "charEquipOrder": 2,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#C22B34"
+        },
+        "uniequip_003_jesca2": {
+            "uniEquipId": "uniequip_003_jesca2",
+            "uniEquipName": "Unweathered",
+            "uniEquipIcon": "uniequip_003_jesca2",
+            "uniEquipDesc": "'Jessica...'\nShe hid behind the sheriff, watching the unexpected visitor in the tent.\nThe man's clothes were tattered and his face dirty. He looked like a broken linen bag that had been dragged through mud. The desk had been ransacked.\n'Stay away!'\nThe desperate man clutched his knife with black and withered fingers. There were black crystals on them.\nShe should be afraid, but she saw the sheriff lower her hand, very close to her gun.\nShe remembered how she ran into a mangler in the wild last month, which had surprised her with no time to react.\nThat's when she heard a loud crack, and saw the mangler fall lifeless to the ground. The sheriff then put her gun back in its holster, and pulled her into her embrace.\nShe was not afraid. She knew the sheriff could easily do to this man what she did to the mangler.\nBut the sheriff did not make a move.\n'...Do you like cocoa?'\n'...What?'\n'The kids and I love it too. We always buy some whenever the caravans pass by. But the water in the bottle has gotten cool, hasn't it? Hot cocoa will taste better.'\nHer eyes followed the sheriff's pointing finger. A mug sat serenely amidst the mess on the table, a small torn-open packet next to it.\n'We're having barbecue and beer at the camp tonight. We'll have hot cocoa too. Would you care to join us?'\nShe heard the sheriff say to the man.\n\nA new face joined the campfire that night.\n'How'd you know he wasn't a bad guy?'\n'I don't. That's why I'm keeping a close eye on him.'\n'Mom said there are loads of bad people out on the frontier...'\n'And loads of people who need help, too. Harsh weather, few supplies, dangerous wildlife... Life on the frontier is hard. People are scared, which is why they take up arms.'\nThe sheriff patted her head.\nShe had the same look in her eyes as when she closed the eyes of the mangler.\n'Sometimes you don't get a choice. But right here, right now, where it's within my power... it's my hope that a cup of hot cocoa can do more than a bullet.'\nThe girl returned to the campfire, still harboring doubts.\nAt first, the man who may or may not be a bad guy simply devoured the food on his plate and glared at anyone who looked at him too long. But when the others began to sing, she saw him listening for a while before beginning to hum softly.\nI wandered here alone, not a penny to my name♪\nMy hometown far behind me, miles and miles away♪",
+            "typeIcon": "spt-y",
+            "typeName1": "SPT",
+            "typeName2": "Y",
+            "equipShiningColor": "grey",
+            "showEvolvePhase": "PHASE_2",
+            "unlockEvolvePhase": "PHASE_2",
+            "charId": "char_1034_jesca2",
+            "tmplId": null,
+            "showLevel": 1,
+            "unlockLevel": 60,
+            "missionList": [
+                "uniequip_003_jesca2_1",
+                "uniequip_003_jesca2_2"
+            ],
+            "unlockFavors": {
+                "1": 0,
+                "2": 2732,
+                "3": 10070
+            },
+            "itemCost": {
+                "1": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30165",
+                        "count": 2,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 80000,
+                        "type": "GOLD"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_1",
+                        "count": 60,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30115",
+                        "count": 3,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 100000,
+                        "type": "GOLD"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": "mod_unlock_token",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "mod_update_token_2",
+                        "count": 20,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "30155",
+                        "count": 4,
+                        "type": "MATERIAL"
+                    },
+                    {
+                        "id": "4001",
+                        "count": 120000,
+                        "type": "GOLD"
+                    }
+                ]
+            },
+            "type": "ADVANCED",
+            "uniEquipGetTime": 1786622400,
+            "uniEquipShowEnd": 1789570800,
+            "charEquipOrder": 2,
+            "hasUnlockMission": true,
+            "isSpecialEquip": false,
+            "charColor": "#ffdf2b"
         }
     },
     "missionList": {
@@ -64778,6 +66139,315 @@
             "uniEquipMissionSort": 2,
             "uniEquipId": "uniequip_003_hodrer",
             "jumpStageId": "main_10-09"
+        },
+        "uniequip_002_ju_1": {
+            "template": "EquipmentDamageTotal",
+            "desc": "Deal a total of 80,000 damage with your own Ju",
+            "paramList": [
+                "char_4221_ju",
+                "80000",
+                "0"
+            ],
+            "uniEquipMissionId": "uniequip_002_ju_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_002_ju",
+            "jumpStageId": null
+        },
+        "uniequip_002_ju_2": {
+            "template": "EquipmentSkillCastStage",
+            "desc": "Clear Where Vernal Winds Will Never Blow WB-4 with a 3-star rating; You must deploy your own Ju, and use Fine Wings, Difficult Flight at least 1 time",
+            "paramList": [
+                "3",
+                "act23side_04",
+                "skchr_ju_2",
+                "1",
+                "char_4221_ju"
+            ],
+            "uniEquipMissionId": "uniequip_002_ju_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_002_ju",
+            "jumpStageId": "act23side_04"
+        },
+        "uniequip_002_yu_1": {
+            "template": "EquipmentElementBurst",
+            "desc": "Trigger a total of 8 Burn Bursts with your own Yu",
+            "paramList": [
+                "char_2026_yu",
+                "8",
+                "3"
+            ],
+            "uniEquipMissionId": "uniequip_002_yu_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_002_yu",
+            "jumpStageId": null
+        },
+        "uniequip_002_yu_2": {
+            "template": "EquipmentSquadNoAnyDead",
+            "desc": "Clear Who is Real WR-4 with a 3-star rating; You must deploy your own Yu, and allow no Operators to be defeated",
+            "paramList": [
+                "3",
+                "act16d5_04",
+                "char_2026_yu"
+            ],
+            "uniEquipMissionId": "uniequip_002_yu_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_002_yu",
+            "jumpStageId": "act16d5_04"
+        },
+        "uniequip_002_philae_1": {
+            "template": "EquipmentElementBurst",
+            "desc": "Trigger a total of 3 Necrosis Bursts with your own Philae",
+            "paramList": [
+                "char_4148_philae",
+                "3",
+                "4"
+            ],
+            "uniEquipMissionId": "uniequip_002_philae_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_002_philae",
+            "jumpStageId": null
+        },
+        "uniequip_002_philae_2": {
+            "template": "EquipmentSkillCastStage",
+            "desc": "Clear Main Theme 10-2 with a 3-star rating under Standard Environment; You must deploy your own Philae, and use Curse of the River of Death at least 1 time",
+            "paramList": [
+                "3",
+                "main_10-01",
+                "skchr_philae_2",
+                "1",
+                "char_4148_philae"
+            ],
+            "uniEquipMissionId": "uniequip_002_philae_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_002_philae",
+            "jumpStageId": "main_10-01"
+        },
+        "uniequip_002_cairn_1": {
+            "template": "EquipmentElementBurst",
+            "desc": "Trigger a total of 3 Nervous Impairment Bursts with your own Cairn",
+            "paramList": [
+                "char_4214_cairn",
+                "3",
+                "1"
+            ],
+            "uniEquipMissionId": "uniequip_002_cairn_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_002_cairn",
+            "jumpStageId": null
+        },
+        "uniequip_002_cairn_2": {
+            "template": "EquipmentSkillCastStage",
+            "desc": "Clear Twilight of Wolumonde TW-7 with a 3-star rating; You must deploy your own Cairn, and use Stunning Directives at least 1 time",
+            "paramList": [
+                "3",
+                "act11d0_07",
+                "skchr_cairn_2",
+                "1",
+                "char_4214_cairn"
+            ],
+            "uniEquipMissionId": "uniequip_002_cairn_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_002_cairn",
+            "jumpStageId": "act11d0_07"
+        },
+        "uniequip_002_chen3_1": {
+            "template": "EquipmentSkillCast",
+            "desc": "During battle, have your own Ch'en the Dawnstreak use Chi Xiao - Heaven's Plaint a total of 5 times",
+            "paramList": [
+                "char_1050_chen3",
+                "skchr_chen3_3",
+                "5",
+                "char_1050_chen3"
+            ],
+            "uniEquipMissionId": "uniequip_002_chen3_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_002_chen3",
+            "jumpStageId": null
+        },
+        "uniequip_002_chen3_2": {
+            "template": "EquipmentCharKilledStage",
+            "desc": "Clear Main Theme 5-10 with a 3-star rating; You must deploy your own Ch'en the Dawnstreak, and have her defeat at least 3 enemies",
+            "paramList": [
+                "3",
+                "main_05-10",
+                "char_1050_chen3",
+                "3",
+                "char_1050_chen3"
+            ],
+            "uniEquipMissionId": "uniequip_002_chen3_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_002_chen3",
+            "jumpStageId": "main_05-10"
+        },
+        "uniequip_002_wang_1": {
+            "template": "EquipmentSkillCast",
+            "desc": "During battle, have your own Wang use All-Dominating Fight a total of 3 times",
+            "paramList": [
+                "char_2027_wang",
+                "skchr_wang_3",
+                "3",
+                "char_2027_wang"
+            ],
+            "uniEquipMissionId": "uniequip_002_wang_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_002_wang",
+            "jumpStageId": null
+        },
+        "uniequip_002_wang_2": {
+            "template": "EquipmentSquadNum",
+            "desc": "Clear Here A People Sows HS-7 with a 3-star rating; You must deploy your own Wang, and can only include 7 other Operators as members",
+            "paramList": [
+                "3",
+                "act31side_07",
+                "char_2027_wang",
+                "7"
+            ],
+            "uniEquipMissionId": "uniequip_002_wang_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_002_wang",
+            "jumpStageId": "act31side_07"
+        },
+        "uniequip_003_agoat2_1": {
+            "template": "EquipmentSkillCastBattle",
+            "desc": "Complete a total of 3 battles; You must deploy your own Eyjafjalla the Hvít Aska, and unleash Soundless Sustenance at least 1 time in each battle",
+            "paramList": [
+                "3",
+                "skchr_agoat2_1",
+                "1",
+                "char_1016_agoat2"
+            ],
+            "uniEquipMissionId": "uniequip_003_agoat2_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_003_agoat2",
+            "jumpStageId": null
+        },
+        "uniequip_003_agoat2_2": {
+            "template": "EquipmentSquadProEx",
+            "desc": "Clear Stultifera Navis SN-5 with a 3-star rating; You must deploy your own Eyjafjalla the Hvít Aska, and cannot include any other Medic Operators as members",
+            "paramList": [
+                "3",
+                "act17side_05",
+                "char_1016_agoat2",
+                "MEDIC"
+            ],
+            "uniEquipMissionId": "uniequip_003_agoat2_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_003_agoat2",
+            "jumpStageId": "act17side_05"
+        },
+        "uniequip_003_haak_1": {
+            "template": "EquipmentDeployTotal",
+            "desc": "During battle, deploy your own Aak a total of 5 times",
+            "paramList": [
+                "5",
+                "char_225_haak",
+                "char_225_haak"
+            ],
+            "uniEquipMissionId": "uniequip_003_haak_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_003_haak",
+            "jumpStageId": null
+        },
+        "uniequip_003_haak_2": {
+            "template": "EquipmentCharKilledStage",
+            "desc": "Clear Main Theme 4-8 with a 3-star rating; You must deploy your own Aak, and have him defeat at least 6 enemies",
+            "paramList": [
+                "3",
+                "main_04-08",
+                "char_225_haak",
+                "6",
+                "char_225_haak"
+            ],
+            "uniEquipMissionId": "uniequip_003_haak_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_003_haak",
+            "jumpStageId": "main_04-08"
+        },
+        "uniequip_003_jesca2_1": {
+            "template": "EquipmentDeployTotal",
+            "desc": "During battle, have your own Jessica the Liberated deploy a total of 20 Mobile Riot Shields",
+            "paramList": [
+                "20",
+                "token_10032_jesca2_jckshd",
+                "char_1034_jesca2"
+            ],
+            "uniEquipMissionId": "uniequip_003_jesca2_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_003_jesca2",
+            "jumpStageId": null
+        },
+        "uniequip_003_jesca2_2": {
+            "template": "EquipmentSkillCastStage",
+            "desc": "Clear A Walk in the Dust WD-5 with a 3-star rating; You must deploy your own Jessica the Liberated, and use Saturation Burst at least 1 time",
+            "paramList": [
+                "3",
+                "act18d0_05",
+                "skchr_jesca2_3",
+                "1",
+                "char_1034_jesca2"
+            ],
+            "uniEquipMissionId": "uniequip_003_jesca2_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_003_jesca2",
+            "jumpStageId": "act18d0_05"
+        },
+        "uniequip_002_demetr_1": {
+            "template": "EquipmentSkillCast",
+            "desc": "During battle, have your own Bellone use Riscossione a total of 5 times",
+            "paramList": [
+                "char_4037_demetr",
+                "skchr_demetr_3",
+                "5",
+                "char_4037_demetr"
+            ],
+            "uniEquipMissionId": "uniequip_002_demetr_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_002_demetr",
+            "jumpStageId": null
+        },
+        "uniequip_002_demetr_2": {
+            "template": "EquipmentCharKilledStage",
+            "desc": "Clear Main Theme 6-2 with a 3-star rating; You must deploy your own Bellone, and have him defeat at least 4 enemies",
+            "paramList": [
+                "3",
+                "main_06-02",
+                "char_4037_demetr",
+                "4",
+                "char_4037_demetr"
+            ],
+            "uniEquipMissionId": "uniequip_002_demetr_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_002_demetr",
+            "jumpStageId": "main_06-02"
+        },
+        "uniequip_002_liesel_1": {
+            "template": "EquipmentSkillCastBattle",
+            "desc": "Complete a total of 3 battles; You must deploy your own Ripresa, and unleash Al Fine at least 1 time in each battle",
+            "paramList": [
+                "3",
+                "skchr_liesel_2",
+                "1",
+                "char_4031_liesel"
+            ],
+            "uniEquipMissionId": "uniequip_002_liesel_1",
+            "uniEquipMissionSort": 1,
+            "uniEquipId": "uniequip_002_liesel",
+            "jumpStageId": null
+        },
+        "uniequip_002_liesel_2": {
+            "template": "EquipmentCharKilledStage",
+            "desc": "Clear Main Theme 3-5 with a 3-star rating; You must deploy your own Ripresa, and have her defeat at least 3 enemies",
+            "paramList": [
+                "3",
+                "main_03-05",
+                "char_4031_liesel",
+                "3",
+                "char_4031_liesel"
+            ],
+            "uniEquipMissionId": "uniequip_002_liesel_2",
+            "uniEquipMissionSort": 2,
+            "uniEquipId": "uniequip_002_liesel",
+            "jumpStageId": "main_03-05"
         }
     },
     "subProfDict": {
@@ -65150,6 +66820,11 @@
             "subProfessionId": "skybreaker",
             "subProfessionName": "Skybreaker",
             "subProfessionCatagory": 74
+        },
+        "watchman": {
+            "subProfessionId": "watchman",
+            "subProfessionName": "Watchman",
+            "subProfessionCatagory": 75
         }
     },
     "subProfToProfDict": {
@@ -65222,7 +66897,8 @@
         "primguard": 1,
         "counsellor": 512,
         "mercenary": 1,
-        "skybreaker": 2
+        "skybreaker": 2,
+        "watchman": 8
     },
     "charEquip": {
         "char_248_mgllan": [
@@ -65318,7 +66994,8 @@
         "char_472_pasngr": [
             "uniequip_001_pasngr",
             "uniequip_002_pasngr",
-            "uniequip_003_pasngr"
+            "uniequip_003_pasngr",
+            "uniequip_004_pasngr"
         ],
         "char_306_leizi": [
             "uniequip_001_leizi",
@@ -65545,7 +67222,8 @@
         "char_4009_irene": [
             "uniequip_001_irene",
             "uniequip_002_irene",
-            "uniequip_003_irene"
+            "uniequip_003_irene",
+            "uniequip_004_irene"
         ],
         "char_4046_ebnhlz": [
             "uniequip_001_ebnhlz",
@@ -65992,7 +67670,8 @@
         ],
         "char_225_haak": [
             "uniequip_001_haak",
-            "uniequip_002_haak"
+            "uniequip_002_haak",
+            "uniequip_003_haak"
         ],
         "char_4015_spuria": [
             "uniequip_001_spuria",
@@ -66236,7 +67915,8 @@
         ],
         "char_1034_jesca2": [
             "uniequip_001_jesca2",
-            "uniequip_002_jesca2"
+            "uniequip_002_jesca2",
+            "uniequip_003_jesca2"
         ],
         "char_107_liskam": [
             "uniequip_001_liskam",
@@ -66391,7 +68071,8 @@
         ],
         "char_1016_agoat2": [
             "uniequip_001_agoat2",
-            "uniequip_002_agoat2"
+            "uniequip_002_agoat2",
+            "uniequip_003_agoat2"
         ],
         "char_4114_harold": [
             "uniequip_001_harold",
@@ -66804,6 +68485,38 @@
         "char_4166_varkis": [
             "uniequip_001_varkis",
             "uniequip_002_varkis"
+        ],
+        "char_2027_wang": [
+            "uniequip_001_wang",
+            "uniequip_002_wang"
+        ],
+        "char_1050_chen3": [
+            "uniequip_001_chen3",
+            "uniequip_002_chen3"
+        ],
+        "char_4221_ju": [
+            "uniequip_001_ju",
+            "uniequip_002_ju"
+        ],
+        "char_2026_yu": [
+            "uniequip_001_yu",
+            "uniequip_002_yu"
+        ],
+        "char_4148_philae": [
+            "uniequip_001_philae",
+            "uniequip_002_philae"
+        ],
+        "char_4214_cairn": [
+            "uniequip_001_cairn",
+            "uniequip_002_cairn"
+        ],
+        "char_4037_demetr": [
+            "uniequip_001_demetr",
+            "uniequip_002_demetr"
+        ],
+        "char_4031_liesel": [
+            "uniequip_001_liesel",
+            "uniequip_002_liesel"
         ]
     },
     "equipTypeInfos": [
@@ -72123,6 +73836,142 @@
                     "equipId": "uniequip_003_hodrer",
                     "type": "ADVANCED",
                     "archiveShowTimeEnd": 1784214000
+                }
+            ]
+        },
+        {
+            "timeStamp": 1784214000,
+            "trackList": [
+                {
+                    "charId": "char_2027_wang",
+                    "equipId": "uniequip_001_wang",
+                    "type": "INITIAL",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_2027_wang",
+                    "equipId": "uniequip_002_wang",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_1050_chen3",
+                    "equipId": "uniequip_001_chen3",
+                    "type": "INITIAL",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_1050_chen3",
+                    "equipId": "uniequip_002_chen3",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_4221_ju",
+                    "equipId": "uniequip_001_ju",
+                    "type": "INITIAL",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_4221_ju",
+                    "equipId": "uniequip_002_ju",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_2026_yu",
+                    "equipId": "uniequip_001_yu",
+                    "type": "INITIAL",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_2026_yu",
+                    "equipId": "uniequip_002_yu",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_4148_philae",
+                    "equipId": "uniequip_001_philae",
+                    "type": "INITIAL",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_4148_philae",
+                    "equipId": "uniequip_002_philae",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_4214_cairn",
+                    "equipId": "uniequip_001_cairn",
+                    "type": "INITIAL",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_4214_cairn",
+                    "equipId": "uniequip_002_cairn",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_4009_irene",
+                    "equipId": "uniequip_004_irene",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1786622400
+                },
+                {
+                    "charId": "char_472_pasngr",
+                    "equipId": "uniequip_004_pasngr",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1786622400
+                }
+            ]
+        },
+        {
+            "timeStamp": 1786622400,
+            "trackList": [
+                {
+                    "charId": "char_4037_demetr",
+                    "equipId": "uniequip_001_demetr",
+                    "type": "INITIAL",
+                    "archiveShowTimeEnd": 1789570800
+                },
+                {
+                    "charId": "char_4037_demetr",
+                    "equipId": "uniequip_002_demetr",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1789570800
+                },
+                {
+                    "charId": "char_4031_liesel",
+                    "equipId": "uniequip_001_liesel",
+                    "type": "INITIAL",
+                    "archiveShowTimeEnd": 1789570800
+                },
+                {
+                    "charId": "char_4031_liesel",
+                    "equipId": "uniequip_002_liesel",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1789570800
+                },
+                {
+                    "charId": "char_1016_agoat2",
+                    "equipId": "uniequip_003_agoat2",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1789570800
+                },
+                {
+                    "charId": "char_225_haak",
+                    "equipId": "uniequip_003_haak",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1789570800
+                },
+                {
+                    "charId": "char_1034_jesca2",
+                    "equipId": "uniequip_003_jesca2",
+                    "type": "ADVANCED",
+                    "archiveShowTimeEnd": 1789570800
                 }
             ]
         }

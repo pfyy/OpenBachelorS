@@ -227,7 +227,8 @@
             "antiSpoilerId": "main_15",
             "canPreview": true,
             "sixStarMilestoneGroupId": "main_15",
-            "bindMainlineRetroZoneId": "permanent_main_1_zone1"
+            "bindMainlineRetroZoneId": "permanent_main_1_zone1",
+            "diamondRewardCount": 42
         },
         "act3mainss_zone1": {
             "zoneID": "act3mainss_zone1",
@@ -243,7 +244,8 @@
             "antiSpoilerId": "main_15",
             "canPreview": false,
             "sixStarMilestoneGroupId": "main_16",
-            "bindMainlineRetroZoneId": "permanent_main_2_zone1"
+            "bindMainlineRetroZoneId": "permanent_main_2_zone1",
+            "diamondRewardCount": 39
         },
         "weekly_1": {
             "zoneID": "weekly_1",
@@ -914,6 +916,136 @@
             "type": "ROGUELIKE",
             "zoneNameFirst": null,
             "zoneNameSecond": null,
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act20mini_zone1": {
+            "zoneID": "act20mini_zone1",
+            "zoneIndex": 0,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Shadow Ledger",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act2break_zone1": {
+            "zoneID": "act2break_zone1",
+            "zoneIndex": 0,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Kernel Breakthrough",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act2break_zone2": {
+            "zoneID": "act2break_zone2",
+            "zoneIndex": 1,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "All-Out Effort",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act2break_zone3": {
+            "zoneID": "act2break_zone3",
+            "zoneIndex": 2,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Special Front",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act49side_zone1": {
+            "zoneID": "act49side_zone1",
+            "zoneIndex": 0,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Record of An Autumn's End",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act49side_zone2": {
+            "zoneID": "act49side_zone2",
+            "zoneIndex": 1,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Forgotten Prospect of Spring",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act49side_zone3": {
+            "zoneID": "act49side_zone3",
+            "zoneIndex": 2,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Unwritten Chapters of Yan",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act40sre_zone1": {
+            "zoneID": "act40sre_zone1",
+            "zoneIndex": 0,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Flavor of Food",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act40sre_zone2": {
+            "zoneID": "act40sre_zone2",
+            "zoneIndex": 1,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Flavor of Life",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "act40sre_zone3": {
+            "zoneID": "act40sre_zone3",
+            "zoneIndex": 2,
+            "type": "ACTIVITY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Farewell, Loved Ones",
             "zoneNameTitleCurrent": null,
             "zoneNameTitleUnCurrent": null,
             "zoneNameTitleEx": null,
@@ -5476,6 +5608,45 @@
             "zoneNameThird": null,
             "lockedText": null,
             "canPreview": false
+        },
+        "permanent_sidestory_30_zone1": {
+            "zoneID": "permanent_sidestory_30_zone1",
+            "zoneIndex": 0,
+            "type": "SIDESTORY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Flavor of Food",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "permanent_sidestory_30_zone2": {
+            "zoneID": "permanent_sidestory_30_zone2",
+            "zoneIndex": 1,
+            "type": "SIDESTORY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Flavor of Life",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
+        },
+        "permanent_sidestory_30_zone3": {
+            "zoneID": "permanent_sidestory_30_zone3",
+            "zoneIndex": 2,
+            "type": "SIDESTORY",
+            "zoneNameFirst": null,
+            "zoneNameSecond": "Farewell, Loved Ones",
+            "zoneNameTitleCurrent": null,
+            "zoneNameTitleUnCurrent": null,
+            "zoneNameTitleEx": null,
+            "zoneNameThird": null,
+            "lockedText": null,
+            "canPreview": false
         }
     },
     "weeklyAdditionInfo": {
@@ -5565,6 +5736,46 @@
         }
     },
     "zoneValidInfo": {
+        "act20mini_zone1": {
+            "startTs": 1786622400,
+            "endTs": 1787223599
+        },
+        "act2break_zone1": {
+            "startTs": 1785423600,
+            "endTs": 1787223599
+        },
+        "act2break_zone2": {
+            "startTs": 1786057200,
+            "endTs": 1787223599
+        },
+        "act2break_zone3": {
+            "startTs": 1785423600,
+            "endTs": 1787223599
+        },
+        "act49side_zone1": {
+            "startTs": 1784214000,
+            "endTs": 1786013999
+        },
+        "act49side_zone2": {
+            "startTs": 1784847600,
+            "endTs": 1786013999
+        },
+        "act49side_zone3": {
+            "startTs": 1785452400,
+            "endTs": 1786013999
+        },
+        "act40sre_zone1": {
+            "startTs": 1783350000,
+            "endTs": 1784199599
+        },
+        "act40sre_zone2": {
+            "startTs": 1783350000,
+            "endTs": 1784199599
+        },
+        "act40sre_zone3": {
+            "startTs": 1783350000,
+            "endTs": 1784199599
+        },
         "act48side_zone1": {
             "startTs": 1782129600,
             "endTs": 1783335599
