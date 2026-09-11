@@ -6,4 +6,4 @@ class GameRegion(StrEnum):
     GAME_REGION_EN = "en"
 
 
-GAME_REGION = GameRegion.GAME_REGION_CN
+GAME_REGION = GameRegion.GAME_REGION_EN
