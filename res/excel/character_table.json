@@ -129106,12 +129106,12 @@
         "candidates": [
           {
             "unlockCondition": {
-              "phase": "PHASE_1",
+              "phase": "PHASE_0",
               "level": 1
             },
             "requiredPotentialRank": 0,
             "prefabKey": "-1",
-            "name": "神通法（临时）",
+            "name": null,
             "description": null,
             "rangeId": null,
             "blackboard": [],
