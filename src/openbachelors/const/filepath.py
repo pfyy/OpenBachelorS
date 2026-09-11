@@ -1,8 +1,25 @@
+from .region import GAME_REGION, GameRegion
+
 CONFIG_JSON = "conf/config.json"
-VERSION_JSON = "conf/version.json"
-# VERSION_JSON = "conf/version_en.json"
-VERSION_WINDOWS_JSON = "conf/version_windows.json"
-# VERSION_WINDOWS_JSON = "conf/version_en_windows.json"
+VERSION_JSON_CN = "conf/version.json"
+VERSION_JSON_EN = "conf/version_en.json"
+
+match GAME_REGION:
+    case GameRegion.GAME_REGION_CN:
+        VERSION_JSON = VERSION_JSON_CN
+    case GameRegion.GAME_REGION_EN:
+        VERSION_JSON = VERSION_JSON_EN
+
+VERSION_WINDOWS_JSON_CN = "conf/version_windows.json"
+VERSION_WINDOWS_JSON_EN = "conf/version_en_windows.json"
+
+match GAME_REGION:
+    case GameRegion.GAME_REGION_CN:
+        VERSION_WINDOWS_JSON = VERSION_WINDOWS_JSON_CN
+    case GameRegion.GAME_REGION_EN:
+        VERSION_WINDOWS_JSON = VERSION_WINDOWS_JSON_EN
+
+
 ASSIST_JSON = "conf/assist.json"
 SQUAD_JSON = "conf/squad.json"
 
@@ -46,8 +63,16 @@ LD_LINK_FILEPATH = "link/ld14.txt"
 
 RES_LOCK_FILEPATH = "res_lock"
 
-RES_EXCEL_DIRPATH = "res/excel/"
-# RES_EXCEL_DIRPATH = "res_en/excel/"
+RES_EXCEL_DIRPATH_CN = "res/excel/"
+RES_EXCEL_DIRPATH_EN = "res_en/excel/"
+
+
+match GAME_REGION:
+    case GameRegion.GAME_REGION_CN:
+        RES_EXCEL_DIRPATH = RES_EXCEL_DIRPATH_CN
+    case GameRegion.GAME_REGION_EN:
+        RES_EXCEL_DIRPATH = RES_EXCEL_DIRPATH_EN
+
 
 SKIN_TABLE = RES_EXCEL_DIRPATH + "skin_table.json"
 CHARWORD_TABLE = RES_EXCEL_DIRPATH + "charword_table.json"

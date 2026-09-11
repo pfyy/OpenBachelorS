@@ -23,6 +23,7 @@ import aiofiles
 import httpx
 
 from ..const.filepath import TMP_DIRPATH
+from ..const.region import GAME_REGION, GameRegion
 
 
 def is_char_id(char_id: str) -> bool:
@@ -324,15 +325,16 @@ str_tag_en_dict = {
 }
 
 
-def get_str_tag_dict(is_en: bool = False) -> dict:
-    if is_en:
-        return str_tag_en_dict
+def get_str_tag_dict() -> dict:
+    match GAME_REGION:
+        case GameRegion.GAME_REGION_CN:
+            return str_tag_cn_dict
+        case GameRegion.GAME_REGION_EN:
+            return str_tag_en_dict
 
-    return str_tag_cn_dict
 
-
-def get_char_str_tag_lst(char_obj, is_en: bool = False):
-    str_tag_dict = get_str_tag_dict(is_en)
+def get_char_str_tag_lst(char_obj):
+    str_tag_dict = get_str_tag_dict()
 
     char_str_tag_lst = []
 
