@@ -9,6 +9,7 @@ from ..const.filepath import CONFIG_JSON, VERSION_JSON, ACTIVITY_TABLE
 from ..util.const_json_loader import const_json_loader
 from ..util.player_data import player_data_decorator
 from ..util.battle_log_logger import log_battle_log_if_necessary
+from ..util.helper import get_httpx_client
 
 router = APIRouter()
 
@@ -475,6 +476,23 @@ async def activity_enemyDuel_queryMatch(player_data, request: Request):
 
     server_token = get_server_token(player_data)
 
+    activity_id = player_data.extra_save.save_obj["enemyDuel_activityId"]
+    mode_id = player_data.extra_save.save_obj["enemyDuel_modeId"]
+    stage_id = player_data["activity"]["ENEMY_DUEL"][activity_id]["modeInfo"][mode_id][
+        "curStage"
+    ]
+
+    client = get_httpx_client()
+    r = await client.post(
+        "http://127.0.0.1:7443/obi/begin",
+        json={
+            "activity_id": activity_id,
+            "mode_id": mode_id,
+            "stage_id": stage_id,
+        },
+    )
+    r.raise_for_status()
+
     response = {
         "result": 0,
         "team": {
@@ -502,6 +520,16 @@ async def activity_enemyDuel_multiBattleStart(player_data, request: Request):
 @player_data_decorator
 async def activity_enemyDuel_multiBattleFinish(player_data, request: Request):
     request_json = await request.json()
+
+    client = get_httpx_client()
+    r = await client.post(
+        "http://127.0.0.1:7443/obi/end",
+        json={
+            "survive_units": request_json.get("surviveUnits"),
+            "born_units": request_json.get("bornUnits"),
+        },
+    )
+    r.raise_for_status()
 
     response = {
         "result": 0,
