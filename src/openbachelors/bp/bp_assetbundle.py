@@ -29,13 +29,21 @@ from ..util.helper import (
     get_httpx_client,
 )
 from ..util.log_helper import IS_DEBUG
+from ..const.region import GAME_REGION, GameRegion
 
 router = APIRouter()
 
 
 HOT_UPDATE_LIST_JSON = "hot_update_list.json"
-ORIG_ASSET_URL_PREFIX = "https://ak.hycdn.cn"
-# ORIG_ASSET_URL_PREFIX = "https://ark-us-static-online.yo-star.com"
+ORIG_ASSET_URL_PREFIX_CN = "https://ak.hycdn.cn"
+ORIG_ASSET_URL_PREFIX_EN = "https://ark-us-static-online.yo-star.com"
+
+
+match GAME_REGION:
+    case GameRegion.GAME_REGION_CN:
+        ORIG_ASSET_URL_PREFIX = ORIG_ASSET_URL_PREFIX_CN
+    case GameRegion.GAME_REGION_EN:
+        ORIG_ASSET_URL_PREFIX = ORIG_ASSET_URL_PREFIX_EN
 
 
 class DownloadAssetResult:
