@@ -125,7 +125,10 @@ def get_pc_game_en_link():
 
         url = obj["data"]["url"]
 
-        obj = requests.get(url).json()
+        obj = requests.get(
+            url,
+            timeout=REQUESTS_TIMEOUT,
+        ).json()
 
         source = obj["source"]
 
