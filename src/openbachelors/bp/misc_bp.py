@@ -1177,3 +1177,31 @@ async def arkodc_battleFinish(player_data, request: Request):
         "extra": {},
     }
     return response
+
+
+@router.post("/activity/act1dp/battleStart")
+@player_data_decorator
+async def activity_act1dp_battleStart(player_data, request: Request):
+    request_json = await request.json()
+
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+    }
+    return response
+
+
+@router.post("/activity/act1dp/battleFinish")
+@player_data_decorator
+async def activity_act1dp_battleFinish(player_data, request: Request):
+    request_json = await request.json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "result": 0,
+        "rewardPt": 0,
+        "unlockStages": [],
+        "suggestFriend": false,
+    }
+    return response
