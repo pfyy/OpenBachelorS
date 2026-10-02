@@ -1,7 +1,7 @@
 from .region import GAME_REGION, GameRegion
 
 CONFIG_JSON = "conf/config.json"
-VERSION_JSON_CN = "conf/version.json"
+VERSION_JSON_CN = "conf/version_2461.json"
 VERSION_JSON_EN = "conf/version_en.json"
 
 match GAME_REGION:
@@ -63,7 +63,7 @@ LD_LINK_FILEPATH = "link/ld14.txt"
 
 RES_LOCK_FILEPATH = "res_lock"
 
-RES_EXCEL_DIRPATH_CN = "res/excel/"
+RES_EXCEL_DIRPATH_CN = "res_2461/excel/"
 RES_EXCEL_DIRPATH_EN = "res_en/excel/"
 
 
