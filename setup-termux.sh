@@ -17,6 +17,8 @@ pipx ensurepath
 
 poetry config installer.max-workers 1
 
-poetry install || true
+poetry self add poetry-plugin-export
+poetry export --without-hashes | xargs -d '\n' -n 1 poetry run pip install || true
+
 poetry run pip install psycopg[c]
 poetry install --only-root
