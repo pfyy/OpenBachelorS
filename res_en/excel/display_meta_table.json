@@ -2165,6 +2165,65 @@
                 ]
             },
             {
+                "avatarId": "avatar_activity_AC_2",
+                "avatarType": "ACTIVITY",
+                "avatarDesc": "[Stronghold Protocol: Alliance] Stronghold Credit",
+                "isSecret": true,
+                "avatarStartTs": 1787238000,
+                "avatarLimit": true,
+                "avatarIdSort": 78,
+                "avatarIdDesc": "[Stronghold Protocol: Alliance] Stronghold Credit\n'Restarting Simulation!'",
+                "avatarItemName": "'Restarting Simulation!'",
+                "avatarItemDesc": "Choose your equipment well, set a strategy, put together a team, then set out once more!",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Obtained from Stronghold Protocol: Alliance",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_activity_AC_2",
+                        "descShowTs": 1787238000,
+                        "descHideTs": 1791111599
+                    }
+                ]
+            },
+            {
+                "avatarId": "avatar_activity_BB",
+                "avatarType": "ACTIVITY",
+                "avatarDesc": "[Babel] Record Restoration",
+                "isSecret": false,
+                "avatarStartTs": 1790766000,
+                "avatarLimit": false,
+                "avatarIdSort": 80,
+                "avatarIdDesc": "[Babel] Record Restoration\n'Babel'",
+                "avatarItemName": "'Babel'",
+                "avatarItemDesc": "That which is forged from despair and hope, meetings and partings, is what we call 'life'.",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Obtained from Record Restoration",
+                "dynAvatarId": null
+            },
+            {
+                "avatarId": "avatar_activity_ED3",
+                "avatarType": "ACTIVITY",
+                "avatarDesc": "[Duel Channel: Ivy Vine] Ivy Vine Reward",
+                "isSecret": true,
+                "avatarStartTs": 1790175600,
+                "avatarLimit": true,
+                "avatarIdSort": 81,
+                "avatarIdDesc": "[Duel Channel: Ivy Vine] Ivy Vine Reward\n'ALL IN!'",
+                "avatarItemName": "'ALL IN!'",
+                "avatarItemDesc": "No time to hesitate! You only get one chance, so take out all your presents, and go ALL-IN!",
+                "avatarItemUsage": "Can be set as an icon, serving for personal branding.",
+                "obtainApproach": "Obtained from Duel Channel: Ivy Vine",
+                "dynAvatarId": null,
+                "limitDatas": [
+                    {
+                        "avatarId": "avatar_activity_ED3",
+                        "descShowTs": 1790175600,
+                        "descHideTs": 1791629999
+                    }
+                ]
+            },
+            {
                 "avatarId": "avatar_dyn_01",
                 "avatarType": "DYNAMIC",
                 "avatarDesc": "[Cumulative Sign-In] Reward",
@@ -2619,7 +2678,10 @@
                     "avatar_activity_pcAct",
                     "avatar_activity_HS",
                     "avatar_activity_RL5_1",
-                    "avatar_activity_RL5_2"
+                    "avatar_activity_RL5_2",
+                    "avatar_activity_AC_2",
+                    "avatar_activity_BB",
+                    "avatar_activity_ED3"
                 ]
             },
             "DEFAULT": {
@@ -3757,6 +3819,30 @@
                 "hideWhenLimit": true,
                 "rarity": "TIER_6",
                 "multiPicId": "tm_lonetrail_1_all"
+            },
+            {
+                "id": "tm_kaltsit_1",
+                "type": "BASE",
+                "sortId": 15,
+                "startTime": 1791457200,
+                "isSecret": true,
+                "tmName": "Reconstruction",
+                "tmDes": "After witnessing countless partings and reunions, those eyes—having long watched the passage of time—at last receive the reconstruction they deserve.",
+                "tmUsage": "The PRTS interface has been redesigned without changing its functionality.",
+                "isMultiForm": false,
+                "multiFormList": [
+                    {
+                        "multiFormTmId": "tm_kaltsit_1",
+                        "sortId": 0
+                    }
+                ],
+                "obtainApproach": "Limited Login Event Reward",
+                "unlockDesList": [
+                    "To Look Back on Terra Limited Login Event Reward"
+                ],
+                "isLimitObtain": true,
+                "hideWhenLimit": true,
+                "rarity": "TIER_5"
             }
         ],
         "themeGroupDatas": [
@@ -3848,6 +3934,11 @@
                         "id": "tm_rogue_5",
                         "groupType": "BASE",
                         "sortId": 11
+                    },
+                    {
+                        "id": "tm_kaltsit_1",
+                        "groupType": "BASE",
+                        "sortId": 15
                     }
                 ]
             }
@@ -4049,6 +4140,16 @@
                     {
                         "startTime": 1782889200,
                         "endTime": 1785322799,
+                        "invalidObtainDesc": "Not Available"
+                    }
+                ]
+            },
+            "tm_kaltsit_1": {
+                "id": "tm_kaltsit_1",
+                "limitInfos": [
+                    {
+                        "startTime": 1791457200,
+                        "endTime": 1794826799,
                         "invalidObtainDesc": "Not Available"
                     }
                 ]
@@ -5124,6 +5225,154 @@
                         "availEndTime": 1785149999
                     }
                 }
+            },
+            "nc_as2026_TheCongregation": {
+                "id": "nc_as2026_TheCongregation",
+                "name": "The Congregation",
+                "type": "SPECIAL",
+                "isSecret": false,
+                "sortId": 26,
+                "isSpTheme": true,
+                "defaultShowDetail": false,
+                "themeName": "The Congregation",
+                "themeEnName": "The Congregation",
+                "skinStartTime": 1790175600,
+                "skinDesc": "For those lost and bewildered in unending night, send them a gleaming song of faith to show them the way.",
+                "usageDesc": "PRTS has been redesigned with no changes whatsoever to its functionality.",
+                "skinApproach": "The Congregation Pack",
+                "unlockConditionCnt": 1,
+                "unlockDescList": [
+                    "Obtained by buying The Congregation Pack in the [Store]"
+                ],
+                "fixedModuleList": [
+                    "module_background",
+                    "module_collect",
+                    "module_avatar",
+                    "module_avatar_simple"
+                ],
+                "rarity": "TIER_6",
+                "skinTmplCnt": 5,
+                "canChangeTmpl": true,
+                "isTimeLimit": true,
+                "timeLimitInfoList": {
+                    "nc_as2026_TheCongregation": {
+                        "limitId": "nc_as2026_TheCongregation",
+                        "id": "nc_as2026_TheCongregation",
+                        "availStartTime": 1790175600,
+                        "availEndTime": 1792580399
+                    }
+                }
+            },
+            "nc_as2026_TheScripted": {
+                "id": "nc_as2026_TheScripted",
+                "name": "The Scripted",
+                "type": "SPECIAL",
+                "isSecret": false,
+                "sortId": 27,
+                "isSpTheme": true,
+                "defaultShowDetail": false,
+                "themeName": "The Scripted",
+                "themeEnName": "The Scripted",
+                "skinStartTime": 1790175600,
+                "skinDesc": "Through the unbridled madness behind the curtain, shatter the lethargy and confusion plaguing space and time.",
+                "usageDesc": "PRTS has been redesigned with no changes whatsoever to its functionality.",
+                "skinApproach": "The Scripted Pack",
+                "unlockConditionCnt": 1,
+                "unlockDescList": [
+                    "Obtained by buying The Scripted Pack in the [Store]"
+                ],
+                "fixedModuleList": [
+                    "module_background",
+                    "module_collect",
+                    "module_avatar",
+                    "module_avatar_simple"
+                ],
+                "rarity": "TIER_6",
+                "skinTmplCnt": 5,
+                "canChangeTmpl": true,
+                "isTimeLimit": true,
+                "timeLimitInfoList": {
+                    "nc_as2026_TheScripted": {
+                        "limitId": "nc_as2026_TheScripted",
+                        "id": "nc_as2026_TheScripted",
+                        "availStartTime": 1790175600,
+                        "availEndTime": 1792580399
+                    }
+                }
+            },
+            "nc_as2026_NightWatcher": {
+                "id": "nc_as2026_NightWatcher",
+                "name": "Night Watcher",
+                "type": "SPECIAL",
+                "isSecret": false,
+                "sortId": 28,
+                "isSpTheme": true,
+                "defaultShowDetail": false,
+                "themeName": "Night Watcher",
+                "themeEnName": "Night Watcher",
+                "skinStartTime": 1790175600,
+                "skinDesc": "Bathe yourself in starlight, part the velvet curtain of night, and hear the echoes of the hearts whose thirst for knowledge can never be slaked.",
+                "usageDesc": "PRTS has been redesigned with no changes whatsoever to its functionality.",
+                "skinApproach": "Night Watcher Pack",
+                "unlockConditionCnt": 1,
+                "unlockDescList": [
+                    "Obtained by buying Night Watcher Pack in the [Store]"
+                ],
+                "fixedModuleList": [
+                    "module_background",
+                    "module_collect",
+                    "module_avatar",
+                    "module_avatar_simple"
+                ],
+                "rarity": "TIER_6",
+                "skinTmplCnt": 5,
+                "canChangeTmpl": true,
+                "isTimeLimit": true,
+                "timeLimitInfoList": {
+                    "nc_as2026_NightWatcher": {
+                        "limitId": "nc_as2026_NightWatcher",
+                        "id": "nc_as2026_NightWatcher",
+                        "availStartTime": 1790175600,
+                        "availEndTime": 1792580399
+                    }
+                }
+            },
+            "nc_as2026_TheAphasic": {
+                "id": "nc_as2026_TheAphasic",
+                "name": "The Aphasic",
+                "type": "SPECIAL",
+                "isSecret": false,
+                "sortId": 29,
+                "isSpTheme": true,
+                "defaultShowDetail": false,
+                "themeName": "The Aphasic",
+                "themeEnName": "The Aphasic",
+                "skinStartTime": 1790175600,
+                "skinDesc": "A dream that needs no words. A creed that needs no ideas. Only the footsteps moving forward are the greatest strength to shatter the silence.",
+                "usageDesc": "PRTS has been redesigned with no changes whatsoever to its functionality.",
+                "skinApproach": "The Aphasic Pack",
+                "unlockConditionCnt": 1,
+                "unlockDescList": [
+                    "Obtained by buying The Aphasic Pack in the [Store]"
+                ],
+                "fixedModuleList": [
+                    "module_background",
+                    "module_collect",
+                    "module_avatar",
+                    "module_avatar_simple"
+                ],
+                "rarity": "TIER_6",
+                "skinTmplCnt": 5,
+                "canChangeTmpl": true,
+                "isTimeLimit": true,
+                "timeLimitInfoList": {
+                    "nc_as2026_TheAphasic": {
+                        "limitId": "nc_as2026_TheAphasic",
+                        "id": "nc_as2026_TheAphasic",
+                        "availStartTime": 1790175600,
+                        "availEndTime": 1792580399
+                    }
+                }
             }
         },
         "skinGroupDatas": [
@@ -5196,6 +5445,26 @@
                         "id": "nc_rilakkuma_1",
                         "groupType": "SPECIAL",
                         "sortId": 25
+                    },
+                    {
+                        "id": "nc_as2026_TheCongregation",
+                        "groupType": "SPECIAL",
+                        "sortId": 26
+                    },
+                    {
+                        "id": "nc_as2026_TheScripted",
+                        "groupType": "SPECIAL",
+                        "sortId": 27
+                    },
+                    {
+                        "id": "nc_as2026_NightWatcher",
+                        "groupType": "SPECIAL",
+                        "sortId": 28
+                    },
+                    {
+                        "id": "nc_as2026_TheAphasic",
+                        "groupType": "SPECIAL",
+                        "sortId": 29
                     }
                 ]
             },
@@ -6551,6 +6820,48 @@
                 "picId": "pic_very_soon_battle",
                 "desc": null
             },
+            "slug_duel_battle_nice_work": {
+                "id": "slug_duel_battle_nice_work",
+                "type": "ENEMYDUEL_BATTLE",
+                "sortId": 2001,
+                "picId": "pic_nice_work_battle",
+                "desc": null
+            },
+            "slug_duel_battle_thanks": {
+                "id": "slug_duel_battle_thanks",
+                "type": "ENEMYDUEL_BATTLE",
+                "sortId": 2002,
+                "picId": "pic_thanks_battle",
+                "desc": null
+            },
+            "slug_duel_battle_sorry": {
+                "id": "slug_duel_battle_sorry",
+                "type": "ENEMYDUEL_BATTLE",
+                "sortId": 2003,
+                "picId": "pic_sorry_battle",
+                "desc": null
+            },
+            "slug_duel_battle_bye": {
+                "id": "slug_duel_battle_bye",
+                "type": "ENEMYDUEL_BATTLE",
+                "sortId": 2004,
+                "picId": "pic_bye_battle",
+                "desc": null
+            },
+            "slug_duel_battle_distrust": {
+                "id": "slug_duel_battle_distrust",
+                "type": "ENEMYDUEL_BATTLE",
+                "sortId": 2005,
+                "picId": "pic_distrust_battle",
+                "desc": null
+            },
+            "slug_duel_battle_very_soon": {
+                "id": "slug_duel_battle_very_soon",
+                "type": "ENEMYDUEL_BATTLE",
+                "sortId": 2006,
+                "picId": "pic_very_soon_battle",
+                "desc": null
+            },
             "duel_battle_left": {
                 "id": "duel_battle_left",
                 "type": "ENEMYDUEL_BATTLE",
@@ -6746,6 +7057,48 @@
                 "sortId": 1006,
                 "picId": "pic_cooperate_battle",
                 "desc": null
+            },
+            "autochess_battle_noproblem": {
+                "id": "autochess_battle_noproblem",
+                "type": "AUTOCHESS_BATTLE",
+                "sortId": 1007,
+                "picId": "pic_noproblem_battle",
+                "desc": null
+            },
+            "autochess_battle_respect": {
+                "id": "autochess_battle_respect",
+                "type": "AUTOCHESS_BATTLE",
+                "sortId": 1008,
+                "picId": "pic_respect_battle",
+                "desc": null
+            },
+            "autochess_battle_call": {
+                "id": "autochess_battle_call",
+                "type": "AUTOCHESS_BATTLE",
+                "sortId": 1009,
+                "picId": "pic_call_battle",
+                "desc": null
+            },
+            "autochess_battle_playingcool": {
+                "id": "autochess_battle_playingcool",
+                "type": "AUTOCHESS_BATTLE",
+                "sortId": 1010,
+                "picId": "pic_playingcool_battle",
+                "desc": null
+            },
+            "autochess_battle_sad": {
+                "id": "autochess_battle_sad",
+                "type": "AUTOCHESS_BATTLE",
+                "sortId": 1011,
+                "picId": "pic_sad_battle",
+                "desc": null
+            },
+            "autochess_battle_dying": {
+                "id": "autochess_battle_dying",
+                "type": "AUTOCHESS_BATTLE",
+                "sortId": 1012,
+                "picId": "pic_dying_battle",
+                "desc": null
             }
         },
         "emoticonThemeDataDict": {
@@ -6803,7 +7156,13 @@
                 "slug_autochess_battle_sorry",
                 "slug_autochess_battle_bye",
                 "slug_autochess_battle_distrust",
-                "slug_autochess_battle_very_soon"
+                "slug_autochess_battle_very_soon",
+                "slug_duel_battle_nice_work",
+                "slug_duel_battle_thanks",
+                "slug_duel_battle_sorry",
+                "slug_duel_battle_bye",
+                "slug_duel_battle_distrust",
+                "slug_duel_battle_very_soon"
             ],
             "emticon_duel_basic": [
                 "duel_battle_right",
@@ -6836,6 +7195,14 @@
                 "autochess_battle_thanks",
                 "autochess_battle_thinking",
                 "autochess_battle_nice_cooperate"
+            ],
+            "emoticon_autochess_basic_2": [
+                "autochess_battle_noproblem",
+                "autochess_battle_respect",
+                "autochess_battle_call",
+                "autochess_battle_playingcool",
+                "autochess_battle_sad",
+                "autochess_battle_dying"
             ]
         }
     },
@@ -7966,6 +8333,68 @@
                         "canBeSet": false,
                         "defaultKeyId": "bannedRightArrow",
                         "sortId": 4
+                    }
+                ]
+            },
+            "autoChess": {
+                "groupId": "autoChess",
+                "name": "Stronghold Protocol",
+                "funcType": "BATTLE",
+                "keyEffectGroup": "BATTLE",
+                "isHidden": false,
+                "relatedActType": "AUTOCHESS_SEASON",
+                "gameModeTag": "autochess",
+                "sortId": 4,
+                "startTs": 1787238000,
+                "itemList": [
+                    {
+                        "funcId": "autochessRefresh",
+                        "funcName": "Refresh",
+                        "canBeSet": true,
+                        "defaultKeyId": "alphaD",
+                        "sortId": 1
+                    },
+                    {
+                        "funcId": "autochessFreeze",
+                        "funcName": "Freeze",
+                        "canBeSet": true,
+                        "defaultKeyId": "alphaS",
+                        "sortId": 2
+                    },
+                    {
+                        "funcId": "autochessLevelUp",
+                        "funcName": "Upgrade",
+                        "canBeSet": true,
+                        "defaultKeyId": "alphaG",
+                        "sortId": 3
+                    },
+                    {
+                        "funcId": "autochessShop",
+                        "funcName": "Dispatch Center",
+                        "canBeSet": true,
+                        "defaultKeyId": "alphaA",
+                        "sortId": 4
+                    },
+                    {
+                        "funcId": "autochessReady",
+                        "funcName": "Ready",
+                        "canBeSet": true,
+                        "defaultKeyId": "alphaC",
+                        "sortId": 5
+                    },
+                    {
+                        "funcId": "autochessSale",
+                        "funcName": "Sell",
+                        "canBeSet": true,
+                        "defaultKeyId": "alphaX",
+                        "sortId": 6
+                    },
+                    {
+                        "funcId": "autochessViewEnemy",
+                        "funcName": "View Enemy",
+                        "canBeSet": true,
+                        "defaultKeyId": "alphaW",
+                        "sortId": 7
                     }
                 ]
             }

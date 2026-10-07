@@ -108624,6 +108624,650 @@
             }
         ]
     },
+    "skchr_turdus_1": {
+        "skillId": "skchr_turdus_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 25.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 40.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 45.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 50.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 55.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 60.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 70.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "The Tong Song",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+{attack_speed}</>, bounces per heal <@ba.vup>+{attack@chain.extra_value}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_1",
+                "duration": 25.0,
+                "blackboard": [
+                    {
+                        "key": "attack_speed",
+                        "value": 80.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@chain.extra_value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
+    "skchr_turdus_2": {
+        "skillId": "skchr_turdus_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.14,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 8.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 44,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.16,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 8.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 43,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.18,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 8.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 42,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.2,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 10.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 41,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.22,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 10.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.24,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 10.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 39,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.26,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 12.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 38,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.29,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 12.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 37,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.32,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 12.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "'Peekaboo!'",
+                "rangeId": null,
+                "description": "Loses <@ba.vdown>{turdus_s2[self_damage].hp_ratio:0%}</> current HP, then immediately performs a heal, granting additional healing amount of <@ba.vup>{turdus_s2[continues_heal].heal_scale:0%}</> of Ukusik's ATK per second and <$ba.camou>Camouflage</> for <@ba.vup>{bonus_duration}</>s to all healed targets",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 30,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_turdus_2",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "turdus_s2[continues_heal].heal_scale",
+                        "value": 0.35,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "bonus_duration",
+                        "value": 12.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "turdus_s2[self_damage].hp_ratio",
+                        "value": 0.15,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
     "skchr_taraxa_1": {
         "skillId": "skchr_taraxa_1",
         "iconId": null,
@@ -153244,6 +153888,800 @@
                     {
                         "key": "attack@projectile_life_time",
                         "value": 11.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
+    "skchr_botany_1": {
+        "skillId": "skchr_botany_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 15,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 0.55,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.55,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.2,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 14,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.2,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 13,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 0.65,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.65,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.2,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 12,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 0.7,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.7,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.3,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 11,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 0.75,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.75,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.3,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 10,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 0.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.3,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 8,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 0.85,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.85,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.3,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 7,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 0.9,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.9,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.35,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 6,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 0.95,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.35,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Disharmonization",
+                "rangeId": null,
+                "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; if the target is not affected by <$ba.dt.erosion2>Corrosion</>, deals an additional <@ba.vup>{botany_s1_extra.atk_scale:0%}</> ATK as Arts damage and <@ba.vup>{botany_s1_extra.ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 5,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_1",
+                "duration": -1.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.1,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "ep_damage_ratio",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.atk_scale",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "botany_s1_extra.ep_damage_ratio",
+                        "value": 0.35,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
+    "skchr_botany_2": {
+        "skillId": "skchr_botany_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 5,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 0.9,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 54,
+                    "initSp": 5,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 0.95,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 53,
+                    "initSp": 5,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 52,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 1.05,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 51,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 1.1,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 50,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 1.15,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 49,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 1.2,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 47,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 1.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 46,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 1.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Echoes Through Quietude",
+                "rangeId": "y-7",
+                "description": "Attack Range expands, attacks <@ba.vup>2</> targets simultaneously, and attacks deal an additional <@ba.vup>{attack@extra_atk_scale:0%}</> ATK as Physical damage and <@ba.vup>{attack@ep_damage_ratio:0%}</> ATK as <$ba.dt.erosion2>Corrosion</>; enemies within Attack Range have <@ba.vup>+{attack@ep_break_recover_speed:0%}</> <$ba.dt.erosion2>Corrosion</> cooldown recovery rate",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 45,
+                    "initSp": 25,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_botany_2",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "attack@extra_atk_scale",
+                        "value": 1.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_damage_ratio",
+                        "value": 0.65,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@ep_break_recover_speed",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack@max_target",
+                        "value": 2.0,
                         "valueStr": null
                     }
                 ]
@@ -316682,6 +318120,1197 @@
             }
         ]
     },
+    "skchr_headb2_1": {
+        "skillId": "skchr_headb2_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 40,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.25,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 39,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.27,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 38,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.29,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 30.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 37,
+                    "initSp": 5,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.32,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 36,
+                    "initSp": 5,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.34,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 35,
+                    "initSp": 5,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.36,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.39,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 40.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 33,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.42,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 45.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 18,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.45,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 45.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Bow",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk:0%}</>; ASPD <@ba.vup>+{attack_speed}</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_1",
+                "duration": 30.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 50.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
+    "skchr_headb2_2": {
+        "skillId": "skchr_headb2_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 60,
+                    "initSp": 16,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.45,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 0.9,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 59,
+                    "initSp": 16,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 58,
+                    "initSp": 16,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.55,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.1,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 57,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.2,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 0.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 56,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.65,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 0.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 55,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.7,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 0.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 53,
+                    "initSp": 24,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.75,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 52,
+                    "initSp": 28,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 51,
+                    "initSp": 32,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.85,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.7,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 1.2,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Never Surrender",
+                "rangeId": "2-5",
+                "description": "Passive Effect: Whenever a high ground tile triggers Talent 1's effect, gains <@ba.vup>{sp_per_highland}</> SP\nAutomatic Effect: Attack Range <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</>, and DEF <@ba.vup>+{def:0%}</>\n<@ba.rem>Upon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are double the base amount</>",
+                "skillType": "AUTO",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 50,
+                    "initSp": 36,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_2",
+                "duration": 16.0,
+                "blackboard": [
+                    {
+                        "key": "atk",
+                        "value": 0.9,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 0.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].atk",
+                        "value": 1.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "headb2_s_2[second].def",
+                        "value": 1.2,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "sp_per_highland",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
+    "skchr_headb2_3": {
+        "skillId": "skchr_headb2_3",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 36,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.7,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.5,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 36,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.75,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.55,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 36,
+                    "initSp": 10,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.8,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.6,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.9,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.65,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.95,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.7,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 34,
+                    "initSp": 12,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.75,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 32,
+                    "initSp": 15,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.1,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.8,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 30,
+                    "initSp": 18,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.2,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.9,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 28,
+                    "initSp": 18,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 1.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 0.95,
+                        "valueStr": null
+                    }
+                ]
+            },
+            {
+                "name": "Unstoppable",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+{atk_base:0%}</>, and deals a chain of five hammer blows with increased splash area to the tile ahead, each blow dealing <@ba.vup>{atk_scale:0%}</> ATK as Physical damage and granting an additional <@ba.vup>+{atk_step:0%}</> ATK; high ground tiles that trigger Talent 1 will spread its effect to adjacent high ground tiles (amount of spread increases with each attack), damage effect increases to <@ba.vup>{splash_atk_scale_bonus}</>x, and control effect becomes a <@ba.vup>{unmovable}</>s <$ba.root>Bind</>",
+                "skillType": "MANUAL",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": "INCREASE_WITH_TIME",
+                    "levelUpCost": null,
+                    "maxChargeTime": 1,
+                    "spCost": 27,
+                    "initSp": 20,
+                    "increment": 1.0
+                },
+                "prefabId": "skchr_headb2_3",
+                "duration": 0.0,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 2.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_step",
+                        "value": 0.3,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "splash_atk_scale_bonus",
+                        "value": 3.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "unmovable",
+                        "value": 2.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk_base",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ]
+            }
+        ]
+    },
     "skchr_chen_1": {
         "skillId": "skchr_chen_1",
         "iconId": null,
@@ -358294,6 +360923,656 @@
                         "valueStr": null
                     }
                 ]
+            }
+        ]
+    },
+    "sktok_acarm113_1": {
+        "skillId": "sktok_acarm113_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Budget-Savvy Doll",
+                "rangeId": null,
+                "description": "Destroyed when equipped; gains an extra <@ba.vup>1</> Funds at the start of each subsequent round",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm113_2": {
+        "skillId": "sktok_acarm113_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Budget-Savvy Doll",
+                "rangeId": null,
+                "description": "Destroyed when equipped; gains an extra <@ba.vup>2</> Funds at the start of each subsequent round",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm114_1": {
+        "skillId": "sktok_acarm114_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Simple Communicator",
+                "rangeId": null,
+                "description": "Destroyed when equipped; gain <@ba.vup>1</> random Operator from the same Alliance as the equipped Operator",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm114_2": {
+        "skillId": "sktok_acarm114_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Simple Communicator",
+                "rangeId": null,
+                "description": "Destroyed when equipped; gain <@ba.vup>2</> random Operators from the same Alliance as the equipped Operator",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm115_1": {
+        "skillId": "sktok_acarm115_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Emergency Dispatch Ticket",
+                "rangeId": null,
+                "description": "Destroyed when equipped; gain <@ba.vup>1</> random Operator currently in the Dispatch Center (corresponding Operator in Dispatch Center will disappear)",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm115_2": {
+        "skillId": "sktok_acarm115_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Emergency Dispatch Ticket",
+                "rangeId": null,
+                "description": "Destroyed when equipped; gain <@ba.vup>2</> random Operators currently in the Dispatch Center (corresponding Operators in Dispatch Center will disappear)",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm116_1": {
+        "skillId": "sktok_acarm116_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Money-Grubbing Doll",
+                "rangeId": null,
+                "description": "Destroyed when equipped; grants <@ba.vup>2</> Funds next round",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm116_2": {
+        "skillId": "sktok_acarm116_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Money-Grubbing Doll",
+                "rangeId": null,
+                "description": "Destroyed when equipped; grants <@ba.vup>4</> Funds next round",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm117_1": {
+        "skillId": "sktok_acarm117_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Pegasian Lance",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+40%</>; if equipped alongside 'Pegasian Helm', when dealing damage, deal an additional <@ba.vup>30%</> as True damage",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm117_2": {
+        "skillId": "sktok_acarm117_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Pegasian Lance",
+                "rangeId": null,
+                "description": "ATK <@ba.vup>+60%</>; if equipped alongside 'Pegasian Helm', when dealing damage, deal an additional <@ba.vup>30%</> as True damage",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm118_1": {
+        "skillId": "sktok_acarm118_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Pegasian Helm",
+                "rangeId": null,
+                "description": "HP <@ba.vup>+50%</>; if equipped alongside 'Pegasian Lance', recover <@ba.vup>8%</> Max HP per second",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm118_2": {
+        "skillId": "sktok_acarm118_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Pegasian Helm",
+                "rangeId": null,
+                "description": "HP <@ba.vup>+75%</>; if equipped alongside 'Pegasian Lance', recover <@ba.vup>8%</> Max HP per second",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm119_1": {
+        "skillId": "sktok_acarm119_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Kazimierz Knightclub Pennant",
+                "rangeId": null,
+                "description": "Damage dealt for <@ba.vup>15</>s after deployment is increased to <@ba.vup>135%</>, effect gradually decays",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm119_2": {
+        "skillId": "sktok_acarm119_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Kazimierz Knightclub Pennant",
+                "rangeId": null,
+                "description": "Damage dealt for <@ba.vup>15</>s after deployment is increased to <@ba.vup>160%</>, effect gradually decays",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm120_1": {
+        "skillId": "sktok_acarm120_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Chivalric Commandments",
+                "rangeId": null,
+                "description": "Redeployment Time <@ba.vup>-40%</>; If equipped by a [Kazimierz] Operator, enemies within Attack Range have <@ba.vup>-35%</> ASPD and <@ba.vup>-35%</> Movement Speed for 20s after skill activation\n<@ba.acrem>If 'Kazimierz Knightclub Pennant' is also equipped by the [Kazimierz] Operator, while skill is active, Operator has ATK <@ba.vup>+100%</> and will not retreat when receiving lethal damage, instead retreating once skill ends</>",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm120_2": {
+        "skillId": "sktok_acarm120_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Chivalric Commandments",
+                "rangeId": null,
+                "description": "Redeployment Time <@ba.vup>-60%</>; If equipped by a [Kazimierz] Operator, enemies within Attack Range have <@ba.vup>-35%</> ASPD and <@ba.vup>-35%</> Movement Speed for 20s after skill activation\n<@ba.acrem>If 'Kazimierz Knightclub Pennant' is also equipped by the [Kazimierz] Operator, while skill is active, Operator has ATK <@ba.vup>+100%</> and will not retreat when receiving lethal damage, instead retreating once skill ends</>",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm121_1": {
+        "skillId": "sktok_acarm121_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Siracusan Formalwear",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+15</>, allied Operators to the left and right of the equipped Operator's deployment direction gain <@ba.vup>+10</> ASPD",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm121_2": {
+        "skillId": "sktok_acarm121_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Siracusan Formalwear",
+                "rangeId": null,
+                "description": "ASPD <@ba.vup>+25</>, allied Operators to the left and right of the equipped Operator's deployment direction gain <@ba.vup>+15</> ASPD",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm122_1": {
+        "skillId": "sktok_acarm122_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Famiglia Insignia",
+                "rangeId": null,
+                "description": "SP recovery rate <@ba.vup>+0.2</>/s; If equipped by a [Siracusa] Operator, ATK gradually increases to <@ba.vup>200%</> when equipped Operator is Invisible, until the first instance of damage dealt after Invisibility ends or the Operator leaves the field\n<@ba.acrem>If 'Siracusan Formalwear' is also equipped by the [Siracusa] Operator, the first instance of damage dealt after Invisibility ends deals an additional <@ba.vup>800%</> ATK as True damage</>",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm122_2": {
+        "skillId": "sktok_acarm122_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Famiglia Insignia",
+                "rangeId": null,
+                "description": "SP recovery rate <@ba.vup>+0.35</>/s; If equipped by a [Siracusa] Operator, ATK gradually increases to <@ba.vup>200%</> when equipped Operator is Invisible, until the first instance of damage dealt after Invisibility ends or the Operator leaves the field\n<@ba.acrem>If 'Siracusan Formalwear' is also equipped by the [Siracusa] Operator, the first instance of damage dealt after Invisibility ends deals an additional <@ba.vup>800%</> ATK as True damage</>",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm123_1": {
+        "skillId": "sktok_acarm123_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Knightly Savings",
+                "rangeId": null,
+                "description": "Destroyed when equipped and grants <@ba.vup>1~6</> Funds",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm123_2": {
+        "skillId": "sktok_acarm123_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Knightly Savings",
+                "rangeId": null,
+                "description": "Destroyed when equipped and grants <@ba.vup>2~12</> Funds",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm124_1": {
+        "skillId": "sktok_acarm124_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Identification Device",
+                "rangeId": null,
+                "description": "Destroyed when equipped; gives <@ba.vup>+3</> stacks to equipped Operator's Alliance(s) (Alliances do not need to be active)",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm124_2": {
+        "skillId": "sktok_acarm124_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Identification Device",
+                "rangeId": null,
+                "description": "Destroyed when equipped; gives <@ba.vup>+6</> stacks to equipped Operator's Alliance(s) (Alliances do not need to be active)",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm125_1": {
+        "skillId": "sktok_acarm125_1",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Originium Solvent",
+                "rangeId": null,
+                "description": "Equipped Operator takes <@ba.vdown>60</> True damage per second, but gains <@ba.vup>+40%</> ATK",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
+            }
+        ]
+    },
+    "sktok_acarm125_2": {
+        "skillId": "sktok_acarm125_2",
+        "iconId": null,
+        "hidden": false,
+        "levels": [
+            {
+                "name": "Originium Solvent",
+                "rangeId": null,
+                "description": "Equipped Operator takes <@ba.vdown>60</> True damage per second, but gains <@ba.vup>+60%</> ATK",
+                "skillType": "PASSIVE",
+                "durationType": "NONE",
+                "spData": {
+                    "spType": 8,
+                    "levelUpCost": null,
+                    "maxChargeTime": 0,
+                    "spCost": 0,
+                    "initSp": 0,
+                    "increment": 1.0
+                },
+                "prefabId": "sktok_common_acarm",
+                "duration": 0.0,
+                "blackboard": []
             }
         ]
     }

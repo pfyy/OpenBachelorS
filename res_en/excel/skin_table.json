@@ -21339,6 +21339,118 @@
                 "onPeriod": 0
             }
         },
+        "char_4224_turdus#1": {
+            "skinId": "char_4224_turdus#1",
+            "charId": "char_4224_turdus",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_4224_turdus_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_4224_turdus",
+            "spAvatarId": null,
+            "portraitId": "char_4224_turdus_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": null,
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "DefaultSkin"
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": [
+                    "",
+                    "",
+                    "#9498d0",
+                    "",
+                    ""
+                ],
+                "titleList": [
+                    "",
+                    ""
+                ],
+                "modelName": "Укусик",
+                "drawerList": [
+                    "折射镜"
+                ],
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": "The outfit this Operator wears most often.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "char_4224_turdus#2": {
+            "skinId": "char_4224_turdus#2",
+            "charId": "char_4224_turdus",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_4224_turdus_2",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_4224_turdus_2",
+            "spAvatarId": null,
+            "portraitId": "char_4224_turdus_2",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": null,
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "DefaultSkin"
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": [
+                    "",
+                    "",
+                    "#c8c6e9",
+                    "",
+                    ""
+                ],
+                "titleList": [
+                    "",
+                    ""
+                ],
+                "modelName": "Укусик",
+                "drawerList": [
+                    "折射镜"
+                ],
+                "designerList": null,
+                "skinGroupId": "ILLUST_2",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -10,
+                "content": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -1,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
         "char_4222_taraxa#1": {
             "skinId": "char_4222_taraxa#1",
             "charId": "char_4222_taraxa",
@@ -28322,6 +28434,118 @@
                 "modelName": "Bobbing",
                 "drawerList": [
                     "HUG"
+                ],
+                "designerList": null,
+                "skinGroupId": "ILLUST_2",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -10,
+                "content": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -1,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "char_4223_botany#1": {
+            "skinId": "char_4223_botany#1",
+            "charId": "char_4223_botany",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_4223_botany_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_4223_botany",
+            "spAvatarId": null,
+            "portraitId": "char_4223_botany_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": null,
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "DefaultSkin"
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": [
+                    "",
+                    "",
+                    "#dec7b2",
+                    "",
+                    ""
+                ],
+                "titleList": [
+                    "",
+                    ""
+                ],
+                "modelName": "Ботани",
+                "drawerList": [
+                    "Yukuso"
+                ],
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": "The outfit this Operator wears most often.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "char_4223_botany#2": {
+            "skinId": "char_4223_botany#2",
+            "charId": "char_4223_botany",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_4223_botany_2",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_4223_botany_2",
+            "spAvatarId": null,
+            "portraitId": "char_4223_botany_2",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": null,
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "DefaultSkin"
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": [
+                    "",
+                    "",
+                    "#d71610",
+                    "",
+                    ""
+                ],
+                "titleList": [
+                    "",
+                    ""
+                ],
+                "modelName": "Ботани",
+                "drawerList": [
+                    "Yukuso"
                 ],
                 "designerList": null,
                 "skinGroupId": "ILLUST_2",
@@ -42453,6 +42677,122 @@
                 "skinGroupName": "Default Outfit",
                 "skinGroupSortIndex": -10,
                 "content": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -1,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "char_1051_headb2#1": {
+            "skinId": "char_1051_headb2#1",
+            "charId": "char_1051_headb2",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_1051_headb2_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_1051_headb2",
+            "spAvatarId": null,
+            "portraitId": "char_1051_headb2_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": null,
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "DefaultSkin"
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": [
+                    "",
+                    "",
+                    "#902d37",
+                    "",
+                    ""
+                ],
+                "titleList": [
+                    "",
+                    ""
+                ],
+                "modelName": "Zima the Raging Tide",
+                "drawerList": [
+                    "伍秋秋秋秋"
+                ],
+                "designerList": [
+                    "Skade"
+                ],
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": "Clothes Zima wears when traveling around Deity Grypherburg and its surrounding areas.\nWhen she met with the tailor invited by the House of Rostov, she had only one request: she wanted a patch of red sewn onto the chest.",
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "char_1051_headb2#2": {
+            "skinId": "char_1051_headb2#2",
+            "charId": "char_1051_headb2",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_1051_headb2_2",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_1051_headb2_2",
+            "spAvatarId": null,
+            "portraitId": "char_1051_headb2_2",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": null,
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "DefaultSkin"
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": [
+                    "",
+                    "",
+                    "#8e2822",
+                    "",
+                    ""
+                ],
+                "titleList": [
+                    "",
+                    ""
+                ],
+                "modelName": "Zima the Raging Tide",
+                "drawerList": [
+                    "伍秋秋秋秋"
+                ],
+                "designerList": [
+                    "Skade"
+                ],
+                "skinGroupId": "ILLUST_2",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -10,
+                "content": "Zima stands amongst the people.\nShe is no charismatic chieftain, no craven coward. She stands, her flag held high.",
                 "dialog": null,
                 "usage": null,
                 "description": null,
@@ -76974,6 +77314,726 @@
                 "onPeriod": 0
             }
         },
+        "trap_1113_acarm113#1": {
+            "skinId": "trap_1113_acarm113#1",
+            "charId": "trap_1113_acarm113",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1113_acarm113_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1113_acarm113",
+            "spAvatarId": null,
+            "portraitId": "trap_1113_acarm113_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1114_acarm114#1": {
+            "skinId": "trap_1114_acarm114#1",
+            "charId": "trap_1114_acarm114",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1114_acarm114_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1114_acarm114",
+            "spAvatarId": null,
+            "portraitId": "trap_1114_acarm114_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1115_acarm115#1": {
+            "skinId": "trap_1115_acarm115#1",
+            "charId": "trap_1115_acarm115",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1115_acarm115_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1115_acarm115",
+            "spAvatarId": null,
+            "portraitId": "trap_1115_acarm115_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1116_acarm116#1": {
+            "skinId": "trap_1116_acarm116#1",
+            "charId": "trap_1116_acarm116",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1116_acarm116_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1116_acarm116",
+            "spAvatarId": null,
+            "portraitId": "trap_1116_acarm116_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1117_acarm117#1": {
+            "skinId": "trap_1117_acarm117#1",
+            "charId": "trap_1117_acarm117",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1117_acarm117_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1117_acarm117",
+            "spAvatarId": null,
+            "portraitId": "trap_1117_acarm117_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1118_acarm118#1": {
+            "skinId": "trap_1118_acarm118#1",
+            "charId": "trap_1118_acarm118",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1118_acarm118_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1118_acarm118",
+            "spAvatarId": null,
+            "portraitId": "trap_1118_acarm118_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1119_acarm119#1": {
+            "skinId": "trap_1119_acarm119#1",
+            "charId": "trap_1119_acarm119",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1119_acarm119_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1119_acarm119",
+            "spAvatarId": null,
+            "portraitId": "trap_1119_acarm119_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1120_acarm120#1": {
+            "skinId": "trap_1120_acarm120#1",
+            "charId": "trap_1120_acarm120",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1120_acarm120_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1120_acarm120",
+            "spAvatarId": null,
+            "portraitId": "trap_1120_acarm120_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1121_acarm121#1": {
+            "skinId": "trap_1121_acarm121#1",
+            "charId": "trap_1121_acarm121",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1121_acarm121_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1121_acarm121",
+            "spAvatarId": null,
+            "portraitId": "trap_1121_acarm121_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1122_acarm122#1": {
+            "skinId": "trap_1122_acarm122#1",
+            "charId": "trap_1122_acarm122",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1122_acarm122_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1122_acarm122",
+            "spAvatarId": null,
+            "portraitId": "trap_1122_acarm122_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1123_acarm123#1": {
+            "skinId": "trap_1123_acarm123#1",
+            "charId": "trap_1123_acarm123",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1123_acarm123_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1123_acarm123",
+            "spAvatarId": null,
+            "portraitId": "trap_1123_acarm123_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1124_acarm124#1": {
+            "skinId": "trap_1124_acarm124#1",
+            "charId": "trap_1124_acarm124",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1124_acarm124_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1124_acarm124",
+            "spAvatarId": null,
+            "portraitId": "trap_1124_acarm124_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_1125_acarm125#1": {
+            "skinId": "trap_1125_acarm125#1",
+            "charId": "trap_1125_acarm125",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_1125_acarm125_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_1125_acarm125",
+            "spAvatarId": null,
+            "portraitId": "trap_1125_acarm125_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_316_ubtower#1": {
+            "skinId": "trap_316_ubtower#1",
+            "charId": "trap_316_ubtower",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_316_ubtower_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_316_ubtower",
+            "spAvatarId": null,
+            "portraitId": "trap_316_ubtower_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_317_ubprison#1": {
+            "skinId": "trap_317_ubprison#1",
+            "charId": "trap_317_ubprison",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_317_ubprison_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_317_ubprison",
+            "spAvatarId": null,
+            "portraitId": "trap_317_ubprison_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "trap_318_ubodst#1": {
+            "skinId": "trap_318_ubodst#1",
+            "charId": "trap_318_ubodst",
+            "tokenSkinMap": null,
+            "illustId": "illust_trap_318_ubodst_1",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "trap_318_ubodst",
+            "spAvatarId": null,
+            "portraitId": "trap_318_ubodst_1",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": null
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": "ILLUST_0",
+                "skinGroupName": "Default Outfit",
+                "skinGroupSortIndex": -50,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": -3,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
         "char_002_amiya@winter#1": {
             "skinId": "char_002_amiya@winter#1",
             "charId": "char_002_amiya",
@@ -78547,6 +79607,61 @@
                 "getTime": 1766493000,
                 "onYear": 5,
                 "onPeriod": 22
+            }
+        },
+        "char_230_savage@sale#17": {
+            "skinId": "char_230_savage@sale#17",
+            "charId": "char_230_savage",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_230_savage_sale#17",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_230_savage_sale#17",
+            "spAvatarId": null,
+            "portraitId": "char_230_savage_sale#17",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "char_230_savage_sale#17",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "char_230_savage_sale#17"
+            },
+            "isBuySkin": true,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": "Yet Another Autumn",
+                "colorList": [
+                    "#363537",
+                    "#ffc600",
+                    "#fef5d8",
+                    "#897d79",
+                    "#3b3a3b",
+                    "",
+                    ""
+                ],
+                "titleList": [],
+                "modelName": "Savage",
+                "drawerList": [
+                    "臼"
+                ],
+                "designerList": null,
+                "skinGroupId": "2026#sale",
+                "skinGroupName": "Test Collection/XIX",
+                "skinGroupSortIndex": 20,
+                "content": "<color name=#ffffff>Test Collection Series/Yet Another Autumn. The autumn sun shines gently, its light falling with the ginkgo leaves onto her white dress. Charlotte looks up from under her wide-brimmed hat, feeling the wind's whisper with her fingers.</color>",
+                "dialog": "Test Collection Series/Yet Another Autumn. The autumn sun shines gently, its light falling with the ginkgo leaves onto her white dress. Charlotte looks up from under her wide-brimmed hat, feeling the wind's whisper with her fingers.",
+                "usage": "One of Savage's casual outfits.",
+                "description": "Her only wish is to keep walking with you and Amiya. This year, next year, and every year after that.",
+                "obtainApproach": "Event Reward",
+                "sortId": 27,
+                "displayTagId": "Event Reward",
+                "getTime": 1791990000,
+                "onYear": 6,
+                "onPeriod": 17
             }
         },
         "char_208_melan@epoque#1": {
@@ -85407,6 +86522,61 @@
                 "onPeriod": 14
             }
         },
+        "char_4177_brigid@epoque#53": {
+            "skinId": "char_4177_brigid@epoque#53",
+            "charId": "char_4177_brigid",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_4177_brigid_epoque#53",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_4177_brigid_epoque#53",
+            "spAvatarId": null,
+            "portraitId": "char_4177_brigid_epoque#53",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "char_4177_brigid_epoque#53",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "char_4177_brigid_epoque#53"
+            },
+            "isBuySkin": true,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": "Bedtime Story",
+                "colorList": [
+                    "#ff9fbd",
+                    "#606978",
+                    "#ff85ab",
+                    "#606978",
+                    "#ff9fbd",
+                    "",
+                    ""
+                ],
+                "titleList": [],
+                "modelName": "Brigid",
+                "drawerList": [
+                    "Yukuso"
+                ],
+                "designerList": null,
+                "skinGroupId": "2026#epoque#4",
+                "skinGroupName": "EPOQUE/LIII",
+                "skinGroupSortIndex": 73,
+                "content": "<color name=#ffffff>EPOQUE Collection New Arrivals/Bedtime Story. Brigid's 'housewear' she chose for herself. Even if there's rarely a warm room to enjoy oneself in, it can still grant the hasty a moment of calm.</color>",
+                "dialog": "EPOQUE Collection New Arrivals/Bedtime Story. Brigid's 'housewear' she chose for herself. Even if there's rarely a warm room to enjoy oneself in, it can still grant the hasty a moment of calm.",
+                "usage": "One of Brigid's casual outfits.",
+                "description": "All of her bedtime stories are similar to the ones she's heard before. After you listen to them, your dreams tonight might end up showing you the same sights she's seen during her travels.",
+                "obtainApproach": "Store",
+                "sortId": 140,
+                "displayTagId": null,
+                "getTime": 1787828400,
+                "onYear": 6,
+                "onPeriod": 15
+            }
+        },
         "char_120_hibisc@nian#1": {
             "skinId": "char_120_hibisc@nian#1",
             "charId": "char_120_hibisc",
@@ -91611,6 +92781,61 @@
                 "getTime": 1781175600,
                 "onYear": 6,
                 "onPeriod": 9
+            }
+        },
+        "char_185_frncat@marthe#12": {
+            "skinId": "char_185_frncat@marthe#12",
+            "charId": "char_185_frncat",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_185_frncat_marthe#12",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_185_frncat_marthe#12",
+            "spAvatarId": null,
+            "portraitId": "char_185_frncat_marthe#12",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "char_185_frncat_marthe#12",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "char_185_frncat_marthe#12"
+            },
+            "isBuySkin": true,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": "Hydration Time",
+                "colorList": [
+                    "#c06f45",
+                    "#383838",
+                    "#c06f45",
+                    "#c06f45",
+                    "#383838",
+                    "",
+                    ""
+                ],
+                "titleList": [],
+                "modelName": "Mousse",
+                "drawerList": [
+                    "Iritoa"
+                ],
+                "designerList": null,
+                "skinGroupId": "2026#marthe",
+                "skinGroupName": "MARTHE/XII",
+                "skinGroupSortIndex": 137,
+                "content": "<color name=#ffffff>MARTHE Sports Line New Arrivals/Hydration Time. Clothes specially designed for gym-heads, made from light and breathable materials. Enjoy unprecedented comfort and lightness during your training.</color>",
+                "dialog": "MARTHE Sports Line New Arrivals/Hydration Time. Clothes specially designed for gym-heads, made from light and breathable materials. Enjoy unprecedented comfort and lightness during your training.",
+                "usage": "One of Mousse's exercise outfits.",
+                "description": "Just rehydrate between sets! Once you're all done, there are some cookies on the table as a reward!",
+                "obtainApproach": "Event Reward",
+                "sortId": 243,
+                "displayTagId": "Event Reward",
+                "getTime": 1787238000,
+                "onYear": 6,
+                "onPeriod": 15
             }
         },
         "token_10003_cgbird_bird_witch#1": {
@@ -100779,6 +102004,331 @@
                 "onPeriod": 15
             }
         },
+        "char_350_surtr@ambienceSynesthesia#6": {
+            "skinId": "char_350_surtr@ambienceSynesthesia#6",
+            "charId": "char_350_surtr",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_350_surtr_ambienceSynesthesia#6",
+            "spIllustId": null,
+            "dynIllustId": "dyn_illust_char_350_surtr_ambienceSynesthesia#6",
+            "spDynIllustId": null,
+            "avatarId": "char_350_surtr_ambienceSynesthesia#6",
+            "spAvatarId": null,
+            "portraitId": "char_350_surtr_ambienceSynesthesia#6",
+            "spPortraitId": null,
+            "dynPortraitId": "dyn_portrait_char_350_surtr_ambienceSynesthesia#6",
+            "dynEntranceId": null,
+            "buildingId": "char_350_surtr_ambienceSynesthesia#6",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "char_350_surtr_ambienceSynesthesia#6"
+            },
+            "isBuySkin": true,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": "Prelude to Transcendence",
+                "colorList": [
+                    "#aa2d10",
+                    "#aa2d10",
+                    "#daaf50",
+                    "#503d2d",
+                    "#aa2d10",
+                    "",
+                    ""
+                ],
+                "titleList": [],
+                "modelName": "Surtr",
+                "drawerList": [
+                    "Ask"
+                ],
+                "designerList": null,
+                "skinGroupId": "2026#ambienceSynesthesia",
+                "skinGroupName": "Ambience Synesthesia/VII",
+                "skinGroupSortIndex": 201,
+                "content": "<color name=#fffff>Ambience Synesthesia Tailor-Provided/Prelude to Transcendence. Clothes Surtr wore to the theater. The fiery train symbolizing the flame of her soul, the gold-trimmed white performing the song of her mind.</color>",
+                "dialog": "Ambience Synesthesia Tailor-Provided/Prelude to Transcendence. Clothes Surtr wore to the theater. The fiery train symbolizing the flame of her soul, the gold-trimmed white performing the song of her mind.",
+                "usage": "One of Surtr's formal outfits.",
+                "description": "Surrounded by the organ's roar, her figure composes a symphonic poem as fierce as flame.",
+                "obtainApproach": "Store",
+                "sortId": 389,
+                "displayTagId": null,
+                "getTime": 1789570800,
+                "onYear": 6,
+                "onPeriod": 16
+            }
+        },
+        "char_4146_nymph@ambienceSynesthesia#6": {
+            "skinId": "char_4146_nymph@ambienceSynesthesia#6",
+            "charId": "char_4146_nymph",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_4146_nymph_ambienceSynesthesia#6",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_4146_nymph_ambienceSynesthesia#6",
+            "spAvatarId": null,
+            "portraitId": "char_4146_nymph_ambienceSynesthesia#6",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "char_4146_nymph_ambienceSynesthesia#6",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "char_4146_nymph_ambienceSynesthesia#6"
+            },
+            "isBuySkin": true,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": "Blooming Reverie",
+                "colorList": [
+                    "#ff77a4",
+                    "#f65e90",
+                    "#faf8f9",
+                    "#9d936f",
+                    "#f65e90",
+                    "",
+                    ""
+                ],
+                "titleList": [],
+                "modelName": "Nymph",
+                "drawerList": [
+                    "YUJI"
+                ],
+                "designerList": null,
+                "skinGroupId": "2026#ambienceSynesthesia",
+                "skinGroupName": "Ambience Synesthesia/VII",
+                "skinGroupSortIndex": 201,
+                "content": "<color name=#fffff>Ambience Synesthesia Tailor-Provided/Blooming Reverie. Satin dress Nymph chose for herself. The fluttering hem complements her flower-shaped updo, turning her into an elegant fairy dancing in the garden, lively and graceful.</color>",
+                "dialog": "Ambience Synesthesia Tailor-Provided/Blooming Reverie. Satin dress Nymph chose for herself. The fluttering hem complements her flower-shaped updo, turning her into an elegant fairy dancing in the garden, lively and graceful.",
+                "usage": "One of Nymph's formal outfits.",
+                "description": "Walking under the arches, crossing over the small bridge, and turning yet another corner amidst the shrubs. But no matter where she may be in the garden, she is always the most mesmerizing of the flowers.",
+                "obtainApproach": "Store",
+                "sortId": 390,
+                "displayTagId": null,
+                "getTime": 1789570800,
+                "onYear": 6,
+                "onPeriod": 16
+            }
+        },
+        "char_202_demkni@ambienceSynesthesia#7": {
+            "skinId": "char_202_demkni@ambienceSynesthesia#7",
+            "charId": "char_202_demkni",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_202_demkni_ambienceSynesthesia#7",
+            "spIllustId": null,
+            "dynIllustId": "dyn_illust_char_202_demkni_ambienceSynesthesia#7",
+            "spDynIllustId": null,
+            "avatarId": "char_202_demkni_ambienceSynesthesia#7",
+            "spAvatarId": null,
+            "portraitId": "char_202_demkni_ambienceSynesthesia#7",
+            "spPortraitId": null,
+            "dynPortraitId": "dyn_portrait_char_202_demkni_ambienceSynesthesia#7",
+            "dynEntranceId": null,
+            "buildingId": "char_202_demkni_ambienceSynesthesia#7",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "char_202_demkni_ambienceSynesthesia#7"
+            },
+            "isBuySkin": true,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": "Unstained, Unshaken",
+                "colorList": [
+                    "#161d23",
+                    "#272f34",
+                    "#0a1ac8",
+                    "#aeb1b3",
+                    "#0a1ac8",
+                    "",
+                    ""
+                ],
+                "titleList": [],
+                "modelName": "Saria",
+                "drawerList": [
+                    "九日九号"
+                ],
+                "designerList": null,
+                "skinGroupId": "2026#ambienceSynesthesia#2",
+                "skinGroupName": "Ambience Synesthesia/VIII",
+                "skinGroupSortIndex": 202,
+                "content": "<color name=#fffff>Ambience Synesthesia Tailor-Provided/Unstained, Unshaken. Outlined in sharp lines and painted in cold tones, revealing the wearer's pioneering, problem-smashing fearlessness in full color.</color>",
+                "dialog": "Ambience Synesthesia Tailor-Provided/Unstained, Unshaken. Outlined in sharp lines and painted in cold tones, revealing the wearer's pioneering, problem-smashing fearlessness in full color.",
+                "usage": "One of Saria's performance outfits.",
+                "description": "Many view the unknown as a darkness to be feared, so they cry out for those who dare stand against and dispel it. That is why they call her name.",
+                "obtainApproach": "Store",
+                "sortId": 391,
+                "displayTagId": null,
+                "getTime": 1790175600,
+                "onYear": 6,
+                "onPeriod": 17
+            }
+        },
+        "char_4193_lemuen@ambienceSynesthesia#7": {
+            "skinId": "char_4193_lemuen@ambienceSynesthesia#7",
+            "charId": "char_4193_lemuen",
+            "tokenSkinMap": null,
+            "illustId": "illust_char_4193_lemuen_ambienceSynesthesia#7",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_4193_lemuen_ambienceSynesthesia#7",
+            "spAvatarId": null,
+            "portraitId": "char_4193_lemuen_ambienceSynesthesia#7",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "char_4193_lemuen_ambienceSynesthesia#7",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "char_4193_lemuen_ambienceSynesthesia#7"
+            },
+            "isBuySkin": true,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": "Requiem Vesperis",
+                "colorList": [
+                    "#573025",
+                    "#ffaeaa",
+                    "#e8c263",
+                    "#573025",
+                    "#e8c263",
+                    "",
+                    ""
+                ],
+                "titleList": [],
+                "modelName": "Lemuen",
+                "drawerList": [
+                    "IRIS_呓"
+                ],
+                "designerList": null,
+                "skinGroupId": "2026#ambienceSynesthesia#2",
+                "skinGroupName": "Ambience Synesthesia/VIII",
+                "skinGroupSortIndex": 202,
+                "content": "<color name=#fffff>Ambience Synesthesia Tailor-Provided/Requiem Vesperis. Robes for Vespers specially made for Lemuen. May her pure light be as the twilight stars, granting all a blessing of peace amidst the interplay of light and shadow.</color>",
+                "dialog": "Ambience Synesthesia Tailor-Provided/Requiem Vesperis. Robes for Vespers specially made for Lemuen. May her pure light be as the twilight stars, granting all a blessing of peace amidst the interplay of light and shadow.",
+                "usage": "One of Lemuen's performance outfits.",
+                "description": "Quietly listen to her prayer: may all living beings be granted the radiance they deserve.",
+                "obtainApproach": "Store",
+                "sortId": 392,
+                "displayTagId": null,
+                "getTime": 1790175600,
+                "onYear": 6,
+                "onPeriod": 17
+            }
+        },
+        "token_10043_necras_skeltn_ambienceSynesthesia#7": {
+            "skinId": "token_10043_necras_skeltn_ambienceSynesthesia#7",
+            "charId": "token_10043_necras_skeltn",
+            "tokenSkinMap": null,
+            "illustId": null,
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "token_10043_necras_skeltn_ambienceSynesthesia#7",
+            "spAvatarId": null,
+            "portraitId": null,
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": null,
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "token_10043_necras_skeltn_ambienceSynesthesia#7"
+            },
+            "isBuySkin": false,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": null,
+                "colorList": null,
+                "titleList": null,
+                "modelName": null,
+                "drawerList": null,
+                "designerList": null,
+                "skinGroupId": null,
+                "skinGroupName": null,
+                "skinGroupSortIndex": 0,
+                "content": null,
+                "dialog": null,
+                "usage": null,
+                "description": null,
+                "obtainApproach": null,
+                "sortId": 0,
+                "displayTagId": null,
+                "getTime": 0,
+                "onYear": 0,
+                "onPeriod": 0
+            }
+        },
+        "char_450_necras@ambienceSynesthesia#7": {
+            "skinId": "char_450_necras@ambienceSynesthesia#7",
+            "charId": "char_450_necras",
+            "tokenSkinMap": [
+                {
+                    "tokenId": "token_10043_necras_skeltn",
+                    "tokenSkinId": "token_10043_necras_skeltn_ambienceSynesthesia#7"
+                }
+            ],
+            "illustId": "illust_char_450_necras_ambienceSynesthesia#7",
+            "spIllustId": null,
+            "dynIllustId": null,
+            "spDynIllustId": null,
+            "avatarId": "char_450_necras_ambienceSynesthesia#7",
+            "spAvatarId": null,
+            "portraitId": "char_450_necras_ambienceSynesthesia#7",
+            "spPortraitId": null,
+            "dynPortraitId": null,
+            "dynEntranceId": null,
+            "buildingId": "char_450_necras_ambienceSynesthesia#7",
+            "battleSkin": {
+                "overwritePrefab": false,
+                "skinOrPrefabId": "char_450_necras_ambienceSynesthesia#7"
+            },
+            "isBuySkin": true,
+            "tmplId": null,
+            "voiceId": null,
+            "voiceType": "NONE",
+            "displaySkin": {
+                "skinName": "As Clear As Crystal",
+                "colorList": [
+                    "#440098",
+                    "#440098",
+                    "#fef5d8",
+                    "#4a35a0",
+                    "#181c35",
+                    "",
+                    ""
+                ],
+                "titleList": [],
+                "modelName": "Necrass",
+                "drawerList": [
+                    "STAR影法师"
+                ],
+                "designerList": null,
+                "skinGroupId": "2026#ambienceSynesthesia#2",
+                "skinGroupName": "Ambience Synesthesia/VIII",
+                "skinGroupSortIndex": 202,
+                "content": "<color name=#fffff>Ambience Synesthesia Tailor-Provided/As Clear As Crystal. Necrass's dress for the musical. The inner lining bedecked with stars is the abyss of the past, the radiant outer surface the resolute present. Through crystal and steel, her will carries on.</color>",
+                "dialog": "Ambience Synesthesia Tailor-Provided/As Clear As Crystal. Necrass's dress for the musical. The inner lining bedecked with stars is the abyss of the past, the radiant outer surface the resolute present. Through crystal and steel, her will carries on.",
+                "usage": "One of Necrass's performance outfits.",
+                "description": "O lost traveler, no longer must you waver before the unseen roads ahead. Follow in her footsteps, and look towards her light.",
+                "obtainApproach": "Store",
+                "sortId": 393,
+                "displayTagId": null,
+                "getTime": 1790175600,
+                "onYear": 6,
+                "onPeriod": 17
+            }
+        },
         "char_293_thorns@it#1": {
             "skinId": "char_293_thorns@it#1",
             "charId": "char_293_thorns",
@@ -107451,6 +109001,10 @@
             "0": "char_4139_papyrs#1",
             "2": "char_4139_papyrs#2"
         },
+        "char_4224_turdus": {
+            "0": "char_4224_turdus#1",
+            "2": "char_4224_turdus#2"
+        },
         "char_4222_taraxa": {
             "0": "char_4222_taraxa#1",
             "2": "char_4222_taraxa#2"
@@ -107701,6 +109255,10 @@
         "char_487_bobb": {
             "0": "char_487_bobb#1",
             "2": "char_487_bobb#2"
+        },
+        "char_4223_botany": {
+            "0": "char_4223_botany#1",
+            "2": "char_4223_botany#2"
         },
         "char_215_mantic": {
             "0": "char_215_mantic#1",
@@ -108214,6 +109772,10 @@
         "char_4058_pepe": {
             "0": "char_4058_pepe#1",
             "2": "char_4058_pepe#2"
+        },
+        "char_1051_headb2": {
+            "0": "char_1051_headb2#1",
+            "2": "char_1051_headb2#2"
         },
         "char_010_chen": {
             "0": "char_010_chen#1",
@@ -110406,6 +111968,54 @@
         },
         "trap_330_ycwang": {
             "0": "trap_330_ycwang#1"
+        },
+        "trap_1113_acarm113": {
+            "0": "trap_1113_acarm113#1"
+        },
+        "trap_1114_acarm114": {
+            "0": "trap_1114_acarm114#1"
+        },
+        "trap_1115_acarm115": {
+            "0": "trap_1115_acarm115#1"
+        },
+        "trap_1116_acarm116": {
+            "0": "trap_1116_acarm116#1"
+        },
+        "trap_1117_acarm117": {
+            "0": "trap_1117_acarm117#1"
+        },
+        "trap_1118_acarm118": {
+            "0": "trap_1118_acarm118#1"
+        },
+        "trap_1119_acarm119": {
+            "0": "trap_1119_acarm119#1"
+        },
+        "trap_1120_acarm120": {
+            "0": "trap_1120_acarm120#1"
+        },
+        "trap_1121_acarm121": {
+            "0": "trap_1121_acarm121#1"
+        },
+        "trap_1122_acarm122": {
+            "0": "trap_1122_acarm122#1"
+        },
+        "trap_1123_acarm123": {
+            "0": "trap_1123_acarm123#1"
+        },
+        "trap_1124_acarm124": {
+            "0": "trap_1124_acarm124#1"
+        },
+        "trap_1125_acarm125": {
+            "0": "trap_1125_acarm125#1"
+        },
+        "trap_316_ubtower": {
+            "0": "trap_316_ubtower#1"
+        },
+        "trap_317_ubprison": {
+            "0": "trap_317_ubprison#1"
+        },
+        "trap_318_ubodst": {
+            "0": "trap_318_ubodst#1"
         }
     },
     "buildinPatchMap": {
@@ -110418,6 +112028,10 @@
         "sale": {
             "brandId": "sale",
             "groupList": [
+                {
+                    "skinGroupId": "2026#sale",
+                    "publishTime": 1791990000
+                },
                 {
                     "skinGroupId": "2025#sale#4",
                     "publishTime": 1766493000
@@ -110501,11 +112115,15 @@
             "brandCapitalName": "TEST COLLECTION",
             "description": "Always Unique\n//Test Collection\n-Qualifications confirmed\n-Orders closed\n//Appointment required for apparel requests, please allow 6-8 weeks for production.\n//All rights reserved.",
             "publishTime": 0,
-            "sortId": 19
+            "sortId": 20
         },
         "epoque": {
             "brandId": "epoque",
             "groupList": [
+                {
+                    "skinGroupId": "2026#epoque#4",
+                    "publishTime": 1787828400
+                },
                 {
                     "skinGroupId": "2026#epoque#3",
                     "publishTime": 1786622400
@@ -110777,7 +112395,7 @@
             "brandCapitalName": "EPOQUE",
             "description": "Your past, your future, your EPOQUE.\nThe EPOQUE line arose from the serendipitous and unintended actions of fashion designers, and has gradually become a tradition among designers over hundreds of years. This not-for-profit, pure, and calm-minded approach to fashion design will become a tenet for every era.",
             "publishTime": 0,
-            "sortId": 72
+            "sortId": 73
         },
         "nian": {
             "brandId": "nian",
@@ -111114,6 +112732,10 @@
             "brandId": "marthe",
             "groupList": [
                 {
+                    "skinGroupId": "2026#marthe",
+                    "publishTime": 1787238000
+                },
+                {
                     "skinGroupId": "2025#marthe#4",
                     "publishTime": 1781175600
                 },
@@ -111163,7 +112785,7 @@
             "brandCapitalName": "MARTHE",
             "description": "Go all out.\nA famous sports fashion brand with a renowned Kazdel designer. This brand has gained popularity in the sportswear market throughout many countries, and particularly loved in Ursus. It has many sub-brands, which intimately cater to the complex needs of its customers.",
             "publishTime": 0,
-            "sortId": 136
+            "sortId": 137
         },
         "witch": {
             "brandId": "witch",
@@ -111604,6 +113226,14 @@
             "brandId": "ambienceSynesthesia",
             "groupList": [
                 {
+                    "skinGroupId": "2026#ambienceSynesthesia#2",
+                    "publishTime": 1790175600
+                },
+                {
+                    "skinGroupId": "2026#ambienceSynesthesia",
+                    "publishTime": 1789570800
+                },
+                {
                     "skinGroupId": "2025#ambienceSynesthesia#2",
                     "publishTime": 0
                 },
@@ -111646,7 +113276,7 @@
             "brandCapitalName": "AMBIENCE SYNESTHESIA",
             "description": "Heart with the rhythm, give it up to the rock.\nEvery concert embodies its hosts' beating blood, and preparing performers' outfits with that in mind is the one and only mission of the Ambience Synesthesia brand. No matter whether formal or streetwear, we'll stop at no end to provide musicians the most fitting attire for when the lights go on.",
             "publishTime": 0,
-            "sortId": 200
+            "sortId": 202
         },
         "crossover": {
             "brandId": "crossover",

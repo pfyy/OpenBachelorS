@@ -95,7 +95,9 @@
         "permanent_sidestory_29_zone2": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
         "permanent_sidestory_30_zone1": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
         "permanent_sidestory_30_zone2": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
-        "permanent_sidestory_30_zone3": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion"
+        "permanent_sidestory_30_zone3": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
+        "permanent_sidestory_31_zone1": "permanent_sidestory_31_When_Elegies_are_Ashes",
+        "permanent_sidestory_31_zone2": "permanent_sidestory_31_When_Elegies_are_Ashes"
     },
     "stageValidInfo": {
         "act9d0_01": {
@@ -5249,6 +5251,118 @@
         "act40side_mo01": {
             "startTs": 1784545200,
             "endTs": -1
+        },
+        "act41side_st01": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_01": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_tr01": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_02": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_03": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_04": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_05": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_06": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_st02": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_07": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_08": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_st03": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex01": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex01#f#": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex02": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex02#f#": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex03": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex03#f#": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex04": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex04#f#": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex05": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex05#f#": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex06": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex06#f#": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex07": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex07#f#": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex08": {
+            "startTs": 1789038000,
+            "endTs": -1
+        },
+        "act41side_ex08#f#": {
+            "startTs": 1789038000,
+            "endTs": -1
         }
     },
     "stages": null,
@@ -5874,6 +5988,22 @@
             "customActId": null,
             "customActType": "DEFAULT",
             "trapDomainId": null
+        },
+        "permanent_sidestory_31_When_Elegies_are_Ashes": {
+            "retroId": "permanent_sidestory_31_When_Elegies_are_Ashes",
+            "type": "SIDESTORY",
+            "linkedActId": [
+                "act41side",
+                "act41sre"
+            ],
+            "startTime": 1789038000,
+            "trailStartTime": -1,
+            "index": 31,
+            "name": "When Elegies Are Ashes",
+            "haveTrail": false,
+            "customActId": null,
+            "customActType": "DEFAULT",
+            "trapDomainId": null
         }
     },
     "retroTrailList": {
@@ -6309,6 +6439,98 @@
             "relatedFullPotentialItemId": null,
             "themeColor": "#d36234",
             "fullPotentialItemId": "voucher_full_slent2"
+        },
+        "permanent_sub_6_Babel": {
+            "retroId": "permanent_sub_6_Babel",
+            "trailStartTime": 1790766000,
+            "trailRewardList": [
+                {
+                    "trailRewardId": "trailReward_sub_6_1",
+                    "starCount": 15,
+                    "rewardItem": {
+                        "id": "char_4131_odda",
+                        "count": 1,
+                        "type": "CHAR"
+                    }
+                },
+                {
+                    "trailRewardId": "trailReward_sub_6_2",
+                    "starCount": 30,
+                    "rewardItem": {
+                        "id": "voucher_full_odda",
+                        "count": 1,
+                        "type": "VOUCHER_FULL_POTENTIAL"
+                    }
+                },
+                {
+                    "trailRewardId": "trailReward_sub_6_3",
+                    "starCount": 46,
+                    "rewardItem": {
+                        "id": "uni_set_ScarMarket",
+                        "count": 1,
+                        "type": "UNI_COLLECTION"
+                    }
+                },
+                {
+                    "trailRewardId": "trailReward_sub_6_4",
+                    "starCount": 62,
+                    "rewardItem": {
+                        "id": "furni_terracommericials_CoffeePlainsCoffeeCandy_01",
+                        "count": 1,
+                        "type": "FURN"
+                    }
+                },
+                {
+                    "trailRewardId": "trailReward_sub_6_5",
+                    "starCount": 81,
+                    "rewardItem": {
+                        "id": "avatar_activity_BB",
+                        "count": 1,
+                        "type": "PLAYER_AVATAR"
+                    }
+                }
+            ],
+            "stageList": [
+                "act33side_01",
+                "act33side_02",
+                "act33side_03",
+                "act33side_04",
+                "act33side_05",
+                "act33side_06",
+                "act33side_07",
+                "act33side_08",
+                "act33side_09",
+                "act33side_10",
+                "act33side_ex01",
+                "act33side_ex01#f#",
+                "act33side_ex02",
+                "act33side_ex02#f#",
+                "act33side_ex03",
+                "act33side_ex03#f#",
+                "act33side_ex04",
+                "act33side_ex04#f#",
+                "act33side_ex05",
+                "act33side_ex05#f#",
+                "act33side_ex06",
+                "act33side_ex06#f#",
+                "act33side_ex07",
+                "act33side_ex07#f#",
+                "act33side_ex08",
+                "act33side_ex08#f#",
+                "act33side_s01",
+                "act33side_s01#f#",
+                "act33side_s02",
+                "act33side_s02#f#",
+                "act33side_s03",
+                "act33side_s03#f#",
+                "act33side_s04",
+                "act33side_s04#f#",
+                "act33side_mo01"
+            ],
+            "relatedChar": "char_4131_odda",
+            "relatedFullPotentialItemId": null,
+            "themeColor": "#c42812",
+            "fullPotentialItemId": "voucher_full_odda"
         },
         "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights": {
             "retroId": "permanent_sidestory_1_Grani_And_The_Treasure_Of_Knights",
@@ -129386,7 +129608,7 @@
             "zoneId": "permanent_sidestory_31_zone1",
             "code": "EA-3",
             "name": "Suspicion and Impulse",
-            "description": "'I want to make up for the past, and to return home. Other than that, I ask for nothing more.'\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units",
+            "description": "'I want to make up for the past, and to return home. Other than that, I ask for nothing more.'\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units.",
             "hardStagedId": null,
             "dangerLevel": "Elite 1 Lv. 1",
             "dangerPoint": -1.0,
@@ -129776,7 +129998,7 @@
             "zoneId": "permanent_sidestory_31_zone1",
             "code": "EA-6",
             "name": "The Lost",
-            "description": "'...Will this path truly lead me to him?'\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units",
+            "description": "'...Will this path truly lead me to him?'\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units.",
             "hardStagedId": null,
             "dangerLevel": "Elite 1 Lv. 50",
             "dangerPoint": -1.0,
@@ -130849,7 +131071,7 @@
             "zoneId": "permanent_sidestory_31_zone2",
             "code": "EA-EX-4",
             "name": "Window-Side Toy",
-            "description": "'Even without any vines from the Dark Woods, we can weave dolls from other materials. Basically, I don't want those things to tease me anymore!'\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units.\n<@lv.item><Shield and Wall></> Blocks the vision of your units.",
+            "description": "'Even without any vines from the Dark Woods, we can weave dolls from other materials. Basically, I don't want those things to tease me anymore!'\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units.\n<@lv.item><Shield and Wall></> Blocks the vision of your units.\n<@lv.rem>No melee/ranged deployment restrictions</>",
             "hardStagedId": "act41side_ex04#f#",
             "dangerLevel": "Elite 2 Lv. 1",
             "dangerPoint": -1.0,
@@ -130999,7 +131221,7 @@
             "zoneId": "permanent_sidestory_31_zone2",
             "code": "EA-EX-5",
             "name": "May Tree",
-            "description": "Amber flowers bloom one after another on trees on Bealtaine, reaching full bloom near the festival's end. Candle flame is fire, as are flowers.\n<@lv.item><Meadows></> Can grow into <Thickets>, and units deployed on them take continuous Arts damage.\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units\n<@lv.item><Empty Shell></> When an Operator is deployed on an <Empty Shell>, another <Empty Shell> on the field will copy that Operator but faced in the opposite direction and deal Burn.",
+            "description": "Amber flowers bloom one after another on trees on Bealtaine, reaching full bloom near the festival's end. Candle flame is fire, as are flowers.\n<@lv.item><Meadows></> Can grow into <Thickets>, and units deployed on them take continuous Arts damage.\n<@lv.item><Thicket></> Cannot be attacked, and blocks the vision of your units.\n<@lv.item><Empty Shell></> When an Operator is deployed on an <Empty Shell>, another <Empty Shell> on the field will copy that Operator but faced in the opposite direction and deal Burn.",
             "hardStagedId": "act41side_ex05#f#",
             "dangerLevel": "Elite 2 Lv. 10",
             "dangerPoint": -1.0,
@@ -131376,7 +131598,7 @@
             "zoneId": "permanent_sidestory_31_zone2",
             "code": "EA-EX-7",
             "name": "Floral Garland",
-            "description": "<@lv.fs>Condition:</>\n5 tiles on the battlefield are unavailable for deployment.",
+            "description": "<@lv.fs>Condition:</>\n5 tiles on the battlefield are unavailable for deployment",
             "hardStagedId": null,
             "dangerLevel": "-",
             "dangerPoint": -1.0,

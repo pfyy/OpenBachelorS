@@ -11986,6 +11986,86 @@
             "medalRewardGroup": []
         },
         {
+            "medalId": "medal_story_crosly_1",
+            "medalName": "'To Reach the Crown'",
+            "medalType": "storyMedal",
+            "slotId": 363,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "CharStoryUnlock",
+            "unlockParam": [
+                "char_1502_crosly",
+                "story_crosly_set_1"
+            ],
+            "getMethod": "Unlock Crownslayer's Operator Record 'To Reach the Crown'",
+            "description": "Killing a king is so simple. Killing the crown though—well, that's a different story.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": 1789570800,
+            "expireTimes": [],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_story_botany_1",
+            "medalName": "'Voices'",
+            "medalType": "storyMedal",
+            "slotId": 364,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "CharStoryUnlock",
+            "unlockParam": [
+                "char_4223_botany",
+                "story_botany_set_1"
+            ],
+            "getMethod": "Unlock Botani's Operator Record 'Voices'",
+            "description": "Tishinna heard the voices. Something is happening to her.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": 1789570800,
+            "expireTimes": [],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_story_branch_1",
+            "medalName": "'Painkillers'",
+            "medalType": "storyMedal",
+            "slotId": 365,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "CharStoryUnlock",
+            "unlockParam": [
+                "char_4207_branch",
+                "story_branch_set_1"
+            ],
+            "getMethod": "Unlock Vetochki's Operator Record 'Painkillers'",
+            "description": "Don't go to enjoy pain. Go to remember it.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": 1789570800,
+            "expireTimes": [],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_story_wintim_1",
+            "medalName": "'Overwrite Record'",
+            "medalType": "storyMedal",
+            "slotId": 366,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "CharStoryUnlock",
+            "unlockParam": [
+                "char_4208_wintim",
+                "story_wintim_set_1"
+            ],
+            "getMethod": "Unlock Snegurochka's Operator Record 'Overwrite Record'",
+            "description": "She rewinds the old, battered tape and presses the play button once more.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": 1789570800,
+            "expireTimes": [],
+            "medalRewardGroup": []
+        },
+        {
             "medalId": "medal_sandbox_1_01",
             "medalName": "'Shadow of Arsalan'",
             "medalType": "rogueMedal",
@@ -13746,6 +13826,470 @@
             "originMedal": null,
             "displayTime": 1639072800,
             "expireTimes": [],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_act3enemyduel_01",
+            "medalName": "Ivy Vine Sponsor Medal",
+            "medalType": "activityMedal",
+            "slotId": 1,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "GotItemBeforeTime",
+            "unlockParam": [
+                "1",
+                "avatar_activity_ED3",
+                "1791370800"
+            ],
+            "getMethod": "During the 'Duel Channel: Ivy Vine' event, obtain the 'ALL IN!' icon.",
+            "description": "Engraved medal gifted with the Duel Channel: Ivy Vine event icon.\nThis season could not have succeeded without your participation, and your generous sponsorship, of course.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_act3enemyduel_02",
+            "medalName": "Ivy Vine Duel Medal",
+            "medalType": "activityMedal",
+            "slotId": 2,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "ActivityEnemyDuelRank",
+            "unlockParam": [
+                "act3enemyduel",
+                "3",
+                "1"
+            ],
+            "getMethod": "During the 'Duel Channel: Ivy Vine' event, finish in the top 3 once in any mode.",
+            "description": "You ranked amongst the top gifters in a Duel Channel: Ivy Vine competition.\nYou have earned recognition for your discerning eye. Now, can you tell me, quietly, which side to pick next?",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_01",
+            "medalName": "'We'",
+            "medalType": "activityMedal",
+            "slotId": 3,
+            "preMedalIdList": [
+                "medal_activity_51side_02",
+                "medal_activity_51side_03",
+                "medal_activity_51side_04",
+                "medal_activity_51side_05",
+                "medal_activity_51side_06",
+                "medal_activity_51side_07",
+                "medal_activity_51side_08",
+                "medal_activity_51side_09",
+                "medal_activity_51side_10"
+            ],
+            "rarity": "T3",
+            "template": null,
+            "unlockParam": [],
+            "getMethod": null,
+            "description": "You united the people of the Katorga Raion, broke the quarantine, and stepped toward freedom.\n'What an amazing force that was! And that very force lies within us! It inspires us to live, and to fight against fate!'",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_02",
+            "medalName": "Sole Signal Medal",
+            "medalType": "activityMedal",
+            "slotId": 4,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "GotCharsBeforeTime",
+            "unlockParam": [
+                "char_4223_botany",
+                "1790766000"
+            ],
+            "getMethod": "During the People, A People event, obtain the free Operator Botani.",
+            "description": "You obtained recognition for being the only one who could provide a signal from the Katorga quarantine zone.\nListen, and speak out in your own voice. So that more may hear you—not just for the truth, but to create real change.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_03",
+            "medalName": "Burned Pages Medal",
+            "medalType": "activityMedal",
+            "slotId": 5,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "ActivityCoinCost",
+            "unlockParam": [
+                "act51side",
+                "act51side_token_poem",
+                "4000"
+            ],
+            "getMethod": "During the People, A People event, consume 4000 Broken Verses in [Snow-Soaked Campfire]",
+            "description": "You collected the scrap pages of youth and ignited them to give birth to new life.\n'Call it lame poetry, call it rank nonsense. No matter what you say about it, if I don't write it, how will future generations know what happened? How will I prove that I ever existed?'",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_04",
+            "medalName": "'Childhood's End'",
+            "medalType": "activityMedal",
+            "slotId": 6,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act51side_01;act51side_02;act51side_03;act51side_04;act51side_05;act51side_06;act51side_07;act51side_08",
+                "8"
+            ],
+            "getMethod": "Complete all stages in [Beyond the Days of Innocence] with 3-star ratings (excluding tutorials)",
+            "description": "You escaped the Katorga quarantine.\nThe snow is falling, and the blood is flowing. The snowflakes fall on this city with over a thousand years of history, and also on the shoulders of every person within it. They have cast aside their naive and childish fantasies, and are moving towards a new era.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_05",
+            "medalName": "The Hearing",
+            "medalType": "activityMedal",
+            "slotId": 7,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "MissionCompleteSome",
+            "unlockParam": [
+                "51sideActivity_1;51sideActivity_2;51sideActivity_3;51sideActivity_4;51sideActivity_5;51sideActivity_6;51sideActivity_7;51sideActivity_8;51sideActivity_9;51sideActivity_10;51sideActivity_11;51sideActivity_12;51sideActivity_13;51sideActivity_14;51sideActivity_15;51sideActivity_16;51sideActivity_17;51sideActivity_18;51sideActivity_19;51sideActivity_20;51sideActivity_21;51sideActivity_22;51sideActivity_23;51sideActivity_24",
+                "24"
+            ],
+            "getMethod": "Complete all the content in [The Hearing] and collect the rewards",
+            "description": "You witnessed the opening and closing of the '87th Provisional Inquiry Hearing'.\n'Fearsome debate is also a form of combat. Violence is not the only way. We are not ignorant brutes. Our ultimate objective is peace!'",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_06",
+            "medalName": "Stealth Victory Medal",
+            "medalType": "activityMedal",
+            "slotId": 8,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "TotalSimpleTokenCount",
+            "unlockParam": [
+                "act51side",
+                "ubodst_use_hide",
+                "40"
+            ],
+            "getMethod": "During the People, A People event, use Disguise Kit a total of 40 times",
+            "description": "An old friend from Rhodes Island selflessly offered aid, which you deployed expertly in battle.\n'This is different from my Originium Arts, but the principle is similar: use the spare scraps around you, and turn trash to treasure. This is common knowledge in Ursus, a requirement for survival.'",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_07",
+            "medalName": "All of Us",
+            "medalType": "activityMedal",
+            "slotId": 9,
+            "preMedalIdList": [],
+            "rarity": "T1",
+            "template": "TotalSimpleTokenCount",
+            "unlockParam": [
+                "act51side",
+                "ubprison_rescue_student",
+                "20"
+            ],
+            "getMethod": "During the People, A People event, rescue a total of 20 Jailed Students.",
+            "description": "You rescued your companions, who were unjustly imprisoned in the Katorga quarantine zone.\n'Who are our comrades? Students, workers, merchants... all those who have been unjustly oppressed!'",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_08",
+            "medalName": "Here We Are",
+            "medalType": "activityMedal",
+            "slotId": 10,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "PassStageSome",
+            "unlockParam": [
+                "3",
+                "act51side_ex01#f#;act51side_ex02#f#;act51side_ex03#f#;act51side_ex04#f#;act51side_ex05#f#;act51side_ex06#f#;act51side_ex07#f#;act51side_ex08#f#",
+                "8"
+            ],
+            "getMethod": "Complete all stages in [Toward the Dawn of Resurgence] on Challenge Mode",
+            "description": "You defeated all the enemies blocking us from escaping the Katorga quarantine zone and running toward a new future.\nWe move towards the rising sun—we are the rising sun!",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_09",
+            "medalName": "You Can't See Me",
+            "medalType": "activityMedal",
+            "slotId": 11,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "PassStageWithSimpleCountLess",
+            "unlockParam": [
+                "3",
+                "act51side_05",
+                "trap_316_ubtower",
+                "ubtower_warning",
+                "4"
+            ],
+            "getMethod": "Clear PA-5 with a 3-star rating and be spotted by Sentry Turrets no more than 4 times.",
+            "description": "You made the Katorga quarantine zone Sentry Turrets spin in circles.\nYou must become a lethal shadow amidst the rusted steel. Strike fear into the hearts of these brutes, and punish them.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_10",
+            "medalName": "'Liberated'",
+            "medalType": "activityMedal",
+            "slotId": 12,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "PassStageWithSimpleCountLess",
+            "unlockParam": [
+                "3",
+                "act51side_08",
+                "trap_317_ubprison",
+                "ubprison_lock_character",
+                "2"
+            ],
+            "getMethod": "Clear PA-8 with a 3-star rating, and have no more than 2 Operators be imprisoned in Cells",
+            "description": "You rejected the ridiculous quarantine and protected your companions.\nHumanity is by nature free.",
+            "advancedMedal": "medal_activity_51side_105",
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_2autochess_01",
+            "medalName": "Alliance Service Medal II",
+            "medalType": "activityMedal",
+            "slotId": 13,
+            "preMedalIdList": [],
+            "rarity": "T3",
+            "template": "MissionCompleteSome",
+            "unlockParam": [
+                "2autochessActivity_1;2autochessActivity_2;2autochessActivity_3;2autochessActivity_4;2autochessActivity_5;2autochessActivity_6;2autochessActivity_7;2autochessActivity_8;2autochessActivity_9;2autochessActivity_10;2autochessActivity_11;2autochessActivity_12;2autochessActivity_13;2autochessActivity_14;2autochessActivity_15;2autochessActivity_16;2autochessActivity_17;2autochessActivity_18;2autochessActivity_19;2autochessActivity_20;2autochessActivity_21;2autochessActivity_22;2autochessActivity_23;2autochessActivity_24;2autochessActivity_25",
+                "25"
+            ],
+            "getMethod": "Complete all the content in [Key Objectives] and collect the rewards",
+            "description": "You have fulfilled all the terms of the Stronghold Protocol: Alliance - Part 2.\nIt was designed to optimize Rhodes Island's response to extreme crises, and you have carried out the mission flawlessly.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791111600,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_2autochess_02",
+            "medalName": "Alliance Combat Attire Medal II",
+            "medalType": "activityMedal",
+            "slotId": 14,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "GotItemBeforeTime",
+            "unlockParam": [
+                "1",
+                "char_185_frncat@marthe#12",
+                "1791111600"
+            ],
+            "getMethod": "During the Stronghold Protocol: Alliance - Part 2 event, obtain the outfit Hydration Time",
+            "description": "An engraved medal included with the Stronghold Protocol: Alliance - Part 2 outfit.\nRehydrate, recharge, and then set out again!",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791111600,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_2autochess_03",
+            "medalName": "Alliance Center Medal II",
+            "medalType": "activityMedal",
+            "slotId": 15,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "ActivityAutoChessPassGame",
+            "unlockParam": [
+                "act2autochess",
+                "1",
+                "mode_multi_normal;mode_single_normal"
+            ],
+            "getMethod": "During the Stronghold Protocol: Alliance - Part 2 event, clear [Perilous Simulation] once",
+            "description": "You have fully experienced all Perilous Simulations within the Stronghold Protocol: Alliance - Part 2.\nThese sorts of simulations may be flawed, but they are enough to prove the necessity of team combat.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791111600,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_2autochess_04",
+            "medalName": "Alliance All-Rounder Medal",
+            "medalType": "activityMedal",
+            "slotId": 16,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "ActivityAutoChessPassWithBondAccumulative",
+            "unlockParam": [
+                "act2autochess",
+                "8"
+            ],
+            "getMethod": "During the Stronghold Protocol: Alliance - Part 2 event, use a total of 8 different Alliances to clear any simulation",
+            "description": "You successfully activated many alliances during the Stronghold Protocol: Alliance - Part 2.\nAn excellent commander can bring out the best from every soldier under their command, and you have proven yourself in this regard.",
+            "advancedMedal": null,
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791111600,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_2autochess_05",
+            "medalName": "Alliance Commander Medal",
+            "medalType": "activityMedal",
+            "slotId": 17,
+            "preMedalIdList": [],
+            "rarity": "T2",
+            "template": "ActivityAutoChessPassWithBandAccumulative",
+            "unlockParam": [
+                "act2autochess",
+                "5"
+            ],
+            "getMethod": "During the Stronghold Protocol: Alliance - Part 2 event, use 5 different Strategies to clear any simulation (not including Entry Protocol)",
+            "description": "You have put multiple strategies to optimal use in Stronghold Protocol: Alliance - Part 2.\nDecision-makers need to not only thirst for victory, but to have the courage to be bold and break through. Your performance was perfect.",
+            "advancedMedal": "medal_activity_2autochess_055",
+            "originMedal": null,
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791111600,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
             "medalRewardGroup": []
         },
         {
@@ -17699,7 +18243,7 @@
             "template": "GotCharsBeforeTime",
             "unlockParam": [
                 "char_4177_brigid",
-                "1758193199"
+                "1789037999"
             ],
             "getMethod": "During the When Elegies Are Ashes event, obtain the free Operator Brigid.",
             "description": "You befriended the descendant of one who cast aside the crown.\nResolve and kindness are hereditary too.",
@@ -17724,11 +18268,11 @@
             "rarity": "T1",
             "template": "ActivityCoinCost",
             "unlockParam": [
-                "act41side",
-                "act41side_token_light",
-                "4000"
+                "act41sre",
+                "act41side_token_light_rep_1",
+                "2400"
             ],
-            "getMethod": "During the When Elegies Are Ashes event, spend 4000 Broken Originium Lamps.",
+            "getMethod": "During the When Elegies Are Ashes event, spend 2400 Broken Originium Lamps.",
             "description": "You recovered the Originium lamps of the departed, returning them to those who still remember.\nTake heart, for not everyone is fortunate enough to be remembered in this place.",
             "advancedMedal": null,
             "originMedal": null,
@@ -17778,7 +18322,7 @@
             "rarity": "T2",
             "template": "MissionCompleteSome",
             "unlockParam": [
-                "41sideActivity_1;41sideActivity_2;41sideActivity_3;41sideActivity_4;41sideActivity_5;41sideActivity_6;41sideActivity_7;41sideActivity_8;41sideActivity_9;41sideActivity_10;41sideActivity_11;41sideActivity_12;41sideActivity_13;41sideActivity_14;41sideActivity_15;41sideActivity_16;41sideActivity_17;41sideActivity_18;41sideActivity_19;41sideActivity_20;41sideActivity_21;41sideActivity_22;41sideActivity_23;41sideActivity_24",
+                "41sreActivity_1;41sreActivity_2;41sreActivity_3;41sreActivity_4;41sreActivity_5;41sreActivity_6;41sreActivity_7;41sreActivity_8;41sreActivity_9;41sreActivity_10;41sreActivity_11;41sreActivity_12;41sreActivity_13;41sreActivity_14;41sreActivity_15;41sreActivity_16;41sreActivity_17;41sreActivity_18;41sreActivity_19;41sreActivity_20;41sreActivity_21;41sreActivity_22;41sreActivity_23;41sreActivity_24",
                 "24"
             ],
             "getMethod": "Complete all the content in [Griefs yet to Relieve] and collect the rewards.",
@@ -17804,7 +18348,7 @@
             "rarity": "T1",
             "template": "ActivityKilledTotal",
             "unlockParam": [
-                "act41side",
+                "act41sre",
                 "enemy_10065_ftzlc;enemy_10065_ftzlc_2",
                 "100"
             ],
@@ -17831,7 +18375,7 @@
             "rarity": "T1",
             "template": "TotalSimpleTokenCount",
             "unlockParam": [
-                "act41side",
+                "act41sre",
                 "ftprg_viewed",
                 "15"
             ],
@@ -38144,6 +38688,61 @@
                 }
             ],
             "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_2autochess_055",
+            "medalName": "Alliance Commander Medal",
+            "medalType": "activityMedal",
+            "slotId": 17,
+            "preMedalIdList": null,
+            "rarity": "T2D5",
+            "template": "ActivityAutoChessPassWithBandAccumulative",
+            "unlockParam": [
+                "act2autochess",
+                "8"
+            ],
+            "getMethod": "During the Stronghold Protocol: Alliance - Part 2 event, use 8 different Strategies to clear any simulation (not including Entry Protocol)",
+            "description": null,
+            "advancedMedal": null,
+            "originMedal": "medal_activity_2autochess_05",
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791111600,
+                    "end": -1,
+                    "type": "PERM"
+                }
+            ],
+            "medalRewardGroup": []
+        },
+        {
+            "medalId": "medal_activity_51side_105",
+            "medalName": "'Liberated'",
+            "medalType": "activityMedal",
+            "slotId": 12,
+            "preMedalIdList": null,
+            "rarity": "T2D5",
+            "template": "PassStageWithSimpleCountLess",
+            "unlockParam": [
+                "3",
+                "act51side_08",
+                "trap_317_ubprison",
+                "ubprison_lock_character",
+                "0"
+            ],
+            "getMethod": "Clear PA-8 with a 3-star rating, and have no Operators be imprisoned in Cells",
+            "description": null,
+            "advancedMedal": null,
+            "originMedal": "medal_activity_51side_10",
+            "displayTime": -1,
+            "expireTimes": [
+                {
+                    "start": 1791370800,
+                    "end": -1,
+                    "type": "TEMP"
+                }
+            ],
+            "medalRewardGroup": []
         }
     ],
     "medalTypeData": {
@@ -40008,6 +40607,33 @@
                             "start": 1787482800,
                             "end": -1,
                             "type": "PERM"
+                        }
+                    ]
+                },
+                {
+                    "groupId": "medalGroupActivity51side",
+                    "groupName": "People, A People Engraved Medal Set",
+                    "groupDesc": "An engraved medal set created to commemorate the Katorga Incident in Deity Grypherburg.\nThat winter, the snow in Grypherburg weighed a thousand tons.",
+                    "medalId": [
+                        "medal_activity_51side_01",
+                        "medal_activity_51side_02",
+                        "medal_activity_51side_03",
+                        "medal_activity_51side_04",
+                        "medal_activity_51side_05",
+                        "medal_activity_51side_06",
+                        "medal_activity_51side_07",
+                        "medal_activity_51side_08",
+                        "medal_activity_51side_09",
+                        "medal_activity_51side_10"
+                    ],
+                    "sortId": 68,
+                    "groupBackColor": "b7bfc2",
+                    "groupGetTime": 1789570800,
+                    "sharedExpireTimes": [
+                        {
+                            "start": 1791370800,
+                            "end": -1,
+                            "type": "TEMP"
                         }
                     ]
                 }
