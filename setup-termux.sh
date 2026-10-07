@@ -13,7 +13,9 @@ export ANDROID_API_LEVEL=24
 
 pip install pipx==1.14.1
 pipx install poetry
+
 pipx ensurepath
+export PATH="${HOME}/.local/bin:${PATH}"
 
 poetry config installer.max-workers 1
 
