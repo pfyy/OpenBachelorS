@@ -44,6 +44,7 @@ async def u8_pay_getAllProductList(request: Request):
 
 @router.post("/u8/user/auth/v1/agreement_version")
 @router.get("/u8/user/auth/v1/agreement_version")
+@router.get("/u8/user/info/v2/agreement_version")
 async def u8_user_auth_v1_agreement_version(request: Request):
     url = get_server_url(request)
 
