@@ -32,7 +32,17 @@ async def api_game_get_latest_game_info(request: Request):
 
 
 @router.get("/api/remote_config/101/prod/default/Android/ak_sdk_config")
-async def api_remote_config_101_prod_default_android_ak_sdk_config(request: Request):
+async def api_remote_config_101_prod_default_Android_ak_sdk_config(request: Request):
+    response = {}
+    return response
+
+
+@router.get(
+    "/api/remote_config/104/prod-download/default/Android/download-remote-config"
+)
+async def api_remote_config_104_prod_download_default_Android_download_remote_config(
+    request: Request,
+):
     response = {}
     return response
 

@@ -18,3 +18,14 @@ async def setting_perf_setLowPower(player_data, request: Request):
 
     response = {}
     return response
+
+
+@router.post("/setting/friendPrivate")
+@player_data_decorator
+async def setting_friendPrivate(player_data, request: Request):
+    request_json = await request.json()
+
+    player_data["setting"]["friendPrivate"] = request_json["newValue"]
+
+    response = {}
+    return response

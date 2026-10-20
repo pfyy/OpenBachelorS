@@ -7532,7 +7532,8 @@
     "setting": {
         "perf": {
             "lowPower": 0
-        }
+        },
+        "friendPrivate": 0
     },
     "recruit": {
         "normal": {
