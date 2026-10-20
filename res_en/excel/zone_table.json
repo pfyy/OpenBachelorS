@@ -247,6 +247,23 @@
             "bindMainlineRetroZoneId": "permanent_main_2_zone1",
             "diamondRewardCount": 39
         },
+        "act4mainss_zone1": {
+            "zoneID": "act4mainss_zone1",
+            "zoneIndex": 0,
+            "type": "MAINLINE_ACTIVITY",
+            "zoneNameFirst": "Critical Phase Transition",
+            "zoneNameSecond": "Critical Phase Transition",
+            "zoneNameTitleCurrent": "17",
+            "zoneNameTitleUnCurrent": "17",
+            "zoneNameTitleEx": "EPISODE",
+            "zoneNameThird": "EPISODE 17",
+            "lockedText": "Clear the previous chapter to unlock",
+            "antiSpoilerId": "main_15",
+            "canPreview": false,
+            "sixStarMilestoneGroupId": "main_17",
+            "bindMainlineRetroZoneId": "permanent_main_3_zone1",
+            "diamondRewardCount": 40
+        },
         "weekly_1": {
             "zoneID": "weekly_1",
             "zoneIndex": 1,
@@ -4764,6 +4781,22 @@
             "sixStarMilestoneGroupId": "main_16",
             "bindMainlineZoneId": "act3mainss_zone1"
         },
+        "permanent_main_3_zone1": {
+            "zoneID": "permanent_main_3_zone1",
+            "zoneIndex": 0,
+            "type": "MAINLINE_RETRO",
+            "zoneNameFirst": "Critical Phase Transition",
+            "zoneNameSecond": "Critical Phase Transition",
+            "zoneNameTitleCurrent": "17",
+            "zoneNameTitleUnCurrent": "17",
+            "zoneNameTitleEx": "EPISODE",
+            "zoneNameThird": "EPISODE 17",
+            "lockedText": "Clear the previous chapter to unlock",
+            "antiSpoilerId": "main_15",
+            "canPreview": false,
+            "sixStarMilestoneGroupId": "main_17",
+            "bindMainlineZoneId": "act4mainss_zone1"
+        },
         "permanent_sidestory_1_zone1": {
             "zoneID": "permanent_sidestory_1_zone1",
             "zoneIndex": 0,
@@ -5840,6 +5873,10 @@
         }
     },
     "zoneValidInfo": {
+        "act4mainss_zone1": {
+            "startTs": 1791979200,
+            "endTs": 1793185199
+        },
         "act3enemyduel_zone1": {
             "startTs": 1790175600,
             "endTs": 1791370799
@@ -7247,8 +7284,26 @@
             "preposedZoneId": "act2mainss_zone1",
             "zoneIndex": 0,
             "startStageId": "st_16-01",
-            "endStageId": "st_16-03",
+            "endStageId": "st_16-02",
             "gameMusicId": "music_3in1bg_main16",
+            "recapId": "",
+            "recapPreStageId": "",
+            "buttonName": "",
+            "buttonStyle": "NONE",
+            "spoilAlert": false,
+            "zoneOpenTime": -1,
+            "diffGroup": [
+                "NORMAL"
+            ]
+        },
+        "act4mainss_zone1": {
+            "zoneId": "act4mainss_zone1",
+            "chapterId": "chapter_3",
+            "preposedZoneId": "act3mainss_zone1",
+            "zoneIndex": 0,
+            "startStageId": "st_17-01",
+            "endStageId": "st_17-04",
+            "gameMusicId": "music_3in1bg_main17",
             "recapId": "",
             "recapPreStageId": "",
             "buttonName": "",
@@ -9435,7 +9490,8 @@
         "main_13",
         "main_14",
         "permanent_main_1_zone1",
-        "permanent_main_2_zone1"
+        "permanent_main_2_zone1",
+        "permanent_main_3_zone1"
     ],
     "zoneMetaData": {
         "ZoneRecordMissionData": {

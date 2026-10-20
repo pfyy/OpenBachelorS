@@ -596,119 +596,129 @@
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_16-07",
+                    "stageId": "main_17-01",
                     "occPer": "ALWAYS",
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_16-07#s",
+                    "stageId": "main_17-01#s",
                     "occPer": "ALWAYS",
                     "sortId": 2
                 },
                 {
-                    "stageId": "main_15-02",
+                    "stageId": "main_16-07",
                     "occPer": "ALWAYS",
                     "sortId": 3
                 },
                 {
-                    "stageId": "main_15-02#s",
+                    "stageId": "main_16-07#s",
                     "occPer": "ALWAYS",
                     "sortId": 4
                 },
                 {
-                    "stageId": "main_13-07",
+                    "stageId": "main_15-02",
                     "occPer": "ALWAYS",
                     "sortId": 5
                 },
                 {
-                    "stageId": "tough_13-07",
+                    "stageId": "main_15-02#s",
                     "occPer": "ALWAYS",
                     "sortId": 6
                 },
                 {
-                    "stageId": "main_12-01",
+                    "stageId": "main_13-07",
                     "occPer": "ALWAYS",
                     "sortId": 7
                 },
                 {
-                    "stageId": "tough_12-01",
+                    "stageId": "tough_13-07",
                     "occPer": "ALWAYS",
                     "sortId": 8
                 },
                 {
-                    "stageId": "main_11-08",
+                    "stageId": "main_12-01",
                     "occPer": "ALWAYS",
                     "sortId": 9
                 },
                 {
-                    "stageId": "tough_11-08",
+                    "stageId": "tough_12-01",
                     "occPer": "ALWAYS",
                     "sortId": 10
                 },
                 {
-                    "stageId": "main_10-07",
+                    "stageId": "main_11-08",
                     "occPer": "ALWAYS",
                     "sortId": 11
                 },
                 {
-                    "stageId": "tough_10-07",
+                    "stageId": "tough_11-08",
                     "occPer": "ALWAYS",
                     "sortId": 12
                 },
                 {
-                    "stageId": "main_09-01",
+                    "stageId": "main_10-07",
                     "occPer": "ALWAYS",
                     "sortId": 13
                 },
                 {
-                    "stageId": "main_08-01",
+                    "stageId": "tough_10-07",
                     "occPer": "ALWAYS",
                     "sortId": 14
                 },
                 {
-                    "stageId": "sub_07-1-1",
+                    "stageId": "main_09-01",
                     "occPer": "ALWAYS",
                     "sortId": 15
                 },
                 {
-                    "stageId": "sub_06-2-2",
+                    "stageId": "main_08-01",
                     "occPer": "ALWAYS",
                     "sortId": 16
                 },
                 {
-                    "stageId": "sub_05-1-2",
+                    "stageId": "sub_07-1-1",
                     "occPer": "ALWAYS",
                     "sortId": 17
                 },
                 {
-                    "stageId": "sub_04-2-3",
+                    "stageId": "sub_06-2-2",
                     "occPer": "ALWAYS",
                     "sortId": 18
                 },
                 {
-                    "stageId": "main_04-01",
+                    "stageId": "sub_05-1-2",
                     "occPer": "ALWAYS",
                     "sortId": 19
                 },
                 {
-                    "stageId": "main_03-06",
+                    "stageId": "sub_04-2-3",
                     "occPer": "ALWAYS",
                     "sortId": 20
                 },
                 {
-                    "stageId": "main_02-07",
+                    "stageId": "main_04-01",
                     "occPer": "ALWAYS",
                     "sortId": 21
                 },
                 {
-                    "stageId": "sub_02-02",
+                    "stageId": "main_03-06",
                     "occPer": "ALWAYS",
                     "sortId": 22
                 },
                 {
-                    "stageId": "main_01-01",
+                    "stageId": "main_02-07",
                     "occPer": "ALWAYS",
                     "sortId": 23
+                },
+                {
+                    "stageId": "sub_02-02",
+                    "occPer": "ALWAYS",
+                    "sortId": 24
+                },
+                {
+                    "stageId": "main_01-01",
+                    "occPer": "ALWAYS",
+                    "sortId": 25
                 }
             ],
             "buildingProductList": []
@@ -1172,6 +1182,22 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "LMTGS_COIN_7301": {
+            "itemId": "LMTGS_COIN_7301",
+            "name": "Headhunting Data Contract",
+            "description": "A long-term, stable relationship with the headhunting agency can effectively control our expenditures. However, we hope that this method will not be required every time.",
+            "rarity": "TIER_5",
+            "iconId": "LMTGS_COIN_7301",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 10325,
+            "usage": "A time-limited currency arranged for a new type of headhunting contract; Collect enough to recruit an operator from a designated pool for a limited time",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "NORMAL",
+            "itemType": "LMTGS_COIN",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "EPGS_COIN": {
             "itemId": "EPGS_COIN",
             "name": "Headhunting Parametric Model",
@@ -1597,6 +1623,38 @@
             "overrideBkg": null,
             "stackIconId": null,
             "sortId": 20028,
+            "usage": "ID Info Update Card for a system upgrade to the Rhodes Island bridge. This one is for you, Doctor.",
+            "obtainApproach": "Store and Gift",
+            "classifyType": "CONSUME",
+            "itemType": "RENAMING_CARD",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "renamingCard_0_073": {
+            "itemId": "renamingCard_0_073",
+            "name": "ID Info Update Card",
+            "description": "Don't waste the precious chance to do a system update.",
+            "rarity": "TIER_5",
+            "iconId": "renamingCard",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 20029,
+            "usage": "ID Info Update Card for a system upgrade to the Rhodes Island bridge. This one is for you, Doctor.",
+            "obtainApproach": "Store and Gift",
+            "classifyType": "CONSUME",
+            "itemType": "RENAMING_CARD",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "renamingCard_30_073": {
+            "itemId": "renamingCard_30_073",
+            "name": "ID Info Update Card",
+            "description": "Don't waste the precious chance to do a system update.",
+            "rarity": "TIER_5",
+            "iconId": "renamingCard",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 20030,
             "usage": "ID Info Update Card for a system upgrade to the Rhodes Island bridge. This one is for you, Doctor.",
             "obtainApproach": "Store and Gift",
             "classifyType": "CONSUME",
@@ -2884,6 +2942,22 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "LIMITED_TKT_GACHA_10_7301": {
+            "itemId": "LIMITED_TKT_GACHA_10_7301",
+            "name": "A Sealed Vow Headhunting Permit",
+            "description": "In order to ensure the available talent pool can be scaled upwards to satisfy the Doctor's emergency preparation request, this batch of headhunting items carries specificity, time-sensitivity, and of course, a degree of risk.",
+            "rarity": "TIER_5",
+            "iconId": "LIMITED_TKT_GACHA_10_7301",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 40003,
+            "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
+            "obtainApproach": "Gift",
+            "classifyType": "NORMAL",
+            "itemType": "LIMITED_TKT_GACHA_10",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "7003": {
             "itemId": "7003",
             "name": "Headhunting Permit",
@@ -3172,6 +3246,22 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "voucher_item_pick7301": {
+            "itemId": "voucher_item_pick7301",
+            "name": "Top Operator Transfer Permit",
+            "description": "Allows you to select a 6-star Operator from a past Headhunting Pool up to and including 'The Silent Wavelengths.'",
+            "rarity": "TIER_5",
+            "iconId": "voucher_recruitR6_g",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50016,
+            "usage": "A lot of tablework went into this Top Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
+            "obtainApproach": "Store",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_PICK",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "voucher_class_pick5601": {
             "itemId": "voucher_class_pick5601",
             "name": "Top Operator Transfer Permit - Kernel",
@@ -3213,6 +3303,22 @@
             "overrideBkg": null,
             "stackIconId": null,
             "sortId": 50033,
+            "usage": "A lot of tablework went into this Top Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
+            "obtainApproach": "Store",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_PICK",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "voucher_class_pick7301": {
+            "itemId": "voucher_class_pick7301",
+            "name": "Top Operator Transfer Permit - Kernel",
+            "description": "Allows you to select any 6-star Kernel Operator currently in the Kernel Headhunting Pool.",
+            "rarity": "TIER_5",
+            "iconId": "voucher_class_pick6101",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50034,
             "usage": "A lot of tablework went into this Top Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
             "obtainApproach": "Store",
             "classifyType": "CONSUME",
@@ -3293,6 +3399,22 @@
             "overrideBkg": null,
             "stackIconId": null,
             "sortId": 50045,
+            "usage": "A lot of tablework went into this Senior Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
+            "obtainApproach": "Gift",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_PICK",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "voucher_recruitR5_pick7301": {
+            "itemId": "voucher_recruitR5_pick7301",
+            "name": "Senior Operator Transfer Permit",
+            "description": "Allows you to select a 5-star Operator from a past Headhunting Pool up to and including 'Command: Reconstruction.'",
+            "rarity": "TIER_5",
+            "iconId": "voucher_recruitR5_g",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50046,
             "usage": "A lot of tablework went into this Senior Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
             "obtainApproach": "Gift",
             "classifyType": "CONSUME",
@@ -3917,6 +4039,102 @@
             "overrideBkg": null,
             "stackIconId": null,
             "sortId": 50107,
+            "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+            "obtainApproach": "Store",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_CGACHA",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "2026recruitment10_register_1": {
+            "itemId": "2026recruitment10_register_1",
+            "name": "Type-α Newcomer Headhunting Permit",
+            "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+            "rarity": "TIER_5",
+            "iconId": "2026recruitment10_1",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50108,
+            "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+            "obtainApproach": "Store",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_CGACHA",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "2026recruitment10_register_2": {
+            "itemId": "2026recruitment10_register_2",
+            "name": "Type-β Newcomer Headhunting Permit",
+            "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+            "rarity": "TIER_5",
+            "iconId": "2026recruitment10_2",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50108,
+            "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+            "obtainApproach": "Store",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_CGACHA",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "2026recruitment10_register_3": {
+            "itemId": "2026recruitment10_register_3",
+            "name": "Type-γ Newcomer Headhunting Permit",
+            "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+            "rarity": "TIER_5",
+            "iconId": "2026recruitment10_3",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50108,
+            "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+            "obtainApproach": "Store",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_CGACHA",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "2026recruitment10_new_1": {
+            "itemId": "2026recruitment10_new_1",
+            "name": "Type-α Starter Headhunting Permit",
+            "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+            "rarity": "TIER_5",
+            "iconId": "2026recruitment10_1",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50109,
+            "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+            "obtainApproach": "Store",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_CGACHA",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "2026recruitment10_new_2": {
+            "itemId": "2026recruitment10_new_2",
+            "name": "Type-β Starter Headhunting Permit",
+            "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+            "rarity": "TIER_5",
+            "iconId": "2026recruitment10_2",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50109,
+            "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+            "obtainApproach": "Store",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_CGACHA",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "2026recruitment10_new_3": {
+            "itemId": "2026recruitment10_new_3",
+            "name": "Type-γ Starter Headhunting Permit",
+            "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+            "rarity": "TIER_5",
+            "iconId": "2026recruitment10_3",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 50109,
             "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
             "obtainApproach": "Store",
             "classifyType": "CONSUME",
@@ -4644,6 +4862,22 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "randomMaterial_13": {
+            "itemId": "randomMaterial_13",
+            "name": "Rhodes Island Supplies X",
+            "description": "Rhodes Island purchases and stores boxes of supplies from various places. However, due to the lack of an organized storage system, each box contains seemingly random materials.",
+            "rarity": "TIER_5",
+            "iconId": "randomMaterial_1",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 60110,
+            "usage": "Filled with an assortment of supplies and materials.",
+            "obtainApproach": "From events",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_MGACHA",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "randomMaterial_5d5": {
             "itemId": "randomMaterial_5d5",
             "name": "Thank-You Celebration Supplies",
@@ -4852,6 +5086,22 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "randomMaterial_message3": {
+            "itemId": "randomMaterial_message3",
+            "name": "Specimen of Life",
+            "description": "A specimen preserved in amber, the leaf within still resembling those from countless years ago, the form this first trace of life took before making its way to you. Kal'tsit has given you this fragment of time, perhaps wishing to share every moving moment of joy from that endless era with you.",
+            "rarity": "TIER_5",
+            "iconId": "randomMaterial_message3",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 60122,
+            "usage": "An amber specimen with a leaf inside. Can be exchanged for LMD.",
+            "obtainApproach": "Gift",
+            "classifyType": "CONSUME",
+            "itemType": "VOUCHER_MGACHA",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "2001": {
             "itemId": "2001",
             "name": "Drill Battle Record",
@@ -4946,109 +5196,119 @@
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_16-01",
+                    "stageId": "main_17-08",
                     "occPer": "ALWAYS",
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_16-01#s",
+                    "stageId": "main_17-08#s",
                     "occPer": "ALWAYS",
                     "sortId": 2
                 },
                 {
-                    "stageId": "main_15-07",
+                    "stageId": "main_16-01",
                     "occPer": "ALWAYS",
                     "sortId": 3
                 },
                 {
-                    "stageId": "main_15-07#s",
+                    "stageId": "main_16-01#s",
                     "occPer": "ALWAYS",
                     "sortId": 4
                 },
                 {
-                    "stageId": "main_14-06",
+                    "stageId": "main_15-07",
                     "occPer": "ALWAYS",
                     "sortId": 5
                 },
                 {
-                    "stageId": "tough_14-06",
+                    "stageId": "main_15-07#s",
                     "occPer": "ALWAYS",
                     "sortId": 6
                 },
                 {
-                    "stageId": "main_13-01",
+                    "stageId": "main_14-06",
                     "occPer": "ALWAYS",
                     "sortId": 7
                 },
                 {
-                    "stageId": "tough_13-01",
+                    "stageId": "tough_14-06",
                     "occPer": "ALWAYS",
                     "sortId": 8
                 },
                 {
-                    "stageId": "main_12-08",
+                    "stageId": "main_13-01",
                     "occPer": "ALWAYS",
                     "sortId": 9
                 },
                 {
-                    "stageId": "tough_12-08",
+                    "stageId": "tough_13-01",
                     "occPer": "ALWAYS",
                     "sortId": 10
                 },
                 {
-                    "stageId": "main_11-01",
+                    "stageId": "main_12-08",
                     "occPer": "ALWAYS",
                     "sortId": 11
                 },
                 {
-                    "stageId": "tough_11-01",
+                    "stageId": "tough_12-08",
                     "occPer": "ALWAYS",
                     "sortId": 12
                 },
                 {
-                    "stageId": "main_10-01",
+                    "stageId": "main_11-01",
                     "occPer": "ALWAYS",
                     "sortId": 13
                 },
                 {
-                    "stageId": "tough_10-01",
+                    "stageId": "tough_11-01",
                     "occPer": "ALWAYS",
                     "sortId": 14
                 },
                 {
-                    "stageId": "main_09-09",
+                    "stageId": "main_10-01",
                     "occPer": "ALWAYS",
                     "sortId": 15
                 },
                 {
-                    "stageId": "main_08-06",
+                    "stageId": "tough_10-01",
                     "occPer": "ALWAYS",
                     "sortId": 16
                 },
                 {
-                    "stageId": "main_07-11",
+                    "stageId": "main_09-09",
                     "occPer": "ALWAYS",
                     "sortId": 17
                 },
                 {
-                    "stageId": "sub_06-1-1",
+                    "stageId": "main_08-06",
                     "occPer": "ALWAYS",
                     "sortId": 18
                 },
                 {
-                    "stageId": "sub_05-3-2",
+                    "stageId": "main_07-11",
                     "occPer": "ALWAYS",
                     "sortId": 19
                 },
                 {
-                    "stageId": "sub_04-3-3",
+                    "stageId": "sub_06-1-1",
                     "occPer": "ALWAYS",
                     "sortId": 20
                 },
                 {
-                    "stageId": "main_04-03",
+                    "stageId": "sub_05-3-2",
                     "occPer": "ALWAYS",
                     "sortId": 21
+                },
+                {
+                    "stageId": "sub_04-3-3",
+                    "occPer": "ALWAYS",
+                    "sortId": 22
+                },
+                {
+                    "stageId": "main_04-03",
+                    "occPer": "ALWAYS",
+                    "sortId": 23
                 }
             ],
             "buildingProductList": [
@@ -7489,7 +7749,7 @@
             "iconId": "MTL_SL_KETONE1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100056,
+            "sortId": 100060,
             "usage": "A very small amount of industrial organic compound. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -8233,7 +8493,7 @@
             "iconId": "MTL_SL_KETONE2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100055,
+            "sortId": 100059,
             "usage": "A small amount of industrial organic compound. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -8542,7 +8802,7 @@
             "iconId": "MTL_SL_KETONE3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100054,
+            "sortId": 100058,
             "usage": "A modest amount of industrial organic compound. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -8664,69 +8924,79 @@
                     "sortId": 22
                 },
                 {
-                    "stageId": "main_16-11",
+                    "stageId": "main_17-12",
                     "occPer": "OFTEN",
                     "sortId": 23
                 },
                 {
-                    "stageId": "main_16-11#s",
+                    "stageId": "main_17-12#s",
                     "occPer": "OFTEN",
                     "sortId": 24
                 },
                 {
-                    "stageId": "main_15-03",
+                    "stageId": "main_16-11",
                     "occPer": "OFTEN",
                     "sortId": 25
                 },
                 {
-                    "stageId": "main_15-03#s",
+                    "stageId": "main_16-11#s",
                     "occPer": "OFTEN",
                     "sortId": 26
                 },
                 {
-                    "stageId": "main_13-03",
+                    "stageId": "main_15-03",
                     "occPer": "OFTEN",
                     "sortId": 27
                 },
                 {
-                    "stageId": "tough_13-03",
+                    "stageId": "main_15-03#s",
                     "occPer": "OFTEN",
                     "sortId": 28
                 },
                 {
-                    "stageId": "main_12-03",
+                    "stageId": "main_13-03",
                     "occPer": "OFTEN",
                     "sortId": 29
                 },
                 {
-                    "stageId": "tough_12-03",
+                    "stageId": "tough_13-03",
                     "occPer": "OFTEN",
                     "sortId": 30
                 },
                 {
-                    "stageId": "main_07-12",
+                    "stageId": "main_12-03",
                     "occPer": "OFTEN",
                     "sortId": 31
                 },
                 {
-                    "stageId": "main_05-08",
+                    "stageId": "tough_12-03",
                     "occPer": "OFTEN",
                     "sortId": 32
                 },
                 {
-                    "stageId": "main_04-05",
+                    "stageId": "main_07-12",
                     "occPer": "OFTEN",
                     "sortId": 33
                 },
                 {
-                    "stageId": "sub_09-1-1",
+                    "stageId": "main_05-08",
                     "occPer": "OFTEN",
                     "sortId": 34
                 },
                 {
-                    "stageId": "main_06-07",
+                    "stageId": "main_04-05",
                     "occPer": "OFTEN",
                     "sortId": 35
+                },
+                {
+                    "stageId": "sub_09-1-1",
+                    "occPer": "OFTEN",
+                    "sortId": 36
+                },
+                {
+                    "stageId": "main_06-07",
+                    "occPer": "OFTEN",
+                    "sortId": 37
                 }
             ],
             "buildingProductList": [
@@ -8766,86 +9036,96 @@
             "iconId": "MTL_SL_KETONE4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100053,
+            "sortId": 100057,
             "usage": "A large amount of industrial organic compound. Can be used for a variety of upgrades and the synthesis of Polymerization Preparation.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
             "stageDropList": [
                 {
-                    "stageId": "main_16-11",
+                    "stageId": "main_17-12",
                     "occPer": "SOMETIMES",
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_16-11#s",
+                    "stageId": "main_17-12#s",
                     "occPer": "SOMETIMES",
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_15-03",
+                    "stageId": "main_16-11",
                     "occPer": "SOMETIMES",
                     "sortId": 2
                 },
                 {
-                    "stageId": "main_15-03#s",
+                    "stageId": "main_16-11#s",
                     "occPer": "SOMETIMES",
                     "sortId": 3
                 },
                 {
-                    "stageId": "main_14-14",
+                    "stageId": "main_15-03",
                     "occPer": "SOMETIMES",
                     "sortId": 4
                 },
                 {
-                    "stageId": "tough_14-14",
+                    "stageId": "main_15-03#s",
                     "occPer": "SOMETIMES",
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_13-03",
+                    "stageId": "main_14-14",
                     "occPer": "SOMETIMES",
                     "sortId": 6
                 },
                 {
-                    "stageId": "tough_13-03",
+                    "stageId": "tough_14-14",
                     "occPer": "SOMETIMES",
                     "sortId": 7
                 },
                 {
-                    "stageId": "main_12-18",
+                    "stageId": "main_13-03",
                     "occPer": "SOMETIMES",
                     "sortId": 8
                 },
                 {
-                    "stageId": "tough_12-18",
+                    "stageId": "tough_13-03",
                     "occPer": "SOMETIMES",
                     "sortId": 9
                 },
                 {
-                    "stageId": "main_12-03",
+                    "stageId": "main_12-18",
                     "occPer": "SOMETIMES",
                     "sortId": 10
                 },
                 {
-                    "stageId": "tough_12-03",
+                    "stageId": "tough_12-18",
                     "occPer": "SOMETIMES",
                     "sortId": 11
                 },
                 {
-                    "stageId": "sub_09-1-1",
+                    "stageId": "main_12-03",
                     "occPer": "SOMETIMES",
                     "sortId": 12
                 },
                 {
-                    "stageId": "main_05-08",
+                    "stageId": "tough_12-03",
                     "occPer": "SOMETIMES",
                     "sortId": 13
                 },
                 {
-                    "stageId": "main_04-05",
+                    "stageId": "sub_09-1-1",
                     "occPer": "SOMETIMES",
                     "sortId": 14
+                },
+                {
+                    "stageId": "main_05-08",
+                    "occPer": "SOMETIMES",
+                    "sortId": 15
+                },
+                {
+                    "stageId": "main_04-05",
+                    "occPer": "SOMETIMES",
+                    "sortId": 16
                 }
             ],
             "buildingProductList": [
@@ -8885,7 +9165,7 @@
             "iconId": "MTL_SL_IRON1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100052,
+            "sortId": 100056,
             "usage": "A common industrial material. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -9634,7 +9914,7 @@
             "iconId": "MTL_SL_IRON2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100051,
+            "sortId": 100055,
             "usage": "A rare industrial material. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -9953,7 +10233,7 @@
             "iconId": "MTL_SL_IRON3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100050,
+            "sortId": 100054,
             "usage": "A precious industrial material. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -10050,64 +10330,74 @@
                     "sortId": 17
                 },
                 {
-                    "stageId": "main_15-11",
+                    "stageId": "main_17-06",
                     "occPer": "OFTEN",
                     "sortId": 18
                 },
                 {
-                    "stageId": "main_15-11#s",
+                    "stageId": "main_17-06#s",
                     "occPer": "OFTEN",
                     "sortId": 19
                 },
                 {
-                    "stageId": "main_16-04",
+                    "stageId": "main_15-11",
                     "occPer": "OFTEN",
                     "sortId": 20
                 },
                 {
-                    "stageId": "main_16-04#s",
+                    "stageId": "main_15-11#s",
                     "occPer": "OFTEN",
                     "sortId": 21
                 },
                 {
-                    "stageId": "main_13-14",
+                    "stageId": "main_16-04",
                     "occPer": "OFTEN",
                     "sortId": 22
                 },
                 {
-                    "stageId": "tough_13-14",
+                    "stageId": "main_16-04#s",
                     "occPer": "OFTEN",
                     "sortId": 23
                 },
                 {
-                    "stageId": "main_11-09",
+                    "stageId": "main_13-14",
                     "occPer": "OFTEN",
                     "sortId": 24
                 },
                 {
-                    "stageId": "tough_11-09",
+                    "stageId": "tough_13-14",
                     "occPer": "OFTEN",
                     "sortId": 25
                 },
                 {
-                    "stageId": "sub_04-1-1",
+                    "stageId": "main_11-09",
                     "occPer": "OFTEN",
                     "sortId": 26
                 },
                 {
-                    "stageId": "main_09-15",
+                    "stageId": "tough_11-09",
                     "occPer": "OFTEN",
                     "sortId": 27
                 },
                 {
-                    "stageId": "main_06-09",
+                    "stageId": "sub_04-1-1",
                     "occPer": "OFTEN",
                     "sortId": 28
                 },
                 {
-                    "stageId": "main_05-05",
+                    "stageId": "main_09-15",
                     "occPer": "OFTEN",
                     "sortId": 29
+                },
+                {
+                    "stageId": "main_06-09",
+                    "occPer": "OFTEN",
+                    "sortId": 30
+                },
+                {
+                    "stageId": "main_05-05",
+                    "occPer": "OFTEN",
+                    "sortId": 31
                 }
             ],
             "buildingProductList": [
@@ -10147,76 +10437,86 @@
             "iconId": "MTL_SL_IRON4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100049,
+            "sortId": 100053,
             "usage": "An expensive industrial material. Can be used for a variety of upgrades and the synthesis of Polymerization Preparation.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
             "stageDropList": [
                 {
-                    "stageId": "main_16-04",
+                    "stageId": "main_17-06",
                     "occPer": "SOMETIMES",
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_16-04#s",
+                    "stageId": "main_17-06#s",
                     "occPer": "SOMETIMES",
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_15-11",
+                    "stageId": "main_16-04",
                     "occPer": "SOMETIMES",
                     "sortId": 2
                 },
                 {
-                    "stageId": "main_15-11#s",
+                    "stageId": "main_16-04#s",
                     "occPer": "SOMETIMES",
                     "sortId": 3
                 },
                 {
-                    "stageId": "main_13-14",
+                    "stageId": "main_15-11",
                     "occPer": "SOMETIMES",
                     "sortId": 4
                 },
                 {
-                    "stageId": "tough_13-14",
+                    "stageId": "main_15-11#s",
                     "occPer": "SOMETIMES",
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_11-09",
+                    "stageId": "main_13-14",
                     "occPer": "SOMETIMES",
                     "sortId": 6
                 },
                 {
-                    "stageId": "tough_11-09",
+                    "stageId": "tough_13-14",
                     "occPer": "SOMETIMES",
                     "sortId": 7
                 },
                 {
-                    "stageId": "main_10-10",
+                    "stageId": "main_11-09",
                     "occPer": "SOMETIMES",
                     "sortId": 8
                 },
                 {
-                    "stageId": "tough_10-10",
+                    "stageId": "tough_11-09",
                     "occPer": "SOMETIMES",
                     "sortId": 9
                 },
                 {
-                    "stageId": "main_09-15",
+                    "stageId": "main_10-10",
                     "occPer": "SOMETIMES",
                     "sortId": 10
                 },
                 {
-                    "stageId": "main_05-05",
+                    "stageId": "tough_10-10",
                     "occPer": "SOMETIMES",
                     "sortId": 11
                 },
                 {
-                    "stageId": "sub_04-1-1",
+                    "stageId": "main_09-15",
                     "occPer": "SOMETIMES",
                     "sortId": 12
+                },
+                {
+                    "stageId": "main_05-05",
+                    "occPer": "SOMETIMES",
+                    "sortId": 13
+                },
+                {
+                    "stageId": "sub_04-1-1",
+                    "occPer": "SOMETIMES",
+                    "sortId": 14
                 }
             ],
             "buildingProductList": [
@@ -10256,7 +10556,7 @@
             "iconId": "MTL_SL_STRG1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100048,
+            "sortId": 100052,
             "usage": "Cheap sugar substitute produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -11025,7 +11325,7 @@
             "iconId": "MTL_SL_STRG2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100047,
+            "sortId": 100051,
             "usage": "A small amount of sugar produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -11359,7 +11659,7 @@
             "iconId": "MTL_SL_STRG3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100046,
+            "sortId": 100050,
             "usage": "A decent amount of sugar produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -11558,7 +11858,7 @@
             "iconId": "MTL_SL_STRG4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100045,
+            "sortId": 100049,
             "usage": "A large amount of sugar produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -11667,7 +11967,7 @@
             "iconId": "MTL_SL_RUSH1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100044,
+            "sortId": 100048,
             "usage": "Ester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -12421,7 +12721,7 @@
             "iconId": "MTL_SL_RUSH2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100043,
+            "sortId": 100047,
             "usage": "A small amount of polyester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -12701,6 +13001,16 @@
                     "stageId": "tough_10-14",
                     "occPer": "OFTEN",
                     "sortId": 54
+                },
+                {
+                    "stageId": "main_17-11",
+                    "occPer": "USUAL",
+                    "sortId": 55
+                },
+                {
+                    "stageId": "main_17-11#s",
+                    "occPer": "USUAL",
+                    "sortId": 56
                 }
             ],
             "buildingProductList": [
@@ -12725,7 +13035,7 @@
             "iconId": "MTL_SL_RUSH3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100042,
+            "sortId": 100046,
             "usage": "A pack of polyester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -12949,7 +13259,7 @@
             "iconId": "MTL_SL_RUSH4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100041,
+            "sortId": 100045,
             "usage": "A lump of polyester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -13058,7 +13368,7 @@
             "iconId": "MTL_SL_BOSS1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100040,
+            "sortId": 100044,
             "usage": "A damaged mechanical device captured from Reunion. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -13827,7 +14137,7 @@
             "iconId": "MTL_SL_BOSS2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100039,
+            "sortId": 100043,
             "usage": "An ordinary mechanical device captured from Reunion. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -14171,7 +14481,7 @@
             "iconId": "MTL_SL_BOSS3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100038,
+            "sortId": 100042,
             "usage": "A brand new mechanical device captured from Reunion. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -14223,84 +14533,94 @@
                     "sortId": 8
                 },
                 {
-                    "stageId": "main_11-06",
-                    "occPer": "OFTEN",
+                    "stageId": "main_17-11",
+                    "occPer": "USUAL",
                     "sortId": 9
                 },
                 {
-                    "stageId": "tough_11-06",
-                    "occPer": "OFTEN",
+                    "stageId": "main_17-11#s",
+                    "occPer": "USUAL",
                     "sortId": 10
                 },
                 {
-                    "stageId": "main_08-14",
+                    "stageId": "main_11-06",
                     "occPer": "OFTEN",
                     "sortId": 11
                 },
                 {
-                    "stageId": "main_09-08",
+                    "stageId": "tough_11-06",
                     "occPer": "OFTEN",
                     "sortId": 12
                 },
                 {
-                    "stageId": "main_07-13",
+                    "stageId": "main_08-14",
                     "occPer": "OFTEN",
                     "sortId": 13
                 },
                 {
-                    "stageId": "main_03-04",
+                    "stageId": "main_09-08",
                     "occPer": "OFTEN",
                     "sortId": 14
                 },
                 {
-                    "stageId": "main_05-10",
+                    "stageId": "main_07-13",
                     "occPer": "OFTEN",
                     "sortId": 15
                 },
                 {
-                    "stageId": "main_06-14",
+                    "stageId": "main_03-04",
                     "occPer": "OFTEN",
                     "sortId": 16
                 },
                 {
-                    "stageId": "main_13-08",
+                    "stageId": "main_05-10",
                     "occPer": "OFTEN",
                     "sortId": 17
                 },
                 {
-                    "stageId": "tough_13-08",
+                    "stageId": "main_06-14",
                     "occPer": "OFTEN",
                     "sortId": 18
                 },
                 {
-                    "stageId": "main_04-10",
+                    "stageId": "main_13-08",
                     "occPer": "OFTEN",
                     "sortId": 19
                 },
                 {
-                    "stageId": "main_16-02",
+                    "stageId": "tough_13-08",
                     "occPer": "OFTEN",
                     "sortId": 20
                 },
                 {
-                    "stageId": "main_16-02#s",
+                    "stageId": "main_04-10",
                     "occPer": "OFTEN",
                     "sortId": 21
                 },
                 {
-                    "stageId": "main_11-18",
+                    "stageId": "main_16-02",
                     "occPer": "OFTEN",
                     "sortId": 22
                 },
                 {
-                    "stageId": "tough_11-18",
+                    "stageId": "main_16-02#s",
                     "occPer": "OFTEN",
                     "sortId": 23
                 },
                 {
-                    "stageId": "main_07-07",
+                    "stageId": "main_11-18",
                     "occPer": "OFTEN",
                     "sortId": 24
+                },
+                {
+                    "stageId": "tough_11-18",
+                    "occPer": "OFTEN",
+                    "sortId": 25
+                },
+                {
+                    "stageId": "main_07-07",
+                    "occPer": "OFTEN",
+                    "sortId": 26
                 }
             ],
             "buildingProductList": [
@@ -14340,7 +14660,7 @@
             "iconId": "MTL_SL_BOSS4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100037,
+            "sortId": 100041,
             "usage": "An advanced mechanical device captured from Reunion. Can be used for a variety of upgrades and the synthesis of Bipolar Nanoflake.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -14424,7 +14744,7 @@
             "iconId": "MTL_SL_G1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100036,
+            "sortId": 100040,
             "usage": "A rock mined from the ground. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -15198,7 +15518,7 @@
             "iconId": "MTL_SL_G2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100035,
+            "sortId": 100039,
             "usage": "A rock cube mined from the ground. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -15522,7 +15842,7 @@
             "iconId": "MTL_SL_G3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100034,
+            "sortId": 100038,
             "usage": "A conglomerate rock mined from the ground. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -15726,7 +16046,7 @@
             "iconId": "MTL_SL_G4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100033,
+            "sortId": 100037,
             "usage": "A refined matter produced with Orirock Cluster. Can be used for a variety of upgrades and the synthesis of Polymerization Preparation.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -15840,7 +16160,7 @@
             "iconId": "MTL_SL_RMA7012",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100032,
+            "sortId": 100036,
             "usage": "A sensitive mineral with high conductivity. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -16029,7 +16349,7 @@
             "iconId": "MTL_SL_RMA7024",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100031,
+            "sortId": 100035,
             "usage": "A highly sensitive mineral with outstanding conductivity. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -16123,7 +16443,7 @@
             "iconId": "MTL_SL_PG1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100030,
+            "sortId": 100034,
             "usage": "A grindstone used to process weapon parts. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -16317,7 +16637,7 @@
             "iconId": "MTL_SL_PG2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100029,
+            "sortId": 100033,
             "usage": "An advanced grindstone used in the finish machining of weapon parts. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -16411,7 +16731,7 @@
             "iconId": "MTL_SL_MANGANESE1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100028,
+            "sortId": 100032,
             "usage": "A metal ore used for metallurgy. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -16458,89 +16778,99 @@
                     "sortId": 7
                 },
                 {
-                    "stageId": "main_15-10",
+                    "stageId": "main_17-05",
                     "occPer": "USUAL",
                     "sortId": 8
                 },
                 {
-                    "stageId": "main_15-10#s",
+                    "stageId": "main_17-05#s",
                     "occPer": "USUAL",
                     "sortId": 9
                 },
                 {
-                    "stageId": "main_03-02",
-                    "occPer": "OFTEN",
+                    "stageId": "main_15-10",
+                    "occPer": "USUAL",
                     "sortId": 10
                 },
                 {
-                    "stageId": "main_07-14",
-                    "occPer": "OFTEN",
+                    "stageId": "main_15-10#s",
+                    "occPer": "USUAL",
                     "sortId": 11
                 },
                 {
-                    "stageId": "main_14-12",
+                    "stageId": "main_03-02",
                     "occPer": "OFTEN",
                     "sortId": 12
                 },
                 {
-                    "stageId": "tough_14-12",
+                    "stageId": "main_07-14",
                     "occPer": "OFTEN",
                     "sortId": 13
                 },
                 {
-                    "stageId": "main_13-18",
+                    "stageId": "main_14-12",
                     "occPer": "OFTEN",
                     "sortId": 14
                 },
                 {
-                    "stageId": "tough_13-18",
+                    "stageId": "tough_14-12",
                     "occPer": "OFTEN",
                     "sortId": 15
                 },
                 {
-                    "stageId": "main_13-09",
+                    "stageId": "main_13-18",
                     "occPer": "OFTEN",
                     "sortId": 16
                 },
                 {
-                    "stageId": "tough_13-09",
+                    "stageId": "tough_13-18",
                     "occPer": "OFTEN",
                     "sortId": 17
                 },
                 {
-                    "stageId": "main_10-06",
+                    "stageId": "main_13-09",
                     "occPer": "OFTEN",
                     "sortId": 18
                 },
                 {
-                    "stageId": "tough_10-06",
+                    "stageId": "tough_13-09",
                     "occPer": "OFTEN",
                     "sortId": 19
                 },
                 {
-                    "stageId": "main_05-06",
+                    "stageId": "main_10-06",
                     "occPer": "OFTEN",
                     "sortId": 20
                 },
                 {
-                    "stageId": "main_09-13",
+                    "stageId": "tough_10-06",
                     "occPer": "OFTEN",
                     "sortId": 21
                 },
                 {
-                    "stageId": "main_08-11",
+                    "stageId": "main_05-06",
                     "occPer": "OFTEN",
                     "sortId": 22
                 },
                 {
-                    "stageId": "main_06-02",
+                    "stageId": "main_09-13",
                     "occPer": "OFTEN",
                     "sortId": 23
                 },
                 {
-                    "stageId": "main_04-07",
+                    "stageId": "main_08-11",
                     "occPer": "OFTEN",
                     "sortId": 24
+                },
+                {
+                    "stageId": "main_06-02",
+                    "occPer": "OFTEN",
+                    "sortId": 25
+                },
+                {
+                    "stageId": "main_04-07",
+                    "occPer": "OFTEN",
+                    "sortId": 26
                 }
             ],
             "buildingProductList": [],
@@ -16575,7 +16905,7 @@
             "iconId": "MTL_SL_MANGANESE2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100027,
+            "sortId": 100031,
             "usage": "A metal ore used for metallurgy. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -16679,7 +17009,7 @@
             "iconId": "MTL_SL_ALCOHOL1",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100026,
+            "sortId": 100030,
             "usage": "A flaky organic compound. Can be used for a variety of upgrades and for production in the Factory.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -16766,17 +17096,17 @@
                     "sortId": 15
                 },
                 {
-                    "stageId": "main_11-11",
+                    "stageId": "main_02-09",
                     "occPer": "OFTEN",
                     "sortId": 16
                 },
                 {
-                    "stageId": "tough_11-11",
+                    "stageId": "main_11-11",
                     "occPer": "OFTEN",
                     "sortId": 17
                 },
                 {
-                    "stageId": "main_02-09",
+                    "stageId": "tough_11-11",
                     "occPer": "OFTEN",
                     "sortId": 18
                 },
@@ -16878,7 +17208,7 @@
             "iconId": "MTL_SL_ALCOHOL2",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100025,
+            "sortId": 100029,
             "usage": "A flaky organic compound. Can be used for a variety of upgrades and the synthesis of Bipolar Nanoflake.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -16992,7 +17322,7 @@
             "iconId": "MTL_SL_PGEL3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100024,
+            "sortId": 100028,
             "usage": "A high-strength plastic material suitable. Can be used for a variety of upgrades and for synthesis projects in Factories.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -17059,69 +17389,79 @@
                     "sortId": 11
                 },
                 {
-                    "stageId": "main_12-04",
+                    "stageId": "main_08-08",
                     "occPer": "OFTEN",
                     "sortId": 12
                 },
                 {
-                    "stageId": "tough_12-04",
+                    "stageId": "main_12-04",
                     "occPer": "OFTEN",
                     "sortId": 13
                 },
                 {
-                    "stageId": "main_08-08",
+                    "stageId": "tough_12-04",
                     "occPer": "OFTEN",
                     "sortId": 14
                 },
                 {
-                    "stageId": "main_16-12",
+                    "stageId": "main_17-02",
                     "occPer": "OFTEN",
                     "sortId": 15
                 },
                 {
-                    "stageId": "main_16-12#s",
+                    "stageId": "main_17-02#s",
                     "occPer": "OFTEN",
                     "sortId": 16
                 },
                 {
-                    "stageId": "main_11-10",
+                    "stageId": "main_16-12",
                     "occPer": "OFTEN",
                     "sortId": 17
                 },
                 {
-                    "stageId": "tough_11-10",
+                    "stageId": "main_16-12#s",
                     "occPer": "OFTEN",
                     "sortId": 18
                 },
                 {
-                    "stageId": "main_10-02",
+                    "stageId": "main_11-10",
                     "occPer": "OFTEN",
                     "sortId": 19
                 },
                 {
-                    "stageId": "tough_10-02",
+                    "stageId": "tough_11-10",
                     "occPer": "OFTEN",
                     "sortId": 20
                 },
                 {
-                    "stageId": "main_08-16",
+                    "stageId": "main_10-02",
                     "occPer": "OFTEN",
                     "sortId": 21
                 },
                 {
-                    "stageId": "sub_04-4-1",
+                    "stageId": "tough_10-02",
                     "occPer": "OFTEN",
                     "sortId": 22
                 },
                 {
-                    "stageId": "main_07-06",
+                    "stageId": "main_08-16",
                     "occPer": "OFTEN",
                     "sortId": 23
                 },
                 {
-                    "stageId": "sub_05-4-1",
+                    "stageId": "sub_04-4-1",
                     "occPer": "OFTEN",
                     "sortId": 24
+                },
+                {
+                    "stageId": "main_07-06",
+                    "occPer": "OFTEN",
+                    "sortId": 25
+                },
+                {
+                    "stageId": "sub_05-4-1",
+                    "occPer": "OFTEN",
+                    "sortId": 26
                 }
             ],
             "buildingProductList": [],
@@ -17156,66 +17496,76 @@
             "iconId": "MTL_SL_PGEL4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100023,
+            "sortId": 100027,
             "usage": "An extremely high-strength plastic material. Can be used for a variety of upgrades.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
             "stageDropList": [
                 {
-                    "stageId": "main_16-12",
+                    "stageId": "main_17-02",
                     "occPer": "SOMETIMES",
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_16-12#s",
+                    "stageId": "main_17-02#s",
                     "occPer": "SOMETIMES",
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_12-04",
+                    "stageId": "main_16-12",
                     "occPer": "SOMETIMES",
                     "sortId": 2
                 },
                 {
-                    "stageId": "tough_12-04",
+                    "stageId": "main_16-12#s",
                     "occPer": "SOMETIMES",
                     "sortId": 3
                 },
                 {
-                    "stageId": "main_11-10",
+                    "stageId": "main_12-04",
                     "occPer": "SOMETIMES",
                     "sortId": 4
                 },
                 {
-                    "stageId": "tough_11-10",
+                    "stageId": "tough_12-04",
                     "occPer": "SOMETIMES",
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_10-02",
+                    "stageId": "main_11-10",
                     "occPer": "SOMETIMES",
                     "sortId": 6
                 },
                 {
-                    "stageId": "tough_10-02",
+                    "stageId": "tough_11-10",
                     "occPer": "SOMETIMES",
                     "sortId": 7
                 },
                 {
-                    "stageId": "main_08-16",
+                    "stageId": "main_10-02",
                     "occPer": "SOMETIMES",
                     "sortId": 8
                 },
                 {
-                    "stageId": "main_07-06",
+                    "stageId": "tough_10-02",
                     "occPer": "SOMETIMES",
                     "sortId": 9
                 },
                 {
-                    "stageId": "sub_05-4-1",
+                    "stageId": "main_08-16",
                     "occPer": "SOMETIMES",
                     "sortId": 10
+                },
+                {
+                    "stageId": "main_07-06",
+                    "occPer": "SOMETIMES",
+                    "sortId": 11
+                },
+                {
+                    "stageId": "sub_05-4-1",
+                    "occPer": "SOMETIMES",
+                    "sortId": 12
                 }
             ],
             "buildingProductList": [
@@ -17255,7 +17605,7 @@
             "iconId": "MTL_SL_IAM3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100022,
+            "sortId": 100026,
             "usage": "A special alloy with a high melting point, commonly used in the electronics industry. Can be used for a variety of upgrades and for synthesis projects in Factories.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -17444,7 +17794,7 @@
             "iconId": "MTL_SL_IAM4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100021,
+            "sortId": 100025,
             "usage": "A rarely-produced alloy with a high melting point, commonly used in the electronics industry. Can be used for a variety of upgrades.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -17558,7 +17908,7 @@
             "iconId": "MTL_SL_OC3",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100020,
+            "sortId": 100024,
             "usage": "An important Originium industry material. Can be used for a variety of upgrades. Can be manufactured and assembled into more advanced Originium electric components.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -17737,7 +18087,7 @@
             "iconId": "MTL_SL_OC4",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100019,
+            "sortId": 100023,
             "usage": "An important Originium industry material. Can be used for a variety of upgrades. A fundamental part of manufacturing Originium crystal assemblies.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -17841,7 +18191,7 @@
             "iconId": "MTL_SL_SS",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100018,
+            "sortId": 100022,
             "usage": "An active solvent with excellent physical characteristics, and good resistance to acids and bases. Can be used in a variety of upgrades.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -17873,54 +18223,64 @@
                     "sortId": 4
                 },
                 {
-                    "stageId": "main_15-04",
+                    "stageId": "main_17-09",
                     "occPer": "OFTEN",
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_15-04#s",
+                    "stageId": "main_17-09#s",
                     "occPer": "OFTEN",
                     "sortId": 6
                 },
                 {
-                    "stageId": "main_12-09",
+                    "stageId": "main_15-04",
                     "occPer": "OFTEN",
                     "sortId": 7
                 },
                 {
-                    "stageId": "tough_12-09",
+                    "stageId": "main_15-04#s",
                     "occPer": "OFTEN",
                     "sortId": 8
                 },
                 {
-                    "stageId": "main_13-12",
+                    "stageId": "main_12-09",
                     "occPer": "OFTEN",
                     "sortId": 9
                 },
                 {
-                    "stageId": "tough_13-12",
+                    "stageId": "tough_12-09",
                     "occPer": "OFTEN",
                     "sortId": 10
                 },
                 {
-                    "stageId": "main_11-07",
+                    "stageId": "main_13-12",
                     "occPer": "OFTEN",
                     "sortId": 11
                 },
                 {
-                    "stageId": "tough_11-07",
+                    "stageId": "tough_13-12",
                     "occPer": "OFTEN",
                     "sortId": 12
                 },
                 {
-                    "stageId": "main_09-16",
+                    "stageId": "main_11-07",
                     "occPer": "OFTEN",
                     "sortId": 13
                 },
                 {
-                    "stageId": "main_09-03",
+                    "stageId": "tough_11-07",
                     "occPer": "OFTEN",
                     "sortId": 14
+                },
+                {
+                    "stageId": "main_09-16",
+                    "occPer": "OFTEN",
+                    "sortId": 15
+                },
+                {
+                    "stageId": "main_09-03",
+                    "occPer": "OFTEN",
+                    "sortId": 16
                 }
             ],
             "buildingProductList": [],
@@ -17955,7 +18315,7 @@
             "iconId": "MTL_SL_RS",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100017,
+            "sortId": 100021,
             "usage": "A special coating made from a specific formulation process. Can be used for high level upgrades.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -18049,7 +18409,7 @@
             "iconId": "MTL_SL_CCF",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100016,
+            "sortId": 100020,
             "usage": "An industrial agent necessary for metal processing. Can be used for a variety of upgrades.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -18183,7 +18543,7 @@
             "iconId": "MTL_SL_PLCF",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100015,
+            "sortId": 100019,
             "usage": "A stock solution prepared from a variety of active solvents. Can be used for high level upgrades.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -18282,7 +18642,7 @@
             "iconId": "MTL_SL_ZY",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100014,
+            "sortId": 100018,
             "usage": "A compound crystallization that has undergone low-tolerance refinement. Can be used in a variety of strengthening projects.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -18319,59 +18679,69 @@
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_11-03",
+                    "stageId": "main_17-14",
                     "occPer": "OFTEN",
                     "sortId": 6
                 },
                 {
-                    "stageId": "tough_11-03",
+                    "stageId": "main_17-14#s",
                     "occPer": "OFTEN",
                     "sortId": 7
                 },
                 {
-                    "stageId": "main_16-09",
+                    "stageId": "main_11-03",
                     "occPer": "OFTEN",
                     "sortId": 8
                 },
                 {
-                    "stageId": "main_16-09#s",
+                    "stageId": "tough_11-03",
                     "occPer": "OFTEN",
                     "sortId": 9
                 },
                 {
-                    "stageId": "main_13-11",
+                    "stageId": "main_16-09",
                     "occPer": "OFTEN",
                     "sortId": 10
                 },
                 {
-                    "stageId": "tough_13-11",
+                    "stageId": "main_16-09#s",
                     "occPer": "OFTEN",
                     "sortId": 11
                 },
                 {
-                    "stageId": "main_12-11",
+                    "stageId": "main_13-11",
                     "occPer": "OFTEN",
                     "sortId": 12
                 },
                 {
-                    "stageId": "tough_12-11",
+                    "stageId": "tough_13-11",
                     "occPer": "OFTEN",
                     "sortId": 13
                 },
                 {
-                    "stageId": "main_11-13",
+                    "stageId": "main_12-11",
                     "occPer": "OFTEN",
                     "sortId": 14
                 },
                 {
-                    "stageId": "tough_11-13",
+                    "stageId": "tough_12-11",
                     "occPer": "OFTEN",
                     "sortId": 15
                 },
                 {
-                    "stageId": "sub_09-1-2",
+                    "stageId": "main_11-13",
                     "occPer": "OFTEN",
                     "sortId": 16
+                },
+                {
+                    "stageId": "tough_11-13",
+                    "occPer": "OFTEN",
+                    "sortId": 17
+                },
+                {
+                    "stageId": "sub_09-1-2",
+                    "occPer": "OFTEN",
+                    "sortId": 18
                 }
             ],
             "buildingProductList": [],
@@ -18406,61 +18776,71 @@
             "iconId": "MTL_SL_ZYK",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100013,
+            "sortId": 100017,
             "usage": "A compound crystal mass that has undergone high-tolerance refinement. Used in a variety of strengthening projects, and is a common material in synthetic items at factories.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
             "stageDropList": [
                 {
-                    "stageId": "main_16-09",
+                    "stageId": "main_17-14",
                     "occPer": "SOMETIMES",
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_16-09#s",
+                    "stageId": "main_17-14#s",
                     "occPer": "SOMETIMES",
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_13-11",
+                    "stageId": "main_16-09",
                     "occPer": "SOMETIMES",
                     "sortId": 2
                 },
                 {
-                    "stageId": "tough_13-11",
+                    "stageId": "main_16-09#s",
                     "occPer": "SOMETIMES",
                     "sortId": 3
                 },
                 {
-                    "stageId": "main_12-11",
+                    "stageId": "main_13-11",
                     "occPer": "SOMETIMES",
                     "sortId": 4
                 },
                 {
-                    "stageId": "tough_12-11",
+                    "stageId": "tough_13-11",
                     "occPer": "SOMETIMES",
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_11-13",
+                    "stageId": "main_12-11",
                     "occPer": "SOMETIMES",
                     "sortId": 6
                 },
                 {
-                    "stageId": "tough_11-13",
+                    "stageId": "tough_12-11",
                     "occPer": "SOMETIMES",
                     "sortId": 7
                 },
                 {
-                    "stageId": "main_11-03",
+                    "stageId": "main_11-13",
                     "occPer": "SOMETIMES",
                     "sortId": 8
                 },
                 {
-                    "stageId": "tough_11-03",
+                    "stageId": "tough_11-13",
                     "occPer": "SOMETIMES",
                     "sortId": 9
+                },
+                {
+                    "stageId": "main_11-03",
+                    "occPer": "SOMETIMES",
+                    "sortId": 10
+                },
+                {
+                    "stageId": "tough_11-03",
+                    "occPer": "SOMETIMES",
+                    "sortId": 11
                 }
             ],
             "buildingProductList": [
@@ -18500,7 +18880,7 @@
             "iconId": "MTL_SL_XW",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100012,
+            "sortId": 100016,
             "usage": "A specialized fiber bundle, possessing high tensile strength and elastic modulus. Used in a variety of strengthening projects.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -18537,19 +18917,29 @@
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_15-16",
+                    "stageId": "main_17-16",
                     "occPer": "OFTEN",
                     "sortId": 6
                 },
                 {
-                    "stageId": "main_15-16#s",
+                    "stageId": "main_17-16#s",
                     "occPer": "OFTEN",
                     "sortId": 7
                 },
                 {
-                    "stageId": "sub_09-1-3",
+                    "stageId": "main_15-16",
                     "occPer": "OFTEN",
                     "sortId": 8
+                },
+                {
+                    "stageId": "main_15-16#s",
+                    "occPer": "OFTEN",
+                    "sortId": 9
+                },
+                {
+                    "stageId": "sub_09-1-3",
+                    "occPer": "OFTEN",
+                    "sortId": 10
                 }
             ],
             "buildingProductList": [],
@@ -18584,31 +18974,41 @@
             "iconId": "MTL_SL_XWB",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100011,
+            "sortId": 100015,
             "usage": "A specialized fiber board, solidified in a mold. Used in a variety of strengthening projects.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
             "stageDropList": [
                 {
-                    "stageId": "main_15-16",
+                    "stageId": "main_17-16",
                     "occPer": "SOMETIMES",
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_15-16#s",
+                    "stageId": "main_17-16#s",
                     "occPer": "SOMETIMES",
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_13-04",
+                    "stageId": "main_15-16",
                     "occPer": "SOMETIMES",
                     "sortId": 2
                 },
                 {
-                    "stageId": "tough_13-04",
+                    "stageId": "main_15-16#s",
                     "occPer": "SOMETIMES",
                     "sortId": 3
+                },
+                {
+                    "stageId": "main_13-04",
+                    "occPer": "SOMETIMES",
+                    "sortId": 4
+                },
+                {
+                    "stageId": "tough_13-04",
+                    "occPer": "SOMETIMES",
+                    "sortId": 5
                 }
             ],
             "buildingProductList": [
@@ -18648,7 +19048,7 @@
             "iconId": "MTL_SL_HT",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100010,
+            "sortId": 100014,
             "usage": "A superlatively heat- and chemical-resistant industrial material. Used in a variety of strengthening projects.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -18665,49 +19065,59 @@
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_15-18",
+                    "stageId": "main_17-07",
                     "occPer": "OFTEN",
                     "sortId": 2
                 },
                 {
-                    "stageId": "main_15-18#s",
+                    "stageId": "main_17-07#s",
                     "occPer": "OFTEN",
                     "sortId": 3
                 },
                 {
-                    "stageId": "main_16-14",
+                    "stageId": "main_15-18",
                     "occPer": "OFTEN",
                     "sortId": 4
                 },
                 {
-                    "stageId": "main_16-14#s",
+                    "stageId": "main_15-18#s",
                     "occPer": "OFTEN",
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_14-17",
+                    "stageId": "main_16-14",
                     "occPer": "OFTEN",
                     "sortId": 6
                 },
                 {
-                    "stageId": "tough_14-17",
+                    "stageId": "main_16-14#s",
                     "occPer": "OFTEN",
                     "sortId": 7
                 },
                 {
-                    "stageId": "main_13-13",
+                    "stageId": "main_14-17",
                     "occPer": "OFTEN",
                     "sortId": 8
                 },
                 {
-                    "stageId": "tough_13-13",
+                    "stageId": "tough_14-17",
                     "occPer": "OFTEN",
                     "sortId": 9
                 },
                 {
-                    "stageId": "sub_09-1-4",
+                    "stageId": "main_13-13",
                     "occPer": "OFTEN",
                     "sortId": 10
+                },
+                {
+                    "stageId": "tough_13-13",
+                    "occPer": "OFTEN",
+                    "sortId": 11
+                },
+                {
+                    "stageId": "sub_09-1-4",
+                    "occPer": "OFTEN",
+                    "sortId": 12
                 }
             ],
             "buildingProductList": [],
@@ -18742,51 +19152,61 @@
             "iconId": "MTL_SL_HTT",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100009,
+            "sortId": 100013,
             "usage": "A prefabricated industrial intermediate composed of multiple first-rate materials. Used in a variety of strengthening projects.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
             "stageDropList": [
                 {
-                    "stageId": "main_16-14",
+                    "stageId": "main_17-07",
                     "occPer": "SOMETIMES",
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_16-14#s",
+                    "stageId": "main_17-07#s",
                     "occPer": "SOMETIMES",
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_15-18",
+                    "stageId": "main_16-14",
                     "occPer": "SOMETIMES",
                     "sortId": 2
                 },
                 {
-                    "stageId": "main_15-18#s",
+                    "stageId": "main_16-14#s",
                     "occPer": "SOMETIMES",
                     "sortId": 3
                 },
                 {
-                    "stageId": "main_14-17",
+                    "stageId": "main_15-18",
                     "occPer": "SOMETIMES",
                     "sortId": 4
                 },
                 {
-                    "stageId": "tough_14-17",
+                    "stageId": "main_15-18#s",
                     "occPer": "SOMETIMES",
                     "sortId": 5
                 },
                 {
-                    "stageId": "main_13-13",
+                    "stageId": "main_14-17",
                     "occPer": "SOMETIMES",
                     "sortId": 6
                 },
                 {
-                    "stageId": "tough_13-13",
+                    "stageId": "tough_14-17",
                     "occPer": "SOMETIMES",
                     "sortId": 7
+                },
+                {
+                    "stageId": "main_13-13",
+                    "occPer": "SOMETIMES",
+                    "sortId": 8
+                },
+                {
+                    "stageId": "tough_13-13",
+                    "occPer": "SOMETIMES",
+                    "sortId": 9
                 }
             ],
             "buildingProductList": [
@@ -18826,7 +19246,7 @@
             "iconId": "MTL_SL_JH",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100008,
+            "sortId": 100012,
             "usage": "A lab-made synthetic particle, boasting powerful adsorption properties. Can be used in a variety of strengthening projects.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
@@ -18843,14 +19263,24 @@
                     "sortId": 1
                 },
                 {
-                    "stageId": "main_15-08",
+                    "stageId": "main_17-03",
                     "occPer": "OFTEN",
                     "sortId": 2
                 },
                 {
-                    "stageId": "main_15-08#s",
+                    "stageId": "main_17-03#s",
                     "occPer": "OFTEN",
                     "sortId": 3
+                },
+                {
+                    "stageId": "main_15-08",
+                    "occPer": "OFTEN",
+                    "sortId": 4
+                },
+                {
+                    "stageId": "main_15-08#s",
+                    "occPer": "OFTEN",
+                    "sortId": 5
                 }
             ],
             "buildingProductList": [],
@@ -18885,21 +19315,31 @@
             "iconId": "MTL_SL_QGT",
             "overrideBkg": null,
             "stackIconId": null,
-            "sortId": 100007,
+            "sortId": 100011,
             "usage": "A specialized material that displays useful optical qualities and other physical traits. Can be used for high level upgrades.",
             "obtainApproach": null,
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
             "stageDropList": [
                 {
-                    "stageId": "main_15-08",
+                    "stageId": "main_17-03",
                     "occPer": "SOMETIMES",
                     "sortId": 0
                 },
                 {
-                    "stageId": "main_15-08#s",
+                    "stageId": "main_17-03#s",
                     "occPer": "SOMETIMES",
                     "sortId": 1
+                },
+                {
+                    "stageId": "main_15-08",
+                    "occPer": "SOMETIMES",
+                    "sortId": 2
+                },
+                {
+                    "stageId": "main_15-08#s",
+                    "occPer": "SOMETIMES",
+                    "sortId": 3
                 }
             ],
             "buildingProductList": [
@@ -18928,6 +19368,202 @@
                     "shopType": "REP_SHOP",
                     "shopGroup": 0,
                     "startTs": 1771930800
+                }
+            ]
+        },
+        "31103": {
+            "itemId": "31103",
+            "name": "Liquefied High-Energy Gas",
+            "description": "A type of highly flammable, highly reactive gas product that burns extremely hot, enough to melt the vast majority of metals. Widely used in industrial settings for welding and catalytic reactions.",
+            "rarity": "TIER_3",
+            "iconId": "MTL_SL_YHT",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 100010,
+            "usage": "A liquefied gas stored in a specialized metal canister. Can be used for a variety of upgrades and for production in the Factory.",
+            "obtainApproach": null,
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [
+                {
+                    "stageId": "main_17-04",
+                    "occPer": "OFTEN",
+                    "sortId": 0
+                },
+                {
+                    "stageId": "main_17-04#s",
+                    "occPer": "OFTEN",
+                    "sortId": 1
+                }
+            ],
+            "buildingProductList": [],
+            "voucherRelateList": [
+                {
+                    "voucherId": "advanced_material_issue_voucher",
+                    "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+                },
+                {
+                    "voucherId": "advanced_material_voucher_perm",
+                    "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+                }
+            ],
+            "shopRelateInfoList": [
+                {
+                    "shopType": "LGGSHD_SHOP",
+                    "shopGroup": 1,
+                    "startTs": 1793530800
+                },
+                {
+                    "shopType": "EPGS_SHOP",
+                    "shopGroup": 0,
+                    "startTs": 1791979200
+                }
+            ]
+        },
+        "31104": {
+            "itemId": "31104",
+            "name": "Liquefied Ether Adsorbent",
+            "description": "An ether preparation produced by the inerting of a ketone preparation. It is relatively stable and will not react with reactive metals, leading it to be used in all sorts of industrial processes.",
+            "rarity": "TIER_4",
+            "iconId": "MTL_SL_YHT4",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 100009,
+            "usage": "An organic compound synthesized via a complex process. Can be used for a variety of upgrades.",
+            "obtainApproach": null,
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [
+                {
+                    "stageId": "main_17-04",
+                    "occPer": "SOMETIMES",
+                    "sortId": 0
+                },
+                {
+                    "stageId": "main_17-04#s",
+                    "occPer": "SOMETIMES",
+                    "sortId": 1
+                }
+            ],
+            "buildingProductList": [
+                {
+                    "roomType": "WORKSHOP",
+                    "formulaId": "67"
+                }
+            ],
+            "voucherRelateList": [
+                {
+                    "voucherId": "premium_material_issue_voucher",
+                    "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+                },
+                {
+                    "voucherId": "premium_material_voucher_perm",
+                    "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+                }
+            ],
+            "shopRelateInfoList": [
+                {
+                    "shopType": "EPGS_SHOP",
+                    "shopGroup": 0,
+                    "startTs": 1791979200
+                }
+            ]
+        },
+        "31113": {
+            "itemId": "31113",
+            "name": "Electrode Unit",
+            "description": "An electrode made from special materials that does not participate in the electrolysis process itself. Extremely useful when smelting or purifying other materials.",
+            "rarity": "TIER_3",
+            "iconId": "MTL_SL_DJ",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 100008,
+            "usage": "An industrial material that possesses high electrical stability and anti-corrosive properties. Can be used for a variety of upgrades and for production in the factory.",
+            "obtainApproach": null,
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [
+                {
+                    "stageId": "main_17-10",
+                    "occPer": "OFTEN",
+                    "sortId": 0
+                },
+                {
+                    "stageId": "main_17-10#s",
+                    "occPer": "OFTEN",
+                    "sortId": 1
+                }
+            ],
+            "buildingProductList": [],
+            "voucherRelateList": [
+                {
+                    "voucherId": "advanced_material_issue_voucher",
+                    "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+                },
+                {
+                    "voucherId": "advanced_material_voucher_perm",
+                    "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+                }
+            ],
+            "shopRelateInfoList": [
+                {
+                    "shopType": "LGGSHD_SHOP",
+                    "shopGroup": 1,
+                    "startTs": 1793530800
+                },
+                {
+                    "shopType": "EPGS_SHOP",
+                    "shopGroup": 0,
+                    "startTs": 1791979200
+                }
+            ]
+        },
+        "31114": {
+            "itemId": "31114",
+            "name": "Energy Accumulation Motor Unit",
+            "description": "After a comprehensive reworking of the confiscated device, the new hydraulic pressure unit retains its functionality while greatly reducing the rate of malfunctions, leading to a significant increase in productivity.",
+            "rarity": "TIER_4",
+            "iconId": "MTL_SL_DJ4",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 100007,
+            "usage": "A motor that has undergone a specialized design process and a change in materials. Can be used for a variety of upgrades.",
+            "obtainApproach": null,
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [
+                {
+                    "stageId": "main_17-10",
+                    "occPer": "SOMETIMES",
+                    "sortId": 0
+                },
+                {
+                    "stageId": "main_17-10#s",
+                    "occPer": "SOMETIMES",
+                    "sortId": 1
+                }
+            ],
+            "buildingProductList": [
+                {
+                    "roomType": "WORKSHOP",
+                    "formulaId": "68"
+                }
+            ],
+            "voucherRelateList": [
+                {
+                    "voucherId": "premium_material_issue_voucher",
+                    "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+                },
+                {
+                    "voucherId": "premium_material_voucher_perm",
+                    "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+                }
+            ],
+            "shopRelateInfoList": [
+                {
+                    "shopType": "EPGS_SHOP",
+                    "shopGroup": 0,
+                    "startTs": 1791979200
                 }
             ]
         },
@@ -20921,6 +21557,22 @@
             "stackIconId": null,
             "sortId": 1100008,
             "usage": "Used to improve the Potential of CONFESS-47.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "p_char_4227_gallus": {
+            "itemId": "p_char_4227_gallus",
+            "name": "GALLUS²'s Token",
+            "description": "A scar left on your arm. Kal'tsit once traveled with its maker, but never tamed it. It was hardened by life in the wilds, and is no docile pet.",
+            "rarity": "TIER_1",
+            "iconId": "p_char_4227_gallus",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1100009,
+            "usage": "Used to improve the Potential of GALLUS².",
             "obtainApproach": "New Operator's gift",
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
@@ -25247,6 +25899,22 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "p_char_4225_tanya": {
+            "itemId": "p_char_4225_tanya",
+            "name": "Crackborne's Token",
+            "description": "A knife that Crackborne once used to cut open sacks of emergency provisions and sever tangled safety harnesses, before finally attaching it to the end of a whip to use in battle until it was blunted. She gives it to you in commemoration of the end of a life.",
+            "rarity": "TIER_5",
+            "iconId": "p_char_4225_tanya",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 700189,
+            "usage": "Used to improve the Potential of Crackborne.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "p_char_103_angel": {
             "itemId": "p_char_103_angel",
             "name": "Exusiai's Token",
@@ -25314,7 +25982,7 @@
         "p_char_291_aglina": {
             "itemId": "p_char_291_aglina",
             "name": "Angelina's Token",
-            "description": "A lime flavored lip balm. The wind in the wilds is as dry as the nights in the city.",
+            "description": "A sour orange flavored lip balm. The wind in the wilds is as dry as the nights in the city.",
             "rarity": "TIER_6",
             "iconId": "p_char_291_aglina",
             "overrideBkg": null,
@@ -27279,6 +27947,54 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "p_char_1052_kalts2": {
+            "itemId": "p_char_1052_kalts2",
+            "name": "Kal'tsit Esperanta's Token",
+            "description": "A vial of Oripathy inhibitor, the latest achievement of Rhodes Island's Medical Department. While it cannot yet act as a panacea for all pain, it is her answer to the promise she made to herself.",
+            "rarity": "TIER_6",
+            "iconId": "p_char_1052_kalts2",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 600128,
+            "usage": "Used to improve the Potential of Kal'tsit Esperanta.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "p_char_4226_veen": {
+            "itemId": "p_char_4226_veen",
+            "name": "Viy's Token",
+            "description": "A gold medal, the metal encircling blue enamel with 'Faith and Loyalty' carved onto it in Ursine. He has never believed in such things.",
+            "rarity": "TIER_6",
+            "iconId": "p_char_4226_veen",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 600129,
+            "usage": "Used to improve the Potential of Viy.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "p_char_4228_closur": {
+            "itemId": "p_char_4228_closur",
+            "name": "Closure's Token",
+            "description": "A blank piece of paper. You recognize it as the type she uses to print coupons, and you can't wait to give it a try.",
+            "rarity": "TIER_6",
+            "iconId": "p_char_4228_closur",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 600130,
+            "usage": "Used to improve the Potential of Closure.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "class_p_char_123_fang": {
             "itemId": "class_p_char_123_fang",
             "name": "Fang's Kernel Token",
@@ -28249,6 +28965,22 @@
             "stackIconId": null,
             "sortId": 1400053,
             "usage": "Used to improve the Potential of Verdant.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_4130_luton": {
+            "itemId": "class_p_char_4130_luton",
+            "name": "Lutonada's Kernel Token",
+            "description": "A pale yellow handkerchief, the memories within never fading. She already pictures how people will tie one to her gravestone, the way her mother did to her chest the day she said goodbye.",
+            "rarity": "TIER_4",
+            "iconId": "class_p_char_4130_luton",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1400054,
+            "usage": "Used to improve the Potential of Lutonada.",
             "obtainApproach": "New Operator's gift",
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
@@ -29231,6 +29963,118 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "class_p_char_476_blkngt": {
+            "itemId": "class_p_char_476_blkngt",
+            "name": "Blacknight's Kernel Token",
+            "description": "A knitted nightcap. It's made roughly, but is very soft to the touch.",
+            "rarity": "TIER_5",
+            "iconId": "class_p_char_476_blkngt",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1300072,
+            "usage": "Used to improve the Potential of Blacknight.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_492_quercu": {
+            "itemId": "class_p_char_492_quercu",
+            "name": "Quercus's Kernel Token",
+            "description": "An vacant flowerpot filled only with soil. The soil was brought from the earth of her homeland. If you're ever at leisure, you can go ask her for some seeds.",
+            "rarity": "TIER_5",
+            "iconId": "class_p_char_492_quercu",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1300073,
+            "usage": "Used to improve the Potential of Quercus.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_4016_kazema": {
+            "itemId": "class_p_char_4016_kazema",
+            "name": "Kazemaru's Kernel Token",
+            "description": "A vividly colored pendant that rustles. Handcrafted by Kazemaru herself.",
+            "rarity": "TIER_5",
+            "iconId": "class_p_char_4016_kazema",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1300074,
+            "usage": "Used to improve the Potential of Kazemaru.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_4040_rockr": {
+            "itemId": "class_p_char_4040_rockr",
+            "name": "Rockrock's Kernel Token",
+            "description": "A crudely assembled pair of scissors, rarely used. Meant for snipping bindings. Guard of the past, she wishes to see you off as you head for the future.",
+            "rarity": "TIER_5",
+            "iconId": "class_p_char_4040_rockr",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1300075,
+            "usage": "Used to improve the Potential of Rockrock.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_433_windft": {
+            "itemId": "class_p_char_433_windft",
+            "name": "Windflit's Kernel Token",
+            "description": "A case of wear-resistant adhesive bandages, carried on Windflit's person. Used until worn-through, and then he's plus one callus, minus one plaster.",
+            "rarity": "TIER_5",
+            "iconId": "class_p_char_433_windft",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1300076,
+            "usage": "Used to improve the Potential of Windflit.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_1024_hbisc2": {
+            "itemId": "class_p_char_1024_hbisc2",
+            "name": "Hibiscus the Purifier's Kernel Token",
+            "description": "A small flower folded from paper. It has become Hibiscus's habit to leave a small memento like this next to the bed of each patient as they are about to be discharged.",
+            "rarity": "TIER_5",
+            "iconId": "class_p_char_1024_hbisc2",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1300077,
+            "usage": "Used to improve the Potential of Hibiscus the Purifier.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_1027_greyy2": {
+            "itemId": "class_p_char_1027_greyy2",
+            "name": "Greyy the Lightningbearer's Kernel Token",
+            "description": "A dissertation. These few sheets of paper depict the young Perro's ideals over the past few years.",
+            "rarity": "TIER_5",
+            "iconId": "class_p_char_1027_greyy2",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1300078,
+            "usage": "Used to improve the Potential of Greyy the Lightningbearer.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "class_p_char_103_angel": {
             "itemId": "class_p_char_103_angel",
             "name": "Exusiai's Kernel Token",
@@ -29298,7 +30142,7 @@
         "class_p_char_291_aglina": {
             "itemId": "class_p_char_291_aglina",
             "name": "Angelina's Kernel Token",
-            "description": "A lime flavored lip balm. The wind in the wilds is as dry as the nights in the city.",
+            "description": "A sour orange flavored lip balm. The wind in the wilds is as dry as the nights in the city.",
             "rarity": "TIER_6",
             "iconId": "class_p_char_291_aglina",
             "overrideBkg": null,
@@ -29881,6 +30725,118 @@
             "stackIconId": null,
             "sortId": 1200042,
             "usage": "Used to improve the Potential of Gnosis.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_322_lmlee": {
+            "itemId": "class_p_char_322_lmlee",
+            "name": "Lee's Kernel Token",
+            "description": "A ring-shaped jade pendant of unassuming appearance. You're unable to judge its value.",
+            "rarity": "TIER_6",
+            "iconId": "class_p_char_322_lmlee",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1200043,
+            "usage": "Used to improve the Potential of Lee.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_377_gdglow": {
+            "itemId": "class_p_char_377_gdglow",
+            "name": "Goldenglow's Kernel Token",
+            "description": "A bottle of unique body lotion. You hear it's effective in reducing static shock once applied.\nEven if it's a bust, at least it's good for your skin.",
+            "rarity": "TIER_6",
+            "iconId": "class_p_char_377_gdglow",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1200044,
+            "usage": "Used to improve the Potential of Goldenglow.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_300_phenxi": {
+            "itemId": "class_p_char_300_phenxi",
+            "name": "Fiammetta's Kernel Token",
+            "description": "A bullet-shaped hazelnut lollipop. An unofficial ration of the Laterano Notarial Hall.\nSupposedly the Pope's favorite, although he claims all Lateran treats as his favorite.",
+            "rarity": "TIER_6",
+            "iconId": "class_p_char_300_phenxi",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1200045,
+            "usage": "Used to improve the Potential of Fiammetta.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_4039_horn": {
+            "itemId": "class_p_char_4039_horn",
+            "name": "Horn's Kernel Token",
+            "description": "A notebook. The names of several musical instruments are fastidiously written on the first page. What she's sharing with you is intel, but at the same time, memories.",
+            "rarity": "TIER_6",
+            "iconId": "class_p_char_4039_horn",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1200046,
+            "usage": "Used to improve the Potential of Horn.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_4009_irene": {
+            "itemId": "class_p_char_4009_irene",
+            "name": "Irene's Kernel Token",
+            "description": "A small chunk of ochre reef, having undergone centuries of baptism upon Iberia's coastline before being handed to you.",
+            "rarity": "TIER_6",
+            "iconId": "class_p_char_4009_irene",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1200047,
+            "usage": "Used to improve the Potential of Irene.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_4046_ebnhlz": {
+            "itemId": "class_p_char_4046_ebnhlz",
+            "name": "Ebenholz's Kernel Token",
+            "description": "A Leithanian coin with a crudely drilled hole in its center. Only he knows how much sweat and tears were poured into that hole when a skilled artisan would have been able to make it effortlessly.",
+            "rarity": "TIER_6",
+            "iconId": "class_p_char_4046_ebnhlz",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1200048,
+            "usage": "Used to improve the Potential of Ebenholz.",
+            "obtainApproach": "New Operator's gift",
+            "classifyType": "MATERIAL",
+            "itemType": "MATERIAL",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "class_p_char_4048_doroth": {
+            "itemId": "class_p_char_4048_doroth",
+            "name": "Dorothy's Kernel Token",
+            "description": "A tube of unknown reagent identical to what flows in her body. Must never be used.",
+            "rarity": "TIER_6",
+            "iconId": "class_p_char_4048_doroth",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 1200049,
+            "usage": "Used to improve the Potential of Dorothy.",
             "obtainApproach": "New Operator's gift",
             "classifyType": "MATERIAL",
             "itemType": "MATERIAL",
@@ -38624,8 +39580,40 @@
             "stageDropList": [],
             "buildingProductList": []
         },
+        "main17_spitem_1": {
+            "itemId": "main17_spitem_1",
+            "name": "“AMa-10”",
+            "description": "She still remembers that murmur spanning both time and the boundary between life and death: Search for traces of life. Search for hope and a future. Find yourself.",
+            "rarity": "TIER_5",
+            "iconId": "main17_spitem",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": 10605,
+            "usage": "A hollow crystal shell, once crammed full of an unbroken stream of information. Now it sleeps alongside silent light and shadow.",
+            "obtainApproach": "Drops from Main Theme stages",
+            "classifyType": "NORMAL",
+            "itemType": "PLOT_ITEM",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
         "itempack_main_2": {
             "itemId": "itempack_main_2",
+            "name": "Rhodes Island Supply Crate",
+            "description": "A materials supply crate issued alongside Sanity samplers, giving you a random material as you restore your Sanity.",
+            "rarity": "TIER_5",
+            "iconId": "itempack_main_1",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": -10000,
+            "usage": "Contains an Emergency Sanity Sampler and some Rhodes Island Supplies.",
+            "obtainApproach": "From events",
+            "classifyType": "NONE",
+            "itemType": "ITEM_PACK",
+            "stageDropList": [],
+            "buildingProductList": []
+        },
+        "itempack_main_3": {
+            "itemId": "itempack_main_3",
             "name": "Rhodes Island Supply Crate",
             "description": "A materials supply crate issued alongside Sanity samplers, giving you a random material as you restore your Sanity.",
             "rarity": "TIER_5",
@@ -39244,7 +40232,7 @@
             "itemId": "itempack_leaf_def",
             "name": "Looseleaf/Rhodes Fashion Review",
             "description": "Create your own unique style.",
-            "rarity": "TIER_4",
+            "rarity": "TIER_5",
             "iconId": "itempack_leaf_def",
             "overrideBkg": null,
             "stackIconId": null,
@@ -39260,7 +40248,7 @@
             "itemId": "itempack_leaf_def2",
             "name": "Looseleaf/Media",
             "description": "A new melody composed for today's display.",
-            "rarity": "TIER_4",
+            "rarity": "TIER_5",
             "iconId": "itempack_leaf_def2",
             "overrideBkg": null,
             "stackIconId": null,
@@ -39276,7 +40264,7 @@
             "itemId": "itempack_stickers_rog1",
             "name": "Sticker Pack/Crimson Solitaire",
             "description": "A grand encompassing performance.",
-            "rarity": "TIER_4",
+            "rarity": "TIER_5",
             "iconId": "itempack_stickers_rog1",
             "overrideBkg": null,
             "stackIconId": null,
@@ -39292,7 +40280,7 @@
             "itemId": "itempack_stickers_rog2",
             "name": "Sticker Pack/Caerula Arbor",
             "description": "The tides call out for you to travel.",
-            "rarity": "TIER_4",
+            "rarity": "TIER_5",
             "iconId": "itempack_stickers_rog2",
             "overrideBkg": null,
             "stackIconId": null,
@@ -39308,7 +40296,7 @@
             "itemId": "itempack_stickers_rog3",
             "name": "Sticker Pack/Silverfrost Frontier",
             "description": "Seek the beauty of mystery in the bitter cold.",
-            "rarity": "TIER_4",
+            "rarity": "TIER_5",
             "iconId": "itempack_stickers_rog3",
             "overrideBkg": null,
             "stackIconId": null,
@@ -39324,7 +40312,7 @@
             "itemId": "itempack_stickers_rog4",
             "name": "Sticker Pack/Furnaceside Fables",
             "description": "The land witnesses the Sarkaz's splendid forms.",
-            "rarity": "TIER_4",
+            "rarity": "TIER_5",
             "iconId": "itempack_stickers_rog4",
             "overrideBkg": null,
             "stackIconId": null,
@@ -39340,7 +40328,7 @@
             "itemId": "itempack_stickers_rog5",
             "name": "Sticker Pack/Garden of Grotesqueries",
             "description": "Tourists entranced by enchanting landscapes.",
-            "rarity": "TIER_4",
+            "rarity": "TIER_5",
             "iconId": "itempack_stickers_rog5",
             "overrideBkg": null,
             "stackIconId": null,
@@ -39356,7 +40344,7 @@
             "itemId": "itempack_stickers_sand1",
             "name": "Sticker Pack/Tales Within the Sand",
             "description": "Admire the artistic mesh of desert and oasis.",
-            "rarity": "TIER_4",
+            "rarity": "TIER_5",
             "iconId": "itempack_stickers_sand1",
             "overrideBkg": null,
             "stackIconId": null,
@@ -39606,6 +40594,22 @@
                     "sortId": 7
                 }
             ],
+            "buildingProductList": []
+        },
+        "act4mainss_token": {
+            "itemId": "act4mainss_token",
+            "name": "'Factory scrip'",
+            "description": "Nobody knows why the coins stamped with the Tsar's face suddenly stopped being of any use here, forcing people to start trading using these thin circles of metal. At first, their rough edges cut their hands, even peeling away the thick calluses on their knuckles. Eventually, they noticed it was not only their calluses being sliced away. It was also their dignity.",
+            "rarity": "TIER_5",
+            "iconId": "act4mainss_token_ticket",
+            "overrideBkg": null,
+            "stackIconId": null,
+            "sortId": -10000,
+            "usage": "A substitute currency issued in Zelgrad after the implementation of Anatoliy Svetlanov Buterin's ordinances at the beginning of 1102. Normally only distributed within the residential park, where it is traded for daily necessities, food, medicine, etc.",
+            "obtainApproach": "From events",
+            "classifyType": "NONE",
+            "itemType": "ACTIVITY_ITEM",
+            "stageDropList": [],
             "buildingProductList": []
         }
     },
@@ -40096,6 +41100,18 @@
         },
         "voucher_recruitR6_pick7201": {
             "id": "voucher_recruitR6_pick7201",
+            "displayType": "DIVIDE"
+        },
+        "voucher_recruitR5_pick7301": {
+            "id": "voucher_recruitR5_pick7301",
+            "displayType": "DIVIDE"
+        },
+        "voucher_item_pick7301": {
+            "id": "voucher_item_pick7301",
+            "displayType": "DIVIDE"
+        },
+        "voucher_class_pick7301": {
+            "id": "voucher_class_pick7301",
             "displayType": "DIVIDE"
         }
     },
@@ -41356,6 +42372,42 @@
         "furni_ursusRoom_cabinet_02": 1,
         "furni_ursusRoom_wallpaper_01": 1,
         "furni_ursusRoom_floor_01": 1,
+        "furni_rabbitCinema_ceilinglamp_01": 1,
+        "furni_rabbitCinema_table_01": 1,
+        "furni_rabbitCinema_stool_01": 1,
+        "furni_rabbitCinema_ceilinglamp_02": 1,
+        "furni_rabbitCinema_shelf_01": 1,
+        "furni_rabbitCinema_plant_01": 1,
+        "furni_rabbitCinema_table_02": 1,
+        "furni_rabbitCinema_desk_01": 1,
+        "furni_rabbitCinema_sofa_01": 1,
+        "furni_rabbitCinema_carpet_01": 1,
+        "furni_rabbitCinema_ceilinglamp_03": 1,
+        "furni_rabbitCinema_sofa_02": 1,
+        "furni_rabbitCinema_shelf_02": 1,
+        "furni_rabbitCinema_curtain_01": 1,
+        "furni_rabbitCinema_tv_01": 1,
+        "furni_rabbitCinema_coffeeTable_01": 1,
+        "furni_rabbitCinema_shelf_03": 1,
+        "furni_rabbitCinema_wallpaper_01": 1,
+        "furni_rabbitCinema_floor_01": 1,
+        "furni_Azuredream_hanger_01": 1,
+        "furni_Azuredream_brazier_01": 1,
+        "furni_Azuredream_shelf_01": 1,
+        "furni_Azuredream_cabinet_01": 1,
+        "furni_Azuredream_ceilingLight_01": 1,
+        "furni_Azuredream_table_01": 1,
+        "furni_Azuredream_carpet_01": 1,
+        "furni_Azuredream_pillar_01": 1,
+        "furni_Azuredream_leafWall_01": 1,
+        "furni_Azuredream_bed_01": 1,
+        "furni_Azuredream_chair_01": 1,
+        "furni_Azuredream_crate_01": 1,
+        "furni_Azuredream_column_01": 1,
+        "furni_Azuredream_furStand_01": 1,
+        "furni_Azuredream_basket_01": 1,
+        "furni_Azuredream_wallpaper_01": 1,
+        "furni_Azuredream_floor_01": 1,
         "furni_animation_projector_01": 1,
         "furni_animation_trophy_01": 1,
         "furni_animation_projector_02": 1,
@@ -41429,8 +42481,8 @@
         "furni_act34d2_greetingCard_01": 1,
         "furni_rogue2_stone_01": 1,
         "furni_act35d3_sandboxTable_01": 1,
-        "furni_act36d0_grill_01": 1,
-        "furni_act36d0_MaterialBox_01": 1,
+        "furni_act36d0_grill_01": 2,
+        "furni_act36d0_MaterialBox_01": 2,
         "furni_foolsDay_penguin_01": 1,
         "furni_tangyuan_ceiling_01": 1,
         "furni_tangyuan_priceList_01": 1,
@@ -41594,6 +42646,7 @@
         "furni_vector_S2_misery_01": 1,
         "furni_terracommericials_FowlbeastLiverPate_01": 1,
         "furni_terracommericials_LifeWater_01": 1,
+        "furni_terracommericials_CrucibleCreamPuff_01": 1,
         "furni_contract_s0_01": 1,
         "furni_contract_s1_01": 1,
         "furni_contract_s2_01": 1,
@@ -41710,6 +42763,7 @@
         "furniM_amiya_teapoy_01": 1,
         "furniM_amiya_chairRight_01": 1,
         "furniM_amiya_messageBoard_01": 1,
+        "furniM_act73d0_messageboard_01": 1,
         "furniM_amiya_fence_01": 1,
         "furniM_amiya_stoneChair_01": 1,
         "furniM_amiya_giftTable_01": 1,
@@ -41864,6 +42918,7 @@
         "char_253_greyy@epoque#515": 1,
         "char_4023_rfalcn@epoque#52": 1,
         "char_4177_brigid@epoque#53": 1,
+        "char_446_aroma@epoque#54": 1,
         "char_120_hibisc@nian#1": 1,
         "char_010_chen@nian#2": 1,
         "char_308_swire@nian#2": 1,
@@ -42053,6 +43108,8 @@
         "char_300_phenxi@boc#9": 1,
         "char_4136_phonor@boc#9": 1,
         "char_163_hpsts@boc#10": 1,
+        "char_4179_monstr@boc#11": 1,
+        "char_4187_graceb@boc#11": 1,
         "char_103_angel@kfc#1": 1,
         "char_134_ifrit@kfc#1": 1,
         "char_201_moeshd@kfc#1": 1,
@@ -42177,6 +43234,9 @@
         "char_4064_mlynar@iteration#3": 1,
         "char_4132_ascln@iteration#4": 1,
         "char_1502_crosly@iteration#5": 1,
+        "char_1041_angel2@iteration#6": 1,
+        "char_4202_haruka@iteration#6": 1,
+        "char_4173_nowell@iteration#6": 1,
         "char_297_hamoni@unveiling#1": 1,
         "char_271_spikes@unveiling#1": 1,
         "char_164_nightm@unveiling#2": 1,
@@ -42226,7 +43286,9 @@
         "renamingCard_0_061": 180,
         "renamingCard_30_061": 180,
         "renamingCard_0_067": 180,
-        "renamingCard_30_067": 180
+        "renamingCard_30_067": 180,
+        "renamingCard_0_073": 180,
+        "renamingCard_30_073": 180
     },
     "uniCollectionInfo": {
         "uni_set_pizza": {
@@ -45651,6 +46713,21 @@
             "content": [
                 {
                     "id": "randomMaterial_12",
+                    "count": 1,
+                    "type": "VOUCHER_MGACHA"
+                },
+                {
+                    "id": "ap_supply_lt_010",
+                    "count": 1,
+                    "type": "AP_SUPPLY"
+                }
+            ]
+        },
+        "itempack_main_3": {
+            "packId": "itempack_main_3",
+            "content": [
+                {
+                    "id": "randomMaterial_13",
                     "count": 1,
                     "type": "VOUCHER_MGACHA"
                 },
