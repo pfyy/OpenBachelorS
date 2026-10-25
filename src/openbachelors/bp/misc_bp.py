@@ -1205,3 +1205,50 @@ async def activity_act1dp_battleFinish(player_data, request: Request):
         "suggestFriend": false,
     }
     return response
+
+
+@router.post("/activity/arcade/battleStart")
+@player_data_decorator
+async def activity_arcade_battleStart(player_data, request: Request):
+    request_json = await request.json()
+
+    response = {
+        "result": 0,
+        "battleId": "00000000-0000-0000-0000-000000000000",
+        "apFailReturn": 0,
+        "isApProtect": 0,
+        "inApProtectPeriod": false,
+        "notifyPowerScoreNotEnoughIfFailed": false,
+    }
+    return response
+
+
+@router.post("/activity/arcade/battleFinish")
+@player_data_decorator
+async def activity_arcade_battleFinish(player_data, request: Request):
+    request_json = await request.json()
+
+    log_battle_log_if_necessary(player_data, request_json["data"])
+
+    response = {
+        "result": 0,
+        "apFailReturn": 0,
+        "expScale": 0,
+        "goldScale": 0,
+        "rewards": [],
+        "firstRewards": [],
+        "unlockStages": [],
+        "unusualRewards": [],
+        "additionalRewards": [],
+        "furnitureRewards": [],
+        "alert": [],
+        "suggestFriend": false,
+        "pryResult": [],
+        "score": 999999,
+        "prevHighestScore": 999999,
+        "milestoneBefore": 0,
+        "milestoneAdd": 0,
+        "isMileStoneMax": false,
+        "unlockBadgeList": [],
+    }
+    return response
